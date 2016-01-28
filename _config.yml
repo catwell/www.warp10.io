@@ -4,7 +4,7 @@ encoding: utf-8
 email: contact@warp10.io
 owner: Warp10
 description: Warp10 Documentation
-baseurl: "/doc"
+baseurl: ""
 filename: warp10
 url: "http://doc.warp10.io"
 twitter_username: Warp10
