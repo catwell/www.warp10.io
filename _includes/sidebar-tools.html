@@ -1,0 +1,18 @@
+<div id="panel-tools" class="panel panel-default">
+  <div class="panel-heading">
+    <h4 class="panel-title">
+      <a data-toggle="collapse" data-parent="#side-menu" href="#collapse-tools">
+        <span class="glyphicon glyphicon-wrench"></span>Tools</a>
+    </h4>
+  </div>
+  <div id="collapse-tools" class="panel-collapse collapse {% if (page.category == 'tools')  %} in {% endif %}">
+    <div class="list-group">
+
+      <a class="list-group-item" href="{{ site.baseurl }}/tools/worf">Worf</a>
+      <a class="list-group-item" href="{{ site.baseurl }}/tools/quantumviz">QuantumViz</a>
+      <a class="list-group-item" href="{{ site.baseurl }}/tools/trl">Token Revocation List</a>
+
+    </div>
+
+  </div>
+</div>

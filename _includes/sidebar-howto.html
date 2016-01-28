@@ -1,0 +1,38 @@
+<div id="panel-howto" class="panel panel-default">
+  <div class="panel-heading">
+    <h4 class="panel-title">
+      <a data-toggle="collapse" data-parent="#side-menu" href="#collapse-howto">
+        <span class="glyphicon glyphicon-education"></span>How-to
+      </a>
+    </h4>
+  </div>
+  <div id="collapse-howto" class="panel-collapse collapse {% if (page.category == 'howto') or (page.category == 'getting-started') %} in {% endif %}">
+    <div class="list-group">
+
+      <a class="list-group-item" href="{{ site.baseurl }}/getting-started">Getting started</a>
+      <a class="list-group-item" href="{{ site.baseurl }}/howto/migrate-from">Migrate from</a>
+      <div class="list-group-item">Tutorials</div>
+      <div class="list-group">
+        <a class="list-group-item" href="{{ site.baseurl }}/howto/intro-bucketize">BUCKETIZE</a>
+        <a class="list-group-item" href="{{ site.baseurl }}/howto/intro-reduce">REDUCE</a>
+      </div>
+
+      <a class="list-group-item" href="{{ site.baseurl }}/howto/pushing-data">Pushing data</a>
+      <div class="list-group">
+        <a class="list-group-item" href="{{ site.baseurl }}/howto/websocket-push">Using WebSockets</a>
+        <a class="list-group-item" href="{{ site.baseurl }}/howto/collecting-tools">Using metrics collecting tools</a>
+      </div>
+
+
+      <a class="list-group-item" href="{{ site.baseurl }}/howto/accessing-data">Accessing data</a>
+      <div class="list-group">
+        <a class="list-group-item" href="{{ site.baseurl }}/howto/quantumviz">Quantumviz widget</a>
+      </div>
+
+      <a class="list-group-item" href="{{ site.baseurl }}/howto/fetching-data">Fetching data</a>
+
+
+    </div>
+
+  </div>
+</div>

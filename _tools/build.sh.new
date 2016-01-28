@@ -1,0 +1,2 @@
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+find markdown -iname "*.md" -exec sh -c "echo $0 $1; echo FUCK; node $DIR/strip_comments.js $0 > $0.new" \{\} \; 

@@ -1,0 +1,102 @@
+---
+title: "reducer.var"
+layout: "function"
+isPage: "true"
+link: "/warpscript/frameworkreduce"
+desc: "Return the variance of the values"
+categoryTree: ["reference","frameworks"]
+oldPath: ["20-frameworks","301-framework-reduce","321-reducer_var.html.md"]
+category: "reference"
+---
+ 
+
+The `reducer.var` function outputs for each tick the variance of the values of Geo Time Series<sup>TM</sup> which are in the same equivalence class.
+
+It operates on *LONG* and *DOUBLE*.
+
+The location and elevation returned are the first encountered.
+
+This reducer takes an additional boolean parameter to choose if Bessel correction should be applied.
+
+## Example ##
+
+Stack:
+
+    TOP:  [{"c":"GTS1","l":{"label0":"1"},"a":{},"v":[[10,1],[20,5]]},{"c":"GTS2","l":{"label0":"2"},"a":{},"v":[[10,4],[20,3]]}, {"c":"GTS3","l":{"label0":"2"},"a":{},"v":[[10,3],[20,8]]},{"c":"GTS4","l":{"label0":"1"},"a":{},"v":[[10,3],[20,3]]}]
+
+WarpScript commands:
+
+    [] // list of labels to define the equivalence classes. For example : 'label0' 1 ->LIST
+    true // true if the Bessel correction is applied
+    reducer.var
+    3 ->LIST
+    REDUCE
+
+Stack: 
+
+    TOP:  [{"c":"","l":{},"a":{},"v":[[10,1.5833333333333333],[20,7]]}]
+
+## Let's play with it ##
+
+{% raw %}
+<warp10-warpscript-widget>NEWGTS "GTS1" RENAME 
+'label0' '1' 2 ->MAP RELABEL
+10 NaN NaN NaN 1 ADDVALUE
+20 NaN NaN NaN 5 ADDVALUE
+NEWGTS "GTS2" RENAME 
+'label0' '2' 2 ->MAP RELABEL
+10 NaN NaN NaN 4 ADDVALUE
+20 NaN NaN NaN 3 ADDVALUE
+NEWGTS "GTS3" RENAME 
+'label0' '2' 2 ->MAP RELABEL
+10 NaN NaN NaN 3 ADDVALUE
+20 NaN NaN NaN 8 ADDVALUE
+NEWGTS "GTS4" RENAME 
+'label0' '1' 2 ->MAP RELABEL
+10 NaN NaN NaN 3 ADDVALUE
+20 NaN NaN NaN 2 ADDVALUE
+4 ->LIST
+[]
+true
+reducer.var
+3 ->LIST
+REDUCE
+</warp10-warpscript-widget>
+{% endraw %}    
+
+
+## Unit test ##
+
+{% raw %}
+<warp10-warpscript-widget>NEWGTS "GTS1" RENAME 
+'label0' '1' 2 ->MAP RELABEL
+10 NaN NaN NaN 1 ADDVALUE
+20 NaN NaN NaN 5 ADDVALUE
+NEWGTS "GTS2" RENAME 
+'label0' '2' 2 ->MAP RELABEL
+10 NaN NaN NaN 4 ADDVALUE
+20 NaN NaN NaN 3 ADDVALUE
+NEWGTS "GTS3" RENAME 
+'label0' '2' 2 ->MAP RELABEL
+10 NaN NaN NaN 3 ADDVALUE
+20 NaN NaN NaN 8 ADDVALUE
+NEWGTS "GTS4" RENAME 
+'label0' '1' 2 ->MAP RELABEL
+10 NaN NaN NaN 3 ADDVALUE
+20 NaN NaN NaN 2 ADDVALUE
+4 ->LIST
+[]
+true
+reducer.var
+3 ->LIST
+REDUCE
+LIST-> DROP   // expand the result list to extract the result GTS
+VALUES LIST-> 
+2 == ASSERT   // values list size
+7 == ASSERT
+1.5833333333333333 == ASSERT
+'unit test successful'
+</warp10-warpscript-widget>
+{% endraw %}        
+
+
