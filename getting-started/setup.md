@@ -16,7 +16,7 @@ This tutorial explains, how to setup our platform using [Docker](https://www.doc
 ## Clone the repository 
 
 ```
-  git clone git@bitbucket.org:cityzendata/docker-warp10.git
+  git clone https://github.com/cityzendata/warp10-docker.git
 ```
 
 ## Build the Warp 10 image
@@ -24,8 +24,8 @@ This tutorial explains, how to setup our platform using [Docker](https://www.doc
 Enter in docker-warp10 directory and execute `docker build` inside your local copy
 
 ```
-cd docker-warp10
-docker build -t warp10/warp10:1.0.0-rc4  .
+cd warp10-docker
+docker build -t warp10/warp10:1.0.1 .
 ```
 
 ## Start the Image 
@@ -35,7 +35,7 @@ docker build -t warp10/warp10:1.0.0-rc4  .
 Run a container on daemon mode to start the Warp10 platform using:
 
 ```
-docker run  -p 8080:8080  -d -i warp10/warp10:1.0.0-rc4
+docker run -p 8080:8080 -d -i warp10/warp10:1.0.1
 ```
 
 ### Second Step - Worf Cliend
@@ -43,7 +43,7 @@ docker run  -p 8080:8080  -d -i warp10/warp10:1.0.0-rc4
 The precedent command starts the platform in daemon mode. In order to manage the user/token/application system, an interactive access to Warp10's [Worf](http://www.warp10.io/tools/worf) component is needed. You get it by starting another container in interactive mode:
 
 ```
-docker run   -t -i warp10/warp10:1.0.0-rc4 worf.sh
+docker run -t -i warp10/warp10:1.0.1 worf.sh
 ```
 
 This command must be executed when the platform is used for the first time. This container run in interactive mode with Worf, in order to:
