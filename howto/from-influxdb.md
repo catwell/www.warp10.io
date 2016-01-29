@@ -2,10 +2,7 @@
 title: "Warp 10 for InfluxDB users"
 layout: "function"
 isPage: "true"
-link: "/gettingStarted/InfluxDB"
-categoryTree: ["getting-stated"]
-oldPath: ["4_From","01-FromInfluxDB.html.md"]
-category: "getting-started"
+category: "howto"
 ---
 
 
@@ -70,7 +67,7 @@ With a curl request, write your WarpScript code inside a file.mc2 and then run t
 curl --data-binary @file.mc2 'https://API_ENDPOINT/api/v0/exec'
 ```
 
-The following part will be using quantum to execute Warp script. A read token is necessary, and have to be stored like this : 
+The following part will be using quantum to execute Warp script. A read token is necessary, and have to be stored like this :
 
 ```
 'AREADTOKEN'

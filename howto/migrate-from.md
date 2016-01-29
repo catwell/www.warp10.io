@@ -8,10 +8,10 @@ oldPath: ["00-Index.html.md"]
 category: "migrate-from"
 ---
 
-If you are used to push some data on the following platform for time series, a small guide is available here. This guide will help you understand how to execute some basics requests in Warpscript. 
+If you are used to push some data on the following platform for time series, a small guide is available here. This guide will help you understand how to execute some basics requests in Warpscript.
 
-* [From InfluxDB]({{ site.baseurl }}/getting-started/from-influxdb)
+* [From InfluxDB]({{ site.baseurl }}/howto/from-influxdb)
 
-* [From KairosDB]({{ site.baseurl }}/getting-started/from-kairosdb)
+* [From KairosDB]({{ site.baseurl }}/howto/from-kairosdb)
 
-* [From OpenTSDB]({{ site.baseurl }}/getting-started/from-opentsdb)
+* [From OpenTSDB]({{ site.baseurl }}/howto/from-opentsdb)

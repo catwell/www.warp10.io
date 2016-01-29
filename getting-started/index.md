@@ -15,7 +15,8 @@ This page quickly explains how to push your first data, and compute a first anal
 
 * [Setup the platform using docker](#setup)
 * [Pushing data into Warp 10](#pushing-data)
-
+* [Accessing Data](#accessing-data)
+* [Analyzing Data](#analyzing)
 
 
 <a name="setup"></a>
@@ -173,6 +174,8 @@ curl -v  --data-binary "'READ_TOKEN' 'test' {} NOW -1 FETCH" 'http://127.0.0.1:8
 ```
 
 If everything is OK, you should receive a HTTP 200 OK with your datapoint in JSON format.
+
+
 
 ### Pushing your data into the platform
 
