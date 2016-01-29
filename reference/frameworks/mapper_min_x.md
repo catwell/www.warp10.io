@@ -23,13 +23,8 @@ Stack:
 
 WarpScript commands:
 
-	100 TODOUBLE	// constant
-    mapper.min.x
-    0				// pre-window
-    0				// post-window
-    0				// occurrences
-    5 ->LIST
-    MAP
+    // arguments are: GTS or [GTS], constant, mapper, prewindow, postwindow, occurences
+    [ SWAP 100.0 mapper.min.x 0 0 0 ] MAP
 
 Stack: 
 
@@ -44,14 +39,9 @@ Stack:
 20 NaN NaN NaN 123.0 ADDVALUE
 30 NaN NaN NaN 211.0 ADDVALUE
 40 NaN NaN NaN 132.0 ADDVALUE
-1 ->LIST
-100 TODOUBLE 	// constant
-mapper.min.x
-0  				// pre-window
-0  				// post-median
-0  				// occurrences
-5 ->LIST
-MAP
+
+// arguments are: GTS or [GTS], constant, mapper, prewindow, postwindow, occurences
+[ SWAP 100.0 mapper.min.x 0 0 0 ] MAP
 </warp10-warpscript-widget>
 {% endraw %}    
 
@@ -65,14 +55,10 @@ MAP
 20 NaN NaN NaN 123.0 ADDVALUE
 30 NaN NaN NaN 211.0 ADDVALUE
 40 NaN NaN NaN 132.0 ADDVALUE
-1 ->LIST
-100 TODOUBLE 	// constant
-mapper.min.x
-0  				// pre-window
-0  				// post-median
-0  				// occurrences
-5 ->LIST
-MAP
+
+// arguments are: GTS or [GTS], constant, mapper, prewindow, postwindow, occurences
+[ SWAP 100.0 mapper.min.x 0 0 0 ] MAP
+
 VALUES LIST-> 
 1 == ASSERT   // values list size
 LIST-> DROP

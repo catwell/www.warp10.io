@@ -23,10 +23,8 @@ Stack:
 
 WarpScript commands:
 
-    mapper.abs    // Setting the mapper.abs
-    0 0 0         // Sliding window of 1 (0 pre and 0 post), no options
-    5 ->LIST
-    MAP
+    // arguments are: GTS or [GTS], mapper, prewindow, postwindow, occurences
+    [ SWAP mapper.abs 0 0 0 ] MAP
 
 Stack: 
 
@@ -35,19 +33,19 @@ Stack:
 ## Let's play with it ##
 
 {% raw %}
-<warp10-warpscript-widget>NEWGTS "toto" RENAME 
-{ 'label0' '42' } RELABEL
-10 NaN NaN NaN -42.0 ADDVALUE
-20 NaN NaN NaN -123.0 ADDVALUE
-NEWGTS "tata" RENAME 
-{ 'label0' '42' } RELABEL
-10 NaN NaN NaN -211.0 ADDVALUE
-20 NaN NaN NaN -42.0 ADDVALUE
-2 ->LIST
-mapper.abs    // Setting the mapper.abs
-0 0 0         // Sliding window of 1 (0 pre and 0 post), no options
-5 ->LIST
-MAP
+<warp10-warpscript-widget>[
+  NEWGTS "toto" RENAME 
+  { 'label0' '42' } RELABEL
+  10 NaN NaN NaN -42.0 ADDVALUE
+  20 NaN NaN NaN -123.0 ADDVALUE
+  NEWGTS "tata" RENAME 
+  { 'label0' '42' } RELABEL
+  10 NaN NaN NaN -211.0 ADDVALUE
+  20 NaN NaN NaN -42.0 ADDVALUE
+]
+
+// arguments are: GTS or [GTS], mapper, prewindow, postwindow, occurences
+[ SWAP mapper.abs 0 0 0 ] MAP
 </warp10-warpscript-widget>
 {% endraw %}    
 
@@ -55,19 +53,19 @@ MAP
 ## Unit test ##
 
 {% raw %}
-<warp10-warpscript-widget>NEWGTS "toto" RENAME 
-{ 'label0' '42' } RELABEL
-10 NaN NaN NaN -42.0 ADDVALUE
-20 NaN NaN NaN -123.0 ADDVALUE
-NEWGTS "tata" RENAME 
-{ 'label0' '42' } RELABEL
-10 NaN NaN NaN -211.0 ADDVALUE
-20 NaN NaN NaN -42.0 ADDVALUE
-2 ->LIST
-mapper.abs    // Setting the mapper.abs
-0 0 0         // Sliding window of 1 (0 pre and 0 post), no options
-5 ->LIST
-MAP
+<warp10-warpscript-widget>[
+  NEWGTS "toto" RENAME 
+  { 'label0' '42' } RELABEL
+  10 NaN NaN NaN -42.0 ADDVALUE
+  20 NaN NaN NaN -123.0 ADDVALUE
+  NEWGTS "tata" RENAME 
+  { 'label0' '42' } RELABEL
+  10 NaN NaN NaN -211.0 ADDVALUE
+  20 NaN NaN NaN -42.0 ADDVALUE
+]
+
+// arguments are: GTS or [GTS], mapper, prewindow, postwindow, occurences
+[ SWAP mapper.abs 0 0 0 ] MAP
 LIST-> 2 == ASSERT    // We should have two list
 VALUES LIST-> DROP    // Extract 1st list, drop its size
 42 == ASSERT

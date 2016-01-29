@@ -24,18 +24,7 @@ The result is always of type **DOUBLE**.
 
 ## Syntax ##
 
-    [GTS]
-    // Constant
-    2.0
-    mapper.pow
-    // pre-window
-    0
-    // post-window
-    0
-    // occurrences
-    0
-    5 ->LIST
-    MAP
+    [ [GTS] constant mapper.pow pre post occurences ] MAP
 
 ## Note ##
  
@@ -49,13 +38,8 @@ Stack:
 
 WarpScript commands:
 
-    2.0
-    mapper.pow
-    0
-    0
-    0
-    5 ->LIST
-    MAP
+    // arguments are: GTS or [GTS], constant mapper, prewindow, postwindow, occurences
+    [ SWAP 2.0 mapper.pow 0 0 0 ] MAP
 
 Stack: 
 
@@ -64,22 +48,19 @@ Stack:
 ## Let's play with it ##
 
 {% raw %}
-<warp10-warpscript-widget>NEWGTS "GTS1" RENAME 
-{ 'label0' '42' } RELABEL
-10 NaN NaN NaN 5.0 ADDVALUE
-20 NaN NaN NaN 120.0 ADDVALUE 
-NEWGTS "GTS2" RENAME 
-{ 'label0' '42' } RELABEL
-10 NaN NaN NaN 8.0 ADDVALUE
-20 NaN NaN NaN 42.0 ADDVALUE 
-2 ->LIST 
-2.0 
-mapper.pow 
-0
-0
-0
-5 ->LIST
-MAP
+<warp10-warpscript-widget>[
+    NEWGTS "GTS1" RENAME 
+    { 'label0' '42' } RELABEL
+    10 NaN NaN NaN 5.0 ADDVALUE
+    20 NaN NaN NaN 120.0 ADDVALUE 
+    NEWGTS "GTS2" RENAME 
+    { 'label0' '42' } RELABEL
+    10 NaN NaN NaN 8.0 ADDVALUE
+    20 NaN NaN NaN 42.0 ADDVALUE 
+]
+
+// arguments are: GTS or [GTS], constant mapper, prewindow, postwindow, occurences
+[ SWAP 2.0 mapper.pow 0 0 0 ] MAP
 </warp10-warpscript-widget>
 {% endraw %}    
 
@@ -87,22 +68,20 @@ MAP
 ## Unit test ##
 
 {% raw %}
-<warp10-warpscript-widget>NEWGTS "GTS1" RENAME 
-{ 'label0' '42' } RELABEL
-10 NaN NaN NaN 5.0 ADDVALUE
-20 NaN NaN NaN 120.0 ADDVALUE 
-NEWGTS "GTS2" RENAME 
-{ 'label0' '42' } RELABEL
-10 NaN NaN NaN 8.0 ADDVALUE
-20 NaN NaN NaN 42.0 ADDVALUE 
-2 ->LIST 
-2.0 
-mapper.pow 
-0
-0
-0
-5 ->LIST
-MAP
+<warp10-warpscript-widget>[
+    NEWGTS "GTS1" RENAME 
+    { 'label0' '42' } RELABEL
+    10 NaN NaN NaN 5.0 ADDVALUE
+    20 NaN NaN NaN 120.0 ADDVALUE 
+    NEWGTS "GTS2" RENAME 
+    { 'label0' '42' } RELABEL
+    10 NaN NaN NaN 8.0 ADDVALUE
+    20 NaN NaN NaN 42.0 ADDVALUE 
+]
+
+// arguments are: GTS or [GTS], constant mapper, prewindow, postwindow, occurences
+[ SWAP 2.0 mapper.pow 0 0 0 ] MAP
+
 VALUES LIST->
 2 == ASSERT
 LIST-> DROP

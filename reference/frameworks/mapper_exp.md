@@ -36,17 +36,8 @@ Stack:
 
 WarpScript commands:
 
-    2.0
-    mapper.exp
-    // pre-window
-    0
-    // post-window
-    0
-    // occurrences
-    0
-    5 ->LIST
-
-    MAP
+    // arguments are: GTS or [GTS], constant, mapper, prewindow, postwindow, occurences
+    [ SWAP 2.0 mapper.exp  0 0 0 ] MAP
 
 Stack: 
 
@@ -59,14 +50,9 @@ Stack:
 { 'label0' '42' } RELABEL
 10 NaN NaN NaN  2.0 ADDVALUE
 20 NaN NaN NaN 5.0 ADDVALUE
-1 ->LIST
-2.0
-mapper.exp
-0
-0
-0
-5 ->LIST
-MAP
+
+// arguments are: GTS or [GTS], constant, mapper, prewindow, postwindow, occurences
+[ SWAP 2.0 mapper.exp  0 0 0 ] MAP
 </warp10-warpscript-widget>
 {% endraw %}    
 
@@ -78,14 +64,10 @@ MAP
 { 'label0' '42' } RELABEL
 10 NaN NaN NaN  2.0 ADDVALUE
 20 NaN NaN NaN 5.0 ADDVALUE
-1 ->LIST
-2.0
-mapper.exp
-0
-0
-0
-5 ->LIST
-MAP
+
+// arguments are: GTS or [GTS], constant, mapper, prewindow, postwindow, occurences
+[ SWAP 2.0 mapper.exp  0 0 0 ] MAP
+
 VALUES LIST-> 
 1 == ASSERT   // values list size
 LIST-> DROP
