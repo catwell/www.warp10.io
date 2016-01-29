@@ -25,7 +25,7 @@ Enter in docker-warp10 directory and execute `docker build` inside your local co
 
 ```
 cd docker-warp10
-docker build -t warp10/warp10:1.0.0-rc4  .
+docker build -t warp10/warp10:1.0.1 .
 ```
 
 ## Start the Image 
@@ -35,7 +35,7 @@ docker build -t warp10/warp10:1.0.0-rc4  .
 Run a container on daemon mode to start the Warp10 platform using:
 
 ```
-docker run  -p 8080:8080  -d -i warp10/warp10:1.0.0-rc4
+docker run -p 8080:8080 -d -i warp10/warp10:1.0.1
 ```
 
 ### Second Step - Worf Cliend
@@ -43,7 +43,7 @@ docker run  -p 8080:8080  -d -i warp10/warp10:1.0.0-rc4
 The precedent command starts the platform in daemon mode. In order to manage the user/token/application system, an interactive access to Warp10's [Worf](http://www.warp10.io/tools/worf) component is needed. You get it by starting another container in interactive mode:
 
 ```
-docker run   -t -i warp10/warp10:1.0.0-rc4 worf.sh
+docker run -t -i warp10/warp10:1.0.1 worf.sh
 ```
 
 This command must be executed when the platform is used for the first time. This container run in interactive mode with Worf, in order to:
