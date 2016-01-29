@@ -36,7 +36,7 @@ Stack:
 
 {% raw %}
 <warp10-warpscript-widget>NEWGTS "toto" RENAME 
-'label0' '42' 2 ->MAP RELABEL
+{ 'label0' '42' } RELABEL
 10 NaN NaN NaN  42.0 ADDVALUE
 20 NaN NaN NaN 123.0 ADDVALUE
 30 NaN NaN NaN 211.0 ADDVALUE
@@ -56,7 +56,7 @@ MAP
 
 {% raw %}
 <warp10-warpscript-widget>NEWGTS "toto" RENAME 
-'label0' '42' 2 ->MAP RELABEL
+{ 'label0' '42' } RELABEL
 10 NaN NaN NaN  42.0 ADDVALUE
 20 NaN NaN NaN 123.0 ADDVALUE
 30 NaN NaN NaN 211.0 ADDVALUE

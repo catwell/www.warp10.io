@@ -22,10 +22,8 @@ Stack:
 
 WarpScript commands:
 
-    []             // labels of the partition being filtered. For example 'label0' 1 ->LIST
-    'label0'       // name of the label selector
-    '=42'		   // value of the label selector
-    2 ->MAP
+    []                 // labels of the partition being filtered. For example 'label0' 1 ->LIST
+    { 'label0' '=42' } // name and value of the label selector
     filter.bylabels
     3 ->LIST
     FILTER
@@ -38,18 +36,16 @@ Stack:
 
 {% raw %}
 <warp10-warpscript-widget>NEWGTS "GTS1" RENAME 
-'label0' '42' 2 ->MAP RELABEL
+{ 'label0' '42' } RELABEL
 10 NaN NaN NaN  42  ADDVALUE
 20 NaN NaN NaN 123  ADDVALUE
 NEWGTS "GTS2" RENAME 
-'label0' '43' 2 ->MAP RELABEL
+{ 'label0' '43' } RELABEL
 10 NaN NaN NaN 211 ADDVALUE
 20 NaN NaN NaN  42 ADDVALUE
 2 ->LIST
 []
-'label0'
-'=42'
-2 ->MAP
+{ 'label0' '=42' }
 filter.bylabels
 3 ->LIST
 FILTER
@@ -61,18 +57,16 @@ FILTER
 
 {% raw %}
 <warp10-warpscript-widget>NEWGTS "GTS1" RENAME 
-'label0' '42' 2 ->MAP RELABEL
+{ 'label0' '42' } RELABEL
 10 NaN NaN NaN  42  ADDVALUE
 20 NaN NaN NaN 123  ADDVALUE
 NEWGTS "GTS2" RENAME 
-'label0' '43' 2 ->MAP RELABEL
+{ 'label0' '43' } RELABEL
 10 NaN NaN NaN 211 ADDVALUE
 20 NaN NaN NaN  42 ADDVALUE
 2 ->LIST
 []
-'label0'
-'=42'
-2 ->MAP
+{ 'label0' '=42' }
 filter.bylabels
 3 ->LIST
 FILTER

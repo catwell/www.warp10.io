@@ -40,7 +40,7 @@ Stack:
 <warp10-warpscript-widget>NEWGTS 
 'testname'
 RENAME
-'label0' '42' 'label1' 'foo' 4 ->MAP
+{ 'label0' '42' 'label1' 'foo' }
 RELABEL
 100  NaN NaN NaN 10 ADDVALUE
 200  NaN NaN NaN  9 ADDVALUE
@@ -66,7 +66,7 @@ BUCKETIZE
 <warp10-warpscript-widget>NEWGTS 
 'testname'
 RENAME
-'label0' '42' 'label1' 'foo' 4 ->MAP
+{ 'label0' '42' 'label1' 'foo' }
 RELABEL
 100  NaN NaN NaN 10 ADDVALUE
 200  NaN NaN NaN  9 ADDVALUE

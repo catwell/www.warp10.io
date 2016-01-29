@@ -36,13 +36,13 @@ Stack:
 ## Let's play with it ##
 
 <warp10-warpscript-widget>NEWGTS "GTS1" RENAME 
-'label0' '42' 2 ->MAP RELABEL
+{ 'label0' '42' } RELABEL
 10 NaN NaN NaN  5 ADDVALUE
 20 NaN NaN NaN NaN ADDVALUE 
 30 NaN NaN NaN 5 ADDVALUE 
 40 NaN NaN NaN 5 ADDVALUE 
 NEWGTS "GTS2" RENAME 
-'label0' '42' 2 ->MAP RELABEL
+{ 'label0' '42' } RELABEL
 05 NaN NaN NaN  8 ADDVALUE
 15 NaN NaN NaN 8 ADDVALUE 
 25 NaN NaN NaN NaN ADDVALUE 
@@ -60,13 +60,13 @@ MAP
 ## Unit test ##
 
 <warp10-warpscript-widget>NEWGTS "GTS1" RENAME 
-'label0' '42' 2 ->MAP RELABEL
+{ 'label0' '42' } RELABEL
 10 NaN NaN NaN  5 ADDVALUE
 20 NaN NaN NaN NaN ADDVALUE 
 30 NaN NaN NaN 5 ADDVALUE 
 40 NaN NaN NaN 5 ADDVALUE 
 NEWGTS "GTS2" RENAME 
-'label0' '42' 2 ->MAP RELABEL
+{ 'label0' '42' } RELABEL
 05 NaN NaN NaN  8 ADDVALUE
 15 NaN NaN NaN 8 ADDVALUE 
 25 NaN NaN NaN NaN ADDVALUE 

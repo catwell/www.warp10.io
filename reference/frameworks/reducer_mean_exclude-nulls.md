@@ -37,7 +37,7 @@ Stack:
 
 {% raw %}
 <warp10-warpscript-widget backend-url="https://warp.cityzendata.net/dist">NEWGTS "GTS1" RENAME
-'label0' '1' 2 ->MAP RELABEL
+{ 'label0' '1' } RELABEL
 10 NaN NaN NaN  1 ADDVALUE
 20 NaN NaN NaN  1 ADDVALUE
 30 NaN NaN NaN  1 ADDVALUE
@@ -45,15 +45,15 @@ Stack:
 50 NaN NaN NaN  1 ADDVALUE
 60 NaN NaN NaN  1 ADDVALUE
 NEWGTS "GTS2" RENAME
-'label0' '1' 2 ->MAP RELABEL
+{ 'label0' '1' } RELABEL
 10 NaN NaN NaN  5 ADDVALUE
 20 NaN NaN NaN  5 ADDVALUE
 NEWGTS "GTS3" RENAME
-'label0' '1' 2 ->MAP RELABEL
+{ 'label0' '1' } RELABEL
 30 NaN NaN NaN 10 ADDVALUE
 40 NaN NaN NaN 10 ADDVALUE
 NEWGTS "GTS4" RENAME
-'label0' '1' 2 ->MAP RELABEL
+{ 'label0' '1' } RELABEL
 60 NaN NaN NaN 20 ADDVALUE
 4 ->LIST
 [] // list of labels to define the equivalence classes. For example : 'label0' 1 ->LIST
@@ -68,7 +68,7 @@ REDUCE
 
 {% raw %}
 <warp10-warpscript-widget backend-url="https://warp.cityzendata.net/dist">NEWGTS "GTS1" RENAME
-'label0' '1' 2 ->MAP RELABEL
+{ 'label0' '1' } RELABEL
 10 NaN NaN NaN  1 ADDVALUE
 20 NaN NaN NaN  1 ADDVALUE
 30 NaN NaN NaN  1 ADDVALUE
@@ -76,15 +76,15 @@ REDUCE
 50 NaN NaN NaN  1 ADDVALUE
 60 NaN NaN NaN  1 ADDVALUE
 NEWGTS "GTS2" RENAME
-'label0' '1' 2 ->MAP RELABEL
+{ 'label0' '1' } RELABEL
 10 NaN NaN NaN  5 ADDVALUE
 20 NaN NaN NaN  5 ADDVALUE
 NEWGTS "GTS3" RENAME
-'label0' '1' 2 ->MAP RELABEL
+{ 'label0' '1' } RELABEL
 30 NaN NaN NaN 10 ADDVALUE
 40 NaN NaN NaN 10 ADDVALUE
 NEWGTS "GTS4" RENAME
-'label0' '1' 2 ->MAP RELABEL
+{ 'label0' '1' } RELABEL
 60 NaN NaN NaN 20 ADDVALUE
 4 ->LIST
 [] // list of labels to define the equivalence classes. For example : 'label0' 1 ->LIST

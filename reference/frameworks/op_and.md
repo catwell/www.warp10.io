@@ -40,27 +40,27 @@ Stack:
 [
   [
     NEWGTS "GTS1" RENAME 
-    'label0' '42' 2 ->MAP RELABEL
+    { 'label0' '42' } RELABEL
     10 NaN NaN NaN false ADDVALUE
     20 NaN NaN NaN true ADDVALUE
     NEWGTS "GTS2" RENAME 
-    'label0' '53' 2 ->MAP RELABEL
+    { 'label0' '53' } RELABEL
     10 NaN NaN NaN true ADDVALUE
     15 NaN NaN NaN false ADDVALUE
     20 NaN NaN NaN true ADDVALUE
   ]
   [
     NEWGTS "GTS3" RENAME 
-    'label0' '42' 2 ->MAP RELABEL
+    { 'label0' '42' } RELABEL
     10 NaN NaN NaN false ADDVALUE
     20 NaN NaN NaN true ADDVALUE
     30 NaN NaN NaN true ADDVALUE
     NEWGTS "GTS4" RENAME 
-    'label0' '53' 2 ->MAP RELABEL
+    { 'label0' '53' } RELABEL
     10 NaN NaN NaN true ADDVALUE
     20 NaN NaN NaN true ADDVALUE
     NEWGTS "Solo" RENAME 
-    'label0' '4253' 2 ->MAP RELABEL
+    { 'label0' '4253' } RELABEL
     10 NaN NaN NaN false ADDVALUE
     15 NaN NaN NaN false ADDVALUE
     20 NaN NaN NaN true ADDVALUE
@@ -79,11 +79,11 @@ APPLY
 [
   [
     NEWGTS "GTS1" RENAME 
-    'label0' '42' 2 ->MAP RELABEL
+    { 'label0' '42' } RELABEL
     10 NaN NaN NaN false ADDVALUE
     20 NaN NaN NaN true ADDVALUE
     NEWGTS "GTS2" RENAME 
-    'label0' '42' 2 ->MAP RELABEL
+    { 'label0' '42' } RELABEL
     10 NaN NaN NaN true ADDVALUE
     20 NaN NaN NaN true ADDVALUE
   ]

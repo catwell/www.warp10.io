@@ -42,27 +42,27 @@ Stack:
 [
   [
     NEWGTS "toto" RENAME 
-    'label0' '42' 2 ->MAP RELABEL
+    { 'label0' '42' } RELABEL
     10 NaN NaN NaN 21 ADDVALUE
     20 NaN NaN NaN 14  ADDVALUE
     NEWGTS "tata" RENAME 
-    'label0' '53' 2 ->MAP RELABEL
+    { 'label0' '53' } RELABEL
     10 NaN NaN NaN 2.0 ADDVALUE
     15 NaN NaN NaN 1.0 ADDVALUE
     20 NaN NaN NaN 0.5 ADDVALUE
   ]
   [
     NEWGTS "toto" RENAME 
-    'label0' '42' 2 ->MAP RELABEL
+    { 'label0' '42' } RELABEL
     10 NaN NaN NaN 2 ADDVALUE
     20 NaN NaN NaN 3 ADDVALUE
     30 NaN NaN NaN 4 ADDVALUE
     NEWGTS "tata" RENAME 
-    'label0' '53' 2 ->MAP RELABEL
+    { 'label0' '53' } RELABEL
     10 NaN NaN NaN 21.1 ADDVALUE
     20 NaN NaN NaN 84.1 ADDVALUE
     NEWGTS "Solo" RENAME 
-    'label0' '4253' 2 ->MAP RELABEL
+    { 'label0' '4253' } RELABEL
     10 NaN NaN NaN -42 ADDVALUE
     20 NaN NaN NaN 42 ADDVALUE
   ]
@@ -81,11 +81,11 @@ APPLY
 [
   [
     NEWGTS "toto" RENAME 
-    'label0' '42' 2 ->MAP RELABEL
+    { 'label0' '42' } RELABEL
     10 NaN NaN NaN 21.0 ADDVALUE
     20 NaN NaN NaN 84.0  ADDVALUE
     NEWGTS "tata" RENAME 
-    'label0' '42' 2 ->MAP RELABEL
+    { 'label0' '42' } RELABEL
     10 NaN NaN NaN 2.0 ADDVALUE
     20 NaN NaN NaN 0.5 ADDVALUE
   ]
@@ -110,15 +110,15 @@ VALUES LIST->
 [
   [
     NEWGTS "A" RENAME 
-    'label0' '42' 2 ->MAP RELABEL
+    { 'label0' '42' } RELABEL
     10 NaN NaN NaN 21.0 ADDVALUE
     20 NaN NaN NaN 84.0  ADDVALUE
     NEWGTS "B" RENAME 
-    'label0' '42' 2 ->MAP RELABEL
+    { 'label0' '42' } RELABEL
     10 NaN NaN NaN 2.0 ADDVALUE
     20 NaN NaN NaN 0.5 ADDVALUE
     NEWGTS "C" RENAME 
-    'label0' '42' 2 ->MAP RELABEL
+    { 'label0' '42' } RELABEL
     10 NaN NaN NaN 4.0 ADDVALUE
     20 NaN NaN NaN 0.25 ADDVALUE
   ]
