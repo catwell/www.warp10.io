@@ -40,22 +40,22 @@ Stack:
 [
   [
     NEWGTS "toto" RENAME 
-    'label0' '42' 2 ->MAP RELABEL
+    { 'label0' '42' } RELABEL
     10 NaN NaN NaN  126 ADDVALUE
     20 NaN NaN NaN  84  ADDVALUE
     NEWGTS "titi" RENAME 
-    'label0' '53' 2 ->MAP RELABEL
+    { 'label0' '53' } RELABEL
     10 NaN NaN NaN  14.0 ADDVALUE
     20 NaN NaN NaN  21.0 ADDVALUE
     30 NaN NaN NaN  42  ADDVALUE
   ]
   [
     NEWGTS "tata" RENAME 
-    'label0' '42' 2 ->MAP RELABEL
+    { 'label0' '42' } RELABEL
     10 NaN NaN NaN  3   ADDVALUE
     20 NaN NaN NaN  2 ADDVALUE
     NEWGTS "tati" RENAME 
-    'label0' '53' 2 ->MAP RELABEL
+    { 'label0' '53' } RELABEL
     10 NaN NaN NaN  0.33 ADDVALUE
     15 NaN NaN NaN  0.4 ADDVALUE
     20 NaN NaN NaN  0.5 ADDVALUE
@@ -75,11 +75,11 @@ APPLY
 [
   [
     NEWGTS "toto" RENAME 
-    'label0' '42' 2 ->MAP RELABEL
+    { 'label0' '42' } RELABEL
     10 NaN NaN NaN  84.0 ADDVALUE
     20 NaN NaN NaN  21.0  ADDVALUE
     NEWGTS "tata" RENAME 
-    'label0' '42' 2 ->MAP RELABEL
+    { 'label0' '42' } RELABEL
     10 NaN NaN NaN  2.0   ADDVALUE
     20 NaN NaN NaN  0.5 ADDVALUE
   ]

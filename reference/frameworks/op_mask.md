@@ -45,7 +45,7 @@ Stack:
   // first GTS with boolean values
   [
     NEWGTS "test" RENAME
-    'item' 'mask' 2 ->MAP RELABEL
+    { 'item' 'mask' } RELABEL
     100 NaN NaN NaN false ADDVALUE
     101 NaN NaN NaN true  ADDVALUE
     102 NaN NaN NaN false ADDVALUE
@@ -54,12 +54,12 @@ Stack:
   // list of GTS where we apply the mask op to
   [
     NEWGTS "test" RENAME
-    'item' '10' 2 ->MAP RELABEL
+    { 'item' '10' } RELABEL
     100 NaN NaN NaN 10 ADDVALUE
     101 NaN NaN NaN 10 ADDVALUE
     102 NaN NaN NaN 10 ADDVALUE
     NEWGTS "test" RENAME
-    'item' '9' 2 ->MAP RELABEL
+    { 'item' '9' } RELABEL
     100 NaN NaN NaN 9 ADDVALUE
     101 NaN NaN NaN 9 ADDVALUE
     102 NaN NaN NaN 9 ADDVALUE
@@ -85,7 +85,7 @@ APPLY
   // first GTS with boolean values
   [
     NEWGTS "test" RENAME
-    'item' 'mask' 2 ->MAP RELABEL
+    { 'item' 'mask' } RELABEL
     100 NaN NaN NaN false ADDVALUE
     101 NaN NaN NaN true  ADDVALUE
     102 NaN NaN NaN false ADDVALUE
@@ -94,12 +94,12 @@ APPLY
   // list of GTS where we apply the mask op to
   [
     NEWGTS "test" RENAME
-    'item' '10' 2 ->MAP RELABEL
+    { 'item' '10' } RELABEL
     100 NaN NaN NaN 10 ADDVALUE
     101 NaN NaN NaN 10 ADDVALUE
     102 NaN NaN NaN 10 ADDVALUE
     NEWGTS "test" RENAME
-    'item' '9' 2 ->MAP RELABEL
+    { 'item' '9' } RELABEL
     100 NaN NaN NaN 9 ADDVALUE
     101 NaN NaN NaN 9 ADDVALUE
     102 NaN NaN NaN 9 ADDVALUE

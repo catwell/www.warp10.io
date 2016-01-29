@@ -37,11 +37,11 @@ Stack:
 
 {% raw %}
 <warp10-warpscript-widget>NEWGTS "GTS1" RENAME 
-'label0' '42' 2 ->MAP RELABEL
+{ 'label0' '42' } RELABEL
 10 NaN NaN NaN 5.0 ADDVALUE
 20 NaN NaN NaN 120.0 ADDVALUE 
 NEWGTS "GTS2" RENAME 
-'label0' '42' 2 ->MAP RELABEL
+{ 'label0' '42' } RELABEL
 10 NaN NaN NaN 8.0 ADDVALUE
 20 NaN NaN NaN 42.0 ADDVALUE 
 2 ->LIST 
@@ -59,11 +59,11 @@ MAP
 
 {% raw %}
 <warp10-warpscript-widget>NEWGTS "GTS1" RENAME 
-'label0' '42' 2 ->MAP RELABEL
+{ 'label0' '42' } RELABEL
 10 NaN NaN NaN 5.0 ADDVALUE
 20 NaN NaN NaN 120.0 ADDVALUE 
 NEWGTS "GTS2" RENAME 
-'label0' '42' 2 ->MAP RELABEL
+{ 'label0' '42' } RELABEL
 10 NaN NaN NaN 8.0 ADDVALUE
 20 NaN NaN NaN 42.0 ADDVALUE 
 2 ->LIST 
