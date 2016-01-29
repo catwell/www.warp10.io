@@ -16,7 +16,7 @@ This tutorial explains, how to setup our platform using [Docker](https://www.doc
 ## Clone the repository 
 
 ```
-  git clone git@bitbucket.org:cityzendata/docker-warp10.git
+  git clone https://github.com/cityzendata/warp10-docker.git
 ```
 
 ## Build the Warp 10 image
@@ -24,7 +24,7 @@ This tutorial explains, how to setup our platform using [Docker](https://www.doc
 Enter in docker-warp10 directory and execute `docker build` inside your local copy
 
 ```
-cd docker-warp10
+cd warp10-docker
 docker build -t warp10/warp10:1.0.1 .
 ```
 
