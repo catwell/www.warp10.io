@@ -11,11 +11,11 @@ category: "reference"
 
 The `HYBRIDTEST2` function detects outliers in a GTS (or a LIST of GTS) which has a seasonal part.
 
-`HYBRIDTEST2` is almost the same procedure than [`HYBRIDTEST`]({{ site.baseurl }}/reference/functions/function_HYBRIDDTEST) except that it does not use [`STL`]({{ site.baseurl }}/reference/functions/function_STL) decomposition for the seasonal extract.
+`HYBRIDTEST2` is almost the same procedure than [`HYBRIDTEST`]({{ site.baseurl }}/reference/functions/function_HYBRIDTEST) except that it does not use [`STL`]({{ site.baseurl }}/reference/functions/function_STL) decomposition for the seasonal extract.
 
 The seasonal part is approximated by pondering each value with the [entropy](https://en.wikipedia.org/wiki/Entropy_%28information_theory%29) of the [modified Z-score](http://www.itl.nist.gov/div898/handbook/eda/section3/eda35h.htm) of its seasonal subseries (series with only the values of the same season).
 
-This test is usually preferred when it is meaningful to think in term of entropy, for example when the GTS represents counters of events. Also as it does not use STL decomposition, it is not prone to border effects, but at the cost of not detecting slight oultiers.
+This test is usually preferred when it is meaningful to think in term of entropy, for example when the GTS represents counters of events. Also as it does not use STL decomposition, it is not prone to border effects, but at the cost of not detecting slight outliers.
 
 A LIST of ticks (or a LIST of LIST of ticks), corresponding to the outliers, is pushed back onto the stack.
 
@@ -24,7 +24,7 @@ This function only applies to bucketized GTS of type DOUBLE.
 ## Syntax ##
 
 ```
-[GTS] period piece k (alpha) ({...}) HYBRIDTEST2
+[GTS] period piece k (alpha) HYBRIDTEST2
 ```
 
 `HYBRIDTEST2` consumes at least four parameters on the top of the stack:
