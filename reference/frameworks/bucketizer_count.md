@@ -24,7 +24,7 @@ Stack:
 
 WarpScript commands:
 
-    // parameters are: GTS or [GTS], bucketizer, lastbucket, bucketspan, bucketcount
+    // arguments are: GTS or [GTS], bucketizer, lastbucket, bucketspan, bucketcount
     [ SWAP bucketizer.count 0 0 2 ] BUCKETIZE
 
 Stack: 
@@ -49,7 +49,7 @@ RELABEL
 700  NaN NaN NaN  4 ADDVALUE
 800  NaN NaN NaN 42 ADDVALUE
 
-// parameters are: GTS or [GTS], bucketizer, lastbucket, bucketspan, bucketcount
+// arguments are: GTS or [GTS], bucketizer, lastbucket, bucketspan, bucketcount
 [ SWAP bucketizer.count 0 0 2 ] BUCKETIZE
 </warp10-warpscript-widget>
 {% endraw %}    
@@ -72,7 +72,7 @@ RELABEL
 700  NaN NaN NaN  4 ADDVALUE
 800  NaN NaN NaN 42 ADDVALUE
 
-// parameters are: GTS or [GTS], bucketizer, lastbucket, bucketspan, bucketcount
+// arguments are: GTS or [GTS], bucketizer, lastbucket, bucketspan, bucketcount
 [ SWAP bucketizer.count 0 0 2 ] BUCKETIZE
 LIST-> DROP           // Exract the GTS from the list
 VALUES LIST-> DROP    // Expand the list of values

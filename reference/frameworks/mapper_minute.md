@@ -23,7 +23,7 @@ Stack:
 
 WarpScript commands:
 
-    // parameters are: GTS or [GTS], (timezone) mapper, prewindow, postwindow, occurences
+    // arguments are: GTS or [GTS], (timezone) mapper, prewindow, postwindow, occurences
     [ SWAP 'UTC' mapper.minute 0 0 0 ] MAP
 
 Stack: 
@@ -40,7 +40,7 @@ Stack:
 1419220920000000 NaN NaN NaN 211.0 ADDVALUE
 1421530930000000 NaN NaN NaN 132.0 ADDVALUE
 1 ->LIST
-// parameters are: GTS or [GTS], (timezone) mapper, prewindow, postwindow, occurences
+// arguments are: GTS or [GTS], (timezone) mapper, prewindow, postwindow, occurences
 [ SWAP 'UTC' mapper.minute 0 0 0 ] MAP
 </warp10-warpscript-widget>
 {% endraw %}    
@@ -56,7 +56,7 @@ Stack:
 1419220920000000 NaN NaN NaN 211.0 ADDVALUE
 1421530930000000 NaN NaN NaN 132.0 ADDVALUE
 1 ->LIST
-// parameters are: GTS or [GTS], (timezone) mapper, prewindow, postwindow, occurences
+// arguments are: GTS or [GTS], (timezone) mapper, prewindow, postwindow, occurences
 [ SWAP 'UTC' mapper.minute 0 0 0 ] MAP
 VALUES LIST-> DROP
 LIST-> DROP
