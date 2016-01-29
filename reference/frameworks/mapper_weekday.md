@@ -23,13 +23,8 @@ Stack:
 
 WarpScript commands:
 
-	'UTC'			// TimeZone - NULL stands for 'UTC'
-    mapper.weekday
-    0				// pre-window
-    0				// post-window
-    0				// occurrences
-    5 ->LIST
-    MAP
+    // parameters are: GTS or [GTS], (timezone) mapper, prewindow, postwindow, occurences
+    [ SWAP 'UTC' mapper.weekday 0 0 0 ] MAP
 
 Stack: 
 
@@ -45,13 +40,8 @@ Stack:
 1419220920000000 NaN NaN NaN 211.0 ADDVALUE
 1421530930000000 NaN NaN NaN 132.0 ADDVALUE
 1 ->LIST
-'UTC'			// TimeZone
-mapper.weekday
-0  				// pre-window
-0  				// post-median
-0  				// occurrences
-5 ->LIST
-MAP
+// parameters are: GTS or [GTS], (timezone) mapper, prewindow, postwindow, occurences
+[ SWAP 'UTC' mapper.weekday 0 0 0 ] MAP
 </warp10-warpscript-widget>
 {% endraw %}    
 
@@ -66,13 +56,8 @@ MAP
 1419220920000000 NaN NaN NaN 211.0 ADDVALUE
 1421530930000000 NaN NaN NaN 132.0 ADDVALUE
 1 ->LIST
-'UTC'			// TimeZone
-mapper.weekday
-0  				// pre-window
-0  				// post-median
-0  				// occurreces
-5 ->LIST
-MAP
+// parameters are: GTS or [GTS], (timezone) mapper, prewindow, postwindow, occurences
+[ SWAP 'UTC' mapper.weekday 0 0 0 ] MAP
 VALUES LIST-> DROP
 LIST-> DROP
 6 == ASSERT
