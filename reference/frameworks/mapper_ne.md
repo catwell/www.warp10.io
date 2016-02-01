@@ -26,14 +26,8 @@ Stack:
 
 WarpScript commands:
 
-    // Value to check against for inequality
-    8.0
-    mapper.ne
-    0
-    0
-    0
-    5 ->LIST
-    MAP
+    // arguments are: GTS or [GTS], value to compare to, mapper, prewindow, postwindow, occurences
+    [ SWAP 8.0 mapper.ne 0 0 0 ] MAP
 
 Stack: 
 
@@ -48,14 +42,9 @@ Stack:
 20 NaN NaN NaN  8.0 ADDVALUE
 30 NaN NaN NaN 11.0 ADDVALUE
 40 NaN NaN NaN 20.0 ADDVALUE
-1 ->LIST
-8.0
-mapper.ne
-0
-0
-0
-5 ->LIST
-MAP
+
+// arguments are: GTS or [GTS], value to compare to, mapper, prewindow, postwindow, occurences
+[ SWAP 8.0 mapper.ne 0 0 0 ] MAP
 </warp10-warpscript-widget>
 {% endraw %}    
 
@@ -69,14 +58,9 @@ MAP
 20 NaN NaN NaN  8.0 ADDVALUE
 30 NaN NaN NaN 11.0 ADDVALUE
 40 NaN NaN NaN 20.0 ADDVALUE
-1 ->LIST
-8.0
-mapper.ne
-0
-0
-0
-5 ->LIST
-MAP
+
+    // arguments are: GTS or [GTS], value to compare to, mapper, prewindow, postwindow, occurences
+    [ SWAP 8.0 mapper.ne 0 0 0 ] MAP
 VALUES LIST-> 
 1 == ASSERT   // values list size
 LIST-> DROP

@@ -22,17 +22,12 @@ Stack:
 
 WarpScript commands:
 	
-	  ' & '
-    bucketizer.join
-    0   // lastbucket    
-    0   // bucketspan    
-    2   // bucketcount
-    5 ->LIST
-    BUCKETIZE
+    // arguments are: GTS or [GTS], bucketizer, lastbucket, bucketspan, bucketcount
+    [ SWAP ' & ' bucketizer.join 0 0 2 ] BUCKETIZE
 
 Stack: 
 
-    TOP: [{"c":"testname","l":{"label0":"42","label1":"foo"},"a":{},"v":[[800,"6&5&4&42"],[449,"10&9&8&7"]]}]
+    TOP: [{"c":"testname","l":{"label0":"42","label1":"foo"},"a":{},"v":[[800,"6 & 5 & 4 & 42"],[449,"10 & 9 & 8 & 7"]]}]
 
 
 ## Let's play with it ##
@@ -51,13 +46,9 @@ RELABEL
 600  NaN NaN NaN  5 ADDVALUE
 700  NaN NaN NaN  4 ADDVALUE
 800  NaN NaN NaN 42 ADDVALUE
-' & '
-bucketizer.join
-0   // lastbucket
-0   // bucketspan
-2   //bucketcount
-5 ->LIST
-BUCKETIZE
+
+// arguments are: GTS or [GTS], bucketizer, lastbucket, bucketspan, bucketcount
+[ SWAP ' & ' bucketizer.join 0 0 2 ] BUCKETIZE
 </warp10-warpscript-widget>
 {% endraw %}    
 
@@ -78,13 +69,9 @@ RELABEL
 600  NaN NaN NaN  5 ADDVALUE
 700  NaN NaN NaN  4 ADDVALUE
 800  NaN NaN NaN 42 ADDVALUE
-' & '
-bucketizer.join
-0   // lastbucket
-0   // bucketspan
-2   //bucketcount
-5 ->LIST
-BUCKETIZE
+
+// arguments are: GTS or [GTS], bucketizer, lastbucket, bucketspan, bucketcount
+[ SWAP ' & ' bucketizer.join 0 0 2 ] BUCKETIZE
 LIST-> DROP           // Exract the GTS from the list
 VALUES LIST-> DROP    // Expand the list of values
 '10 & 9 & 8 & 7' == ASSERT  

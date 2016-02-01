@@ -31,18 +31,9 @@ Stack:
     TOP:  [{"c":"toto","l":{"label0":"42"},"a":{},"v":[[10,1],[20,10]]}]
 
 WarpScript commands:
-    // Constant (will be used as the base of the log)
-    10.0
-    mapper.log
-    // pre-window
-    0
-    // post-window
-    0
-    // occurrences
-    0
-    5 ->LIST
 
-    MAP
+    // arguments are: GTS or [GTS], constant (will be used as the base of the log), mapper, prewindow, postwindow, occurences
+    [ SWAP 10.0 mapper.log 0 0 0 ] MAP
 
 Stack: 
 
@@ -55,14 +46,9 @@ Stack:
 { 'label0' '42' } RELABEL
 10 NaN NaN NaN  1.0 ADDVALUE
 20 NaN NaN NaN 10.0 ADDVALUE
-1 ->LIST
-10.0
-mapper.log
-0
-0
-0
-5 ->LIST
-MAP
+
+// arguments are: GTS or [GTS], constant (will be used as the base of the log), mapper, prewindow, postwindow, occurences
+[ SWAP 10.0 mapper.log 0 0 0 ] MAP
 </warp10-warpscript-widget>
 {% endraw %}    
 
@@ -74,14 +60,10 @@ MAP
 { 'label0' '42' } RELABEL
 10 NaN NaN NaN  1.0 ADDVALUE
 20 NaN NaN NaN 10.0 ADDVALUE
-1 ->LIST
-10.0
-mapper.log
-0
-0
-0
-5 ->LIST
-MAP
+
+// arguments are: GTS or [GTS], constant (will be used as the base of the log), mapper, prewindow, postwindow, occurences
+[ SWAP 10.0 mapper.log 0 0 0 ] MAP
+
 VALUES LIST-> 
 1 == ASSERT   // values list size
 LIST-> DROP
