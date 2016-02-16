@@ -8,7 +8,7 @@ categoryTree: ["reference","functions"]
 category: "reference"
 ---
  
-Retrieves the content of a URL or a list of URLs, using the HTTP `GET` method.
+Retrieves the content of a URL or a list of URLs, using the HTTP `GET` method. This function requires the stack to be authenticated using `AUTHENTICATE`.
 
 The function returns on the stack a list of results, each result being a list of response code, maps of header name to header values, and base64 encoded body.
 
