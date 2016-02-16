@@ -775,6 +775,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [TOKENINFO]({{ site.baseurl }}/reference/functions/function_TOKENINFO)
 
+[URLFETCH]({{ site.baseurl }}/reference/functions/function_URLFETCH)
+
 [WEBCALL]({{ site.baseurl }}/reference/functions/function_WEBCALL)
 
 
