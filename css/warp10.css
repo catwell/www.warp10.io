@@ -321,6 +321,22 @@ a, a:visited  {
 
 /* Algolia */
 
+#search_box {
+  position: relative;
+}
+
+.aa-dropdown-menu {
+  background-color: #FFF;
+  border: 1px solid #333;
+  border-radius: 4px;
+  font-size: 14px;
+  margin: 6px -350px 0;
+  padding: 4px;
+  text-align: left;
+  max-width: 500px !important;
+  right: 350px !important;
+}
+
 /* Main category headers */
 .algolia-docsearch-suggestion--category-header {
   background-color: #28b6d8;
