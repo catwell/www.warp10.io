@@ -5,7 +5,9 @@ desc: "Apply a macro on each element of a list"
 category: reference
 ---
 
-The `LMAP` function applies a macro on each element of a list, producing a list with the top element after each macro invocation.
+The `LMAP` function applies a macro on each element of a list, producing a list with the element on top of the stack after each macro invocation.
+
+The macro is called with a stack containing the list index on top and the element at that particular index below it.
 
 Initial stack:
 
@@ -23,22 +25,12 @@ Stack:
 
 
 
-## Let's play with it ##
+## Example ##
 
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">
 [ 42 21 11 ]
-<% -1 * %>
+<% DROP -1 * %>
 LMAP
 </warp10-warpscript-widget>
 {% endraw %}    
-
-
-## Unit test ##
-
-{% raw %}
-[ 42 21 11 ]
-<% -1 * %>
-LMAP
-</warp10-warpscript-widget>
-{% endraw %}        
