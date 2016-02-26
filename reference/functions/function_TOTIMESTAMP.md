@@ -8,12 +8,10 @@ categoryTree: ["reference","functions"]
 category: reference
 ---
 
-The `TOTIMESTAMP` function consumes a string parameter (date with or without a time) from the top of the stack and pushes back its conversion to a number of time units.
-The date and time supported corresponds to the norm [ISO8601](http://en.wikipedia.org/wiki/ISO_8601) and are: 
+The `TOTIMESTAMP` function consumes a string parameter (date + time + time zone) from the top of the stack and pushes back its conversion to a number of time units since the [Unix Epoch](https://en.wikipedia.org/wiki/Unix_time).
 
-  * yyyy-mm-ddd
-  * yyyy-mm-dddT
-  * yyyy-mm-dddThh:mm:ssZ
+The supported format is [ISO8601](http://en.wikipedia.org/wiki/ISO_8601) and are: 
+
   * yyyy-mm-dddThh:mm:ss.ssssssZ 
   * yyyy-mm-dddThh:mm:ss+hh:mm
 
@@ -22,9 +20,6 @@ As the string are URL encoded, the symbol `+` have to be replaced by `%2B`, othe
 ## Example ##
 
 WarpScript commands:
-
-    '2016-01-19'
-    TOTIMESTAMP
 
     '2016-01-19T16:07:37Z'
     TOTIMESTAMP
@@ -36,14 +31,9 @@ Stack:
 
     TOP: 1453212457000000
     1: 1453219657000000
-    2: 1453161600000000
-
 
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">
-'2016-01-19'
-TOTIMESTAMP
-
 '2016-01-19T16:07:37Z'
 TOTIMESTAMP
 
