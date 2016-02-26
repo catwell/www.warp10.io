@@ -8,9 +8,9 @@ categoryTree: ["reference","frameworks","framework-map"]
 oldPath: ["20-frameworks","201-framework-map","202-geo-mappers","100-mapper_geo_within.html.md"]
 category: "reference"
 ---
- 
 
-This *mapper* filters the GTS, keeping only the points inside a geographical zone (geo zone). The geo zone can be defined in [WKT](http://en.wikipedia.org/wiki/Well-known_text) format by using the [GEO.WKT](function_GEO_WKT) function. 
+
+This *mapper* filters the GTS, keeping only the points inside a geographical zone (geo zone). The geo zone can be defined in [WKT](http://en.wikipedia.org/wiki/Well-known_text) format by using the [GEO.WKT]({{ site.baseurl}}/reference/functions/function_GEO_WKT) function. 
 
 ## Example ##
 
@@ -20,9 +20,9 @@ Stack:
 
 WarpScript commands:
 
-    
 
-    // Let's define a square geo zone around the Ile Vierge, near the coastline of Brittany (France) 
+
+    // Let's define a square geo zone around the Ile Vierge, near the coastline of Brittany (France)
     // https://www.google.fr/maps/@48.6390219,-4.5672251,13z
     'POLYGON ((-4.574435 48.641404, -4.565680 48.641404, -4.565680 48.636101, -4.574435 48.636101, -4.574435 48.641404 ))'
     0.1 true GEO.WKT
@@ -32,10 +32,10 @@ WarpScript commands:
     5 ->LIST
     MAP
 
-Stack: 
+Stack:
 
     TOP: [{"c":"test","l":{},"a":{},"v":[[50,48.63699998706579,-4.570000022649765,0,"(48.637, -4.57)"],[60,48.63799999002367,-4.570000022649765,0,"(48.638, -4.57)"],[70,48.639999995939434,-4.570000022649765,0,"(48.640, -4.57)"]]}]
-    
+
 
 ## Let's play with it ##
 
@@ -56,8 +56,8 @@ Stack:
 'POLYGON ((-4.574435 48.641404, -4.565680 48.641404, -4.565680 48.636101, -4.574435 48.636101, -4.574435 48.641404 ))'
 0.1 true GEO.WKT
 &nbsp;
-mapper.geo.within 0 0 0 
-5 ->LIST MAP 
+mapper.geo.within 0 0 0
+5 ->LIST MAP
 </warp10-warpscript-widget>
 {% endraw %}    
 
@@ -81,8 +81,8 @@ mapper.geo.within 0 0 0
 'POLYGON ((-4.574435 48.641404, -4.565680 48.641404, -4.565680 48.636101, -4.574435 48.636101, -4.574435 48.641404 ))'
 0.1 true GEO.WKT
 &nbsp;
-mapper.geo.within 0 0 0 
-5 ->LIST MAP 
+mapper.geo.within 0 0 0
+5 ->LIST MAP
 &nbsp;
 0 GET VALUES 'values' STORE
 &nbsp;
