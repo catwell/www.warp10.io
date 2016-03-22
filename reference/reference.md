@@ -715,6 +715,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [DUPN]({{ site.baseurl }}/reference/functions/function_DUPN)
 
+[EXPORT]({{ site.baseurl }}/reference/functions/function_EXPORT)
+
 [FORGET]({{ site.baseurl }}/reference/functions/function_FORGET)
 
 [LOAD]({{ site.baseurl }}/reference/functions/function_LOAD)
