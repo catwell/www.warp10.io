@@ -743,7 +743,11 @@ This page lists all the functions available in WarpScript except those related t
 
 <a name="functions-platform"></a>
 
-### Platform functions  
+### Platform functions
+
+[&lt;S ... S&gt;]({{ site.baseurl }}/reference/functions/securedscripts)
+
+[EVALSECURE]({{ site.baseurl }}/reference/functions/function_EVALSECURE)
 
 [IDENT]({{ site.baseurl }}/reference/functions/function_IDENT)
 
@@ -775,7 +779,11 @@ This page lists all the functions available in WarpScript except those related t
 
 [SAVE]({{ site.baseurl }}/reference/functions/function_SAVE)
 
+[SECUREKEY]({{ site.baseurl }}/reference/functions/function_SECUREKEY)
+
 [TOKENINFO]({{ site.baseurl }}/reference/functions/function_TOKENINFO)
+
+[UNSECURE]({{ site.baseurl }}/reference/functions/function_UNSECURE)
 
 [URLFETCH]({{ site.baseurl }}/reference/functions/function_URLFETCH)
 
