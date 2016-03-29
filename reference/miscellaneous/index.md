@@ -43,8 +43,6 @@ The following functions haven't been fully documented yet, but we can already gi
 
 [ELAPSED]({{ site.baseurl }}/reference/miscellaneous/ELAPSED)
 
-[EVALSECURE]({{ site.baseurl }}/reference/miscellaneous/EVALSECURE)
-
 [EVERY]({{ site.baseurl }}/reference/miscellaneous/EVERY)
 
 [EXPM1]({{ site.baseurl }}/reference/miscellaneous/EXPM1)
@@ -68,8 +66,6 @@ The following functions haven't been fully documented yet, but we can already gi
 [HYPOT]({{ site.baseurl }}/reference/miscellaneous/HYPOT)
 
 [IDWT]({{ site.baseurl }}/reference/miscellaneous/IDWT)
-
-[IEEEREMAINDER]({{ site.baseurl }}/reference/miscellaneous/IEEEREMAINDER)
 
 [IFFT]({{ site.baseurl }}/reference/miscellaneous/IFFT)
 
@@ -147,15 +143,11 @@ The following functions haven't been fully documented yet, but we can already gi
 
 [RVALUESORT]({{ site.baseurl }}/reference/miscellaneous/RVALUESORT)
 
-[SECUREKEY]({{ site.baseurl }}/reference/miscellaneous/SECUREKEY)
-
 [SET-&gt;]({{ site.baseurl }}/reference/miscellaneous/SETTO)
 
 [SETATTRIBUTES]({{ site.baseurl }}/reference/miscellaneous/SETATTRIBUTES)
 
 [SETVALUE]({{ site.baseurl }}/reference/miscellaneous/SETVALUE)
-
-[SINGLEEXPONENTIALSMOOTHING]({{ site.baseurl }}/reference/miscellaneous/SINGLEEXPONENTIALSMOOTHING)
 
 [STACKATTRIBUTE]({{ site.baseurl }}/reference/miscellaneous/STACKATTRIBUTE)
 
@@ -170,8 +162,6 @@ The following functions haven't been fully documented yet, but we can already gi
 [ULP]({{ site.baseurl }}/reference/miscellaneous/ULP)
 
 [UNION]({{ site.baseurl }}/reference/miscellaneous/UNION)
-
-[UNSECURE]({{ site.baseurl }}/reference/miscellaneous/UNSECURE)
 
 [VALUEDEDUP]({{ site.baseurl }}/reference/miscellaneous/VALUEDEDUP)
 
