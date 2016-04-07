@@ -49,6 +49,10 @@ This page lists all the functions available in WarpScript except those related t
 
 [bucketizer.mean]({{ site.baseurl }}/reference/frameworks/bucketizer_mean)
 
+[bucketizer.mean.circular]({{ site.baseurl }}/reference/frameworks/mapper_mean_circular)
+
+[bucketizer.mean.circular.exclude-nulls]({{ site.baseurl }}/reference/frameworks/mapper_mean_circular)
+
 [bucketizer.first]({{ site.baseurl }}/reference/frameworks/bucketizer_first)
 
 [bucketizer.last]({{ site.baseurl }}/reference/frameworks/bucketizer_last)
@@ -178,6 +182,10 @@ This page lists all the functions available in WarpScript except those related t
 
 [mapper.mean]({{ site.baseurl }}/reference/frameworks/mapper_mean)
 
+[mapper.mean.circular]({{ site.baseurl }}/reference/frameworks/mapper_mean_circular)
+
+[mapper.mean.circular.exclude-nulls]({{ site.baseurl }}/reference/frameworks/mapper_mean_circular)
+
 [mapper.var]({{ site.baseurl }}/reference/frameworks/mapper_var)
 
 [mapper.sd]({{ site.baseurl }}/reference/frameworks/mapper_sd)
@@ -238,6 +246,10 @@ This page lists all the functions available in WarpScript except those related t
 [reducer.max.forbid-nulls]({{ site.baseurl }}/reference/frameworks/reducer_max_forbid-nulls)
 
 [reducer.mean]({{ site.baseurl }}/reference/frameworks/reducer_mean)
+
+[reducer.mean.circular]({{ site.baseurl }}/reference/frameworks/mapper_mean_circular)
+
+[reducer.mean.circular.exclude-nulls]({{ site.baseurl }}/reference/frameworks/mapper_mean_circular)
 
 [reducer.median]({{ site.baseurl }}/reference/frameworks/reducer_median)
 
