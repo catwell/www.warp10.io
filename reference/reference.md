@@ -336,13 +336,60 @@ This page lists all the functions available in WarpScript except those related t
 
 ### Mathematical functions and operators
 
-[!]({{ site.baseurl }}/reference/functions/function_NOT)
+
+[&amp;&amp;]({{ site.baseurl }}/reference/functions/function_COND_AND)
+
+[&#124;&#124;]({{ site.baseurl }}/reference/functions/function_COND_OR)
+
+[&]({{ site.baseurl }}/reference/functions/function_BITWISE_AND)
+
+[&#124;]({{ site.baseurl }}/reference/functions/function_BITWISE_OR)
+
+[&#94;]({{ site.baseurl }}/reference/functions/function_BITWISE_XOR)
+
+[+]({{ site.baseurl }}/reference/functions/function_ADD)
+
+[-]({{ site.baseurl }}/reference/functions/function_SUB)
+
+[*]({{ site.baseurl }}/reference/functions/function_MUL)
+
+[/]({{ site.baseurl }}/reference/functions/function_DIV)
+
+[%]({{ site.baseurl }}/reference/functions/function_MOD)
+
+[~]({{ site.baseurl }}/reference/functions/function_BITWISE_COMPLEMENT)
+
+[**]({{ site.baseurl }}/reference/functions/function_POW)
 
 [&lt;&lt;]({{ site.baseurl }}/reference/functions/function_LEFT_SHIFT)
 
 [&gt;&gt;]({{ site.baseurl }}/reference/functions/function_RIGHT_SHIFT)
 
 [&gt;&gt;&gt;]({{ site.baseurl }}/reference/functions/function_UNSIGNED_RIGHT_SHIFT)
+
+[==]({{ site.baseurl }}/reference/functions/function_EQ)
+
+[~=]({{ site.baseurl }}/reference/functions/function_ALMOSTEQ)
+
+[!=]({{ site.baseurl }}/reference/functions/function_NE)
+
+[<]({{ site.baseurl }}/reference/functions/function_LT)
+
+[>]({{ site.baseurl }}/reference/functions/function_GT)
+
+[<=]({{ site.baseurl }}/reference/functions/function_LE)
+
+[>=]({{ site.baseurl }}/reference/functions/function_GE)
+
+[!]({{ site.baseurl }}/reference/functions/function_NOT)
+
+[AND]({{ site.baseurl }}/reference/functions/function_AND)
+
+[MAX]({{ site.baseurl }}/reference/functions/function_MAX)
+
+[MIN]({{ site.baseurl }}/reference/functions/function_MIN)
+
+[OR]({{ site.baseurl }}/reference/functions/function_OR)
 
 [ABS]({{ site.baseurl }}/reference/functions/function_ABS)
 
@@ -386,7 +433,6 @@ This page lists all the functions available in WarpScript except those related t
 
 [SQRT]({{ site.baseurl }}/reference/functions/function_SQRT)
 
-[~]({{ site.baseurl }}/reference/functions/function_BITWISE_COMPLEMENT)
 
 #### Time unit conversions
 
@@ -445,54 +491,6 @@ This page lists all the functions available in WarpScript except those related t
 [TODEGREES]({{ site.baseurl }}/reference/functions/function_TODEGREES)
 
 [TORADIANS]({{ site.baseurl }}/reference/functions/function_TORADIANS)
-
-
-
-#### Binary operators
-
-[&amp;&amp;]({{ site.baseurl }}/reference/functions/function_COND_AND)
-
-[&#124;&#124;]({{ site.baseurl }}/reference/functions/function_COND_OR)
-
-[&]({{ site.baseurl }}/reference/functions/function_BITWISE_AND)
-
-[&#124;]({{ site.baseurl }}/reference/functions/function_BITWISE_OR)
-
-[&#94;]({{ site.baseurl }}/reference/functions/function_BITWISE_XOR)
-
-[+]({{ site.baseurl }}/reference/functions/function_ADD)
-
-[-]({{ site.baseurl }}/reference/functions/function_SUB)
-
-[*]({{ site.baseurl }}/reference/functions/function_MUL)
-
-[/]({{ site.baseurl }}/reference/functions/function_DIV)
-
-[%]({{ site.baseurl }}/reference/functions/function_MOD)
-
-[**]({{ site.baseurl }}/reference/functions/function_POW)
-
-[==]({{ site.baseurl }}/reference/functions/function_EQ)
-
-[~=]({{ site.baseurl }}/reference/functions/function_ALMOSTEQ)
-
-[!=]({{ site.baseurl }}/reference/functions/function_NE)
-
-[<]({{ site.baseurl }}/reference/functions/function_LT)
-
-[>]({{ site.baseurl }}/reference/functions/function_GT)
-
-[<=]({{ site.baseurl }}/reference/functions/function_LE)
-
-[>=]({{ site.baseurl }}/reference/functions/function_GE)
-
-[AND]({{ site.baseurl }}/reference/functions/function_AND)
-
-[MAX]({{ site.baseurl }}/reference/functions/function_MAX)
-
-[MIN]({{ site.baseurl }}/reference/functions/function_MIN)
-
-[OR]({{ site.baseurl }}/reference/functions/function_OR)
 
 
 <a name="functions-standalone"></a>
