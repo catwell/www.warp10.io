@@ -319,13 +319,7 @@ This page lists all the functions available in WarpScript except those related t
 
 [NaN]({{ site.baseurl }}/reference/functions/function_NaN)
 
-[ISNaN]({{ site.baseurl }}/reference/functions/function_ISNaN)
-
 [NULL]({{ site.baseurl }}/reference/functions/function_NULL)
-
-[ISNULL]({{ site.baseurl }}/reference/functions/function_ISNULL)
-
-[NOW]({{ site.baseurl }}/reference/functions/function_NOW)
 
 [PI]({{ site.baseurl }}/reference/functions/function_PI_UC)
 
@@ -383,15 +377,9 @@ This page lists all the functions available in WarpScript except those related t
 
 [!]({{ site.baseurl }}/reference/functions/function_NOT)
 
-[AND]({{ site.baseurl }}/reference/functions/function_AND)
-
-[MAX]({{ site.baseurl }}/reference/functions/function_MAX)
-
-[MIN]({{ site.baseurl }}/reference/functions/function_MIN)
-
-[OR]({{ site.baseurl }}/reference/functions/function_OR)
-
 [ABS]({{ site.baseurl }}/reference/functions/function_ABS)
+
+[AND]({{ site.baseurl }}/reference/functions/function_AND)
 
 [CBRT]({{ site.baseurl }}/reference/functions/function_CBRT)
 
@@ -403,11 +391,19 @@ This page lists all the functions available in WarpScript except those related t
 
 [IEEEREMAINDER]({{ site.baseurl }}/reference/functions/function_IEEEREMAINDER)
 
+[ISNaN]({{ site.baseurl }}/reference/functions/function_ISNaN)
+
+[ISNULL]({{ site.baseurl }}/reference/functions/function_ISNULL)
+
 [LBOUNDS]({{ site.baseurl }}/reference/functions/function_LBOUNDS)
 
 [LOG]({{ site.baseurl }}/reference/functions/function_LOG)
 
 [LOG10]({{ site.baseurl }}/reference/functions/function_LOG10)
+
+[MAX]({{ site.baseurl }}/reference/functions/function_MAX)
+
+[MIN]({{ site.baseurl }}/reference/functions/function_MIN)
 
 [NBOUNDS]({{ site.baseurl }}/reference/functions/function_NBOUNDS)
 
@@ -418,6 +414,8 @@ This page lists all the functions available in WarpScript except those related t
 [NOT]({{ site.baseurl }}/reference/functions/function_NOT_TXT)
 
 [NPDF]({{ site.baseurl }}/reference/functions/function_NPDF)
+
+[OR]({{ site.baseurl }}/reference/functions/function_OR)
 
 [PROBABILITY]({{ site.baseurl }}/reference/functions/function_PROBABILITY)
 
@@ -504,6 +502,8 @@ This page lists all the functions available in WarpScript except those related t
 [ISO8601]({{ site.baseurl }}/reference/functions/function_ISO8601)
 
 [MSTU]({{ site.baseurl }}/reference/functions/function_MSTU)
+
+[NOW]({{ site.baseurl }}/reference/functions/function_NOW)
 
 [STU]({{ site.baseurl }}/reference/functions/function_STU)
 
