@@ -5,7 +5,10 @@ isPage: true
 category: tools
 ---
 
-This page list all the Warp10 tools, and their repositories on Github.
+This page lists all the Warp10 tools, and their repositories on Github.
+
+<div class="row large-p">
+<div class="col-sm-4">
 
 <a name="Platform"></a>
 
@@ -43,6 +46,9 @@ This page list all the Warp10 tools, and their repositories on Github.
 
 [Fluentd](https://github.com/cityzendata/fluentd-plugin-warp10)
 
+</div>
+<div class="col-sm-4">
+
 <a name="Outputs"></a>
 
 ### Output plugins
@@ -61,7 +67,7 @@ This page list all the Warp10 tools, and their repositories on Github.
 
 [Zeppelin - QuantumViz](https://github.com/aurrelhebert/warp10-zeppelin-quantumviz)
 
-<a name="WarpScript UDFs"></a>
+<a name="UDFs"></a>
 
 ### WarpScript UDFs
 
@@ -77,8 +83,7 @@ This page list all the Warp10 tools, and their repositories on Github.
 
 [Cityzen blog](https://github.com/cityzendata/cityzendata.github.io)
 
-
-
+</div>
 
 
 
