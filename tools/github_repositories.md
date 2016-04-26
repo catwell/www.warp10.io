@@ -57,6 +57,14 @@ This page lists all the Warp10 tools, and their repositories on Github.
 
 [Grafana plugin](https://github.com/cityzendata/grafana-warp10)
 
+<a name="UDFs"></a>
+
+### WarpScript UDFs
+
+[Riak-ts](https://github.com/aurrelhebert/warp10-udf-riakts)
+
+[InfluxDB](https://github.com/aurrelhebert/warp10-udf-influxdb)
+
 <a name="Interpreters"></a>
 
 ### Interpreters
@@ -67,13 +75,7 @@ This page lists all the Warp10 tools, and their repositories on Github.
 
 [Zeppelin - QuantumViz](https://github.com/aurrelhebert/warp10-zeppelin-quantumviz)
 
-<a name="UDFs"></a>
-
-### WarpScript UDFs
-
-[Riak-ts](https://github.com/aurrelhebert/warp10-udf-riakts)
-
-[InfluxDB](https://github.com/aurrelhebert/warp10-udf-influxdb)
+[Jupyter - WarpScriptMagic](https://github.com/aurrelhebert/warp10-jupyter-WarpScriptMagic)
 
 <a name="Websites"></a>
 
