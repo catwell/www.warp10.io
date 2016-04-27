@@ -7,7 +7,18 @@
   </div>
   <div id="collapse-tools" class="panel-collapse collapse {% if (page.category == 'tools')  %} in {% endif %}">
     <div class="list-group">
-
+      <div class="list-group-item">
+        <a href="/tools/github_repositories">Github repositories</a>
+      </div>
+      <div class="list-group" id="collapse-git-list">
+        <a class="list-group-item" href="/tools/github_repositories#Platform">Platform</a>
+        <a class="list-group-item" href="/tools/github_repositories#Batch">Batch</a>
+        <a class="list-group-item" href="/tools/github_repositories#Inputs">Input plugins</a>
+        <a class="list-group-item" href="/tools/github_repositories#Outputs">Output plugins</a>
+        <a class="list-group-item" href="/tools/github_repositories#Interpreters">Interpreters</a>
+        <a class="list-group-item" href="/tools/github_repositories#UDFs">WarpScript UDFs</a>
+        <a class="list-group-item" href="/tools/github_repositories#Websites">Websites</a>
+      </div>
       <a class="list-group-item" href="{{ site.baseurl }}/tools/worf">Worf</a>
       <a class="list-group-item" href="{{ site.baseurl }}/tools/quantum">Quantum</a>
       <a class="list-group-item" href="{{ site.baseurl }}/tools/trl">Token Revocation List</a>
