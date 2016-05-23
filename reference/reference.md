@@ -247,6 +247,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [reducer.mean]({{ site.baseurl }}/reference/frameworks/reducer_mean)
 
+[reducer.mean.exclude-nulls]({{ site.baseurl }}/reference/frameworks/reducer_mean_exclude-nulls)
+
 [reducer.mean.circular]({{ site.baseurl }}/reference/frameworks/mapper_mean_circular)
 
 [reducer.mean.circular.exclude-nulls]({{ site.baseurl }}/reference/frameworks/mapper_mean_circular)
