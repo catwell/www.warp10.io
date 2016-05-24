@@ -13,17 +13,17 @@ To use the widget in an HTML page you need:
 
 1. Import the `webcomponents.js` polyfill from the Polymer CDN:
 
-    `<script src="https://cdn.cityzendata.net/quantumviz/dependencies/webcomponentsjs/webcomponents.js"></script>`
+    `<script src="https://cdn.cityzendata.net/quantumviz/latest/webcomponentsjs/webcomponents.js"></script>`
 
 
 <!-- TODO: Change those links, use of Cityzen Data -->
-1. Import the `czd-quantumviz.html` widget from Cityzen Data website:
+1. Import the `warp10-quantumviz.html` widget from Cityzen Data website:
 
-    `<link rel="import" href="https://cdn.cityzendata.net/quantumviz/czd-quantumviz.html">`
+    `<link rel="import" href="https://cdn.cityzendata.net/quantumviz/latest/warp10-quantumviz/warp10-quantumviz.html">`
 
-1. Use the `<czd-quantumviz>` tag in your HTML
+1. Use the `<warp10-quantumviz>` tag in your HTML
 
-    `<czd-quantumviz>YOUR_WARPSCRIPT_CODE_HERE</czd-quantumviz>`
+    `<warp10-quantumviz>YOUR_WARPSCRIPT_CODE_HERE</warp10-quantumviz>`
 
 ## Input parameters ##
 
@@ -38,7 +38,7 @@ script. These variables are:
     platform version you want to use.
 
 
-      &lt;czd-quantumviz host='https://example.org'>YOUR_WARPSCRIPT_CODE_HERE&lt;/czd-quantumviz>
+      &lt;warp10-quantumviz host='https://example.org'>YOUR_WARPSCRIPT_CODE_HERE&lt;/warp10-quantumviz>
 
 
 ## Expected output format ###
@@ -68,10 +68,10 @@ Available parameters are:
 
 ## Example of use ##
 
-    <script src="https://cdn.cityzendata.net/quantumviz/dependencies/webcomponentsjs/webcomponents.js"></script>
-    <link rel="import" href="https://cdn.cityzendata.net/quantumviz/czd-quantumviz.html">
+    <script src="https://cdn.cityzendata.net/quantumviz/latest/webcomponentsjs/webcomponents.js"></script>
+    <link rel="import" href="https://cdn.cityzendata.net/quantumviz/latest/warp10-quantumviz/warp10-quantumviz.html">
 
-    <czd-quantumviz width="500" height="400">      
+    <warp10-quantumviz width="500" height="400">      
       'TOKEN'
       'com.cityzendata.tutorial.sensors.temperature'
       0 ->MAP
@@ -95,13 +95,13 @@ Available parameters are:
       { 'gts' $gts
       'params' $params
       'globalParams' $globalParams }
-    </czd-quantumviz>
+    </warp10-quantumviz>
 
 
 ## The example in action ##
 
 <div class="box">
-<czd-quantumviz width="500" height="400" tooltip="false" host="https://warp1.cityzendata.net">
+<warp10-quantumviz width="500" height="400" tooltip="false" host="https://warp1.cityzendata.net">
   [
     '60VgNqxhAaCdS6_uOLtZNMGWAbGpS5xmPL4gAbC_QbCjRbBiS5KhR5KmNMGpRaJQ.cV3Aa4kR.WZQqBiO54oNFWnOLtnQr88O.7kBlQisxjnVyLaxkgLZcm0wPiDifRj5k..KV.N_.cUXkV.........UOWzdCSM5BTj_65CiKkaddbyiPbEyOlUrrED8y99_7koZQWXGaOYQhf7nJWRBTBPNqs_JY7XZQW5d1GHOcmBY5jBPAO7mOYhyz_ynlyjCvTyUuI6DTRtnrZzvyUxE8zvyRIujnzOhYFvBShyiEjexBAex6xbnrLnvSDAYmOr69r5ZwKC9zjz60jabxMWjWEKq26Uvuj5Wi5i8sjKc2UncEwxfBPxUa4ESLq5zlzi60g68rhzSOh333PzPjFAwtU5WbqEJNhfbf5BnU7TysY5wxhARnBjeb4fcjxKskAigRUrxt0JsmwwkGpP6jvDp8JzTbSQej3dFAH6yqYTfROM7lHfFJ.gFQHEOrdrPurwkZiUwS_Uw2rQZIZ0gOo6paNOrdeQH6.nVzTNhyOuguugYg9OucrGEqisBdhlcp_3Ehc8.Cqy2utcrZxm5lpNlh9DRjC0CRVwTq.3vKfta1DqZhp1NseiKvVXfiwmhewOkRefX5C8SzgSDRZPPwy2DDOvt3CkBkh7SHCb8Z3q7sKCGdXSFxswjpDC7uCUxJQMWjnHVdga71HDEJTghn7AU9ZKQk7j7l2MALit8Sy3NZPVsWB3CrK.qLgd3mrfJY_9LWfmfUZSX3cPnGAEoAJWfsp3kET771dJIAqKyW5yUJigWMkBKCK3j7pMc.Dmr.cOpc4bhFCGF6YFM9RN1EC7CXDBcDsAEKGcdNgF.5q33VurKF5g9mGQ7kZ_ERkap5JfSJaOB4FViPSWipCt_NQA_me723TfIxcSmTNyNvgYeGoYgATGLEgYBC0iSNlKIeVo8SGbaFlJuLG_Cx0d59VB9VoUpoX1Cvx93DLB3S5G5NVH8X_d8FjggSA9h6lzO_rHVPLBDoA_xg5Q7kzRKGdZ_TTnETROIlMqSDotFAXM79mv29Knxo4mEkjmyGh.p8BWVQ7Mrg6Yt3mFe6w.QbcEKRgIPrTCIq09r9ycJo66RJ8o87MbXDZ4T0Ph7u9D9insQBaROHTe.kJZoyuX4Biw7MBCeoDa8034wlBb6h4RuNsmAf0CCCF0AHwt7tqDgP_VmPWBaSJ8VSmot9N_BlkpKmOrGwus.TMjCCE6JRPzkOKzFH0EmUIw9E2g7K83LcMBeUy72DFVsIWeDaAhe3HDss8YGI_efgc4SSdlRCK.qRvx_wG..94Z0gNLy4oI536Vd0VsocQU335VfVLtWmcOH69K56O_1SGI4.88cK5ATf6akgS7UL1v2GhttWi5kowcTJxZ5iEsqS10m7sM5JPZQVtN.t5kGWOGc.t3XaWZ5HjVv.D0s3L14pbVZFJGAFcXgATfVpD772AA.p7fgg_4PhH._IiVy3HmSZ1a2pYu.rtn8puPu1qllLGuHuGkOc4b3YMnynDzXUlbIVeOUBsReVenMOXtn5FK1brWHnhDqcMRABlEGsOoO586kTfZ25bOYRZCEWR8J5taZmjgCxrQc5E6A6RgX7tH9LR9PKAsLSxG8VevKy6cMCWj1biJNZll9riGdBnGDMB3n6l1O_sHCI0GiGCIZKVrXKD4J1gGyBGXIPnqlAZaJR7HXoWe77plFtNIzxHFeEy8sDZqcd87eJk0mKUkxgm9nRFfRxeIQNLM4fuYZDv9ISO_7JHjsQCJABTHkVPXqpXZWGdNq7JA0z01fTosI0LHcM.gAKHhA6caegKH9JlYsFGMD2xrp9Oir02z0v2RVP5T4V..4flP3F.'
     '60VgNqxhAaCdS6_uOLtZNMGWAbGpS5xmPL4gAbC_QbCjRbBiS5KhR5KmNMGpRaJQ.cV3Aa4kR.WZQqBiO54oNFWnOLtnQr88O.7kBWQisxjnVyLaxkgLnEMeseIyuE2N.Gg..4N.5DF86sg7.........6LNQsHaKGY5GoeBm27UgoagHJZwtnnrUL7Nmtegm1FH7l7fGHPpO0COGaFO3S_qGIOfXG583O5Hm1OAf3XBH3keBZaZraUaUEYxvDvvvMuUwtlnzvbiuvuTwxARnQwzTxzawhlmEAXngfMkmg8ztwurtU56lQrECxTuwTQili6hGvhlU5bxkhMt.uEyVrUe4HufgxRMzyf57IuOqzwSacnys_SQ1uSq6if5szEI.SosRaAu6GY_OlYpmTrKrNovir5NlWCbOvxriY4tgUS4EzZa5jAdzdZ2goVDY9SL8byuwSayhxpsQjQ9uezSy5XNUhrNq6TW5whsdwffELO_YghyaGvSosqMKmUbij302qK1lbRGxbVj_xqyChLj5wUVLzqPtSj_DkzBz_xucGijIeiLfjDZBX5K1PZznKPhjxyCemXYB2DTO.tD3MHrMOvxjib55W47fwRU5IQIDqsYQyCryrhrVl.AlWC6.NesWLMR7XX7tpt5F4V.RcvUVWjpNyvm23jDLhO36DKU_98kLT6LtHuVhW2R.nRNuB4ktJQA1XhL1Dv1kdQAe4VWOvV_WR.K_B7QjBqhuLYONM0gXAf.x1fMnvBZHkYD4BCJ4S84TFp7SuvOsDJXDJfpLFUD1bihU.AN_oj.FH5FmX9Ur76oihcjVcZ9JKMDVVgAZKvN9iKvAXDb4oAOtv1aWQC26Vk9aspMH5M2WrVmm.DmgPj.N_JmM_MXWLgajXe8jl3iI4JxImNHgl8wsyj.xJViY9SdX7Z7gMXBisZzLOzFO5MzP4P4tWjIux6BK7q3LCJva_KZpZcqfglp8Mxu5Qrqx6y3OHIjH4pcR4MlndyRmWffhz7RHGdWGsumEZ8K8Kl5KTtAnW.i1tsIO4Wdfm2n0UgoH2K0L1P21z8cUBh2eIAXER.z86csK.oZxcybdOHLK0DUTCmmbNCw6PlE37_881O898_TEp4q54lHOHH2HnePW67H7Qb8FxZzDF18HPd8KhgQZ2QP9bAFaDj5iO03H9D3PVmWBSUPLcRei3NSshrcSKENf6NHzZbW_tHsH_LF6D7osJA30sTsTKFo91Xf4nW_sV7daYZ7HjNVisFXtHW7HWl2Y5Gb726gGjLZaXQSPRl0sxYCExVmNVce_DHrJbALCoeR8ERq3_RmXNrZbGk4Ug7FZVKDVhnoS7PVN.XieSuWfWAniGgt2ZoQ48c5fAnL0XcxHIMde.gwnwGnhmPac.WiNWSKI_jIuoOCoIWR5vpi857rD_atJKj9JRKYl4C0aey439KMDG16e0U7KJa4ZdGUyH_VaOGgHFvlDOHhlc3wND9IFpm_So97PwE_t7pF4S9Lz4.Exdm8XkX8jlb11Nt2xIO2P4F0keX2czG7.gZxGyqUjBeGQx76WViffJWCPQnlBKBFzWOB5cRXvsSOA49CJCLcChnp2B3Ce2OY2WcAv6QLF9NZPAlKgNkFGcJ2_O6j0BLqxPXadY09HH.45GmJkHZI21tJN5ohEJdD6BMyl4iFes7RfoyfZUdup8R3FI4TTzr2CWvjtYoNhPgzSMIYdsgo_gyrPYn6hsIuRC7CXInFpNRyc2ZhevvbyJ5YHxW1nDYulnR9tAL0c0jT.CwBx52VY0x7tvceu8R7zkDOF5TnlWN..0PBLl3.'
@@ -126,17 +126,17 @@ Available parameters are:
   { 'gts' $gts
   'params' $params
   'globalParams' $globalParams }
-</czd-quantumviz>
+</warp10-quantumviz>
 </div>
 
 
 ## Another example using the `host` parameter ##
 
 
-    <script src="https://cdn.cityzendata.net/quantumviz/dependencies/webcomponentsjs/webcomponents.js"></script>
-    <link rel="import" href="https://cdn.cityzendata.net/quantumviz/czd-quantumviz.html">
+    <script src="https://cdn.cityzendata.net/quantumviz/latest/webcomponentsjs/webcomponents.js"></script>
+    <link rel="import" href="https://cdn.cityzendata.net/quantumviz/latest/warp10-quantumviz/warp10-quantumviz.html">
 
-    <czd-quantumviz width="500" height="400" host="https://warp1.cityzendata.net">
+    <warp10-quantumviz width="500" height="400" host="https://warp1.cityzendata.net">
     [
       NEWGTS
       100000000 NaN NaN NaN 110 ADDVALUE
@@ -169,14 +169,14 @@ Available parameters are:
       'params' $params
       'globalParams' $globalParams
     }
-    </czd-quantumviz>
+    </warp10-quantumviz>
 
 
 And the example in action:
 
 
 <div class="box">
-<czd-quantumviz width="500" height="400" host="https://warp1.cityzendata.net" tooltip="false">
+<warp10-quantumviz width="500" height="400" host="https://warp1.cityzendata.net" tooltip="false">
   [
     NEWGTS
     100000000 NaN NaN NaN 110 ADDVALUE
@@ -207,5 +207,5 @@ And the example in action:
   { 'gts' $gts
   'params' $params
   'globalParams' $globalParams }
-</czd-quantumviz>
+</warp10-quantumviz>
 </div>
