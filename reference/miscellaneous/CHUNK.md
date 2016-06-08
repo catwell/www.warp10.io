@@ -8,5 +8,5 @@ category: miscellaneous
 Chunks a GTS into partial GTS.
 
 ```
-gts lastchunkend chunkwidth chunkcount chunklabel keepempty CHUNK [ gts_chunks ]
+gts lastchunkend chunkwidth chunkoverlap chunkcount chunklabel keepempty CHUNK [ gts_chunks ]
 ```
