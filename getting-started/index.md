@@ -38,7 +38,7 @@ Start your image binding the external ports 8080 and 8081 in all interfaces to y
 Docker containers are easy to delete. If you delete your container instance, you'll lose the Warp10 store and configuration. So by default you should add a volume mapping to the containers `/data` folder.
 
 ~~~
-  docker run --volume=/var/warp10:/data -p 8080:8080 -p 8081:8081 -d -i warp10/warp10:1.0.6
+  docker run --volume=/var/warp10:/data -p 8080:8080 -p 8081:8081 -d -i warp10io/warp10:1.0.7
 ~~~
 
 In this example you bind the container internal data folder, `/data` to your local folder `/var/warp10`.
