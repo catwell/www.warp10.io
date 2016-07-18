@@ -61,7 +61,7 @@ This page lists all the Warp10 tools, and their repositories on Github.
 
 ### WarpScript UDFs
 
-<a href="https://github.com/aurrelhebert/warp10-udf-riakts" title="The Warpscript UDF function allow the possibility to build custom user function. This UDF allows the user the possibility to load GTS in WarpScript from a Riak-ts backend.">Riak-ts</a>
+<a href="https://github.com/cityzendata/warp10-riakts" title="The Warpscript UDF function allow the possibility to build custom user function. This UDF allows the user the possibility to load GTS in WarpScript from a Riak-ts backend.">Riak-ts</a>
 
 <a href="https://github.com/aurrelhebert/warp10-udf-influxdb" title="The Warpscript UDF function allow the possibility to build custom user function. This UDF allows the user the possibility to load GTS in WarpScript from an InfluxDB database.">InfluxDB</a>
 
