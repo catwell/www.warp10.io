@@ -73,7 +73,7 @@ This page lists all the Warp10 tools, and their repositories on Github.
 
 <a href="https://github.com/cityzendata/warp10-zeppelin" title="Zeppelin is a web-based notebook that enables interactive data analytics. This interpreter allows Zeppelin to execute some WarpScript by establishing a connection to a Warp10 backend. This interpreter allows also to share data with all the other components of the Zeppelin notebook.">Zeppelin - WarpScript</a>
 
-<a href="https://github.com/aurrelhebert/warp10-zeppelin-quantumviz" title="Zeppelin is a web-based notebook that enables interactive data analytics. This interpreter allows Zeppelin to visualize data by establishing a connection to a QuantumViz server.">Zeppelin - QuantumViz</a>
+<a href="https://github.com/cityzendata/warp10-zeppelin-quantumviz" title="Zeppelin is a web-based notebook that enables interactive data analytics. This interpreter allows Zeppelin to visualize data by establishing a connection to a QuantumViz server.">Zeppelin - QuantumViz</a>
 
 <a href="https://github.com/aurrelhebert/warp10-jupyter-WarpScriptMagic" title="The Jupyter Notebook is a web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text. This magic command allows Jupyter to execute some WarpScript code by establishing a connection to a Warp10 backend. Sharing data is NOT allowed with this magic command.">Jupyter - WarpScriptMagic</a>
 
