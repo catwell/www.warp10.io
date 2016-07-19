@@ -63,17 +63,17 @@ This page lists all the Warp10 tools, and their repositories on Github.
 
 <a href="https://github.com/cityzendata/warp10-riakts" title="The Warpscript UDF function allow the possibility to build custom user function. This UDF allows the user the possibility to load GTS in WarpScript from a Riak-ts backend.">Riak-ts</a>
 
-<a href="https://github.com/aurrelhebert/warp10-udf-influxdb" title="The Warpscript UDF function allow the possibility to build custom user function. This UDF allows the user the possibility to load GTS in WarpScript from an InfluxDB database.">InfluxDB</a>
+<a href="https://github.com/cityzendata/warp10-influxdb" title="The Warpscript UDF function allow the possibility to build custom user function. This UDF allows the user the possibility to load GTS in WarpScript from an InfluxDB database.">InfluxDB</a>
 
 <a name="Interpreters"></a>
 
 ### Interpreters
 
-<a href="https://github.com/cityzendata/sublime-warpscript" title="In progress">Sublime text</a>
+<a href="https://github.com/cityzendata/sublime-warpscript" title="This packages enables syntax coloration for WarpScript files (.mc2 extension) and snippets for WarpScript's frameworks (MAP, REDUCE, FILTER, BUCKETIZE, APPLY) and conditional instructions (IFT, IFTE)">Sublime text</a>
 
 <a href="https://github.com/cityzendata/warp10-zeppelin" title="Zeppelin is a web-based notebook that enables interactive data analytics. This interpreter allows Zeppelin to execute some WarpScript by establishing a connection to a Warp10 backend. This interpreter allows also to share data with all the other components of the Zeppelin notebook.">Zeppelin - WarpScript</a>
 
-<a href="https://github.com/aurrelhebert/warp10-zeppelin-quantumviz" title="Zeppelin is a web-based notebook that enables interactive data analytics. This interpreter allows Zeppelin to visualize data by establishing a connection to a QuantumViz server.">Zeppelin - QuantumViz</a>
+<a href="https://github.com/cityzendata/warp10-zeppelin-quantumviz" title="Zeppelin is a web-based notebook that enables interactive data analytics. This interpreter allows Zeppelin to visualize data by establishing a connection to a QuantumViz server.">Zeppelin - QuantumViz</a>
 
 <a href="https://github.com/aurrelhebert/warp10-jupyter-WarpScriptMagic" title="The Jupyter Notebook is a web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text. This magic command allows Jupyter to execute some WarpScript code by establishing a connection to a Warp10 backend. Sharing data is NOT allowed with this magic command.">Jupyter - WarpScriptMagic</a>
 
