@@ -69,7 +69,7 @@ This page lists all the Warp10 tools, and their repositories on Github.
 
 ### Interpreters
 
-<a href="https://github.com/cityzendata/sublime-warpscript" title="In progress">Sublime text</a>
+<a href="https://github.com/cityzendata/sublime-warpscript" title="This packages enables syntax coloration for WarpScript files (.mc2 extension) and snippets for WarpScript's frameworks (MAP, REDUCE, FILTER, BUCKETIZE, APPLY) and conditional instructions (IFT, IFTE)">Sublime text</a>
 
 <a href="https://github.com/cityzendata/warp10-zeppelin" title="Zeppelin is a web-based notebook that enables interactive data analytics. This interpreter allows Zeppelin to execute some WarpScript by establishing a connection to a Warp10 backend. This interpreter allows also to share data with all the other components of the Zeppelin notebook.">Zeppelin - WarpScript</a>
 
