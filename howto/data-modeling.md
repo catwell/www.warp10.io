@@ -52,8 +52,8 @@ api.requests.total{function=item,method=PUT}
 api.requests.total{function=item,method=DELETE}
 
 api.request.duration.milliseconds{function=list,method=GET}
-api.request.duration.milliseconds{{function=item,method=GET}
-api.request.duration.milliseconds{{function=item,method=POST}
-api.request.duration.milliseconds{{function=item,method=PUT}
-api.request.duration.milliseconds{{function=item,method=DELETE}
+api.request.duration.milliseconds{function=item,method=GET}
+api.request.duration.milliseconds{function=item,method=POST}
+api.request.duration.milliseconds{function=item,method=PUT}
+api.request.duration.milliseconds{function=item,method=DELETE}
 ```
