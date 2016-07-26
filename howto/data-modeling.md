@@ -16,7 +16,9 @@ The *classname* of a GTS defines the metric, the measured feature (e.g. temperat
 
 In this doc we will use a compact notation to describe a GTS classname and labels, `<classname>{<label key>=<label value>, ...}`.
 
-### Example
+### Examples
+
+#### Weather sensors
 
 Let's say we want have some connected weather sensors and we want to store their data into Warp 10. For this example, each weather sensor produces two different metrics: temperature and atmospheric pressure, and we know its owner and an identifiant (like a serial number).
 
@@ -30,3 +32,28 @@ pressure{sensorId=XXXX,owner=YYYY}
 ```
 
 where `XXXX` is the sensor id and `YYYY` the owner for that sensor.
+
+
+#### API monitoring
+
+Let's say now you're monitoring a REST API and you want to know the number of requests and the response time for each one of your API function and HTTP methods.
+
+There are two measured features,  number of requests and response time, so we define two classnames: `api.requests.total` and `api.request.duration.milliseconds`.
+We want to measure these features for the different functions of our API, for each function we need to differentiate the measures according to the HTTP method used in the requests.
+We define then two labels: `function` and `http_method`.
+
+Let's say that our API has two functions: `/list` (with accepts only GET requests) and `/item` (accepting the classic REST verbs). We would get the following GTS:
+
+```
+api.requests.total{function=list,method=GET}
+api.requests.total{function=item,method=GET}
+api.requests.total{function=item,method=POST}
+api.requests.total{function=item,method=PUT}
+api.requests.total{function=item,method=DELETE}
+
+api.request.duration.milliseconds{function=list,method=GET}
+api.request.duration.milliseconds{{function=item,method=GET}
+api.request.duration.milliseconds{{function=item,method=POST}
+api.request.duration.milliseconds{{function=item,method=PUT}
+api.request.duration.milliseconds{{function=item,method=DELETE}
+```
