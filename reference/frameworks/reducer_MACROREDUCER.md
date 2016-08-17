@@ -11,7 +11,7 @@ category: "reference"
 
 
 
-`MACROREDUCEPER` converts a macro into a *reducer* which can be used with the [`REDUCE`](framework-reduce) framework
+`MACROREDUCEPER` converts a macro into a *reducer* which can be used with the [`REDUCE`](../framework-reduce) framework
 
  For each tick in the GTS to reduce, the macro will be called with a list containing the following elements on the stack:
 
