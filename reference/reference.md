@@ -63,6 +63,10 @@ This page lists all the functions available in WarpScript except those related t
 
 [bucketizer.count]({{ site.baseurl }}/reference/frameworks/bucketizer_count)
 
+##### Custom bucketizer
+
+[MACROBUCKETIZER]({{ site.baseurl }}/reference/frameworks/bucketizer_MACROBUCKETIZER)
+
 <a name="framework-filters"></a>
 
 #### Filters

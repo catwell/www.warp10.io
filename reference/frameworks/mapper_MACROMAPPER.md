@@ -10,7 +10,7 @@ category: "reference"
 ---
  
 
-`MACROMAPPER` converts a macro into a *mapper* which can be used with the [`MAP`](framework-map) framework
+`MACROMAPPER` converts a macro into a *mapper* which can be used with the [`MAP`](../framework-map) framework
 
  For each tick in the mapped GTS, the macro will be called with a list containing the following elements on the stack:
 
