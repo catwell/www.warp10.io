@@ -5,11 +5,12 @@ isPage: "true"
 link: "/warpscript/framework_map"
 desc: "Compute and between the values"
 categoryTree: ["reference","frameworks"]
-oldPath: ["20-frameworks","201-framework-map","230-mapper_and.html.md"]
 category: "reference"
 ---
 
-This *mapper* function applies the logical operator  **AND** on all the values found in each sliding window. The associated location and elevation are cleared.
+This *mapper* function applies the logical operator **AND** on all the values found in each sliding window. 
+
+The associated location and elevation are those of the most recent tick of the interval.
 
 The `mapper.and` function can be applied to values of any type, when not applied to **BOOLEAN** types, the current value is considered to be **false**.
 

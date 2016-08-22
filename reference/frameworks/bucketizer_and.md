@@ -5,13 +5,12 @@ isPage: "true"
 link: "/warpscript/framework_bucketize"
 desc: "Compute and between the values of the interval"
 categoryTree: ["reference","frameworks"]
-oldPath: ["20-frameworks","101-framework-bucketize","103-bucketizer_and.html.md"]
 category: "reference"
 ---
 
-The `bucketizer.and` function applies the logical operator  **AND** on all the values found in the interval to bucketize. 
+The `bucketizer.and` function applies the logical operator **AND** on all the values found in the interval to bucketize. 
 
-The associated location and elevation are cleared.
+The associated location and elevation are those of the most recent tick of the interval.
 
 The `bucketizer.and` function can be applied to values of any type, when not applied to **BOOLEAN** types, the current value is considered to be **false**.
 
