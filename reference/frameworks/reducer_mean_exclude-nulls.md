@@ -10,7 +10,7 @@ category: "reference"
 ---
 
 
-The `reducer.mean.exclude-nulls` function outputs for each tick the mean of the values of Geo Time Series<sup>TM</sup> which are in the same equivalence class, , excluding nulls from the computation.
+The `reducer.mean.exclude-nulls` function outputs for each tick the mean of the values of Geo Time Series<sup>TM</sup> which are in the same equivalence class, excluding nulls from the computation.
 
 It operates on *LONG* and *DOUBLE*.
 

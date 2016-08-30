@@ -14,7 +14,7 @@ The `reducer.count` function computes for each tick the number of measures of Ge
 
 It operates on any type.
 
-The location and elevation returned are the last one encountered, which may vary depending on the order of the parameters.
+The location and elevation returned are the first one encountered, which may vary depending on the order of the parameters.
 
 The *include null* version, `reducer.count.include-nulls`, will include `null` values when computing the count.
 The *exclude null* version, `reducer.count.exclude-nulls`, will exclude `null` values when computing the count.

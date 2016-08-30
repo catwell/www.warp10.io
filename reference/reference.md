@@ -63,6 +63,10 @@ This page lists all the functions available in WarpScript except those related t
 
 [bucketizer.count]({{ site.baseurl }}/reference/frameworks/bucketizer_count)
 
+[bucketizer.and]({{ site.baseurl }}/reference/frameworks/bucketizer_and)
+
+[bucketizer.or]({{ site.baseurl }}/reference/frameworks/bucketizer_or)
+
 ##### Custom bucketizer
 
 [MACROBUCKETIZER]({{ site.baseurl }}/reference/frameworks/bucketizer_MACROBUCKETIZER)
@@ -190,6 +194,10 @@ This page lists all the functions available in WarpScript except those related t
 
 [mapper.mean.circular.exclude-nulls]({{ site.baseurl }}/reference/frameworks/mapper_mean_circular)
 
+[mapper.and]({{ site.baseurl }}/reference/frameworks/mapper_and)
+
+[mapper.or]({{ site.baseurl }}/reference/frameworks/mapper_or)
+
 [mapper.var]({{ site.baseurl }}/reference/frameworks/mapper_var)
 
 [mapper.sd]({{ site.baseurl }}/reference/frameworks/mapper_sd)
@@ -262,6 +270,14 @@ This page lists all the functions available in WarpScript except those related t
 [reducer.min]({{ site.baseurl }}/reference/frameworks/reducer_min)
 
 [reducer.min.forbid-nulls]({{ site.baseurl }}/reference/frameworks/reducer_min_forbid-nulls)
+
+[reducer.and]({{ site.baseurl }}/reference/frameworks/reducer_and)
+
+[reducer.and.exclude-nulls]({{ site.baseurl }}/reference/frameworks/reducer_and_exclude-nulls)
+
+[reducer.or]({{ site.baseurl }}/reference/frameworks/reducer_or)
+
+[reducer.or.exclude-nulls]({{ site.baseurl }}/reference/frameworks/reducer_or_exclude-nulls)
 
 [reducer.sd]({{ site.baseurl }}/reference/frameworks/reducer_sd)
 
