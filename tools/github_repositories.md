@@ -77,6 +77,12 @@ This page lists all the Warp10 tools, and their repositories on Github.
 
 <a href="https://github.com/aurrelhebert/warp10-jupyter-WarpScriptMagic" title="The Jupyter Notebook is a web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text. This magic command allows Jupyter to execute some WarpScript code by establishing a connection to a Warp10 backend. Sharing data is NOT allowed with this magic command.">Jupyter - WarpScriptMagic</a>
 
+<a name="IoT"></a>
+
+### IoT
+
+<a href="https://github.com/cityzendata/warp10-nodered" title="Node-RED is a tool for wiring together hardware devices, APIs and online services in new and interesting ways.">Node-red</a>
+
 <a name="Websites"></a>
 
 ### Websites
