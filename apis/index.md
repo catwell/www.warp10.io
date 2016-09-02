@@ -20,4 +20,4 @@ In each endpoint there are several exposed APIs:
 
 * [Delete](delete) (`/api/vX/delete`): for erasing data from the Warp 10 platform
 
-* Meta (`/api/vX/meta`): for setting Geo Time Series attributes
+* [Meta](meta) (`/api/vX/meta`): for setting Geo Time Series attributes
