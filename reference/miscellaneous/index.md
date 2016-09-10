@@ -109,10 +109,6 @@ The following functions haven't been fully documented yet, but we can already gi
 
 [PARTITION]({{ site.baseurl }}/reference/miscellaneous/PARTITION)
 
-[PATTERNDETECTION]({{ site.baseurl }}/reference/miscellaneous/PATTERNDETECTION)
-
-[PATTERNS]({{ site.baseurl }}/reference/miscellaneous/PATTERNS)
-
 [PFILTER]({{ site.baseurl }}/reference/miscellaneous/PFILTER)
 
 [PYTHON]({{ site.baseurl }}/reference/miscellaneous/PYTHON)

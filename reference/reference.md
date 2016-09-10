@@ -847,6 +847,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [DEDUP]({{ site.baseurl }}/reference/functions/function_DEDUP)
 
+[DISCORDS]({{ site.baseurl }}/reference/functions/function_DISCORDS)
+
 [ELEVATIONS]({{ site.baseurl }}/reference/functions/function_ELEVATIONS)
 
 [FETCH]({{ site.baseurl }}/reference/functions/function_FETCH)
@@ -898,6 +900,10 @@ This page lists all the functions available in WarpScript except those related t
 [NSUMSUMSQ]({{ site.baseurl }}/reference/functions/function_NSUMSUMSQ)
 
 [PARSESELECTOR]({{ site.baseurl }}/reference/functions/function_PARSESELECTOR)
+
+[PATTERNDETECTION]({{ site.baseurl }}/reference/functions/function_PATTERNDETECTION)
+
+[PATTERNS]({{ site.baseurl }}/reference/functions/function_PATTERNS)
 
 [QUANTIZE]({{ site.baseurl }}/reference/functions/function_QUANTIZE)
 
