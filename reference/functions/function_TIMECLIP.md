@@ -18,9 +18,9 @@ According to the type of parameters, there are two syntax for defining the time 
 
 - A start and end timestamps in [ISO8601](http://en.wikipedia.org/wiki/ISO_8601) format, *i.e.* **YYYY-MM-DDTHH:MM:SS.SSSSSSZ**. 
 
-- An end timestamp in microseconds since the Unix epoch and a duration in microsecondes, if you want to define a time range with a spefific duration before a timespamp (for example to keep only the values from the last minute).
+- An end timestamp in microseconds since the Unix epoch and a duration in microsecondes, if you want to define a time range with a specific duration before a timespamp (for example to keep only the values from the last minute).
 
-- When using TIMECLIP the end timestamps is included in the result, and when using a duration the first timestamp is NOT included.
+- When using TIMECLIP the end timestamps is included in the result, and when using a duration the first timestamp computed is NOT included.
 
 ## Example ##
 
