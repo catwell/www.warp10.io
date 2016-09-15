@@ -20,6 +20,7 @@ According to the type of parameters, there are two syntax for defining the time 
 
 - An end timestamp in microseconds since the Unix epoch and a duration in microsecondes, if you want to define a time range with a spefific duration before a timespamp (for example to keep only the values from the last minute).
 
+- When using TIMECLIP the end timestamps is included in the result, and when using a duration the first timestamp is NOT included.
 
 ## Example ##
 
