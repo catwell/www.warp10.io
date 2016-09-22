@@ -46,9 +46,6 @@ This page lists all the Warp10 tools, and their repositories on Github.
 
 <a href="https://github.com/cityzendata/fluentd-plugin-warp10" title="Fluentd is an open source data collector for unified logging layer. This plugin allows Fluentd to push data on Warp10.">Fluentd</a>
 
-</div>
-<div class="col-sm-4">
-
 <a name="Outputs"></a>
 
 ### Output plugins
@@ -58,6 +55,9 @@ This page lists all the Warp10 tools, and their repositories on Github.
 <a href="https://github.com/cityzendata/grafana-warp10" title="Grafana is an open source, feature rich metrics dashboard and graph editor for time series data. This plugin allows the use of Warp 10 as datasource for Grafana.">Grafana plugin</a>
 
 <a name="UDFs"></a>
+
+</div>
+<div class="col-sm-4">
 
 ### WarpScript UDFs
 
@@ -90,6 +90,14 @@ This page lists all the Warp10 tools, and their repositories on Github.
 <a href="https://github.com/cityzendata/www.warp10.io" title="The static, markdown based, Jekyll powered Warp10's site">Warp10.io</a>
 
 <a href="https://github.com/cityzendata/cityzendata.github.io" title="The static, markdown based, Jekyll powered Cityzen Data's blog">Cityzen blog</a>
+
+<a name="External"></a>
+
+### External contributions
+
+<a href="https://github.com/CleverCloud/warp10-scala-client" title="This is a scala client for Warp 10, this client is ATM only able to send data to Warp 10">Scala - client</a>
+
+<a href="https://github.com/CleverCloud/warp10.rs" title="This is a Rust client for Warp 10, this client is ATM only able to write data to Warp 10">Rust - client</a>
 
 </div>
 
