@@ -13,7 +13,7 @@ The *op.mask* operation applies to two lists of Geo Time Series<sup>TM</sup>. Th
 
 If the value of the GTS contained in the first list at the current tick is *true*, then the values at the current tick of the GTS inside the second list will be kept. If the value of the GTS contained in the first list is *false*, no value will be produced for the current tick.
 
-Make sure your equivalence classes contain only a single GTS.
+Make sure your equivalence classes contains only a single GTS.
 
 ## Example ##
 
