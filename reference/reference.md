@@ -317,6 +317,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [op.mask]({{ site.baseurl }}/reference/frameworks/op_mask)
 
+[op.negmask]({{ site.baseurl }}/reference/frameworks/op_negmask)
+
 [op.mul]({{ site.baseurl }}/reference/frameworks/op_mul)
 
 [op.ne]({{ site.baseurl }}/reference/frameworks/op_ne)
