@@ -927,6 +927,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [SORT]({{ site.baseurl }}/reference/functions/function_SORT)
 
+[SORTBY]({{ site.baseurl }}/reference/functions/function_SORTBY)
+
 [STANDARDIZE]({{ site.baseurl }}/reference/functions/function_STANDARDIZE)
 
 [TICKINDEX]({{ site.baseurl }}/reference/functions/function_TICKINDEX)
