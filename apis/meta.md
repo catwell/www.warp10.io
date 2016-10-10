@@ -11,7 +11,7 @@ The Meta API allows you to set attributes on Geo Time Series. Attributes are key
 
 The HTTP endpoint used by the Meta API is `https://API_ENDPOINT/api/vX/meta`, where `API_ENDPOINT` is a
 [valid  endpoint]({{ site.baseurl}}/apis) for the Warp 10 instance and `vX`is the version of the API you want to use (currently `v0`).
-The Fetch API **must** be accessed using the *GET* method.
+The Meta API **must** be accessed using the *POST* method.
 
 #### Request Header ####
 
