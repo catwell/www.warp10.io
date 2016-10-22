@@ -54,6 +54,8 @@ This page lists all the Warp10 tools, and their repositories on Github.
 
 <a href="https://github.com/cityzendata/grafana-warp10" title="Grafana is an open source, feature rich metrics dashboard and graph editor for time series data. This plugin allows the use of Warp 10 as datasource for Grafana.">Grafana plugin</a>
 
+<a href="https://github.com/cityzendata/warp10-timelion" title="Kibana - Timelion is an open source tool that brings together totally independent data sources into a single interface, driven by a simple, one-line expression language combining data retrieval, time series combination and transformation, plus visualization. This plugin allows the use of Warp 10 as datasource for Timelion.">Kibana - Timelion plugin</a>
+
 <a name="UDFs"></a>
 
 </div>
