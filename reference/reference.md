@@ -957,6 +957,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [WRAP]({{ site.baseurl }}/reference/functions/function_WRAP)
 
+[WRAPRAW]({{ site.baseurl }}/reference/functions/function_WRAPRAW)
+
 [ZSCORE]({{ site.baseurl }}/reference/functions/function_ZSCORE)
 
 #### Outlier detection
