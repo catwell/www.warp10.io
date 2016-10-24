@@ -624,9 +624,11 @@ This page lists all the functions available in WarpScript except those related t
 
 [{}]({{ site.baseurl }}/reference/functions/function_EMPTYMAP)
 
-[->LIST]({{ site.baseurl }}/reference/functions/function_TOLIST)
+[-&gt;LIST]({{ site.baseurl }}/reference/functions/function_TOLIST)
 
-[->MAP]({{ site.baseurl }}/reference/functions/function_TOMAP)
+[-&gt;MAP]({{ site.baseurl }}/reference/functions/function_TOMAP)
+
+[-&gt;SET]({{ site.baseurl }}/reference/functions/function_TOSET)
 
 [APPEND]({{ site.baseurl }}/reference/functions/function_APPEND)
 
@@ -646,13 +648,13 @@ This page lists all the functions available in WarpScript except those related t
 
 [LFLATMAP]({{ site.baseurl }}/reference/functions/function_LFLATMAP)
 
-[LIST->]({{ site.baseurl }}/reference/functions/function_LISTTO)
+[LIST-&gt;]({{ site.baseurl }}/reference/functions/function_LISTTO)
 
 [LMAP]({{ site.baseurl }}/reference/functions/function_LMAP)
 
 [LSORT]({{ site.baseurl }}/reference/functions/function_LSORT)
 
-[MAP->]({{ site.baseurl }}/reference/functions/function_MAPTO)
+[MAP-&gt;]({{ site.baseurl }}/reference/functions/function_MAPTO)
 
 [MSORT]({{ site.baseurl }}/reference/functions/function_MSORT)
 
@@ -663,6 +665,8 @@ This page lists all the functions available in WarpScript except those related t
 [REVERSE]({{ site.baseurl }}/reference/functions/function_REVERSE)
 
 [SET]({{ site.baseurl }}/reference/functions/function_SET)
+
+[SET-&gt;]({{ site.baseurl }}/reference/functions/function_SETTO)
 
 [SIZE]({{ site.baseurl }}/reference/functions/function_SIZE)
 
