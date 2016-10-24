@@ -102,7 +102,7 @@ Builds a map.
 
 Encodes a string in order preserving base64.
 
-``` 'decoded' OPBB64-> 'encoded' ```
+``` 'decoded' ->OPBB64 'encoded' ```
 
 ## ->Q ##
 
@@ -169,6 +169,18 @@ Computes the arccos of the value on top of the stack.
 Adds a value to a GTS.
 
 ``` gts [ tick latitude longitude elevation value ] ADDVALUE gts ```
+
+## AESUNWRAP ##
+
+Unwrap a wrapped byte array with AES algorithm and a given key.
+
+``` 'wrapped' 'key' AESUNWRAP 'unwrapped' ```
+
+## AESWRAP ##
+
+Wrap a byte array with AES algorithm and a given key.
+
+```  'unwrapped' 'key' AESWRAP 'wrapped' ```
 
 ## AND ##
 
