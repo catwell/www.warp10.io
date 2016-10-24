@@ -676,6 +676,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [SUBMAP]({{ site.baseurl }}/reference/functions/function_SUBMAP)
 
+[UNION]({{ site.baseurl }}/reference/functions/function_UNION)
+
 [UNIQUE]({{ site.baseurl }}/reference/functions/function_UNIQUE)
 
 [VALUELIST]({{ site.baseurl }}/reference/functions/function_VALUELIST)

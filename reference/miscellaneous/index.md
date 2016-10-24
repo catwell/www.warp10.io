@@ -149,8 +149,6 @@ The following functions haven't been fully documented yet, but we can already gi
 
 [ULP]({{ site.baseurl }}/reference/miscellaneous/ULP)
 
-[UNION]({{ site.baseurl }}/reference/miscellaneous/UNION)
-
 [VALUEDEDUP]({{ site.baseurl }}/reference/miscellaneous/VALUEDEDUP)
 
 [VALUEHISTOGRAM]({{ site.baseurl }}/reference/miscellaneous/VALUEHISTOGRAM)
