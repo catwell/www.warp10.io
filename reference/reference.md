@@ -611,6 +611,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [GZIP]({{ site.baseurl }}/reference/functions/function_GZIP)
 
+[RANGE]({{ site.baseurl }}/reference/functions/function_RANGE)
+
 [UNGZIP]({{ site.baseurl }}/reference/functions/function_UNGZIP)
 
 <a name="functions-lists-maps"></a>

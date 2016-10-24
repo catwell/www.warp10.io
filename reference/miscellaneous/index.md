@@ -127,8 +127,6 @@ The following functions haven't been fully documented yet, but we can already gi
 
 [R-&gt;]({{ site.baseurl }}/reference/miscellaneous/RTO)
 
-[RANGE]({{ site.baseurl }}/reference/miscellaneous/RANGE)
-
 [RESET]({{ site.baseurl }}/reference/miscellaneous/RESET)
 
 [ROTATIONQ]({{ site.baseurl }}/reference/miscellaneous/ROTATIONQ)
