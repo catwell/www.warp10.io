@@ -31,8 +31,6 @@ The following functions haven't been fully documented yet, but we can already gi
 
 [CUDF]({{ site.baseurl }}/reference/miscellaneous/CUDF)
 
-[DIFFERENCE]({{ site.baseurl }}/reference/miscellaneous/DIFFERENCE)
-
 [DISCORDS]({{ site.baseurl }}/reference/miscellaneous/DISCORDS)
 
 [DOUBLEEXPONENTIALSMOOTHING]({{ site.baseurl }}/reference/miscellaneous/DOUBLEEXPONENTIALSMOOTHING)

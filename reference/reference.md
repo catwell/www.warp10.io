@@ -640,6 +640,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [CONTAINSVALUE]({{ site.baseurl }}/reference/functions/function_CONTAINSVALUE)
 
+[DIFFERENCE]({{ site.baseurl }}/reference/functions/function_DIFFERENCE)
+
 [FLATTEN]({{ site.baseurl }}/reference/functions/function_FLATTEN)
 
 [GET]({{ site.baseurl }}/reference/functions/function_GET)
