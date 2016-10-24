@@ -13,8 +13,6 @@ The following functions haven't been fully documented yet, but we can already gi
 
 [-&gt;Q]({{ site.baseurl }}/reference/miscellaneous/TOQ)
 
-[-&gt;SET]({{ site.baseurl }}/reference/miscellaneous/TOSET)
-
 [ATTRIBUTES]({{ site.baseurl }}/reference/miscellaneous/ATTRIBUTES)
 
 [CHUNK]({{ site.baseurl }}/reference/miscellaneous/CHUNK)
