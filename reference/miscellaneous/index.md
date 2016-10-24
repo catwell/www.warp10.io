@@ -129,8 +129,6 @@ The following functions haven't been fully documented yet, but we can already gi
 
 [RUBY]({{ site.baseurl }}/reference/miscellaneous/RUBY)
 
-[SET-&gt;]({{ site.baseurl }}/reference/miscellaneous/SETTO)
-
 [SETATTRIBUTES]({{ site.baseurl }}/reference/miscellaneous/SETATTRIBUTES)
 
 [SETVALUE]({{ site.baseurl }}/reference/miscellaneous/SETVALUE)
