@@ -25,10 +25,10 @@ Use this [file]({{ site.baseurl }}/assets/data/build.gradle) as build.gradle.
 
 Inside the build.gradle file notice that it doesn't include in the JAR the WarpScript libraries, but indicated that those library are needed at execution. This is done when declaring in the build.gradle file the following instruction: 
 ```
-provided 'io.warp10:warp10:1.0.1-165-g9c49c1f'
+provided 'io.warp10:warpscript:1.0.17'
 ```
 
-This operation is important because it means the UDF doesn't need to be recompiled for each new Warp 10 version as **it use the current version** deployed on the Warp 10 cluster.
+This operation is important because it means the UDF doesn't need to be recompiled for each new Warp 10 version as **it will dinamically use the current version** deployed on the Warp 10 cluster.
 
 
 ## The Apply function
