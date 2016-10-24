@@ -545,6 +545,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [BINTOHEX]({{ site.baseurl }}/reference/functions/function_BINTOHEX)
 
+[BYTES-&gt;]({{ site.baseurl }}/reference/functions/function_BYTESTO)
+
 [FROMBIN]({{ site.baseurl }}/reference/functions/function_FROMBIN)
 
 [FROMBITS]({{ site.baseurl }}/reference/functions/function_FROMBITS)
@@ -565,6 +567,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [MATCHER]({{ site.baseurl }}/reference/functions/function_MATCHER)
 
+[OPB64-&gt;]({{ site.baseurl }}/reference/functions/function_OPB64TO)
+
 [SPLIT]({{ site.baseurl }}/reference/functions/function_SPLIT)
 
 [SUBSTRING]({{ site.baseurl }}/reference/functions/function_SUBSTRING)
@@ -574,6 +578,10 @@ This page lists all the functions available in WarpScript except those related t
 [-&gt;B64URL]({{ site.baseurl }}/reference/functions/function_TOB64URL)
 
 [-&gt;B64]({{ site.baseurl }}/reference/functions/function_TOB64)
+
+[-&gt;BYTES]({{ site.baseurl }}/reference/functions/function_TOBYTES)
+
+[-&gt;OPB64]({{ site.baseurl }}/reference/functions/function_TOOPB64)
 
 [TOBIN]({{ site.baseurl }}/reference/functions/function_TOBIN)
 
@@ -593,6 +601,17 @@ This page lists all the functions available in WarpScript except those related t
 
 [UUID]({{ site.baseurl }}/reference/functions/function_UUID)
 
+#### Cryptographic functions
+
+[AESUNWRAP]({{ site.baseurl }}/reference/functions/function_AESUNWRAP)
+
+[AESWRAP]({{ site.baseurl }}/reference/functions/function_AESWRAP)
+
+#### Util functions
+
+[GZIP]({{ site.baseurl }}/reference/functions/function_GZIP)
+
+[UNGZIP]({{ site.baseurl }}/reference/functions/function_UNGZIP)
 
 <a name="functions-lists-maps"></a>
 
