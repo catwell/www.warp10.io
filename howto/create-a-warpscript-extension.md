@@ -75,18 +75,6 @@ public Object apply(WarpScriptStack stack) throws WarpScriptException {
 }
 ```
 
-The class WarpScriptStackFunction needs two other function, in this case they will stays empty.
-
-```
-public int argDepth() {
-  return 0;
-}
-
-public boolean isProtected() {
-    return false;
-}
-```
-
 ## The extension class -- TutorialExtension
 
 In the class TutorialExtension, only the method getFunctions needs to be overwritten. In this methos the user just have to declare the set of function to add when using this defined extension. The function have to be added inside a Map, that contains the function name, and the function instantiated.
@@ -130,5 +118,8 @@ To execute it just run the following WarpScript on your Warp 10 backend.
 
 Congrats you managed to create your first WarpScript extension for a Warp 10 cluster !
 
+## About extension
+
+Inside an extension, you can define as many new functions as you want, the the will be added to your WarpScript library on your cluster. Inside an extension, it is also possible to redefine some of the existing function.
 
 
