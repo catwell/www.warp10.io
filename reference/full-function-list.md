@@ -758,6 +758,12 @@ Detect a single anomalous tick in GTS instances by doing a Grubbs test (use modi
 
 ``` [ gts ] useMedian (significance) GRUBBSTEST [ [ anomalous_tick ] ] ```
 
+## GZIP ##
+
+Compresses a byte array or String with Gzip algorithm.
+
+``` 'uncompressed' GZIP 'compressed' ``` 
+
 ## HASH ##
 
 Compute a 64 bit fingerprint of the string representation of the top of the stack.
@@ -1923,6 +1929,12 @@ Returns the size of an Units in the Last Place of the top of the stack.
 Make a GTS unbucketized.
 
 ``` bucketized_gts UNBUCKETIZE gts ```
+
+## UNGZIP ##
+
+Decompresses a byte array with Gzip algorithm.
+
+``` 'compressed' UNGZIP 'uncompressed' ``` 
 
 ## UNION ##
 
