@@ -98,6 +98,12 @@ Builds a map.
 
 ``` key1 value1 ... keyn valuen 2*n ->MAP { key1 value1 ... keyn valuen } ```
 
+## ->OPB64 ##
+
+Encodes a string in order preserving base64.
+
+``` 'decoded' OPBB64-> 'encoded' ```
+
 ## ->Q ##
 
 Converts coordinates to a quaternion.
@@ -1319,6 +1325,12 @@ Pushes NaN onto the stack.
 Removes ticks which do not fall on bucket boundaries.
 
 ``` [ gts ] ONLYBUCKETS [ gts ] ```
+
+## OPB64-> ##
+
+Decodes the order preserving base64 content.
+
+``` 'encoded' OPBB64-> 'decoded' ```
 
 ## OPS ##
 
