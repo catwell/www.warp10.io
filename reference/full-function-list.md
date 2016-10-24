@@ -74,6 +74,12 @@ Encodes a string in base64url.
 
 ``` 'string' ->B64URL 'encoded' ```
 
+## ->BYTES ##
+
+Converts a string into its bytes given a charset
+
+``` 'string' 'charset' ->BYTES 'byte array' ```
+
 ## ->HEX ##
 
 Encode a string in hexadecimal.
@@ -283,6 +289,12 @@ Bucketizes a GTS.
 Pushes the bucketspan of a bucketized GTS onto the stack.
 
 ``` bucketized_gts BUCKETSPAN bucketspan ```
+
+## BYTES-> ##
+
+Converts a byte array into a string given a charset.
+
+``` 'byte array' 'charset' BYTES-> 'string' ```
 
 ## CBRT ##
 
