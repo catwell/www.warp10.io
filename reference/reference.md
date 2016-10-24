@@ -942,6 +942,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [RSORT]({{ site.baseurl }}/reference/functions/function_RSORT)
 
+[RVALUESORT]({{ site.baseurl }}/reference/functions/function_RVALUESORT)
+
 [SHRINK]({{ site.baseurl }}/reference/functions/function_SHRINK)
 
 [SINGLEEXPONENTIALSMOOTHING]({{ site.baseurl }}/reference/functions/function_SINGLEEXPONENTIALSMOOTHING)
