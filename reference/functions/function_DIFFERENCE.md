@@ -8,7 +8,7 @@ categoryTree: ["reference","functions"]
 category: "reference"
 ---
  
-The `DIFFERENCE` computes the difference of two SETS. 
+Computes the `DIFFERENCE` of two SETS. 
 
 
 ## Example ##

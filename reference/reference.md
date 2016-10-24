@@ -646,6 +646,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [GET]({{ site.baseurl }}/reference/functions/function_GET)
 
+[INTERSECTION]({{ site.baseurl }}/reference/functions/function_INTERSECTION)
+
 [KEYLIST]({{ site.baseurl }}/reference/functions/function_KEYLIST)
 
 [LFLATMAP]({{ site.baseurl }}/reference/functions/function_LFLATMAP)

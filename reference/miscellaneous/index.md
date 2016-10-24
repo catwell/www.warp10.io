@@ -69,8 +69,6 @@ The following functions haven't been fully documented yet, but we can already gi
 
 [IMMUTABLE]({{ site.baseurl }}/reference/miscellaneous/IMMUTABLE)
 
-[INTERSECTION]({{ site.baseurl }}/reference/miscellaneous/INTERSECTION)
-
 [ISODURATION]({{ site.baseurl }}/reference/miscellaneous/ISODURATION)
 
 [JS]({{ site.baseurl }}/reference/miscellaneous/JS)

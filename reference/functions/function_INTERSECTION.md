@@ -1,12 +1,11 @@
 ---
-title: "UNION"
+title: "INTERSECTION"
 layout: function
-desc: "Performs the union of two sets."
-categoryTree: ["reference","functions"]
-category: "reference"
+desc: "Computes the intersection of two sets."
+category: miscellaneous
 ---
 
-Computes the `UNION` of two SETS.
+Computes the `INTERSECTION` of two sets.
 
 ## Example ##
 Initial stack:
@@ -16,19 +15,19 @@ Initial stack:
 
 WarpScript commands:
 
-    UNION
+    INTERSECTION
 
 Stack:
 
-    TOP: [ 'bar' 'bob' 'foo' 'alice' ] 
+    TOP: [ 'bar' 'foo' ] 
 
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">
 // Converts the two LISTS into SETS
 [ 'foo' 'bar' 'alice' ] ->SET
 [ 'foo' 'bar' 'bob' ] ->SET
-// Compute the difference
-UNION
+// Compute the intersection
+INTERSECTION
 // convert back the SET into LIST
 SET->
 </warp10-warpscript-widget>
