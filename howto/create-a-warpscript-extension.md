@@ -75,18 +75,6 @@ public Object apply(WarpScriptStack stack) throws WarpScriptException {
 }
 ```
 
-The class WarpScriptStackFunction needs two other function, in this case they will stays empty.
-
-```
-public int argDepth() {
-  return 0;
-}
-
-public boolean isProtected() {
-    return false;
-}
-```
-
 ## The extension class -- TutorialExtension
 
 In the class TutorialExtension, only the method getFunctions needs to be overwritten. In this methos the user just have to declare the set of function to add when using this defined extension. The function have to be added inside a Map, that contains the function name, and the function instantiated.
