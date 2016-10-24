@@ -130,5 +130,8 @@ To execute it just run the following WarpScript on your Warp 10 backend.
 
 Congrats you managed to create your first WarpScript extension for a Warp 10 cluster !
 
+## About extension
+
+Inside an extension, you can define as many new functions as you want, the the will be added to your WarpScript library on your cluster. It is also possible to redefine some existing function. In a way, this method can be used to forbid the access to some sort of functions to all the user of a Warp 10 cluster.
 
 
