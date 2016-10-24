@@ -974,6 +974,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [VALUES]({{ site.baseurl }}/reference/functions/function_VALUES)
 
+[VALUESORT]({{ site.baseurl }}/reference/functions/function_VALUESORT)
+
 [WRAP]({{ site.baseurl }}/reference/functions/function_WRAP)
 
 [WRAPRAW]({{ site.baseurl }}/reference/functions/function_WRAPRAW)

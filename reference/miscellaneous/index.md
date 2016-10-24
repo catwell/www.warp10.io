@@ -161,8 +161,6 @@ The following functions haven't been fully documented yet, but we can already gi
 
 [VALUEHISTOGRAM]({{ site.baseurl }}/reference/miscellaneous/VALUEHISTOGRAM)
 
-[VALUESORT]({{ site.baseurl }}/reference/miscellaneous/VALUESORT)
-
 [VALUESPLIT]({{ site.baseurl }}/reference/miscellaneous/VALUESPLIT)
 
 [bucketizer.percentile]({{ site.baseurl }}/reference/miscellaneous/bucketizer.percentile)
