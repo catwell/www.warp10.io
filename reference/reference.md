@@ -482,6 +482,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [JSON->]({{ site.baseurl }}/reference/functions/function_JSONTO)
 
+[TOBOOLEAN]({{ site.baseurl }}/reference/functions/function_TOBOOLEAN)
+
 [TODOUBLE]({{ site.baseurl }}/reference/functions/function_TODOUBLE)
 
 [TOLONG]({{ site.baseurl }}/reference/functions/function_TOLONG)
@@ -545,6 +547,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [BINTOHEX]({{ site.baseurl }}/reference/functions/function_BINTOHEX)
 
+[BYTES-&gt;]({{ site.baseurl }}/reference/functions/function_BYTESTO)
+
 [FROMBIN]({{ site.baseurl }}/reference/functions/function_FROMBIN)
 
 [FROMBITS]({{ site.baseurl }}/reference/functions/function_FROMBITS)
@@ -565,6 +569,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [MATCHER]({{ site.baseurl }}/reference/functions/function_MATCHER)
 
+[OPB64-&gt;]({{ site.baseurl }}/reference/functions/function_OPB64TO)
+
 [SPLIT]({{ site.baseurl }}/reference/functions/function_SPLIT)
 
 [SUBSTRING]({{ site.baseurl }}/reference/functions/function_SUBSTRING)
@@ -574,6 +580,10 @@ This page lists all the functions available in WarpScript except those related t
 [-&gt;B64URL]({{ site.baseurl }}/reference/functions/function_TOB64URL)
 
 [-&gt;B64]({{ site.baseurl }}/reference/functions/function_TOB64)
+
+[-&gt;BYTES]({{ site.baseurl }}/reference/functions/function_TOBYTES)
+
+[-&gt;OPB64]({{ site.baseurl }}/reference/functions/function_TOOPB64)
 
 [TOBIN]({{ site.baseurl }}/reference/functions/function_TOBIN)
 
@@ -593,6 +603,19 @@ This page lists all the functions available in WarpScript except those related t
 
 [UUID]({{ site.baseurl }}/reference/functions/function_UUID)
 
+#### Cryptographic functions
+
+[AESUNWRAP]({{ site.baseurl }}/reference/functions/function_AESUNWRAP)
+
+[AESWRAP]({{ site.baseurl }}/reference/functions/function_AESWRAP)
+
+#### Util functions
+
+[GZIP]({{ site.baseurl }}/reference/functions/function_GZIP)
+
+[RANGE]({{ site.baseurl }}/reference/functions/function_RANGE)
+
+[UNGZIP]({{ site.baseurl }}/reference/functions/function_UNGZIP)
 
 <a name="functions-lists-maps"></a>
 
@@ -603,9 +626,11 @@ This page lists all the functions available in WarpScript except those related t
 
 [{}]({{ site.baseurl }}/reference/functions/function_EMPTYMAP)
 
-[->LIST]({{ site.baseurl }}/reference/functions/function_TOLIST)
+[-&gt;LIST]({{ site.baseurl }}/reference/functions/function_TOLIST)
 
-[->MAP]({{ site.baseurl }}/reference/functions/function_TOMAP)
+[-&gt;MAP]({{ site.baseurl }}/reference/functions/function_TOMAP)
+
+[-&gt;SET]({{ site.baseurl }}/reference/functions/function_TOSET)
 
 [APPEND]({{ site.baseurl }}/reference/functions/function_APPEND)
 
@@ -617,21 +642,25 @@ This page lists all the functions available in WarpScript except those related t
 
 [CONTAINSVALUE]({{ site.baseurl }}/reference/functions/function_CONTAINSVALUE)
 
+[DIFFERENCE]({{ site.baseurl }}/reference/functions/function_DIFFERENCE)
+
 [FLATTEN]({{ site.baseurl }}/reference/functions/function_FLATTEN)
 
 [GET]({{ site.baseurl }}/reference/functions/function_GET)
+
+[INTERSECTION]({{ site.baseurl }}/reference/functions/function_INTERSECTION)
 
 [KEYLIST]({{ site.baseurl }}/reference/functions/function_KEYLIST)
 
 [LFLATMAP]({{ site.baseurl }}/reference/functions/function_LFLATMAP)
 
-[LIST->]({{ site.baseurl }}/reference/functions/function_LISTTO)
+[LIST-&gt;]({{ site.baseurl }}/reference/functions/function_LISTTO)
 
 [LMAP]({{ site.baseurl }}/reference/functions/function_LMAP)
 
 [LSORT]({{ site.baseurl }}/reference/functions/function_LSORT)
 
-[MAP->]({{ site.baseurl }}/reference/functions/function_MAPTO)
+[MAP-&gt;]({{ site.baseurl }}/reference/functions/function_MAPTO)
 
 [MSORT]({{ site.baseurl }}/reference/functions/function_MSORT)
 
@@ -643,11 +672,15 @@ This page lists all the functions available in WarpScript except those related t
 
 [SET]({{ site.baseurl }}/reference/functions/function_SET)
 
+[SET-&gt;]({{ site.baseurl }}/reference/functions/function_SETTO)
+
 [SIZE]({{ site.baseurl }}/reference/functions/function_SIZE)
 
 [SUBLIST]({{ site.baseurl }}/reference/functions/function_SUBLIST)
 
 [SUBMAP]({{ site.baseurl }}/reference/functions/function_SUBMAP)
+
+[UNION]({{ site.baseurl }}/reference/functions/function_UNION)
 
 [UNIQUE]({{ site.baseurl }}/reference/functions/function_UNIQUE)
 
@@ -921,6 +954,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [RSORT]({{ site.baseurl }}/reference/functions/function_RSORT)
 
+[RVALUESORT]({{ site.baseurl }}/reference/functions/function_RVALUESORT)
+
 [SHRINK]({{ site.baseurl }}/reference/functions/function_SHRINK)
 
 [SINGLEEXPONENTIALSMOOTHING]({{ site.baseurl }}/reference/functions/function_SINGLEEXPONENTIALSMOOTHING)
@@ -954,6 +989,10 @@ This page lists all the functions available in WarpScript except those related t
 [UPDATE]({{ site.baseurl }}/reference/functions/function_UPDATE)
 
 [VALUES]({{ site.baseurl }}/reference/functions/function_VALUES)
+
+[VALUESORT]({{ site.baseurl }}/reference/functions/function_VALUESORT)
+
+[VALUESPLIT]({{ site.baseurl }}/reference/functions/function_VALUESPLIT)
 
 [WRAP]({{ site.baseurl }}/reference/functions/function_WRAP)
 

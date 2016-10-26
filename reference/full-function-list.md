@@ -74,6 +74,12 @@ Encodes a string in base64url.
 
 ``` 'string' ->B64URL 'encoded' ```
 
+## ->BYTES ##
+
+Converts string into a byte array given a charset.
+
+``` 'string' 'charset' ->BYTES 'byte array' ```
+
 ## ->HEX ##
 
 Encode a string in hexadecimal.
@@ -97,6 +103,12 @@ Builds a list from elements on the stack.
 Builds a map.
 
 ``` key1 value1 ... keyn valuen 2*n ->MAP { key1 value1 ... keyn valuen } ```
+
+## ->OPB64 ##
+
+Encodes a string in order preserving base64.
+
+``` 'decoded' ->OPBB64 'encoded' ```
 
 ## ->Q ##
 
@@ -163,6 +175,18 @@ Computes the arccos of the value on top of the stack.
 Adds a value to a GTS.
 
 ``` gts [ tick latitude longitude elevation value ] ADDVALUE gts ```
+
+## AESUNWRAP ##
+
+Unwrap a wrapped byte array with the AES algorithm using a given key.
+
+``` 'wrapped' 'key' AESUNWRAP 'unwrapped' ```
+
+## AESWRAP ##
+
+Wrap a byte array with the AES algorithm using a given key.
+
+```  'unwrapped' 'key' AESWRAP 'wrapped' ```
 
 ## AND ##
 
@@ -265,6 +289,12 @@ Bucketizes a GTS.
 Pushes the bucketspan of a bucketized GTS onto the stack.
 
 ``` bucketized_gts BUCKETSPAN bucketspan ```
+
+## BYTES-> ##
+
+Converts a byte array into a string given a charset.
+
+``` 'byte array' 'charset' BYTES-> 'string' ```
 
 ## CBRT ##
 
@@ -757,6 +787,12 @@ Executes a script expressed in Groovy.
 Detect a single anomalous tick in GTS instances by doing a Grubbs test (use modified Zscore if useMedian == true, default statistical significance is 0.05).
 
 ``` [ gts ] useMedian (significance) GRUBBSTEST [ [ anomalous_tick ] ] ```
+
+## GZIP ##
+
+Compresses a byte array or String with Gzip algorithm.
+
+``` 'uncompressed' GZIP 'compressed' ``` 
 
 ## HASH ##
 
@@ -1314,6 +1350,12 @@ Removes ticks which do not fall on bucket boundaries.
 
 ``` [ gts ] ONLYBUCKETS [ gts ] ```
 
+## OPB64-> ##
+
+Decodes the order preserving base64 content.
+
+``` 'encoded' OPBB64-> 'decoded' ```
+
 ## OPS ##
 
 Pushes onto the stack the current number of operations performed.
@@ -1846,6 +1888,12 @@ Extracts information on the token on top of the stack.
 
 ``` 'token' TOKENINFO { infos } ```
 
+## TOBOOLEAN ##
+
+Converts number or string to boolean.
+
+``` x TOBOOLEAN boolean(x) ```
+
 ## TOLONG ##
 
 Converts the numerical element on top of the stack to a long.
@@ -1923,6 +1971,12 @@ Returns the size of an Units in the Last Place of the top of the stack.
 Make a GTS unbucketized.
 
 ``` bucketized_gts UNBUCKETIZE gts ```
+
+## UNGZIP ##
+
+Decompresses a byte array with Gzip algorithm.
+
+``` 'compressed' UNGZIP 'uncompressed' ``` 
 
 ## UNION ##
 

@@ -13,8 +13,6 @@ The following functions haven't been fully documented yet, but we can already gi
 
 [-&gt;Q]({{ site.baseurl }}/reference/miscellaneous/TOQ)
 
-[-&gt;SET]({{ site.baseurl }}/reference/miscellaneous/TOSET)
-
 [ATTRIBUTES]({{ site.baseurl }}/reference/miscellaneous/ATTRIBUTES)
 
 [CHUNK]({{ site.baseurl }}/reference/miscellaneous/CHUNK)
@@ -30,8 +28,6 @@ The following functions haven't been fully documented yet, but we can already gi
 [COUNTERVALUE]({{ site.baseurl }}/reference/miscellaneous/COUNTERVALUE)
 
 [CUDF]({{ site.baseurl }}/reference/miscellaneous/CUDF)
-
-[DIFFERENCE]({{ site.baseurl }}/reference/miscellaneous/DIFFERENCE)
 
 [DISCORDS]({{ site.baseurl }}/reference/miscellaneous/DISCORDS)
 
@@ -70,8 +66,6 @@ The following functions haven't been fully documented yet, but we can already gi
 [IFFT]({{ site.baseurl }}/reference/miscellaneous/IFFT)
 
 [IMMUTABLE]({{ site.baseurl }}/reference/miscellaneous/IMMUTABLE)
-
-[INTERSECTION]({{ site.baseurl }}/reference/miscellaneous/INTERSECTION)
 
 [ISODURATION]({{ site.baseurl }}/reference/miscellaneous/ISODURATION)
 
@@ -127,17 +121,11 @@ The following functions haven't been fully documented yet, but we can already gi
 
 [R-&gt;]({{ site.baseurl }}/reference/miscellaneous/RTO)
 
-[RANGE]({{ site.baseurl }}/reference/miscellaneous/RANGE)
-
 [RESET]({{ site.baseurl }}/reference/miscellaneous/RESET)
 
 [ROTATIONQ]({{ site.baseurl }}/reference/miscellaneous/ROTATIONQ)
 
 [RUBY]({{ site.baseurl }}/reference/miscellaneous/RUBY)
-
-[RVALUESORT]({{ site.baseurl }}/reference/miscellaneous/RVALUESORT)
-
-[SET-&gt;]({{ site.baseurl }}/reference/miscellaneous/SETTO)
 
 [SETATTRIBUTES]({{ site.baseurl }}/reference/miscellaneous/SETATTRIBUTES)
 
@@ -155,15 +143,9 @@ The following functions haven't been fully documented yet, but we can already gi
 
 [ULP]({{ site.baseurl }}/reference/miscellaneous/ULP)
 
-[UNION]({{ site.baseurl }}/reference/miscellaneous/UNION)
-
 [VALUEDEDUP]({{ site.baseurl }}/reference/miscellaneous/VALUEDEDUP)
 
 [VALUEHISTOGRAM]({{ site.baseurl }}/reference/miscellaneous/VALUEHISTOGRAM)
-
-[VALUESORT]({{ site.baseurl }}/reference/miscellaneous/VALUESORT)
-
-[VALUESPLIT]({{ site.baseurl }}/reference/miscellaneous/VALUESPLIT)
 
 [bucketizer.percentile]({{ site.baseurl }}/reference/miscellaneous/bucketizer.percentile)
 
