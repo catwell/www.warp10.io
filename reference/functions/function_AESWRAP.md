@@ -6,10 +6,10 @@ category: reference
 signature: "'string' or 'bytesarray' AESWRAP 'bytesarray'"
 ---
 
-Wraps a byte array or String with the [AES WRAP](https://www.ietf.org/rfc/rfc3394.txt) and pushes back the cyphered data into an bytes array.
+Wraps a byte array or String with the [AES WRAP](https://www.ietf.org/rfc/rfc3394.txt) and pushes back the encrypted data into an bytes array.
 
 
-AESWRAP adds a 64bits [NONCE](https://en.wikipedia.org/wiki/Cryptographic_nonce) on order to be protected against AES block determinism ([AES WRAP](https://www.ietf.org/rfc/rfc3394.txt) have a fixed IV) 
+AESWRAP adds a 64bits [nonce](https://en.wikipedia.org/wiki/Cryptographic_nonce) on order to be protected against AES block determinism ([AES WRAP](https://www.ietf.org/rfc/rfc3394.txt) have a fixed IV) 
 
 
 The function expects the following elements on the stack:

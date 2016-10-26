@@ -6,10 +6,10 @@ category: reference
 signature: "'bytesarray' AESUNWRAP 'bytesarray'"
 ---
 
-Unwraps a byte array with the [AES WRAP](https://www.ietf.org/rfc/rfc3394.txt) and pushes back the uncyphered data into an bytes array.
+Unwraps a byte array with the [AES WRAP](https://www.ietf.org/rfc/rfc3394.txt) and pushes back the decrypted data into an bytes array.
 
 
-AESUNWRAP removes the a 64bits [NONCE](https://en.wikipedia.org/wiki/Cryptographic_nonce) added by AESWRAP warpscript function
+AESUNWRAP removes the a 64bits [nonce](https://en.wikipedia.org/wiki/Cryptographic_nonce) added by AESWRAP warpscript function
 
 
 The function expects the following elements on the stack:

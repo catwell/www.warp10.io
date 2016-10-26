@@ -9,7 +9,8 @@ category: "reference"
 signature: "[gts] label VALUESPLIT [gts split]"
 ---
  
-The function `VALUESPLIT` takes the GTS on top of the stack and split it into N distinct boolean GTS.
+The function `VALUESPLIT` takes the GTS on top of the stack and split it into N distinct boolean GTS, where N is the number of distinct values in the GTS.
+
 
 ## Example ##
 

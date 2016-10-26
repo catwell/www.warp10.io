@@ -16,7 +16,7 @@ SETs are not viewable, `null` will be return if it remains on the stack
 
 WarpScript commands:
 
-    'set object' ->SET 
+    'set object' SET->
 
 Stack:
 

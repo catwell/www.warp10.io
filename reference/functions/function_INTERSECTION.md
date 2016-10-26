@@ -2,7 +2,7 @@
 title: "INTERSECTION"
 layout: function
 desc: "Computes the intersection of two sets."
-category: miscellaneous
+category: reference
 ---
 
 Computes the `INTERSECTION` of two sets.

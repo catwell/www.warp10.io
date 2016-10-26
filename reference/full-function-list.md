@@ -76,7 +76,7 @@ Encodes a string in base64url.
 
 ## ->BYTES ##
 
-Converts a string into its bytes given a charset
+Converts string into a byte array given a charset.
 
 ``` 'string' 'charset' ->BYTES 'byte array' ```
 
@@ -178,13 +178,13 @@ Adds a value to a GTS.
 
 ## AESUNWRAP ##
 
-Unwrap a wrapped byte array with AES algorithm and a given key.
+Unwrap a wrapped byte array with the AES algorithm using a given key.
 
 ``` 'wrapped' 'key' AESUNWRAP 'unwrapped' ```
 
 ## AESWRAP ##
 
-Wrap a byte array with AES algorithm and a given key.
+Wrap a byte array with the AES algorithm using a given key.
 
 ```  'unwrapped' 'key' AESWRAP 'wrapped' ```
 
