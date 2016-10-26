@@ -1888,6 +1888,12 @@ Extracts information on the token on top of the stack.
 
 ``` 'token' TOKENINFO { infos } ```
 
+## TOBOOLEAN ##
+
+Converts number or string to boolean.
+
+``` x TOBOOLEAN boolean(x) ```
+
 ## TOLONG ##
 
 Converts the numerical element on top of the stack to a long.

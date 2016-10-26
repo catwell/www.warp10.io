@@ -482,6 +482,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [JSON->]({{ site.baseurl }}/reference/functions/function_JSONTO)
 
+[TOBOOLEAN]({{ site.baseurl }}/reference/functions/function_TOBOOLEAN)
+
 [TODOUBLE]({{ site.baseurl }}/reference/functions/function_TODOUBLE)
 
 [TOLONG]({{ site.baseurl }}/reference/functions/function_TOLONG)
