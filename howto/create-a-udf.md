@@ -1,53 +1,56 @@
 ---
-title: Create and deploy one User Define Function (UDF)
+title: Create and deploy a User Define Function (UDF)
 layout: function
 isPage: true
 category: howto
 ---
 
-An UDF corresponds to a custom JAVA class defined by a user. An UDF can easily be added to a [Warp 10 platform](http://www.warp10.io/).
+A UDF corresponds to a custom Java class defined by a user. A UDF can easily be added to a [Warp 10 platform](http://www.warp10.io/).
 
-In this page, we will learn how to implement an UDF and how to deploy a new UDF in your own platform. The goal of this "tutorial" udf is to create one single string from 2 strings that are currently on top of the stack.
+In this page, you will learn how to implement a UDF and how to deploy a new UDF in your own platform. The goal of this "tutorial" UDF is to create a single string from 2 strings that are currently on top of the stack.
+
 The full code is available on github [here](https://github.com/aurrelhebert/warp10-udf-tuto).
 
 ## UDF Interface
 
-The JAVA function have to implement our UDF interface in the WarpScriptRawJavaFunction. 
-This class extends  [WarpScriptJavaFunction](https://github.com/cityzendata/warp10-platform/blob/master/warp10/src/main/java/io/warp10/warp/sdk/WarpScriptJavaFunction.java), and requires the implementation of the function "apply".
+The Java function defining out UDF has to implement the `WarpScriptRawJavaFunction` interface
+. 
+You UDF class must then implement the function `apply` which will be called when your UDF is invoked.
+
+Additionally, your UDF can implement the method `isProtected` which returns a boolean indicating whether your UDF can be invoked from anywhere (`false`) or only from within server side macros (`true`)
 
 ## Getting starterd
 
-First of all, create a new Gradle project in your favorite IDE, and add a new package in src/main/java: io.warp10.tutorial.
+First of all, create a new Gradle project in your favorite IDE, and add a new package in src/main/java: `io.warp10.tutorial`.
 
-Then create the class HELLOWARP10 that implements WarpScriptRawJavaFunction.
+Then create the class HELLOWARP10 that implements `WarpScriptRawJavaFunction`.
 
 Use this [file]({{ site.baseurl }}/assets/data/build.gradle) as build.gradle. 
 
-Inside the build.gradle file notice that it doesn't include in the JAR the WarpScript libraries, but indicated that those library are needed at execution. This is done when declaring in the build.gradle file the following instruction: 
+Inside the `build.gradle` file, notice that it doesn't include in the generated jar the WarpScript library. Instead it indicates that this library is needed at execution time. This is done by declaring the following in `build.gradle`:
 
 ```
 provided 'io.warp10:warpscript:1.0.17'
 ```
 
-This operation is important because it means the UDF doesn't need to be recompiled for each new Warp 10 version as **it will dynamically use the current version** deployed on the Warp 10 cluster.
-
+This operation is important because it means the UDF doesn't need to be recompiled for each new Warp 10 version as **it will dynamically use the current version** available on your Warp 10 deployment.
 
 ## The Apply function
 
-In this function, first we load the current stack from the parameter.
+In this function, first we retrieve the current stack from the parameter.
 
 ```
 WarpScriptStack stack =(WarpScriptStack) arg0.get(0);
 ```
 
-Then we store both parameters that were on top of it.
+Then we extract the top two parameters.
 
 ```
 Object firstText = stack.pop();
 Object secondText = stack.pop();
 ```
 
-We check if both parameters are valid (if they are String it's enougth for this example).
+We check if both parameters are valid (if they are String it's enough for this example).
 
 ```
 if (!(firstText instanceof String)) {
@@ -64,7 +67,7 @@ stack.push(firstText.toString() + ' ' + secondText.toString());
 return arg0;
 ```
 
-The object returned by the function is arg0 (which contain the stack updated).
+The object returned by the function is arg0 (which contain the updated stack).
 
 ## Deploy it
 
@@ -90,5 +93,8 @@ To execute it just run the following WarpScript on your Warp 10 backend.
     'io.warp10.tutorial.HELLOWARP10' UDF
 ```
 
-Congrats you managed to create your first UDF for a Warp 10 cluster !
+Congrats you managed to create your first UDF for Warp 10.
 
+The above example used the `UDF` function to invoke your UDF, this function will create a new instance of your UDF at each invocation. You may instead want to use `CUDF` which will cache (hence the leading `C`) the created instance and thus will speed up overall execution.
+
+Of course if your UDF is not thread safe then it should not be called by `CUDF`, but as this is not something you can control, we advise that you design your UDFs so they can be called concurrently from multiple threads.
