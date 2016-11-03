@@ -30,6 +30,12 @@ This page lists all the Warp10 tools, and their repositories on Github.
 
 <a href="https://github.com/cityzendata/warp10-spark" title="In progress">Spark</a>
 
+<a name="Stream"></a>
+
+### Stream
+
+<a href="https://github.com/cityzendata/warp10-storm" title="The warp10-storm repository contains code which enables the creation of Storm topologies entirely in WarpScript. Apache Storm is a free and open source distributed realtime computation system. Storm makes it easy to reliably process unbounded streams of data, doing for realtime processing what Hadoop did for batch processing.">Storm</a>
+
 <a name="Inputs"></a>
 
 ### Input plugins
