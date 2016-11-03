@@ -17,7 +17,7 @@ The Java function defining out UDF has to implement the `WarpScriptRawJavaFuncti
 . 
 You UDF class must then implement the function `apply` which will be called when your UDF is invoked.
 
-Additionally, your UDF can implement the method `isProtected` which returns a boolean indicating whether your UDF can be invoked from anywhere (`false`) or only from within server side macros (`true`)
+Additionally, your UDF can implement the method `isProtected` which returns a boolean indicating whether your UDF can be invoked from anywhere (`false`) or only from within server side macros or secure scripts (`true`)
 
 ## Getting starterd
 
