@@ -523,6 +523,8 @@ This page lists all the functions available in WarpScript except those related t
 
 #### Date functions
 
+[AGO]({{ site.baseurl }}/reference/functions/function_AGO)
+
 [DURATION]({{ site.baseurl }}/reference/functions/function_DURATION)
 
 [ISO8601]({{ site.baseurl }}/reference/functions/function_ISO8601)
