@@ -77,7 +77,7 @@ This page lists all the Warp10 tools, and their repositories on Github.
 
 ### WarpScript extensions
 
-<a href="https://github.com/cityzendata/warp10-ext-elastic" title="This Warpscript extension allows the user to effectively load and search data on an Elsticsearch into WarpScript.">Elasticsearch</a>
+<a href="https://github.com/cityzendata/warp10-ext-elastic" title="This Warpscript extension allows the user to effectively load and search data on an Elasticsearch into WarpScript.">Elasticsearch</a>
 
 <a name="Interpreters"></a>
 
