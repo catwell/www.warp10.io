@@ -30,6 +30,12 @@ This page lists all the Warp10 tools, and their repositories on Github.
 
 <a href="https://github.com/cityzendata/warp10-spark" title="In progress">Spark</a>
 
+<a name="Stream"></a>
+
+### Stream
+
+<a href="https://github.com/cityzendata/warp10-storm" title="The warp10-storm repository contains code which enables the creation of Storm topologies entirely in WarpScript. Apache Storm is a free and open source distributed realtime computation system. Storm makes it easy to reliably process unbounded streams of data, doing for realtime processing what Hadoop did for batch processing.">Storm</a>
+
 <a name="Inputs"></a>
 
 ### Input plugins
@@ -56,16 +62,22 @@ This page lists all the Warp10 tools, and their repositories on Github.
 
 <a href="https://github.com/cityzendata/warp10-timelion" title="Kibana - Timelion is an open source tool that brings together totally independent data sources into a single interface, driven by a simple, one-line expression language combining data retrieval, time series combination and transformation, plus visualization. This plugin allows the use of Warp 10 as datasource for Timelion.">Kibana - Timelion plugin</a>
 
-<a name="UDFs"></a>
-
 </div>
 <div class="col-sm-4">
+
+<a name="UDFs"></a>
 
 ### WarpScript UDFs
 
 <a href="https://github.com/cityzendata/warp10-riakts" title="The Warpscript UDF function allow the possibility to build custom user function. This UDF allows the user the possibility to load GTS in WarpScript from a Riak-ts backend.">Riak-ts</a>
 
 <a href="https://github.com/cityzendata/warp10-influxdb" title="The Warpscript UDF function allow the possibility to build custom user function. This UDF allows the user the possibility to load GTS in WarpScript from an InfluxDB database.">InfluxDB</a>
+
+<a name="Extensions"></a>
+
+### WarpScript extensions
+
+<a href="https://github.com/cityzendata/warp10-ext-elastic" title="This Warpscript extension allows the user to effectively load and search data on an Elasticsearch into WarpScript.">Elasticsearch</a>
 
 <a name="Interpreters"></a>
 
