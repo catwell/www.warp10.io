@@ -527,6 +527,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [DURATION]({{ site.baseurl }}/reference/functions/function_DURATION)
 
+[HUMANDURATION]({{ site.baseurl }}/reference/functions/function_HUMANDURATION)
+
 [ISO8601]({{ site.baseurl }}/reference/functions/function_ISO8601)
 
 [MSTU]({{ site.baseurl }}/reference/functions/function_MSTU)

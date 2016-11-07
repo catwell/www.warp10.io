@@ -57,8 +57,6 @@ The following functions haven't been fully documented yet, but we can already gi
 
 [GROOVY]({{ site.baseurl }}/reference/miscellaneous/GROOVY)
 
-[HUMANDURATION]({{ site.baseurl }}/reference/miscellaneous/HUMANDURATION)
-
 [HYPOT]({{ site.baseurl }}/reference/miscellaneous/HYPOT)
 
 [IDWT]({{ site.baseurl }}/reference/miscellaneous/IDWT)
