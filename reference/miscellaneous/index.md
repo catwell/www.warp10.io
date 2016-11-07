@@ -127,8 +127,6 @@ The following functions haven't been fully documented yet, but we can already gi
 
 [SETATTRIBUTES]({{ site.baseurl }}/reference/miscellaneous/SETATTRIBUTES)
 
-[SETVALUE]({{ site.baseurl }}/reference/miscellaneous/SETVALUE)
-
 [STACKATTRIBUTE]({{ site.baseurl }}/reference/miscellaneous/STACKATTRIBUTE)
 
 [TIMINGS]({{ site.baseurl }}/reference/miscellaneous/TIMINGS)
