@@ -137,8 +137,6 @@ The following functions haven't been fully documented yet, but we can already gi
 
 [ULP]({{ site.baseurl }}/reference/miscellaneous/ULP)
 
-[VALUEDEDUP]({{ site.baseurl }}/reference/miscellaneous/VALUEDEDUP)
-
 [VALUEHISTOGRAM]({{ site.baseurl }}/reference/miscellaneous/VALUEHISTOGRAM)
 
 [bucketizer.percentile]({{ site.baseurl }}/reference/miscellaneous/bucketizer.percentile)

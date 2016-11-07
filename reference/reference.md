@@ -998,6 +998,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [VALUES]({{ site.baseurl }}/reference/functions/function_VALUES)
 
+[VALUEDEDUP]({{ site.baseurl }}/reference/functions/function_VALUEDEDUP)
+
 [VALUESORT]({{ site.baseurl }}/reference/functions/function_VALUESORT)
 
 [VALUESPLIT]({{ site.baseurl }}/reference/functions/function_VALUESPLIT)
