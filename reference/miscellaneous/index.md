@@ -83,8 +83,6 @@ The following functions haven't been fully documented yet, but we can already gi
 
 [MAKEGTS]({{ site.baseurl }}/reference/miscellaneous/MAKEGTS)
 
-[MAPID]({{ site.baseurl }}/reference/miscellaneous/MAPID)
-
 [NOTAFTER]({{ site.baseurl }}/reference/miscellaneous/NOTAFTER)
 
 [NOTBEFORE]({{ site.baseurl }}/reference/miscellaneous/NOTBEFORE)

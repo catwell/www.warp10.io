@@ -668,6 +668,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [MAP-&gt;]({{ site.baseurl }}/reference/functions/function_MAPTO)
 
+[MAPID]({{ site.baseurl }}/reference/functions/function_MAPID)
+
 [MSORT]({{ site.baseurl }}/reference/functions/function_MSORT)
 
 [PUT]({{ site.baseurl }}/reference/functions/function_PUT)
