@@ -2,7 +2,7 @@
 title: "Understanding the throttling mechanisms of Warp 10"
 layout: "function"
 isPage: "true"
-link: "/throttlin`"
+link: "/throttling`"
 categoryTree: ["getting-stated"]
 category: "getting-started"
 ---
