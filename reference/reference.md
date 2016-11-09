@@ -1002,6 +1002,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [VALUES]({{ site.baseurl }}/reference/functions/function_VALUES)
 
+[VALUEHISTOGRAM]({{ site.baseurl }}/reference/functions/function_VALUEHISTOGRAM)
+
 [VALUESORT]({{ site.baseurl }}/reference/functions/function_VALUESORT)
 
 [VALUESPLIT]({{ site.baseurl }}/reference/functions/function_VALUESPLIT)

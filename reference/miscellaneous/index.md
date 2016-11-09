@@ -135,8 +135,6 @@ The following functions haven't been fully documented yet, but we can already gi
 
 [VALUEDEDUP]({{ site.baseurl }}/reference/miscellaneous/VALUEDEDUP)
 
-[VALUEHISTOGRAM]({{ site.baseurl }}/reference/miscellaneous/VALUEHISTOGRAM)
-
 [bucketizer.percentile]({{ site.baseurl }}/reference/miscellaneous/bucketizer.percentile)
 
 [mapper.geo.approximate]({{ site.baseurl }}/reference/miscellaneous/mapper.geo.approximate)
