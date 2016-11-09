@@ -617,6 +617,10 @@ This page lists all the functions available in WarpScript except those related t
 
 [RANGE]({{ site.baseurl }}/reference/functions/function_RANGE)
 
+[CUDF]({{ site.baseurl }}/reference/functions/function_CUDF)
+
+[UDF]({{ site.baseurl }}/reference/functions/function_UDF)
+
 [UNGZIP]({{ site.baseurl }}/reference/functions/function_UNGZIP)
 
 <a name="functions-lists-maps"></a>

@@ -23,8 +23,6 @@ The following functions haven't been fully documented yet, but we can already gi
 
 [COUNTERVALUE]({{ site.baseurl }}/reference/miscellaneous/COUNTERVALUE)
 
-[CUDF]({{ site.baseurl }}/reference/miscellaneous/CUDF)
-
 [DISCORDS]({{ site.baseurl }}/reference/miscellaneous/DISCORDS)
 
 [DOUBLEEXPONENTIALSMOOTHING]({{ site.baseurl }}/reference/miscellaneous/DOUBLEEXPONENTIALSMOOTHING)
@@ -132,8 +130,6 @@ The following functions haven't been fully documented yet, but we can already gi
 </div>
 
 <div class='col-sm-3'>
-
-[UDF]({{ site.baseurl }}/reference/miscellaneous/UDF)
 
 [ULP]({{ site.baseurl }}/reference/miscellaneous/ULP)
 
