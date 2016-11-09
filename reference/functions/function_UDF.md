@@ -5,7 +5,7 @@ isPage: "true"
 desc: "Invoke a UDF."
 categoryTree: ["reference","functions"]
 category: reference
-signature: "'class' UDF"
+signature: "'class' UDF ..."
 ---
 
 A user defined function (UDF) corresponds to a custom WarpScript function defined by a user. To learn about how to create and deploy a UDF, please read [this tutorial](/howto/create-a-udf/).
@@ -17,5 +17,5 @@ This function will create a new instance of your UDF at each invocation. You may
 Of course if your UDF is not thread safe then it should not be called by `CUDF`, but as this is not something you can control, we advise that you design your UDFs so they can be called concurrently from multiple threads.
 
 ```
-'class' UDF
+'class' UDF ...
 ```

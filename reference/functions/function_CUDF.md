@@ -1,8 +1,11 @@
 ---
 title: "CUDF"
 layout: function
+isPage: "true"
 desc: "Invoke a possibly cached version of a UDF."
-category: miscellaneous
+categoryTree: ["reference","functions"]
+category: reference
+signature: "'class' CUDF ..."
 ---
 
 Invoke a possibly cached version of a UDF. A user defined function (UDF) corresponds to a custom function defined by a user. To learn about how to create and deploy a UDF, please read [this tutorial](/howto/create-a-udf/).
