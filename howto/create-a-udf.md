@@ -13,8 +13,8 @@ The full code is available on github [here](https://github.com/aurrelhebert/warp
 
 ## UDF Interface
 
-The Java function defining out UDF has to implement the `WarpScriptRawJavaFunction` interface
-. 
+The Java function defining out UDF has to implement the `WarpScriptRawJavaFunction` interface.
+ 
 You UDF class must then implement the function `apply` which will be called when your UDF is invoked.
 
 Additionally, your UDF can implement the method `isProtected` which returns a boolean indicating whether your UDF can be invoked from anywhere (`false`) or only from within server side macros or secure scripts (`true`)
