@@ -13,8 +13,6 @@ The following functions haven't been fully documented yet, but we can already gi
 
 [-&gt;Q]({{ site.baseurl }}/reference/miscellaneous/TOQ)
 
-[ATTRIBUTES]({{ site.baseurl }}/reference/miscellaneous/ATTRIBUTES)
-
 [CHUNK]({{ site.baseurl }}/reference/miscellaneous/CHUNK)
 
 [COPYGEO]({{ site.baseurl }}/reference/miscellaneous/COPYGEO)
@@ -126,8 +124,6 @@ The following functions haven't been fully documented yet, but we can already gi
 [ROTATIONQ]({{ site.baseurl }}/reference/miscellaneous/ROTATIONQ)
 
 [RUBY]({{ site.baseurl }}/reference/miscellaneous/RUBY)
-
-[SETATTRIBUTES]({{ site.baseurl }}/reference/miscellaneous/SETATTRIBUTES)
 
 [SETVALUE]({{ site.baseurl }}/reference/miscellaneous/SETVALUE)
 

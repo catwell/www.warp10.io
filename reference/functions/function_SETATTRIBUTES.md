@@ -15,7 +15,8 @@ gts { attributes }  SETATTRIBUTES gts
 ## Example ##
 
 {% raw %}
-<warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">// Create a new GTS with ten values 
+<warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">
+// Create a new GTS
 NEWGTS 
 'test name'
 RENAME
