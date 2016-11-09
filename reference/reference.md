@@ -621,6 +621,10 @@ This page lists all the functions available in WarpScript except those related t
 
 [RANGE]({{ site.baseurl }}/reference/functions/function_RANGE)
 
+[CUDF]({{ site.baseurl }}/reference/functions/function_CUDF)
+
+[UDF]({{ site.baseurl }}/reference/functions/function_UDF)
+
 [UNGZIP]({{ site.baseurl }}/reference/functions/function_UNGZIP)
 
 <a name="functions-lists-maps"></a>
@@ -876,7 +880,11 @@ This page lists all the functions available in WarpScript except those related t
 
 [ATTICK]({{ site.baseurl }}/reference/functions/function_ATTICK)
 
+[ATTRIBUTES]({{ site.baseurl }}/reference/functions/function_ATTRIBUTES)
+
 [BBOX]({{ site.baseurl }}/reference/functions/function_BBOX)
+
+[CHUNK]({{ site.baseurl }}/reference/functions/function_CHUNK)
 
 [CLONE]({{ site.baseurl }}/reference/functions/function_CLONE)
 
@@ -944,6 +952,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [PARSESELECTOR]({{ site.baseurl }}/reference/functions/function_PARSESELECTOR)
 
+[PARTITION]({{ site.baseurl }}/reference/functions/function_PARTITION)
+
 [PATTERNDETECTION]({{ site.baseurl }}/reference/functions/function_PATTERNDETECTION)
 
 [PATTERNS]({{ site.baseurl }}/reference/functions/function_PATTERNS)
@@ -963,6 +973,8 @@ This page lists all the functions available in WarpScript except those related t
 [RSORT]({{ site.baseurl }}/reference/functions/function_RSORT)
 
 [RVALUESORT]({{ site.baseurl }}/reference/functions/function_RVALUESORT)
+
+[SETATTRIBUTES]({{ site.baseurl }}/reference/functions/function_SETATTRIBUTES)
 
 [SETVALUE]({{ site.baseurl }}/reference/functions/function_SETVALUE)
 
@@ -1001,6 +1013,8 @@ This page lists all the functions available in WarpScript except those related t
 [VALUES]({{ site.baseurl }}/reference/functions/function_VALUES)
 
 [VALUEDEDUP]({{ site.baseurl }}/reference/functions/function_VALUEDEDUP)
+
+[VALUEHISTOGRAM]({{ site.baseurl }}/reference/functions/function_VALUEHISTOGRAM)
 
 [VALUESORT]({{ site.baseurl }}/reference/functions/function_VALUESORT)
 
@@ -1053,7 +1067,6 @@ This page lists all the functions available in WarpScript except those related t
 [STL]({{ site.baseurl }}/reference/functions/function_STL)
 
 [UNBUCKETIZE]({{ site.baseurl }}/reference/functions/function_UNBUCKETIZE)
-
 
 <a name="functions-geo"></a>
 
