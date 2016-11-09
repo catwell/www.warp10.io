@@ -874,6 +874,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [BBOX]({{ site.baseurl }}/reference/functions/function_BBOX)
 
+[CHUNK]({{ site.baseurl }}/reference/functions/function_CHUNK)
+
 [CLONE]({{ site.baseurl }}/reference/functions/function_CLONE)
 
 [CLONEEMPTY]({{ site.baseurl }}/reference/functions/function_CLONEEMPTY)

@@ -1,9 +1,11 @@
 ---
 title: "ATTRIBUTES"
 layout: function
-desc: "Retrieves the attribtues of a GTS."
+isPage: "true"
+desc: "Retrieves the attributes of a GTS."
 categoryTree: ["reference","functions"]
 category: reference
+signature: "gts ATTRIBUTES { attributes }"
 ---
 
 The `ATTRIBUTES` function is used to retrieve the attributes of a GTS. An attributes corresponds to a tag for a specific serie. The attribute system allow the user to add some information that can change to a serie.

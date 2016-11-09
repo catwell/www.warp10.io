@@ -1,8 +1,11 @@
 ---
 title: "SETATTRIBUTES"
 layout: function
+isPage: "true"
 desc: "Set attributes of a GTS."
-category: miscellaneous
+categoryTree: ["reference","functions"]
+category: "reference"
+signature: "gts { attributes }  SETATTRIBUTES gts"
 ---
 
 The `SETATTRIBUTES` function is used to set the attributes of a GTS. An attributes corresponds to a tag for a specific serie. The attribute system allow the user to add some information that can change to a serie.

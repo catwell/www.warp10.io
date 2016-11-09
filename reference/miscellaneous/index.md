@@ -13,8 +13,6 @@ The following functions haven't been fully documented yet, but we can already gi
 
 [-&gt;Q]({{ site.baseurl }}/reference/miscellaneous/TOQ)
 
-[CHUNK]({{ site.baseurl }}/reference/miscellaneous/CHUNK)
-
 [COPYGEO]({{ site.baseurl }}/reference/miscellaneous/COPYGEO)
 
 [COPYSIGN]({{ site.baseurl }}/reference/miscellaneous/COPYSIGN)
