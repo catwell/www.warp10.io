@@ -95,8 +95,6 @@ The following functions haven't been fully documented yet, but we can already gi
 
 [PAPPLY]({{ site.baseurl }}/reference/miscellaneous/PAPPLY)
 
-[PARTITION]({{ site.baseurl }}/reference/miscellaneous/PARTITION)
-
 [PFILTER]({{ site.baseurl }}/reference/miscellaneous/PFILTER)
 
 [PYTHON]({{ site.baseurl }}/reference/miscellaneous/PYTHON)

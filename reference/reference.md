@@ -946,6 +946,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [PARSESELECTOR]({{ site.baseurl }}/reference/functions/function_PARSESELECTOR)
 
+[PARTITION]({{ site.baseurl }}/reference/functions/function_PARTITION)
+
 [PATTERNDETECTION]({{ site.baseurl }}/reference/functions/function_PATTERNDETECTION)
 
 [PATTERNS]({{ site.baseurl }}/reference/functions/function_PATTERNS)
