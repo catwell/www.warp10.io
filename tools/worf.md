@@ -44,7 +44,7 @@ The owner is the data proprietary. This concept is useful for building data priv
 Every token has an expiration date after which it can no longer be used. This allows to create short-lived tokens for performing specific manipulations,
 or also long-lived tokens for embed it inside into devices.
 
-> Format : Integer (milliseconds)
+> Format : Long (milliseconds)
 
 ## Worf User Guide
 

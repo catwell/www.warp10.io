@@ -51,8 +51,6 @@ The following functions haven't been fully documented yet, but we can already gi
 
 [GROOVY]({{ site.baseurl }}/reference/miscellaneous/GROOVY)
 
-[HUMANDURATION]({{ site.baseurl }}/reference/miscellaneous/HUMANDURATION)
-
 [HYPOT]({{ site.baseurl }}/reference/miscellaneous/HYPOT)
 
 [IDWT]({{ site.baseurl }}/reference/miscellaneous/IDWT)
@@ -60,8 +58,6 @@ The following functions haven't been fully documented yet, but we can already gi
 [IFFT]({{ site.baseurl }}/reference/miscellaneous/IFFT)
 
 [IMMUTABLE]({{ site.baseurl }}/reference/miscellaneous/IMMUTABLE)
-
-[ISODURATION]({{ site.baseurl }}/reference/miscellaneous/ISODURATION)
 
 [JS]({{ site.baseurl }}/reference/miscellaneous/JS)
 
@@ -80,8 +76,6 @@ The following functions haven't been fully documented yet, but we can already gi
 [MACROFILTER]({{ site.baseurl }}/reference/miscellaneous/MACROFILTER)
 
 [MAKEGTS]({{ site.baseurl }}/reference/miscellaneous/MAKEGTS)
-
-[MAPID]({{ site.baseurl }}/reference/miscellaneous/MAPID)
 
 [NOTAFTER]({{ site.baseurl }}/reference/miscellaneous/NOTAFTER)
 
@@ -119,8 +113,6 @@ The following functions haven't been fully documented yet, but we can already gi
 
 [RUBY]({{ site.baseurl }}/reference/miscellaneous/RUBY)
 
-[SETVALUE]({{ site.baseurl }}/reference/miscellaneous/SETVALUE)
-
 [STACKATTRIBUTE]({{ site.baseurl }}/reference/miscellaneous/STACKATTRIBUTE)
 
 [TIMINGS]({{ site.baseurl }}/reference/miscellaneous/TIMINGS)
@@ -130,8 +122,6 @@ The following functions haven't been fully documented yet, but we can already gi
 <div class='col-sm-3'>
 
 [ULP]({{ site.baseurl }}/reference/miscellaneous/ULP)
-
-[VALUEDEDUP]({{ site.baseurl }}/reference/miscellaneous/VALUEDEDUP)
 
 [bucketizer.percentile]({{ site.baseurl }}/reference/miscellaneous/bucketizer.percentile)
 
