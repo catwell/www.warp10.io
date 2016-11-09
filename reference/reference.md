@@ -870,6 +870,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [ATTICK]({{ site.baseurl }}/reference/functions/function_ATTICK)
 
+[ATTRIBUTES]({{ site.baseurl }}/reference/functions/function_ATTRIBUTES)
+
 [BBOX]({{ site.baseurl }}/reference/functions/function_BBOX)
 
 [CLONE]({{ site.baseurl }}/reference/functions/function_CLONE)
