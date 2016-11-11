@@ -3,14 +3,14 @@ title: "TSELEMENTS"
 layout: "function"
 isPage: "true"
 link: "/warpscript/functions"
-desc: "t replaces the timestamp with an array of its elements"
+desc: "Replaces the timestamp with an array of its elements"
 categoryTree: ["reference","functions"]
 oldPath: ["30-functions","15-standalone","100-function_TSELEMENTS.html.md"]
 category: "reference"
 ---
  
 
-The `TSELEMENTS`function applys to a timestamp. It replaces the timestamp with an array of
+The `TSELEMENTS`function applies to a timestamp. It replaces the timestamp with an array of
 its *elements*. The array contains the following `LONG` values in this order:
 
     [ year month day_of_month hour minute second microseconds day_of_year day_of_week week_of_year ]

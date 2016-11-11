@@ -523,6 +523,10 @@ This page lists all the functions available in WarpScript except those related t
 
 #### Date functions
 
+[ADDMONTHS]({{ site.baseurl }}/reference/functions/function_ADDMONTHS)
+
+[ADDYEARS]({{ site.baseurl }}/reference/functions/function_ADDYEARS)
+
 [AGO]({{ site.baseurl }}/reference/functions/function_AGO)
 
 [DURATION]({{ site.baseurl }}/reference/functions/function_DURATION)
