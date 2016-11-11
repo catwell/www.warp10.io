@@ -1,15 +1,15 @@
 ---
-title: "ADDMONTHS"
+title: "ADDWEEKS"
 layout: "function"
 isPage: "true"
 link: "/warpscript/functions"
-desc: "Adds a certain number of months to a timestamp."
+desc: "Adds a certain number of weeks to a timestamp."
 categoryTree: ["reference","functions"]
 category: "reference"
 ---
  
 
-The `ADDMONTHS` function modifies a timestamp by adding a specified number of months to it. Optionally a timezone can be specified so the computation is performed using it instead of `UTC`.
+The `ADDWEEKS` function modifies a timestamp by adding a specified number of weeks to it. Optionally a timezone can be specified so the computation is performed using it instead of `UTC`.
 
 Timezone names are the ones defined in [Joda Time](http://joda-time.sourceforge.net/timezones.html).
 
