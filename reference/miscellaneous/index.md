@@ -13,10 +13,6 @@ The following functions haven't been fully documented yet, but we can already gi
 
 [-&gt;Q]({{ site.baseurl }}/reference/miscellaneous/TOQ)
 
-[ATTRIBUTES]({{ site.baseurl }}/reference/miscellaneous/ATTRIBUTES)
-
-[CHUNK]({{ site.baseurl }}/reference/miscellaneous/CHUNK)
-
 [COPYGEO]({{ site.baseurl }}/reference/miscellaneous/COPYGEO)
 
 [COPYSIGN]({{ site.baseurl }}/reference/miscellaneous/COPYSIGN)
@@ -26,8 +22,6 @@ The following functions haven't been fully documented yet, but we can already gi
 [COUNTERDELTA]({{ site.baseurl }}/reference/miscellaneous/COUNTERDELTA)
 
 [COUNTERVALUE]({{ site.baseurl }}/reference/miscellaneous/COUNTERVALUE)
-
-[CUDF]({{ site.baseurl }}/reference/miscellaneous/CUDF)
 
 [DISCORDS]({{ site.baseurl }}/reference/miscellaneous/DISCORDS)
 
@@ -57,8 +51,6 @@ The following functions haven't been fully documented yet, but we can already gi
 
 [GROOVY]({{ site.baseurl }}/reference/miscellaneous/GROOVY)
 
-[HUMANDURATION]({{ site.baseurl }}/reference/miscellaneous/HUMANDURATION)
-
 [HYPOT]({{ site.baseurl }}/reference/miscellaneous/HYPOT)
 
 [IDWT]({{ site.baseurl }}/reference/miscellaneous/IDWT)
@@ -66,8 +58,6 @@ The following functions haven't been fully documented yet, but we can already gi
 [IFFT]({{ site.baseurl }}/reference/miscellaneous/IFFT)
 
 [IMMUTABLE]({{ site.baseurl }}/reference/miscellaneous/IMMUTABLE)
-
-[ISODURATION]({{ site.baseurl }}/reference/miscellaneous/ISODURATION)
 
 [JS]({{ site.baseurl }}/reference/miscellaneous/JS)
 
@@ -87,8 +77,6 @@ The following functions haven't been fully documented yet, but we can already gi
 
 [MAKEGTS]({{ site.baseurl }}/reference/miscellaneous/MAKEGTS)
 
-[MAPID]({{ site.baseurl }}/reference/miscellaneous/MAPID)
-
 [NOTAFTER]({{ site.baseurl }}/reference/miscellaneous/NOTAFTER)
 
 [NOTBEFORE]({{ site.baseurl }}/reference/miscellaneous/NOTBEFORE)
@@ -100,8 +88,6 @@ The following functions haven't been fully documented yet, but we can already gi
 [OPTDTW]({{ site.baseurl }}/reference/miscellaneous/OPTDTW)
 
 [PAPPLY]({{ site.baseurl }}/reference/miscellaneous/PAPPLY)
-
-[PARTITION]({{ site.baseurl }}/reference/miscellaneous/PARTITION)
 
 [PFILTER]({{ site.baseurl }}/reference/miscellaneous/PFILTER)
 
@@ -127,10 +113,6 @@ The following functions haven't been fully documented yet, but we can already gi
 
 [RUBY]({{ site.baseurl }}/reference/miscellaneous/RUBY)
 
-[SETATTRIBUTES]({{ site.baseurl }}/reference/miscellaneous/SETATTRIBUTES)
-
-[SETVALUE]({{ site.baseurl }}/reference/miscellaneous/SETVALUE)
-
 [STACKATTRIBUTE]({{ site.baseurl }}/reference/miscellaneous/STACKATTRIBUTE)
 
 [TIMINGS]({{ site.baseurl }}/reference/miscellaneous/TIMINGS)
@@ -139,13 +121,7 @@ The following functions haven't been fully documented yet, but we can already gi
 
 <div class='col-sm-3'>
 
-[UDF]({{ site.baseurl }}/reference/miscellaneous/UDF)
-
 [ULP]({{ site.baseurl }}/reference/miscellaneous/ULP)
-
-[VALUEDEDUP]({{ site.baseurl }}/reference/miscellaneous/VALUEDEDUP)
-
-[VALUEHISTOGRAM]({{ site.baseurl }}/reference/miscellaneous/VALUEHISTOGRAM)
 
 [bucketizer.percentile]({{ site.baseurl }}/reference/miscellaneous/bucketizer.percentile)
 

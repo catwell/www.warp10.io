@@ -13,7 +13,7 @@ category: "reference"
 The `ATBUCKET` function consumes a bucketized GTS from the stack, looks at its `index`-th bucker and put on the stack a list with the timestamp, longitude, lattitude, elevation and value for the `index`-th point of the GTS.
 
 
-## Let's play with it ##
+## Example ##
 
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">// Create a new GTS with ten values 
