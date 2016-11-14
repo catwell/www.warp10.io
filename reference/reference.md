@@ -527,8 +527,6 @@ This page lists all the functions available in WarpScript except those related t
 
 [ADDMONTHS]({{ site.baseurl }}/reference/functions/function_ADDMONTHS)
 
-[ADDWEEKS]({{ site.baseurl }}/reference/functions/function_ADDWEEKS)
-
 [ADDYEARS]({{ site.baseurl }}/reference/functions/function_ADDYEARS)
 
 [AGO]({{ site.baseurl }}/reference/functions/function_AGO)
