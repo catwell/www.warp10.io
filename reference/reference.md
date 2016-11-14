@@ -625,6 +625,20 @@ This page lists all the functions available in WarpScript except those related t
 
 [MD5]({{ site.baseurl }}/reference/functions/function_MD5)
 
+[RSADECRYPT]({{ site.baseurl }}/reference/functions/function_RSADECRYPT)
+
+[RSAENCRYPT]({{ site.baseurl }}/reference/functions/function_RSAENCRYPT)
+
+[RSAGEN]({{ site.baseurl }}/reference/functions/function_RSAGEN)
+
+[RSAPRIVATE]({{ site.baseurl }}/reference/functions/function_RSAPRIVATE)
+
+[RSAPUBLIC]({{ site.baseurl }}/reference/functions/function_RSAPUBLIC)
+
+[RSASIGN]({{ site.baseurl }}/reference/functions/function_RSASIGN)
+
+[RSAVERIFY]({{ site.baseurl }}/reference/functions/function_RSAVERIFY)
+
 [SHA1]({{ site.baseurl }}/reference/functions/function_SHA1)
 
 [SHA1HMAC]({{ site.baseurl }}/reference/functions/function_SHA1HMAC)
