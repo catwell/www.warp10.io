@@ -1172,6 +1172,12 @@ Modifies the maximum number of symbols for the stack.
 
 ``` n MAXSYMBOLS - ```
 
+## MD5 ##
+
+Message Digest of a byte array with the cryptographic hash function MD5.
+
+``` 'byte array' MD5 'md5 hash' ```
+
 ## MERGE ##
 
 Merge multiple GTS.
@@ -1649,6 +1655,18 @@ Transforms a set back into a list.
 Set attributes of a GTS.
 
 ``` [ gts ] { attributes }  SETATTRIBUTES [ gts ] ```
+
+## SHA1 ##
+
+Message Digest of a byte array with the cryptographic hash function SHA-1.
+
+``` 'byte array' SHA1 'sha1 hash' ```
+
+## SHA256 ##
+
+Message Digest of a byte array with the cryptographic hash function SHA-256.
+
+``` 'byte array' SHA256 'sha256 hash' ```
 
 ## SHRINK ##
 

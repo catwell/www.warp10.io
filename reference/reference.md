@@ -623,6 +623,12 @@ This page lists all the functions available in WarpScript except those related t
 
 [AESWRAP]({{ site.baseurl }}/reference/functions/function_AESWRAP)
 
+[MD5]({{ site.baseurl }}/reference/functions/function_MD5)
+
+[SHA1]({{ site.baseurl }}/reference/functions/function_SHA1)
+
+[SHA256]({{ site.baseurl }}/reference/functions/function_SHA256)
+
 #### Util functions
 
 [GZIP]({{ site.baseurl }}/reference/functions/function_GZIP)
