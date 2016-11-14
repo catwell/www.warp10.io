@@ -1662,11 +1662,24 @@ Message Digest of a byte array with the cryptographic hash function SHA-1.
 
 ``` 'byte array' SHA1 'sha1 hash' ```
 
+## SHA1HMAC ##
+
+HMAC of a byte array with the cryptographic hash function SHA-1.
+
+``` 'message' 'secret key' SHA1HMAC 'hashmac' ```
+
 ## SHA256 ##
 
 Message Digest of a byte array with the cryptographic hash function SHA-256.
 
 ``` 'byte array' SHA256 'sha256 hash' ```
+
+## SHA256HMAC ##
+
+HMAC of a byte array with the cryptographic hash function SHA-256.
+
+``` 'message' 'secret key' SHA256HMAC 'hashmac' ```
+
 
 ## SHRINK ##
 

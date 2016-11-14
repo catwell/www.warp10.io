@@ -627,7 +627,11 @@ This page lists all the functions available in WarpScript except those related t
 
 [SHA1]({{ site.baseurl }}/reference/functions/function_SHA1)
 
+[SHA1HMAC]({{ site.baseurl }}/reference/functions/function_SHA1HMAC)
+
 [SHA256]({{ site.baseurl }}/reference/functions/function_SHA256)
+
+[SHA256HMAC]({{ site.baseurl }}/reference/functions/function_SHA256HMAC)
 
 #### Util functions
 
