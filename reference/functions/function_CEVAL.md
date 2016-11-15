@@ -16,6 +16,8 @@ Below the parallelism level, a list of macros is expected.
 
 All macros will be executed with the maximum parallelism level specified. Each macro is executed on its own stack. The context of the global stack is replicated to each of those stacks so each macro will have access to the existing symbols and the redefined functions. Any modification to the symbol table or redifined functions done in a concurrent macro will not be reflected in the global stack afterwards.
 
+Each macro is invoked with its index in the list on top of the stack.
+
 Upon termination of each macro, the content of their respective stacks is put into a list, with the top of the stack at index 0, and those lists are merged into a global list which is then pushed onto the stack. The resulting list for each macro appears at the index of the macro in the original macro list.
 
 Beware that no synchronization is implicitely performed between the concurrent macros. If you require synchronization between macros, for example because you are modifying a list accessible by all macros via a symbol, you MUST use the [SYNC]({{ site.baseurl}}/reference/functions/function_SYNC) function.
