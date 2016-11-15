@@ -8,7 +8,7 @@ categoryTree: ["reference","functions"]
 category: "reference"
 ---
  
-The `CEVAL` function mllows you to execute macros in a concurrent way on a pool of threads.
+The `CEVAL` function allows you to execute macros in a concurrent way on a pool of threads.
 
 The function expects a parallelism level (a LONG) on top of the stack.
 
