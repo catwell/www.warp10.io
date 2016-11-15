@@ -1172,6 +1172,12 @@ Modifies the maximum number of symbols for the stack.
 
 ``` n MAXSYMBOLS - ```
 
+## MD5 ##
+
+Message Digest of a byte array with the cryptographic hash function MD5.
+
+``` 'byte array' MD5 'md5 hash' ```
+
 ## MERGE ##
 
 Merge multiple GTS.
@@ -1602,6 +1608,48 @@ Returns the closest long to the argument, with ties rounding up.
 
 ``` x ROUND Math.round(x) ```
 
+## RSADECRYPT ##
+
+Decrypt data using RSA keys
+
+``` encrypted_bytearray rsa_key RSADECRYPT decrypted_bytearray ```
+
+## RSAENCRYPT ##
+
+Encrypt data using RSA keys
+
+``` bytearray rsa_key RSAENCRYPT encrypted_bytearray ```
+
+## RSAGEN ##
+
+Generates a RSA key pair.
+
+``` exponent key_length RSAGEN [ keys] ```
+
+## RSAPRIVATE ##
+
+Produce a RSA private key from a parameter map.
+
+``` { key parameters} RSAPRIVATE private_key ```
+
+## RSAPUBLIC ##
+
+Produce a RSA public key from a parameter map.
+
+``` { key parameters} RSAPUBLIC public_key ```
+
+## RSASIGN ##
+
+Sign data with a private key using RSA cryptosystem.
+
+```  data algorithm private_key RSASIGN rsa_signature ```
+
+## RSAVERIFY ##
+
+Verify an RSA signature
+
+``` data rsa_signature algorithm public_key RSAVERIFY boolean ```
+
 ## RSORT ##
 
 Sort a GTS by descending ticks.
@@ -1649,6 +1697,31 @@ Transforms a set back into a list.
 Set attributes of a GTS.
 
 ``` [ gts ] { attributes }  SETATTRIBUTES [ gts ] ```
+
+## SHA1 ##
+
+Message Digest of a byte array with the cryptographic hash function SHA-1.
+
+``` 'byte array' SHA1 'sha1 hash' ```
+
+## SHA1HMAC ##
+
+HMAC of a byte array with the cryptographic hash function SHA-1.
+
+``` 'message' 'secret key' SHA1HMAC 'hashmac' ```
+
+## SHA256 ##
+
+Message Digest of a byte array with the cryptographic hash function SHA-256.
+
+``` 'byte array' SHA256 'sha256 hash' ```
+
+## SHA256HMAC ##
+
+HMAC of a byte array with the cryptographic hash function SHA-256.
+
+``` 'message' 'secret key' SHA256HMAC 'hashmac' ```
+
 
 ## SHRINK ##
 
