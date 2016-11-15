@@ -15,7 +15,7 @@ Fails otherwise.
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">
 // timestamp 1 second in the past 
 NOW 1 s -
-// the current timestamp is not after
+// the current timestamp is not before
 NOTBEFORE
 
 // work with ISO dates
