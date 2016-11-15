@@ -756,7 +756,7 @@ This page lists all the functions available in WarpScript except those related t
 
 [BREAK]({{ site.baseurl }}/reference/functions/function_BREAK)
 
-[CEVAK]({{ site.baseurl }}/reference/functions/function_CEVAL)
+[CEVAL]({{ site.baseurl }}/reference/functions/function_CEVAL)
 
 [CONTINUE]({{ site.baseurl }}/reference/functions/function_CONTINUE)
 
@@ -787,6 +787,8 @@ This page lists all the functions available in WarpScript except those related t
 [STOP]({{ site.baseurl }}/reference/functions/function_STOP)
 
 [SWITCH]({{ site.baseurl }}/reference/functions/function_SWITCH)
+
+[SYNC]({{ site.baseurl }}/reference/functions/function_SYNC)
 
 [UNTIL]({{ site.baseurl }}/reference/functions/function_UNTIL)
 
