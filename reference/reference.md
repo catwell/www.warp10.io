@@ -1078,6 +1078,10 @@ This page lists all the functions available in WarpScript except those related t
 
 ### Geo manipulation functions  
 
+[->GEOHASH]({{ site.baseurl }}/reference/functions/function_TOGEOHASH)
+
+[->HHCODE]({{ site.baseurl }}/reference/functions/function_TOHHCODE)
+
 [GEO.DIFFERENCE]({{ site.baseurl }}/reference/functions/function_GEO_DIFFERENCE)
 
 [GEO.INTERSECTION]({{ site.baseurl }}/reference/functions/function_GEO_INTERSECTION)
@@ -1090,6 +1094,10 @@ This page lists all the functions available in WarpScript except those related t
 
 [GEO.WKT]({{ site.baseurl }}/reference/functions/function_GEO_WKT)
 
+[GEOHASH->]({{ site.baseurl }}/reference/functions/function_GEOHASHTO)
+
 [HAVERSINE]({{ site.baseurl }}/reference/functions/function_HAVERSINE)
+
+[HHCODE->]({{ site.baseurl }}/reference/functions/function_HHCODETO)
 
 </div>
