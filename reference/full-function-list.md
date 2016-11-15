@@ -464,6 +464,12 @@ Checks if a symbol is defined.
 
 ``` 'symbol' DEFINED bool ```
 
+## DEFINEDMACRO ##
+
+Checks if a macro is defined.
+
+``` 'macro' DEFINEDMACRO bool ```
+
 ## DEPTH ##
 
 Pushes the current depth of the stack onto the stack.

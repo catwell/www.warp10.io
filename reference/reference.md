@@ -747,6 +747,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [DEFINED]({{ site.baseurl }}/reference/functions/function_DEFINED)
 
+[DEFINEDMACRO]({{ site.baseurl }}/reference/functions/function_DEFINEDMACRO)
+
 [EVAL]({{ site.baseurl }}/reference/functions/function_EVAL)
 
 [FAIL]({{ site.baseurl }}/reference/functions/function_FAIL)
