@@ -844,6 +844,10 @@ This page lists all the functions available in WarpScript except those related t
 
 [RUN]({{ site.baseurl }}/reference/functions/function_RUN)
 
+[SNAPSHOT]({{ site.baseurl }}/reference/functions/function_SNAPSHOT)
+
+[SNAPSHOTALL]({{ site.baseurl }}/reference/functions/function_SNAPSHOTALL)
+
 [STORE]({{ site.baseurl }}/reference/functions/function_STORE)
 
 [SWAP]({{ site.baseurl }}/reference/functions/function_SWAP)
