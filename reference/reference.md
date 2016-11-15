@@ -516,6 +516,15 @@ This page lists all the functions available in WarpScript except those related t
 
 [TORADIANS]({{ site.baseurl }}/reference/functions/function_TORADIANS)
 
+#### Range and counters
+
+[COUNTER]({{ site.baseurl }}/reference/functions/function_COUNTER)
+
+[COUNTERDELTA]({{ site.baseurl }}/reference/functions/function_COUNTERDELTA)
+
+[COUNTERVALUE]({{ site.baseurl }}/reference/functions/function_COUNTERVALUE)
+
+[RANGE]({{ site.baseurl }}/reference/functions/function_RANGE)
 
 <a name="functions-standalone"></a>
 
@@ -540,6 +549,10 @@ This page lists all the functions available in WarpScript except those related t
 [ISO8601]({{ site.baseurl }}/reference/functions/function_ISO8601)
 
 [MSTU]({{ site.baseurl }}/reference/functions/function_MSTU)
+
+[NOTAFTER]({{ site.baseurl }}/reference/functions/function_NOTAFTER)
+
+[NOTBEFORE]({{ site.baseurl }}/reference/functions/function_NOTBEFORE)
 
 [NOW]({{ site.baseurl }}/reference/functions/function_NOW)
 
@@ -645,17 +658,17 @@ This page lists all the functions available in WarpScript except those related t
 
 [SHA256HMAC]({{ site.baseurl }}/reference/functions/function_SHA256HMAC)
 
-#### Util functions
+#### Compression functions
 
 [GZIP]({{ site.baseurl }}/reference/functions/function_GZIP)
 
-[RANGE]({{ site.baseurl }}/reference/functions/function_RANGE)
+[UNGZIP]({{ site.baseurl }}/reference/functions/function_UNGZIP)
+
+#### User defined functions
 
 [CUDF]({{ site.baseurl }}/reference/functions/function_CUDF)
 
 [UDF]({{ site.baseurl }}/reference/functions/function_UDF)
-
-[UNGZIP]({{ site.baseurl }}/reference/functions/function_UNGZIP)
 
 <a name="functions-lists-maps"></a>
 
