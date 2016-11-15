@@ -17,12 +17,6 @@ The following functions haven't been fully documented yet, but we can already gi
 
 [COPYSIGN]({{ site.baseurl }}/reference/miscellaneous/COPYSIGN)
 
-[COUNTER]({{ site.baseurl }}/reference/miscellaneous/COUNTER)
-
-[COUNTERDELTA]({{ site.baseurl }}/reference/miscellaneous/COUNTERDELTA)
-
-[COUNTERVALUE]({{ site.baseurl }}/reference/miscellaneous/COUNTERVALUE)
-
 [DISCORDS]({{ site.baseurl }}/reference/miscellaneous/DISCORDS)
 
 [DOUBLEEXPONENTIALSMOOTHING]({{ site.baseurl }}/reference/miscellaneous/DOUBLEEXPONENTIALSMOOTHING)
@@ -76,10 +70,6 @@ The following functions haven't been fully documented yet, but we can already gi
 [MACROFILTER]({{ site.baseurl }}/reference/miscellaneous/MACROFILTER)
 
 [MAKEGTS]({{ site.baseurl }}/reference/miscellaneous/MAKEGTS)
-
-[NOTAFTER]({{ site.baseurl }}/reference/miscellaneous/NOTAFTER)
-
-[NOTBEFORE]({{ site.baseurl }}/reference/miscellaneous/NOTBEFORE)
 
 [NOTIMINGS]({{ site.baseurl }}/reference/miscellaneous/NOTIMINGS)
 

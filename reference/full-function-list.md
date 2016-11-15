@@ -410,6 +410,24 @@ Computes the hyperbolic cosine of the top of the stack.
 
 ``` x COSH Math.cosh(x) ```
 
+## COUNTER ##
+
+Push a counter (AtomicLong) onto the stack.
+
+``` COUNTER counter ```
+
+## COUNTERDELTA ##
+
+Increment a counter.
+
+``` counter delta COUNTER counter ```
+
+## COUNTERVALUE ##
+
+Retrieve the value of a counter.
+
+``` counter COUNTERVALUE long ```
+
 ## COUNTTOMARK ##
 
 Counts he the number of elements up to, but excluding, the first *mark* encountered.
@@ -463,6 +481,12 @@ Redefine an WarpScript function with a macro .
 Checks if a symbol is defined.
 
 ``` 'symbol' DEFINED bool ```
+
+## DEFINEDMACRO ##
+
+Checks if a macro is defined.
+
+``` 'macro' DEFINEDMACRO bool ```
 
 ## DEPTH ##
 
@@ -805,6 +829,12 @@ Compute a 64 bit fingerprint of the string representation of the top of the stac
 Compute distance between locations (in degrees) using the Haversine formula.
 
 ``` lat1 lon1 lat2 lon2 HAVERSINE dist ```
+
+## HEADER ##
+
+Set a header which will be returned with the HTTP response.
+
+``` 'header_name' 'header_value' HEADER  ```
 
 ## HEX-> ##
 
