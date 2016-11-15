@@ -26,6 +26,8 @@ If one of the macros fail, an attempt to interrupt the other running macros will
 
 Use of `CEVAL` is not available from within a macro currently executing in a `CEVAL` call.
 
+The `CEVAL` function is part of the `io.warp10.script.ext.concurrent.ConcurrentWarpScriptExtension`, this extenstion MUST be specified in the `warpscript.extensions` configuration parameter for it to be available.
+
 ## Example ##
 
 {% raw %}
