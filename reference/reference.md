@@ -1120,6 +1120,10 @@ This page lists all the functions available in WarpScript except those related t
 
 [GEOHASH->]({{ site.baseurl }}/reference/functions/function_GEOHASHTO)
 
+[GEOPACK]({{ site.baseurl }}/reference/functions/function_GEOPACK)
+
+[GEOUNPACK]({{ site.baseurl }}/reference/functions/function_GEOUNPACK)
+
 [HAVERSINE]({{ site.baseurl }}/reference/functions/function_HAVERSINE)
 
 [HHCODE->]({{ site.baseurl }}/reference/functions/function_HHCODETO)
