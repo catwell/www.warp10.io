@@ -13,7 +13,7 @@ The header must starts with `X-`
 
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">
- 'X-WarpScript-Header' 'value' HEADER
- // Look at the HTTP response, X-WarpScript-Header header is set
+'X-WarpScript-Header' 'value' HEADER
+// Look at the HTTP response, X-WarpScript-Header header is set
 </warp10-warpscript-widget>
 {% endraw %}  

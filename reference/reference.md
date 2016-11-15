@@ -836,6 +836,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [PICK]({{ site.baseurl }}/reference/functions/function_PICK)
 
+[RESET]({{ site.baseurl }}/reference/functions/function_RESET)
+
 [ROLL]({{ site.baseurl }}/reference/functions/function_ROLL)
 
 [ROLLD]({{ site.baseurl }}/reference/functions/function_ROLLD)
