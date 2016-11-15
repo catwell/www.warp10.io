@@ -806,6 +806,12 @@ Compute distance between locations (in degrees) using the Haversine formula.
 
 ``` lat1 lon1 lat2 lon2 HAVERSINE dist ```
 
+## HEADER ##
+
+Set a header which will be returned with the HTTP response.
+
+``` 'header_name' 'header_value' HEADER  ```
+
 ## HEX-> ##
 
 Decode a string encoded in hexadecimal.

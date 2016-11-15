@@ -858,6 +858,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [EVALSECURE]({{ site.baseurl }}/reference/functions/function_EVALSECURE)
 
+[HEADER]({{ site.baseurl }}/reference/functions/function_HEADER)
+
 [IDENT]({{ site.baseurl }}/reference/functions/function_IDENT)
 
 [JSONLOOSE]({{ site.baseurl }}/reference/functions/function_JSONLOOSE)
