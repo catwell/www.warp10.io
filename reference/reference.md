@@ -973,6 +973,10 @@ This page lists all the functions available in WarpScript except those related t
 
 [FETCHSTRING]({{ site.baseurl }}/reference/functions/function_FETCHSTRING)
 
+[FFT]({{ site.baseurl }}/reference/functions/function_FFT)
+
+[FFTAP]({{ site.baseurl }}/reference/functions/function_FFTAP)
+
 [FILLTICKS]({{ site.baseurl }}/reference/functions/function_FILLTICKS)
 
 [FIND]({{ site.baseurl }}/reference/functions/function_FIND)
