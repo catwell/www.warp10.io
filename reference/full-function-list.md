@@ -410,6 +410,24 @@ Computes the hyperbolic cosine of the top of the stack.
 
 ``` x COSH Math.cosh(x) ```
 
+## COUNTER ##
+
+Push a counter (AtomicLong) onto the stack.
+
+``` COUNTER counter ```
+
+## COUNTERDELTA ##
+
+Increment a counter.
+
+``` counter delta COUNTER counter ```
+
+## COUNTERVALUE ##
+
+Retrieve the value of a counter.
+
+``` counter COUNTERVALUE long ```
+
 ## COUNTTOMARK ##
 
 Counts he the number of elements up to, but excluding, the first *mark* encountered.
