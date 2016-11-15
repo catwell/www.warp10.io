@@ -848,6 +848,10 @@ This page lists all the functions available in WarpScript except those related t
 
 [SNAPSHOTALL]({{ site.baseurl }}/reference/functions/function_SNAPSHOTALL)
 
+[SNAPSHOTALLTOMARK]({{ site.baseurl }}/reference/functions/function_SNAPSHOTALLTOMARK)
+
+[SNAPSHOTTOMARK]({{ site.baseurl }}/reference/functions/function_SNAPSHOTTOMARK)
+
 [STORE]({{ site.baseurl }}/reference/functions/function_STORE)
 
 [SWAP]({{ site.baseurl }}/reference/functions/function_SWAP)
