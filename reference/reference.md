@@ -967,6 +967,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [DISCORDS]({{ site.baseurl }}/reference/functions/function_DISCORDS)
 
+[DTW]({{ site.baseurl }}/reference/functions/function_DTW)
+
 [ELEVATIONS]({{ site.baseurl }}/reference/functions/function_ELEVATIONS)
 
 [FETCH]({{ site.baseurl }}/reference/functions/function_FETCH)
