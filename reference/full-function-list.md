@@ -2051,11 +2051,24 @@ Trim whitespaces at both ends of a string.
 
 ``` string TRIM string ```
 
+## ->TSELEMENTS ##
+
+Pushes on the stack the various elements of a timestamp for a given timezone.
+
+``` timestamp 'tz' TSELEMENTS [ year monthofyear dayofmonth hourofday minuteofhour secondofminute subseconds dayofyear dayofweek weekofweekyear ] ```
+
+
 ## TSELEMENTS ##
 
 Pushes on the stack the various elements of a timestamp for a given timezone.
 
 ``` timestamp 'tz' TSELEMENTS [ year monthofyear dayofmonth hourofday minuteofhour secondofminute subseconds dayofyear dayofweek weekofweekyear ] ```
+
+## TSELEMENTS-> ##
+
+Pushes on the stack the timestamp of various elements for a given timezone.
+
+``` [ year monthofyear dayofmonth hourofday minuteofhour secondofminute subseconds dayofyear dayofweek weekofweekyear ] 'tz' TSELEMENTS-> timestamp  ```
 
 ## TYPEOF ##
 

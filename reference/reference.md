@@ -536,6 +536,8 @@ This page lists all the functions available in WarpScript except those related t
 
 #### Date functions
 
+[-&gt;TSELEMENTS]({{ site.baseurl }}/reference/functions/function_TOTSELEMENTS)
+
 [ADDDAYS]({{ site.baseurl }}/reference/functions/function_ADDDAYS)
 
 [ADDMONTHS]({{ site.baseurl }}/reference/functions/function_ADDMONTHS)
@@ -563,6 +565,8 @@ This page lists all the functions available in WarpScript except those related t
 [STU]({{ site.baseurl }}/reference/functions/function_STU)
 
 [TSELEMENTS]({{ site.baseurl }}/reference/functions/function_TSELEMENTS)
+
+[TSELEMENTS-&gt;]({{ site.baseurl }}/reference/functions/function_TSELEMENTSTO)
 
 #### String functions
 
