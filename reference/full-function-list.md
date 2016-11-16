@@ -1813,6 +1813,12 @@ Pushes onto the stack the value of the named attribute.
 
 ``` 'name' STACKATTRIBUTE value ```
 
+## STACKTOLIST ##
+
+Convert the whole stack into a list and push this list on the top of the stack.
+
+``` STACKTOLIST [ ] ```
+
 ## STANDARDIZE ##
 
 Standardize numeric GTS instances (replace X by (X-mu)/sd).
