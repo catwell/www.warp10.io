@@ -1015,6 +1015,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [LOWESS]({{ site.baseurl }}/reference/functions/function_LOWESS)
 
+[MAKEGTS]({{ site.baseurl }}/reference/functions/function_MAKEGTS)
+
 [MERGE]({{ site.baseurl }}/reference/functions/function_MERGE)
 
 [META]({{ site.baseurl }}/reference/functions/function_META)
