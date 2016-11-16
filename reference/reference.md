@@ -412,6 +412,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [CEIL]({{ site.baseurl }}/reference/functions/function_CEIL)
 
+[COPYSIGN]({{ site.baseurl }}/reference/functions/function_COPYSIGN)
+
 [EXP]({{ site.baseurl }}/reference/functions/function_EXP)
 
 [FLOOR]({{ site.baseurl }}/reference/functions/function_FLOOR)
@@ -578,6 +580,10 @@ This page lists all the functions available in WarpScript except those related t
 [NOTBEFORE]({{ site.baseurl }}/reference/functions/function_NOTBEFORE)
 
 [NOW]({{ site.baseurl }}/reference/functions/function_NOW)
+
+[REPLACE]({{ site.baseurl }}/reference/functions/function_REPLACE)
+
+[REPLACEALL]({{ site.baseurl }}/reference/functions/function_REPLACEALL)
 
 [STU]({{ site.baseurl }}/reference/functions/function_STU)
 

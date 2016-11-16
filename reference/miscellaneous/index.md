@@ -13,8 +13,6 @@ The following functions haven't been fully documented yet, but we can already gi
 
 [-&gt;Q]({{ site.baseurl }}/reference/miscellaneous/TOQ)
 
-[COPYSIGN]({{ site.baseurl }}/reference/miscellaneous/COPYSIGN)
-
 [DISCORDS]({{ site.baseurl }}/reference/miscellaneous/DISCORDS)
 
 [DOUBLEEXPONENTIALSMOOTHING]({{ site.baseurl }}/reference/miscellaneous/DOUBLEEXPONENTIALSMOOTHING)

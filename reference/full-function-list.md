@@ -1615,6 +1615,18 @@ Rename a GTS.
 
 ``` gts 'name' RENAME gts ```
 
+## REPLACE ##
+
+Replaces the first substring of the input string that matches a regular expression with a replacement.
+
+``` 'input' 'regexp' 'replacement' REPLACE 'replaced input' ```
+
+## REPLACEALL ##
+
+Replaces all substrings of the input string that matches a regular expression with a replacement.
+
+``` 'input' 'regexp' 'replacement' REPLACEALL 'replaced input' ```
+
 ## RESET ##
 
 Reset the stack to a specific depth.
