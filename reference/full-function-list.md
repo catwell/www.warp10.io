@@ -351,6 +351,12 @@ Clears the stack.
 
 ``` obj1 ... objn  CLEAR - ```
 
+CLEARSYMBOLS
+
+Clears symbols.
+
+``` CLEARSYMBOLS ``` 
+
 ## CLEARTOMARK ##
 
 Clears the stack up to and including the first *mark* encountered.

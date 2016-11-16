@@ -852,6 +852,10 @@ This page lists all the functions available in WarpScript except those related t
 
 [CLEAR]({{ site.baseurl }}/reference/functions/function_CLEAR)
 
+[CLEARDEFS]({{ site.baseurl }}/reference/functions/function_CLEARDEFS)
+
+[CLEARSYMBOLS]({{ site.baseurl }}/reference/functions/function_CLEARSYMBOLS)
+
 [CLEARTOMARK]({{ site.baseurl }}/reference/functions/function_CLEARTOMARK)
 
 [CSTORE]({{ site.baseurl }}/reference/functions/function_CSTORE)
