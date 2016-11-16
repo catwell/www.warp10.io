@@ -756,6 +756,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [BREAK]({{ site.baseurl }}/reference/functions/function_BREAK)
 
+[CEVAL]({{ site.baseurl }}/reference/functions/function_CEVAL)
+
 [CONTINUE]({{ site.baseurl }}/reference/functions/function_CONTINUE)
 
 [DEFINED]({{ site.baseurl }}/reference/functions/function_DEFINED)
@@ -785,6 +787,8 @@ This page lists all the functions available in WarpScript except those related t
 [STOP]({{ site.baseurl }}/reference/functions/function_STOP)
 
 [SWITCH]({{ site.baseurl }}/reference/functions/function_SWITCH)
+
+[SYNC]({{ site.baseurl }}/reference/functions/function_SYNC)
 
 [UNTIL]({{ site.baseurl }}/reference/functions/function_UNTIL)
 
@@ -864,6 +868,10 @@ This page lists all the functions available in WarpScript except those related t
 [SNAPSHOT]({{ site.baseurl }}/reference/functions/function_SNAPSHOT)
 
 [SNAPSHOTALL]({{ site.baseurl }}/reference/functions/function_SNAPSHOTALL)
+
+[SNAPSHOTALLTOMARK]({{ site.baseurl }}/reference/functions/function_SNAPSHOTALLTOMARK)
+
+[SNAPSHOTTOMARK]({{ site.baseurl }}/reference/functions/function_SNAPSHOTTOMARK)
 
 [STORE]({{ site.baseurl }}/reference/functions/function_STORE)
 
@@ -965,11 +973,17 @@ This page lists all the functions available in WarpScript except those related t
 
 [FETCHSTRING]({{ site.baseurl }}/reference/functions/function_FETCHSTRING)
 
+[FFT]({{ site.baseurl }}/reference/functions/function_FFT)
+
+[FFTAP]({{ site.baseurl }}/reference/functions/function_FFTAP)
+
 [FILLTICKS]({{ site.baseurl }}/reference/functions/function_FILLTICKS)
 
 [FIND]({{ site.baseurl }}/reference/functions/function_FIND)
 
 [FIRSTTICK]({{ site.baseurl }}/reference/functions/function_FIRSTTICK)
+
+[IFFT]({{ site.baseurl }}/reference/functions/function_IFFT)
 
 [INTEGRATE]({{ site.baseurl }}/reference/functions/function_INTEGRATE)
 
