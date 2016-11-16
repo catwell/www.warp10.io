@@ -272,6 +272,31 @@ Concerts content encoded in base64url into a string.
 
 ``` 'encoded' B64URL-> 'decoded' ```
 
+## BITCOUNT ##
+
+Computes the length of a bitset and the number of bits set.
+
+``` bitset BITCOUNT cardinality length ```
+
+## BITGET ##
+
+Gets a bit in a bits set.
+
+``` bitset bitnumber BITGET bit ```
+
+## BITSTOBYTES ##
+
+Converts a bitset into a byte array.
+
+``` bitset BITSTOBYTES bytearray ```
+
+## BYTESTOBITS ##
+
+Converts a byte array into a bitset.
+
+``` bytearray BYTESTOBITS bitset ```
+
+
 ## BREAK ##
 
 Break out of the current loop.

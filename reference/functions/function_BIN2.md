@@ -5,7 +5,7 @@ desc: "Decode a String in binary."
 category: reference
 ---
 
-The `->BIN` function decode a nibary string into a bytes array.
+The `->BIN` function decode a binary string into a bytes array.
 
 ## Example ##
 

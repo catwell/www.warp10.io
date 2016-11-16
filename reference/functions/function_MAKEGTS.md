@@ -7,7 +7,7 @@ category: "reference"
 
 ---
 
-Builds a GTS from arrays.
+The `MAKEGTS` function builds a GTS from arrays.
 
 ## Example ##
 

@@ -535,6 +535,18 @@ This page lists all the functions available in WarpScript except those related t
 
 [RANGE]({{ site.baseurl }}/reference/functions/function_RANGE)
 
+#### Bitset
+
+[BITCOUNT]({{ site.baseurl }}/reference/functions/function_BITCOUNT)
+
+[BITGET]({{ site.baseurl }}/reference/functions/function_BITGET)
+
+[BITSTOBYTES]({{ site.baseurl }}/reference/functions/function_BITSTOBYTES)
+
+[BYTESTOBITS]({{ site.baseurl }}/reference/functions/function_BYTESTOBITS)
+
+#### String functions
+
 <a name="functions-standalone"></a>
 
 ### Standalone functions
