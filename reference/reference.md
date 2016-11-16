@@ -581,10 +581,6 @@ This page lists all the functions available in WarpScript except those related t
 
 [NOW]({{ site.baseurl }}/reference/functions/function_NOW)
 
-[REPLACE]({{ site.baseurl }}/reference/functions/function_REPLACE)
-
-[REPLACEALL]({{ site.baseurl }}/reference/functions/function_REPLACEALL)
-
 [STU]({{ site.baseurl }}/reference/functions/function_STU)
 
 [TSELEMENTS]({{ site.baseurl }}/reference/functions/function_TSELEMENTS)
@@ -632,6 +628,10 @@ This page lists all the functions available in WarpScript except those related t
 [OPB64-&gt;]({{ site.baseurl }}/reference/functions/function_OPB64TO)
 
 [OPB64TOHEX]({{ site.baseurl }}/reference/functions/function_OPB64TOHEX)
+
+[REPLACE]({{ site.baseurl }}/reference/functions/function_REPLACE)
+
+[REPLACEALL]({{ site.baseurl }}/reference/functions/function_REPLACEALL)
 
 [SPLIT]({{ site.baseurl }}/reference/functions/function_SPLIT)
 
