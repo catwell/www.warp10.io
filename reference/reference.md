@@ -412,6 +412,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [CEIL]({{ site.baseurl }}/reference/functions/function_CEIL)
 
+[COPYSIGN]({{ site.baseurl }}/reference/functions/function_COPYSIGN)
+
 [EXP]({{ site.baseurl }}/reference/functions/function_EXP)
 
 [FLOOR]({{ site.baseurl }}/reference/functions/function_FLOOR)
@@ -626,6 +628,10 @@ This page lists all the functions available in WarpScript except those related t
 [OPB64-&gt;]({{ site.baseurl }}/reference/functions/function_OPB64TO)
 
 [OPB64TOHEX]({{ site.baseurl }}/reference/functions/function_OPB64TOHEX)
+
+[REPLACE]({{ site.baseurl }}/reference/functions/function_REPLACE)
+
+[REPLACEALL]({{ site.baseurl }}/reference/functions/function_REPLACEALL)
 
 [SPLIT]({{ site.baseurl }}/reference/functions/function_SPLIT)
 
