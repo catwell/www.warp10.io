@@ -62,6 +62,12 @@ Performs a subtraction of two elements on the stack.
 
 ``` num num - num ```
 
+## ->BIN ##
+
+Converts a string to its binary representation.
+
+``` 'string' ->BIN 'binary string' ```
+
 ## ->B64 ##
 
 Encodes a string in base64.
@@ -2062,7 +2068,6 @@ Trim whitespaces at both ends of a string.
 Pushes on the stack the various elements of a timestamp for a given timezone.
 
 ``` timestamp 'tz' TSELEMENTS [ year monthofyear dayofmonth hourofday minuteofhour secondofminute subseconds dayofyear dayofweek weekofweekyear ] ```
-
 
 ## TSELEMENTS ##
 

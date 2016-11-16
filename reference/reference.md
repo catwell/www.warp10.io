@@ -486,6 +486,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [PICKLE->]({{ site.baseurl }}/reference/functions/function_PICKLETO)
 
+[TOBIN]({{ site.baseurl }}/reference/functions/function_TOBIN)
+
 [TOBOOLEAN]({{ site.baseurl }}/reference/functions/function_TOBOOLEAN)
 
 [TODOUBLE]({{ site.baseurl }}/reference/functions/function_TODOUBLE)
@@ -570,6 +572,8 @@ This page lists all the functions available in WarpScript except those related t
 
 #### String functions
 
+[-&gt;BIN]({{ site.baseurl }}/reference/functions/function_2BIN)
+
 [-&gt;HEX]({{ site.baseurl }}/reference/functions/function_2HEX)
 
 [B64TOHEX]({{ site.baseurl }}/reference/functions/function_B64TOHEX)
@@ -577,6 +581,8 @@ This page lists all the functions available in WarpScript except those related t
 [B64-&gt;]({{ site.baseurl }}/reference/functions/function_B64TO)
 
 [B64URL-&gt;]({{ site.baseurl }}/reference/functions/function_B64URL)
+
+[BIN-&gt;]({{ site.baseurl }}/reference/functions/function_BIN2)
 
 [BINTOHEX]({{ site.baseurl }}/reference/functions/function_BINTOHEX)
 
@@ -614,11 +620,11 @@ This page lists all the functions available in WarpScript except those related t
 
 [-&gt;B64]({{ site.baseurl }}/reference/functions/function_TOB64)
 
+[-&gt;BIN]({{ site.baseurl }}/reference/functions/function_2BIN)
+
 [-&gt;BYTES]({{ site.baseurl }}/reference/functions/function_TOBYTES)
 
 [-&gt;OPB64]({{ site.baseurl }}/reference/functions/function_TOOPB64)
-
-[TOBIN]({{ site.baseurl }}/reference/functions/function_TOBIN)
 
 [TOBITS]({{ site.baseurl }}/reference/functions/function_TOBITS)
 
