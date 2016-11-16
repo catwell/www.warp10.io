@@ -37,8 +37,6 @@ The following functions haven't been fully documented yet, but we can already gi
 
 [FINDSETS]({{ site.baseurl }}/reference/miscellaneous/FINDSETS)
 
-[FINDSTATS]({{ site.baseurl }}/reference/miscellaneous/FINDSTATS)
-
 [FUSE]({{ site.baseurl }}/reference/miscellaneous/FUSE)
 
 [GROOVY]({{ site.baseurl }}/reference/miscellaneous/GROOVY)

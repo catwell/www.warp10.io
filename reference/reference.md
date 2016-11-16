@@ -991,6 +991,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [FIND]({{ site.baseurl }}/reference/functions/function_FIND)
 
+[FINDSTATS]({{ site.baseurl }}/reference/functions/function_FINDSTATS)
+
 [FIRSTTICK]({{ site.baseurl }}/reference/functions/function_FIRSTTICK)
 
 [IFFT]({{ site.baseurl }}/reference/functions/function_IFFT)
