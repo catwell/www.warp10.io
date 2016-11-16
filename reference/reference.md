@@ -625,6 +625,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [OPB64-&gt;]({{ site.baseurl }}/reference/functions/function_OPB64TO)
 
+[OPB64TOHEX]({{ site.baseurl }}/reference/functions/function_OPB64TOHEX)
+
 [SPLIT]({{ site.baseurl }}/reference/functions/function_SPLIT)
 
 [SUBSTRING]({{ site.baseurl }}/reference/functions/function_SUBSTRING)
