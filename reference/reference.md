@@ -660,9 +660,13 @@ This page lists all the functions available in WarpScript except those related t
 
 #### Compression functions
 
+[->Z]({{ site.baseurl }}/reference/functions/function_TOZ)
+
 [GZIP]({{ site.baseurl }}/reference/functions/function_GZIP)
 
 [UNGZIP]({{ site.baseurl }}/reference/functions/function_UNGZIP)
+
+[Z->]({{ site.baseurl }}/reference/functions/function_ZTO)
 
 #### User defined functions
 
