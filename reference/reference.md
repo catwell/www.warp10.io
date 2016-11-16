@@ -625,6 +625,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [OPB64-&gt;]({{ site.baseurl }}/reference/functions/function_OPB64TO)
 
+[OPB64TOHEX]({{ site.baseurl }}/reference/functions/function_OPB64TOHEX)
+
 [SPLIT]({{ site.baseurl }}/reference/functions/function_SPLIT)
 
 [SUBSTRING]({{ site.baseurl }}/reference/functions/function_SUBSTRING)
@@ -849,6 +851,10 @@ This page lists all the functions available in WarpScript except those related t
 [COUNTTOMARK]({{ site.baseurl }}/reference/functions/function_COUNTTOMARK)
 
 [CLEAR]({{ site.baseurl }}/reference/functions/function_CLEAR)
+
+[CLEARDEFS]({{ site.baseurl }}/reference/functions/function_CLEARDEFS)
+
+[CLEARSYMBOLS]({{ site.baseurl }}/reference/functions/function_CLEARSYMBOLS)
 
 [CLEARTOMARK]({{ site.baseurl }}/reference/functions/function_CLEARTOMARK)
 

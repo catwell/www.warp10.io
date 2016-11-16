@@ -351,6 +351,12 @@ Clears the stack.
 
 ``` obj1 ... objn  CLEAR - ```
 
+CLEARSYMBOLS
+
+Clears symbols.
+
+``` CLEARSYMBOLS ``` 
+
 ## CLEARTOMARK ##
 
 Clears the stack up to and including the first *mark* encountered.
@@ -1428,6 +1434,12 @@ Removes ticks which do not fall on bucket boundaries.
 Decodes the order preserving base64 content.
 
 ``` 'encoded' OPBB64-> 'decoded' ```
+
+## OPB64TOHEX ##
+
+Decodes an order preserving base64 encoded string and immediately re-encode it in hex.
+
+``` 'encoded' OPBB64TOHEX 'hex' ```
 
 ## OPS ##
 

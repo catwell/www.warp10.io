@@ -18,7 +18,7 @@ When redefining a function, if the function being redefined is used within the m
 
 You may therefore add limits to the use of an existing function by rewrapping it in a macro which will be associated with the original function name.
 
-To remove
+To remove redefined functions see [CLEARDEFS]({{ site.baseurl }}/reference/functions/function_CLEARDEFS).
 
 ## Example ##
 
