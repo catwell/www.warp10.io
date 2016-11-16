@@ -10,7 +10,7 @@ category: "reference"
  
 The `FFT` function computes a [Fast Fourier Transform](https://en.wikipedia.org/wiki/Fast_Fourier_transform) on a Geo Time Series or a list thereof it expects on top of the stack.
 
-The result of the `FFT` execution is a list of two Geo Time Series per input GTS. The first resulting GTS contains the real parts of the FFT coefficients, the second the imaginary parts. The ticks of those Geo Time Series are the periods associated with the tick index value. Thus for index k, the timestamp is `Tk = bucketspan * (n/k)`. For index 0, the timestamp is `bucketspan`. The associated frequency is `1/Tk`.
+The result of the `FFT` execution is a list of two Geo Time Series and a frequency scale factor per input GTS. The first resulting GTS contains the real parts of the FFT coefficients, the second the imaginary parts. The scale factor is equal to `X/(n * bucketspan)` where `n` is the number of elements in the origin GTS and `X` is the number of time units per second. The ticks of those Geo Time Series are indices from 0 to the number of values in the original series minus one. The frequency associated with each tick is `tick * factor`, with the exception of tick 0 which is `n * factor`.
 
 `FFT` can only be applied to bucketized numerical Geo Time Series which contains a number of values which is a power of 2.
 
