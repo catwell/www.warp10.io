@@ -13,8 +13,6 @@ The following functions haven't been fully documented yet, but we can already gi
 
 [-&gt;Q]({{ site.baseurl }}/reference/miscellaneous/TOQ)
 
-[COPYGEO]({{ site.baseurl }}/reference/miscellaneous/COPYGEO)
-
 [COPYSIGN]({{ site.baseurl }}/reference/miscellaneous/COPYSIGN)
 
 [DISCORDS]({{ site.baseurl }}/reference/miscellaneous/DISCORDS)
@@ -38,8 +36,6 @@ The following functions haven't been fully documented yet, but we can already gi
 [FFTAP]({{ site.baseurl }}/reference/miscellaneous/FFTAP)
 
 [FINDSETS]({{ site.baseurl }}/reference/miscellaneous/FINDSETS)
-
-[FINDSTATS]({{ site.baseurl }}/reference/miscellaneous/FINDSTATS)
 
 [FUSE]({{ site.baseurl }}/reference/miscellaneous/FUSE)
 
@@ -66,8 +62,6 @@ The following functions haven't been fully documented yet, but we can already gi
 [LOG1P]({{ site.baseurl }}/reference/miscellaneous/LOG1P)
 
 [LUA]({{ site.baseurl }}/reference/miscellaneous/LUA)
-
-[MACROFILTER]({{ site.baseurl }}/reference/miscellaneous/MACROFILTER)
 
 [MAKEGTS]({{ site.baseurl }}/reference/miscellaneous/MAKEGTS)
 

@@ -91,6 +91,9 @@ This page lists all the functions available in WarpScript except those related t
 
 [filter.last.le]({{ site.baseurl }}/reference/frameworks/filter_last_le)
 
+##### Custom filter
+
+[MACROFILTER]({{ site.baseurl }}/reference/frameworks/filter_MACROFILTER)
 
 <a name="framework-mappers"></a>
 
@@ -975,6 +978,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [COMPACT]({{ site.baseurl }}/reference/functions/function_COMPACT)
 
+[COPYGEO]({{ site.baseurl }}/reference/functions/function_COPYGEO)
+
 [CORRELATE]({{ site.baseurl }}/reference/functions/function_CORRELATE)
 
 [DEDUP]({{ site.baseurl }}/reference/functions/function_DEDUP)
@@ -1002,6 +1007,8 @@ This page lists all the functions available in WarpScript except those related t
 [FILLTICKS]({{ site.baseurl }}/reference/functions/function_FILLTICKS)
 
 [FIND]({{ site.baseurl }}/reference/functions/function_FIND)
+
+[FINDSTATS]({{ site.baseurl }}/reference/functions/function_FINDSTATS)
 
 [FIRSTTICK]({{ site.baseurl }}/reference/functions/function_FIRSTTICK)
 

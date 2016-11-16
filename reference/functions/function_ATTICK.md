@@ -18,7 +18,8 @@ If there is no data point with `tick` timestamp, it return a list with timestamp
 ## Example ##
 
 {% raw %}
-<warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">// Create a new GTS with ten values 
+<warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">
+// Create a new GTS with ten values 
 NEWGTS 
 'test name'
 RENAME
