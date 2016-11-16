@@ -1043,6 +1043,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [PATTERNS]({{ site.baseurl }}/reference/functions/function_PATTERNS)
 
+[OPTDTW]({{ site.baseurl }}/reference/functions/function_OPTDTW)
+
 [QUANTIZE]({{ site.baseurl }}/reference/functions/function_QUANTIZE)
 
 [RANGECOMPACT]({{ site.baseurl }}/reference/functions/function_RANGECOMPACT)
@@ -1110,6 +1112,8 @@ This page lists all the functions available in WarpScript except those related t
 [WRAPRAW]({{ site.baseurl }}/reference/functions/function_WRAPRAW)
 
 [ZSCORE]({{ site.baseurl }}/reference/functions/function_ZSCORE)
+
+[ZPATTERNS]({{ site.baseurl }}/reference/functions/function_ZPATTERNS)
 
 #### Outlier detection
 
