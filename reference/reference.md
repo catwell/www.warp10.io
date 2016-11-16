@@ -480,7 +480,11 @@ This page lists all the functions available in WarpScript except those related t
 
 [->JSON]({{ site.baseurl }}/reference/functions/function_TOJSON)
 
+[->PICKLE]({{ site.baseurl }}/reference/functions/function_TOPICKLE)
+
 [JSON->]({{ site.baseurl }}/reference/functions/function_JSONTO)
+
+[PICKLE->]({{ site.baseurl }}/reference/functions/function_PICKLETO)
 
 [TOBOOLEAN]({{ site.baseurl }}/reference/functions/function_TOBOOLEAN)
 
