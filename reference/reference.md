@@ -894,6 +894,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [COMPACT]({{ site.baseurl }}/reference/functions/function_COMPACT)
 
+[COPYGEO]({{ site.baseurl }}/reference/functions/function_COPYGEO)
+
 [CORRELATE]({{ site.baseurl }}/reference/functions/function_CORRELATE)
 
 [DEDUP]({{ site.baseurl }}/reference/functions/function_DEDUP)
