@@ -62,6 +62,12 @@ Performs a subtraction of two elements on the stack.
 
 ``` num num - num ```
 
+## ->BIN ##
+
+Converts a string to its binary representation.
+
+``` 'string' ->BIN 'binary string' ```
+
 ## ->B64 ##
 
 Encodes a string in base64.
@@ -266,6 +272,31 @@ Concerts content encoded in base64url into a string.
 
 ``` 'encoded' B64URL-> 'decoded' ```
 
+## BITCOUNT ##
+
+Computes the length of a bitset and the number of bits set.
+
+``` bitset BITCOUNT cardinality length ```
+
+## BITGET ##
+
+Gets a bit in a bits set.
+
+``` bitset bitnumber BITGET bit ```
+
+## BITSTOBYTES ##
+
+Converts a bitset into a byte array.
+
+``` bitset BITSTOBYTES bytearray ```
+
+## BYTESTOBITS ##
+
+Converts a byte array into a bitset.
+
+``` bytearray BYTESTOBITS bitset ```
+
+
 ## BREAK ##
 
 Break out of the current loop.
@@ -325,6 +356,12 @@ Clears the stack.
 Clears the stack up to and including the first *mark* encountered.
 
 ``` x mark y z CLEARTOMARK x ```
+
+## CLIP ##
+
+Clip a Geo Time Series according to a series of limits.
+
+``` gts [ [ lower1 upper1 ] ... ] CLIP [ gts1 ...gtsn] ```
 
 ## CLONE ##
 
@@ -2056,7 +2093,6 @@ Trim whitespaces at both ends of a string.
 Pushes on the stack the various elements of a timestamp for a given timezone.
 
 ``` timestamp 'tz' TSELEMENTS [ year monthofyear dayofmonth hourofday minuteofhour secondofminute subseconds dayofyear dayofweek weekofweekyear ] ```
-
 
 ## TSELEMENTS ##
 
