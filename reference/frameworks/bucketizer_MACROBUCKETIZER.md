@@ -6,6 +6,7 @@ link: "/warpscript/framework_bucketize"
 desc: "Converts a macro into a bucketizer"
 categoryTree: ["reference","frameworks"]
 category: "reference"
+signature: "macro MACROBUCKETIZER bucketizer"
 ---
  
 
@@ -13,7 +14,7 @@ category: "reference"
 
  For each tick in the mapped GTS, the macro will be called with a list containing the following elements on the stack:
 
-    [tick_of_computation,[gts_classes],[label_maps],[ticks],[latitudes],[longitudes],[elevations],[values]]
+    [tick_of_computation,[gts_classes],[label_bucketize],[ticks],[latitudes],[longitudes],[elevations],[values]]
 
 After each call the macro is expected to leave on the stack a list with the following elements:
 
@@ -52,7 +53,7 @@ Stack:
     TOP: [{"c":"","l":{},"a":{},"v":[[1434547818629904,9],[1434547818629902,0],[1434547818629900,0],[1434547818629898,3],[1434547818629896,0],[1434547818629894,0]]}]
 
 
-## Let's play with it ##
+## Example ##
 
 {% raw %}
 <warp10-warpscript-widget>NEWGTS

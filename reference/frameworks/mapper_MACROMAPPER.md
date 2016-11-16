@@ -7,6 +7,7 @@ desc: "Converts a macro into a mapper"
 categoryTree: ["reference","frameworks"]
 oldPath: ["20-frameworks","201-framework-map","300-mapper_MACROMAPPER.html.md"]
 category: "reference"
+signature: "macro MACROMAPPER mapper"
 ---
  
 
@@ -53,7 +54,7 @@ Stack:
     TOP: [{"c":"","l":{},"a":{},"v":[[1434547818629895,1],[1434547818629898,4],[1434547818629901,7],[1434547818629904,10]]}]
 
 
-## Let's play with it ##
+## Example ##
 
 {% raw %}
 <warp10-warpscript-widget>NEWGTS
