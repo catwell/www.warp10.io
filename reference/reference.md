@@ -670,6 +670,8 @@ This page lists all the functions available in WarpScript except those related t
 
 #### User defined functions
 
+[CALL]({{ site.baseurl }}/reference/functions/function_CALL)
+
 [CUDF]({{ site.baseurl }}/reference/functions/function_CUDF)
 
 [UDF]({{ site.baseurl }}/reference/functions/function_UDF)
