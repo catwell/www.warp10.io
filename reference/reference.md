@@ -91,6 +91,9 @@ This page lists all the functions available in WarpScript except those related t
 
 [filter.last.le]({{ site.baseurl }}/reference/frameworks/filter_last_le)
 
+##### Custom filter
+
+[MACROFILTER]({{ site.baseurl }}/reference/frameworks/filter_MACROFILTER)
 
 <a name="framework-mappers"></a>
 

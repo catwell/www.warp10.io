@@ -63,8 +63,6 @@ The following functions haven't been fully documented yet, but we can already gi
 
 [LUA]({{ site.baseurl }}/reference/miscellaneous/LUA)
 
-[MACROFILTER]({{ site.baseurl }}/reference/miscellaneous/MACROFILTER)
-
 [MAKEGTS]({{ site.baseurl }}/reference/miscellaneous/MAKEGTS)
 
 [NOTIMINGS]({{ site.baseurl }}/reference/miscellaneous/NOTIMINGS)
