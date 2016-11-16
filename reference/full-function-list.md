@@ -1813,6 +1813,12 @@ Pushes onto the stack the value of the named attribute.
 
 ``` 'name' STACKATTRIBUTE value ```
 
+## STACKTOLIST ##
+
+Convert the whole stack into a list and push this list on the top of the stack.
+
+``` STACKTOLIST [ ] ```
+
 ## STANDARDIZE ##
 
 Standardize numeric GTS instances (replace X by (X-mu)/sd).
@@ -2045,11 +2051,24 @@ Trim whitespaces at both ends of a string.
 
 ``` string TRIM string ```
 
+## ->TSELEMENTS ##
+
+Pushes on the stack the various elements of a timestamp for a given timezone.
+
+``` timestamp 'tz' TSELEMENTS [ year monthofyear dayofmonth hourofday minuteofhour secondofminute subseconds dayofyear dayofweek weekofweekyear ] ```
+
+
 ## TSELEMENTS ##
 
 Pushes on the stack the various elements of a timestamp for a given timezone.
 
 ``` timestamp 'tz' TSELEMENTS [ year monthofyear dayofmonth hourofday minuteofhour secondofminute subseconds dayofyear dayofweek weekofweekyear ] ```
+
+## TSELEMENTS-> ##
+
+Pushes on the stack the timestamp of various elements for a given timezone.
+
+``` [ year monthofyear dayofmonth hourofday minuteofhour secondofminute subseconds dayofyear dayofweek weekofweekyear ] 'tz' TSELEMENTS-> timestamp  ```
 
 ## TYPEOF ##
 
