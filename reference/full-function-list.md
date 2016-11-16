@@ -326,6 +326,12 @@ Clears the stack up to and including the first *mark* encountered.
 
 ``` x mark y z CLEARTOMARK x ```
 
+## CLIP ##
+
+Clip a Geo Time Series according to a series of limits.
+
+``` gts [ [ lower1 upper1 ] ... ] CLIP [ gts1 ...gtsn] ```
+
 ## CLONE ##
 
 Clone the GTS on top of the stack.

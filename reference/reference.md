@@ -963,6 +963,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [CHUNK]({{ site.baseurl }}/reference/functions/function_CHUNK)
 
+[CLIP]({{ site.baseurl }}/reference/functions/function_CLIP)
+
 [CLONE]({{ site.baseurl }}/reference/functions/function_CLONE)
 
 [CLONEEMPTY]({{ site.baseurl }}/reference/functions/function_CLONEEMPTY)
