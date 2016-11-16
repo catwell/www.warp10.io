@@ -410,6 +410,24 @@ Computes the hyperbolic cosine of the top of the stack.
 
 ``` x COSH Math.cosh(x) ```
 
+## COUNTER ##
+
+Push a counter (AtomicLong) onto the stack.
+
+``` COUNTER counter ```
+
+## COUNTERDELTA ##
+
+Increment a counter.
+
+``` counter delta COUNTER counter ```
+
+## COUNTERVALUE ##
+
+Retrieve the value of a counter.
+
+``` counter COUNTERVALUE long ```
+
 ## COUNTTOMARK ##
 
 Counts he the number of elements up to, but excluding, the first *mark* encountered.
@@ -463,6 +481,12 @@ Redefine an WarpScript function with a macro .
 Checks if a symbol is defined.
 
 ``` 'symbol' DEFINED bool ```
+
+## DEFINEDMACRO ##
+
+Checks if a macro is defined.
+
+``` 'macro' DEFINEDMACRO bool ```
 
 ## DEPTH ##
 
@@ -805,6 +829,12 @@ Compute a 64 bit fingerprint of the string representation of the top of the stac
 Compute distance between locations (in degrees) using the Haversine formula.
 
 ``` lat1 lon1 lat2 lon2 HAVERSINE dist ```
+
+## HEADER ##
+
+Set a header which will be returned with the HTTP response.
+
+``` 'header_name' 'header_value' HEADER  ```
 
 ## HEX-> ##
 
@@ -1171,6 +1201,12 @@ Modifies the maximum number of operations for the stack.
 Modifies the maximum number of symbols for the stack.
 
 ``` n MAXSYMBOLS - ```
+
+## MD5 ##
+
+Message Digest of a byte array with the cryptographic hash function MD5.
+
+``` 'byte array' MD5 'md5 hash' ```
 
 ## MERGE ##
 
@@ -1602,6 +1638,48 @@ Returns the closest long to the argument, with ties rounding up.
 
 ``` x ROUND Math.round(x) ```
 
+## RSADECRYPT ##
+
+Decrypt data using RSA keys
+
+``` encrypted_bytearray rsa_key RSADECRYPT decrypted_bytearray ```
+
+## RSAENCRYPT ##
+
+Encrypt data using RSA keys
+
+``` bytearray rsa_key RSAENCRYPT encrypted_bytearray ```
+
+## RSAGEN ##
+
+Generates a RSA key pair.
+
+``` exponent key_length RSAGEN [ keys] ```
+
+## RSAPRIVATE ##
+
+Produce a RSA private key from a parameter map.
+
+``` { key parameters} RSAPRIVATE private_key ```
+
+## RSAPUBLIC ##
+
+Produce a RSA public key from a parameter map.
+
+``` { key parameters} RSAPUBLIC public_key ```
+
+## RSASIGN ##
+
+Sign data with a private key using RSA cryptosystem.
+
+```  data algorithm private_key RSASIGN rsa_signature ```
+
+## RSAVERIFY ##
+
+Verify an RSA signature
+
+``` data rsa_signature algorithm public_key RSAVERIFY boolean ```
+
 ## RSORT ##
 
 Sort a GTS by descending ticks.
@@ -1649,6 +1727,31 @@ Transforms a set back into a list.
 Set attributes of a GTS.
 
 ``` [ gts ] { attributes }  SETATTRIBUTES [ gts ] ```
+
+## SHA1 ##
+
+Message Digest of a byte array with the cryptographic hash function SHA-1.
+
+``` 'byte array' SHA1 'sha1 hash' ```
+
+## SHA1HMAC ##
+
+HMAC of a byte array with the cryptographic hash function SHA-1.
+
+``` 'message' 'secret key' SHA1HMAC 'hashmac' ```
+
+## SHA256 ##
+
+Message Digest of a byte array with the cryptographic hash function SHA-256.
+
+``` 'byte array' SHA256 'sha256 hash' ```
+
+## SHA256HMAC ##
+
+HMAC of a byte array with the cryptographic hash function SHA-256.
+
+``` 'message' 'secret key' SHA256HMAC 'hashmac' ```
+
 
 ## SHRINK ##
 

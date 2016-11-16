@@ -480,7 +480,11 @@ This page lists all the functions available in WarpScript except those related t
 
 [->JSON]({{ site.baseurl }}/reference/functions/function_TOJSON)
 
+[->PICKLE]({{ site.baseurl }}/reference/functions/function_TOPICKLE)
+
 [JSON->]({{ site.baseurl }}/reference/functions/function_JSONTO)
+
+[PICKLE->]({{ site.baseurl }}/reference/functions/function_PICKLETO)
 
 [TOBOOLEAN]({{ site.baseurl }}/reference/functions/function_TOBOOLEAN)
 
@@ -516,12 +520,27 @@ This page lists all the functions available in WarpScript except those related t
 
 [TORADIANS]({{ site.baseurl }}/reference/functions/function_TORADIANS)
 
+#### Range and counters
+
+[COUNTER]({{ site.baseurl }}/reference/functions/function_COUNTER)
+
+[COUNTERDELTA]({{ site.baseurl }}/reference/functions/function_COUNTERDELTA)
+
+[COUNTERVALUE]({{ site.baseurl }}/reference/functions/function_COUNTERVALUE)
+
+[RANGE]({{ site.baseurl }}/reference/functions/function_RANGE)
 
 <a name="functions-standalone"></a>
 
 ### Standalone functions
 
 #### Date functions
+
+[ADDDAYS]({{ site.baseurl }}/reference/functions/function_ADDDAYS)
+
+[ADDMONTHS]({{ site.baseurl }}/reference/functions/function_ADDMONTHS)
+
+[ADDYEARS]({{ site.baseurl }}/reference/functions/function_ADDYEARS)
 
 [AGO]({{ site.baseurl }}/reference/functions/function_AGO)
 
@@ -534,6 +553,10 @@ This page lists all the functions available in WarpScript except those related t
 [ISO8601]({{ site.baseurl }}/reference/functions/function_ISO8601)
 
 [MSTU]({{ site.baseurl }}/reference/functions/function_MSTU)
+
+[NOTAFTER]({{ site.baseurl }}/reference/functions/function_NOTAFTER)
+
+[NOTBEFORE]({{ site.baseurl }}/reference/functions/function_NOTBEFORE)
 
 [NOW]({{ site.baseurl }}/reference/functions/function_NOW)
 
@@ -615,17 +638,47 @@ This page lists all the functions available in WarpScript except those related t
 
 [AESWRAP]({{ site.baseurl }}/reference/functions/function_AESWRAP)
 
-#### Util functions
+[MD5]({{ site.baseurl }}/reference/functions/function_MD5)
+
+[RSADECRYPT]({{ site.baseurl }}/reference/functions/function_RSADECRYPT)
+
+[RSAENCRYPT]({{ site.baseurl }}/reference/functions/function_RSAENCRYPT)
+
+[RSAGEN]({{ site.baseurl }}/reference/functions/function_RSAGEN)
+
+[RSAPRIVATE]({{ site.baseurl }}/reference/functions/function_RSAPRIVATE)
+
+[RSAPUBLIC]({{ site.baseurl }}/reference/functions/function_RSAPUBLIC)
+
+[RSASIGN]({{ site.baseurl }}/reference/functions/function_RSASIGN)
+
+[RSAVERIFY]({{ site.baseurl }}/reference/functions/function_RSAVERIFY)
+
+[SHA1]({{ site.baseurl }}/reference/functions/function_SHA1)
+
+[SHA1HMAC]({{ site.baseurl }}/reference/functions/function_SHA1HMAC)
+
+[SHA256]({{ site.baseurl }}/reference/functions/function_SHA256)
+
+[SHA256HMAC]({{ site.baseurl }}/reference/functions/function_SHA256HMAC)
+
+#### Compression functions
+
+[->Z]({{ site.baseurl }}/reference/functions/function_TOZ)
 
 [GZIP]({{ site.baseurl }}/reference/functions/function_GZIP)
 
-[RANGE]({{ site.baseurl }}/reference/functions/function_RANGE)
+[UNGZIP]({{ site.baseurl }}/reference/functions/function_UNGZIP)
+
+[Z->]({{ site.baseurl }}/reference/functions/function_ZTO)
+
+#### User defined functions
+
+[CALL]({{ site.baseurl }}/reference/functions/function_CALL)
 
 [CUDF]({{ site.baseurl }}/reference/functions/function_CUDF)
 
 [UDF]({{ site.baseurl }}/reference/functions/function_UDF)
-
-[UNGZIP]({{ site.baseurl }}/reference/functions/function_UNGZIP)
 
 <a name="functions-lists-maps"></a>
 
@@ -717,6 +770,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [DEFINED]({{ site.baseurl }}/reference/functions/function_DEFINED)
 
+[DEFINEDMACRO]({{ site.baseurl }}/reference/functions/function_DEFINEDMACRO)
+
 [EVAL]({{ site.baseurl }}/reference/functions/function_EVAL)
 
 [FAIL]({{ site.baseurl }}/reference/functions/function_FAIL)
@@ -806,6 +861,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [PICK]({{ site.baseurl }}/reference/functions/function_PICK)
 
+[RESET]({{ site.baseurl }}/reference/functions/function_RESET)
+
 [ROLL]({{ site.baseurl }}/reference/functions/function_ROLL)
 
 [ROLLD]({{ site.baseurl }}/reference/functions/function_ROLLD)
@@ -813,6 +870,14 @@ This page lists all the functions available in WarpScript except those related t
 [ROT]({{ site.baseurl }}/reference/functions/function_ROT)
 
 [RUN]({{ site.baseurl }}/reference/functions/function_RUN)
+
+[SNAPSHOT]({{ site.baseurl }}/reference/functions/function_SNAPSHOT)
+
+[SNAPSHOTALL]({{ site.baseurl }}/reference/functions/function_SNAPSHOTALL)
+
+[SNAPSHOTALLTOMARK]({{ site.baseurl }}/reference/functions/function_SNAPSHOTALLTOMARK)
+
+[SNAPSHOTTOMARK]({{ site.baseurl }}/reference/functions/function_SNAPSHOTTOMARK)
 
 [STORE]({{ site.baseurl }}/reference/functions/function_STORE)
 
@@ -827,6 +892,8 @@ This page lists all the functions available in WarpScript except those related t
 [&lt;S ... S&gt;]({{ site.baseurl }}/reference/functions/securedscripts)
 
 [EVALSECURE]({{ site.baseurl }}/reference/functions/function_EVALSECURE)
+
+[HEADER]({{ site.baseurl }}/reference/functions/function_HEADER)
 
 [IDENT]({{ site.baseurl }}/reference/functions/function_IDENT)
 
@@ -902,6 +969,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [DISCORDS]({{ site.baseurl }}/reference/functions/function_DISCORDS)
 
+[DTW]({{ site.baseurl }}/reference/functions/function_DTW)
+
 [ELEVATIONS]({{ site.baseurl }}/reference/functions/function_ELEVATIONS)
 
 [FETCH]({{ site.baseurl }}/reference/functions/function_FETCH)
@@ -914,11 +983,17 @@ This page lists all the functions available in WarpScript except those related t
 
 [FETCHSTRING]({{ site.baseurl }}/reference/functions/function_FETCHSTRING)
 
+[FFT]({{ site.baseurl }}/reference/functions/function_FFT)
+
+[FFTAP]({{ site.baseurl }}/reference/functions/function_FFTAP)
+
 [FILLTICKS]({{ site.baseurl }}/reference/functions/function_FILLTICKS)
 
 [FIND]({{ site.baseurl }}/reference/functions/function_FIND)
 
 [FIRSTTICK]({{ site.baseurl }}/reference/functions/function_FIRSTTICK)
+
+[IFFT]({{ site.baseurl }}/reference/functions/function_IFFT)
 
 [INTEGRATE]({{ site.baseurl }}/reference/functions/function_INTEGRATE)
 
@@ -1074,6 +1149,10 @@ This page lists all the functions available in WarpScript except those related t
 
 ### Geo manipulation functions  
 
+[->GEOHASH]({{ site.baseurl }}/reference/functions/function_TOGEOHASH)
+
+[->HHCODE]({{ site.baseurl }}/reference/functions/function_TOHHCODE)
+
 [GEO.DIFFERENCE]({{ site.baseurl }}/reference/functions/function_GEO_DIFFERENCE)
 
 [GEO.INTERSECTION]({{ site.baseurl }}/reference/functions/function_GEO_INTERSECTION)
@@ -1086,6 +1165,31 @@ This page lists all the functions available in WarpScript except those related t
 
 [GEO.WKT]({{ site.baseurl }}/reference/functions/function_GEO_WKT)
 
+[GEOHASH->]({{ site.baseurl }}/reference/functions/function_GEOHASHTO)
+
+[GEOPACK]({{ site.baseurl }}/reference/functions/function_GEOPACK)
+
+[GEOUNPACK]({{ site.baseurl }}/reference/functions/function_GEOUNPACK)
+
 [HAVERSINE]({{ site.baseurl }}/reference/functions/function_HAVERSINE)
+
+[HHCODE->]({{ site.baseurl }}/reference/functions/function_HHCODETO)
+
+### WarpScript Extensions
+#### Concurrent Extension
+
+[CEVAL]({{ site.baseurl }}/reference/functions/function_CEVAL)
+
+[SYNC]({{ site.baseurl }}/reference/functions/function_SYNC)
+
+#### Sensision Extension
+
+[SENSISION.EVENT]({{ site.baseurl }}/reference/functions/function_SENSISIONEVENT)
+
+[SENSISION.GET]({{ site.baseurl }}/reference/functions/function_SENSISIONGET)
+
+[SENSISION.SET]({{ site.baseurl }}/reference/functions/function_SENSISIONSET)
+
+[SENSISION.UPDATE]({{ site.baseurl }}/reference/functions/function_SENSISIONUPDATE)
 
 </div>
