@@ -784,6 +784,10 @@ This page lists all the functions available in WarpScript except those related t
 
 [UNIQUE]({{ site.baseurl }}/reference/functions/function_UNIQUE)
 
+[UNLIST]({{ site.baseurl }}/reference/functions/function_UNLIST)
+
+[UNMAP]({{ site.baseurl }}/reference/functions/function_UNMAP)
+
 [UNPACK]({{ site.baseurl }}/reference/functions/function_UNPACK)
 
 [VALUELIST]({{ site.baseurl }}/reference/functions/function_VALUELIST)
