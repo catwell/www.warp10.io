@@ -15,7 +15,7 @@ The `FIRSTTICK` function pushes on the stack the first tick of the GTS on top of
 If the GTS does not have values, `Long.MAX_VALUE` is pushed.
 
 
-## Let's play with it ##
+## Example ##
 
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">

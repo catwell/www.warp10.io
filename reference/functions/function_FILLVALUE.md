@@ -44,8 +44,6 @@ Stack:
 
     TOP: [{"c":"test name","l":{"label0":"42","label1":"foo"},"a":{},"v":[[100,10],[150,0,0,0,42],[200,9],[250,0,0,0,42],[300,8],[350,0,0,0,42],[400,7],[450,0,0,0,42],[500,6]]}]
 
-## Let's play with it ##
-
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">// Create a new bucketized GTS with 9 buckets but only five values
 NEWGTS 'test name' RENAME

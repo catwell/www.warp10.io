@@ -25,9 +25,6 @@ Stack:
 
     TOP: [ [1,4,7,8],[2,5,7,9],[3,6,7,10] ]
 
-
-## Let's play with it ##
-
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">[ [ 1 2 3 ] [ 4 5 6 ] [ 7 ] [ 8 9 10 ] ]
 ZIP

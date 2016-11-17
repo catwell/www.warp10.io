@@ -39,8 +39,6 @@ Stack:
     5:   'e'
 
 
-## Let's play with it ##
-
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">'d' 'c' 'b' 'a'
 2 PICK

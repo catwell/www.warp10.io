@@ -31,8 +31,6 @@ Stack:
     TOP: ["abc","def","ghi","jkl"]
 
 
-## Let's play with it ##
-
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">'abc def ghi jkl'
 ' '

@@ -27,9 +27,6 @@ Stack:
     TOP: true
     1:   ['foo','cool']
 
-
-## Let's play with it ##
-
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">[ 'foo' 'bar' 'cool' ]
 'bar' CONTAINS

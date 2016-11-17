@@ -28,10 +28,6 @@ Response stack:
     
     TOP: "=test%20name{label0=42,label1=foo}"
 
-
-
-## Let's play with it ##
-
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">// Create a new GTS with ten values 
 // With a GTS

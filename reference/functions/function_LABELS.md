@@ -12,7 +12,7 @@ category: "reference"
 
 The `LABELS` function consomes a GTS from the stack, extracts its labels, puts them in a map and pushes the map onto the stack.
 
-## Let's play with it ##
+## Example ##
 
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">// Create a new GTS with ten values 

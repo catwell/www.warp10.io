@@ -46,8 +46,6 @@ Stack:
     9:    4
     10:   0
 
-## Let's play with it ##
-
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">// Macro that squares the value on the top of the stack
 <% 2 **  %>

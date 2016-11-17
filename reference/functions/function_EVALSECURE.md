@@ -30,9 +30,6 @@ Stack:
     
     TOP: 'd'
 
-
-## Let's play with it ##
-
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">'d' 'c' 'b' 'a' 
 'PaymNOufBVMAKDKAv2NM5T44nDEs1zLJg5VZG_owYc8_stv4_smI7uU5ixi9RZIj'

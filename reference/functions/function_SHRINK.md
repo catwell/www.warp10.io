@@ -15,7 +15,7 @@ The `SHRINK` function requieres a `size` parameter and a GTS on the top of the s
 This function has the side effect of sorting the GTS. If the GTS has fewer than 'SIZE' values the function will get an error.
 
 
-## Let's play with it ##
+## Example ##
 
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">// Create a new GTS with ten values 

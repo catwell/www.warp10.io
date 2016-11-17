@@ -57,8 +57,7 @@ The `ADDVALUE`function only works on GTS, not on lists of GTS like those generat
 [`FETCH`]({{ site.baseurl}}/reference/functions/function_FETCH). If you want to use `ADDVALUE` after a `FETCH`, you will need to extract the
 GTS from the list, for example by using [`GET`]({{ site.baseurl}}/reference/functions/function_GET) with value 0 as parameter.
 
-
-## Let's play with it ##
+## Example ##
 
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">//Let's recover a GTS with two elements

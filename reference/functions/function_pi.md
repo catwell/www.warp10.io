@@ -22,7 +22,6 @@ Stack:
 
     1: 3.141592653589793
 
-## Let's play with it ##
 
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">pi</warp10-warpscript-widget>

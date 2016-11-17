@@ -35,8 +35,6 @@ Stack:
     1:   42.0
 
 
-## Let's play with it ##
-
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">'42'
 TOLONG

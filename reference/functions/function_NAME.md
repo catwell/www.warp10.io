@@ -13,7 +13,7 @@ category: "reference"
 The `NAME` function consomes a GTS from the stack, extracts its name, and pushes it onto the stack.
 
 
-## Let's play with it ##
+## Example ##
 
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">// Create a new GTS with ten values 

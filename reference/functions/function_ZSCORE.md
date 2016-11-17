@@ -32,8 +32,6 @@ Stack:
 
     TOP: {"c":"","l":{},"a":{},"v":[[100,1.349],[200,0.6745],[300,0],[400,-0.6745],[500,-1.349]]}
 
-## Let's play with it ##
-
 <warp10-warpscript-widget>NEWGTS
 100  NaN NaN NaN 10.0 ADDVALUE
 200  NaN NaN NaN  9.0 ADDVALUE

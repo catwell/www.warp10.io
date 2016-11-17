@@ -28,8 +28,6 @@ Stack:
 
     TOP: 3.4760266448864496
 
-## Let's play with it ##
-
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">42 
 CBRT

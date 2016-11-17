@@ -30,9 +30,6 @@ Stack:
     2:   b
     3:   a
 
-
-## Let's play with it ##
-
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">[ 'a' 'b' 'c' ]
 LIST->

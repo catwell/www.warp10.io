@@ -728,6 +728,10 @@ This page lists all the functions available in WarpScript except those related t
 
 [-&gt;SET]({{ site.baseurl }}/reference/functions/function_TOSET)
 
+[-&gt;V]({{ site.baseurl }}/reference/functions/function_TOV)
+
+[-&gt;VEC]({{ site.baseurl }}/reference/functions/function_TOVEC)
+
 [APPEND]({{ site.baseurl }}/reference/functions/function_APPEND)
 
 [CLONEREVERSE]({{ site.baseurl }}/reference/functions/function_CLONEREVERSE)
@@ -762,6 +766,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [MSORT]({{ site.baseurl }}/reference/functions/function_MSORT)
 
+[PACK]({{ site.baseurl }}/reference/functions/function_PACK)
+
 [PUT]({{ site.baseurl }}/reference/functions/function_PUT)
 
 [REMOVE]({{ site.baseurl }}/reference/functions/function_REMOVE)
@@ -782,7 +788,17 @@ This page lists all the functions available in WarpScript except those related t
 
 [UNIQUE]({{ site.baseurl }}/reference/functions/function_UNIQUE)
 
+[UNLIST]({{ site.baseurl }}/reference/functions/function_UNLIST)
+
+[UNMAP]({{ site.baseurl }}/reference/functions/function_UNMAP)
+
+[UNPACK]({{ site.baseurl }}/reference/functions/function_UNPACK)
+
 [VALUELIST]({{ site.baseurl }}/reference/functions/function_VALUELIST)
+
+[V-&gt;]({{ site.baseurl }}/reference/functions/function_VTO)
+
+[VEC-&gt;]({{ site.baseurl }}/reference/functions/function_VECTO)
 
 [ZIP]({{ site.baseurl }}/reference/functions/function_ZIP)
 
@@ -1007,6 +1023,8 @@ This page lists all the functions available in WarpScript except those related t
 [CORRELATE]({{ site.baseurl }}/reference/functions/function_CORRELATE)
 
 [DEDUP]({{ site.baseurl }}/reference/functions/function_DEDUP)
+
+[DELETE]({{ site.baseurl }}/reference/functions/function_DELETE)
 
 [DISCORDS]({{ site.baseurl }}/reference/functions/function_DISCORDS)
 

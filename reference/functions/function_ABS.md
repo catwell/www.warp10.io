@@ -12,7 +12,6 @@ category: "reference"
 
 The `ABS` function consumes a numeric value from the top of the stack and pushes back its absolute value.
 
-
 ## Example ##
 
 WarpScript commands:
@@ -23,8 +22,6 @@ WarpScript commands:
 Stack: 
 
     TOP: 42
-
-## Let's play with it ##
 
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">-42

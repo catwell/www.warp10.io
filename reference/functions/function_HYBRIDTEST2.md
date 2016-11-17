@@ -80,9 +80,6 @@ Stack:
     // Outliers have been detected
     TOP: [36,25,71,82]
 
-
-## Let's play with it ##
-
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">// we need to raise max operations limit to generate a meaningful example
 'DOC-EGRESS-TOKEN' AUTHENTICATE // use your own token here

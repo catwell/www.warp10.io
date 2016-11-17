@@ -22,8 +22,6 @@ Stack:
 
     TOP: null
 
-## Let's play with it ##
-
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">NULL
 </warp10-warpscript-widget>

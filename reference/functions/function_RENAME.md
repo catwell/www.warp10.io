@@ -14,7 +14,7 @@ The `RENAME` function  modifies the name of a GTS or a list of GTS on top of the
 
 The parameter is the name to assign to the GTS instances. If this name starts with '+' (As the string are URL encoded, the symbol `+` have to be replaced by `%2B`, otherwise a `space` will replace the `+` in the string), the content following the '+' (%2B) will be added to the existing name of each GTS instance.
 
-## Let's play with it ##
+## Example ##
 
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">[

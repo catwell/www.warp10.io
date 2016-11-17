@@ -10,6 +10,9 @@ The `UNSECURE` function retrieve the original script from a [secured scripts]({{
 
 In the example the secured script contains the statements '3 DROPN' protected with the [SECUREKEY]({{ site.baseurl}}/reference/functions/function_SECUREKEY) 'SecretKeyDoc'
 
+
+## Example ##
+
 Stack:
 
     
@@ -24,9 +27,6 @@ Stack:
 
     
     TOP: '3 DROPN'
-
-
-## Let's play with it ##
 
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">

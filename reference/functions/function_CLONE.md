@@ -72,7 +72,7 @@ The `CLONE` function only works on GTS, not on lists of GTS like those generated
 GTS from the list, for example by using [`LIST->`]({{ site.baseurl}}/reference/functions/function_LISTTO) or [`GET`]({{ site.baseurl}}/reference/functions/function_GET).
 
 
-## Let's play with it ##
+## Example ##
 
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">

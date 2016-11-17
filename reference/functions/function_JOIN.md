@@ -33,8 +33,6 @@ Stack:
 
     TOP:  'str1-str2-str3-str4'
 
-## Let's play with it ##
-
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">
 'a' 'b' 'c' 'd' 'e'

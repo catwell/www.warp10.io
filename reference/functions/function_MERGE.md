@@ -29,9 +29,6 @@ Stack:
 
     TOP:  {"c":"a","l":{"label0":"42","label1":"foo"},"a":{},"v":[[1000000,1],[2000000,1],[3000000,1],[4000000,2],[5000000,2],[6000000,2],[7000000,3],[8000000,4],[9000000,4],[10000000,4]]}
 
-
-## Let's play with it ##
-
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">[
   NEWGTS 'a' RENAME

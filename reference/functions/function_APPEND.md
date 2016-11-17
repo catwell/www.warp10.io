@@ -27,9 +27,6 @@ Stack:
 
     TOP: ["a","b","c","d","e"]
 
-
-## Let's play with it ##
-
 On a LIST:
 
 {% raw %}

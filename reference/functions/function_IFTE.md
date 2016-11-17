@@ -17,7 +17,7 @@ It takes three [macros]({{ site.baseurl}}/reference/functions/macros) as argumen
 The boolean is consumed, and if true, `macro2` is evaluated, else `macro3` is evaluated.
 
 
-## Let's play with it ##
+## Example ##
 
 
 {% raw %}

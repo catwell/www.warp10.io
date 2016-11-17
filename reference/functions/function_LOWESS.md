@@ -35,8 +35,6 @@ Stack:
     TOP: {"c":"","l":{},"a":{},"v":[[100,10],[200,9.000000000000002],[300,8],[400,7.028631051752921],[500,6.042737896494156],[600,5.028631051752921],[700,4],[800,2.9999999999999973],[900,2]]}
 
 
-## Let's play with it ##
-
 <warp10-warpscript-widget>// Create a GTS with a small bias at 500us
 NEWGTS 100 NaN NaN NaN 10.0 ADDVALUE
 200 NaN NaN NaN 9.0 ADDVALUE

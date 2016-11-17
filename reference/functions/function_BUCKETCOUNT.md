@@ -34,9 +34,6 @@ Stack:
 
     TOP: 3    
 
-
-## Let's play with it ##
-
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">
 

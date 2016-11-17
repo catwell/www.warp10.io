@@ -67,8 +67,6 @@ Stack:
     TOP: -0.0009865398811861326
 
 
-## Let's play with it ##
-
 <warp10-warpscript-widget>// we create a linear GTS
     NEWGTS 1 50 <% NaN NaN NaN 4 PICK TODOUBLE ADDVALUE %> FOR
     

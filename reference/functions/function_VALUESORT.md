@@ -26,7 +26,6 @@ WarpScript commands:
 Stack: 
 
     TOP: [{"c":"test name","l":{"label0":"42","label1":"foo"},"a":{},"v":[[1100,1],[1000,2],[900,3],[800,4],[700,5],[500,6],[400,7],[300,8],[200,9],[100,10]]}]
-    
 
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">// Create a new GTS with ten values 

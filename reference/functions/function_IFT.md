@@ -17,7 +17,7 @@ It takes two [macros]({{ site.baseurl}}/reference/functions/macros) as arguments
 The boolean is consumed, and if true, `macro2` is evaluated.
 
 
-## Let's play with it ##
+## Example ##
 
 
 {% raw %}

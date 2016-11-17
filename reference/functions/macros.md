@@ -54,9 +54,6 @@ Stack:
     TOP:  5
     1:    8
 
-
-## Let's play with it ##
-
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">// Function to calculate the max absolute value of two parameters on the stack
 <% 

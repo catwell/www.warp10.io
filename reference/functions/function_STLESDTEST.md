@@ -76,8 +76,6 @@ Stack:
     TOP: [25,36]
 
 
-## Let's play with it ##
-
 <warp10-warpscript-widget>// we need to raise max operations limit to generate a meaningful example
 'DOC-EGRESS-TOKEN' AUTHENTICATE // use your own token here
 10000 MAXOPS

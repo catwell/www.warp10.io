@@ -20,7 +20,7 @@ If a label has an empty value in the parameter map, this label will be removed f
 If a null name is found, then the labels in the parameter map will replace the original labels from the GTS.
 
 
-## Let's play with it ##
+## Example ##
 
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">[

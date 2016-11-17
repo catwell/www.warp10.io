@@ -37,8 +37,6 @@ Stack:
     1:   "Hello world"
     2:   42
 
-## Let's play with it ##
-
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">40 2 + 
 'Hello ' 'world' +

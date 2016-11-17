@@ -12,7 +12,7 @@ category: "reference"
 
 The `LOCATIONS` function consomes a GTS from the stack, extracts the locations of a GTS, puts them in two lists (a lost of latitudes and a list of longitudes) and pushes the two lists onto the stack.
 
-## Let's play with it ##
+## Example ##
 
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">// Create a new GTS with ten values 

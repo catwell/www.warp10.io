@@ -53,7 +53,7 @@ You can use *PARSESELECTOR* to simplify the sintax:
     FETCH
 
 
-## Let's play with it ##
+## Example ##
 
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">'com.cityzendata.tutorial.sensors.temperature{sensorId=01}' PARSESELECTOR

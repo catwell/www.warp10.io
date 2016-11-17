@@ -9,6 +9,7 @@ category: "reference"
 Computes the `UNION` of two SETS.
 
 ## Example ##
+
 Initial stack:
 
     TOP: [ 'foo' 'bar' 'bob' ]

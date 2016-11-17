@@ -33,8 +33,6 @@ Stack:
     TOP: {"c":"test name","l":{"label0":"42","label1":"foo"},"a":{},"v":[[1000000,0],[2000000,1],[3000000,2],[4000000,3],[5000000,4],[6000000,5],[7000000,6],[8000000,7],[9000000,8],[10000000,9]
 
 
-## Let's play with it ##
-
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">NEWGTS 
 'test name'

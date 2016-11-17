@@ -27,8 +27,6 @@ Stack:
 
     TOP: "2014-10-08T05:03:17.705487Z"
 
-## Let's play with it ##
-
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">NOW
 ISO8601

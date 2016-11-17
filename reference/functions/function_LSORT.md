@@ -28,8 +28,6 @@ Stack:
     TOP: ["a","b","d","x","z"]
 
 
-## Let's play with it ##
-
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">[ 'z' 'b' 'x' 'a' 'd' ]
 LSORT
