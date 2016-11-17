@@ -14,7 +14,7 @@ The function expects a Wavelet name on top of the stack and will operate on the 
 
 The result of `FDWT` is a Geo Time Series which retains the ticks, location and elevation of the input Geo Time Series. The values are the Wavelet coefficients of the various levels. The first value of the result Geo Time Series is the coefficient of level 1, the next 2 values are those of level 2, the next 4 those of level 3, up to `N/2` values at the last level.
 
-The [DWTSPLIT]() function can be used to split the resulting Geo Time Series into one Geo Time Series per level.
+The [DWTSPLIT]({{ site.baseurl}}/reference/functions/function_DWTSPLIT) function can be used to split the resulting Geo Time Series into one Geo Time Series per level.
 
 The names of the available Wavelet are the following:
 

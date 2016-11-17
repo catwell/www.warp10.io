@@ -10,7 +10,7 @@ category: "reference"
  
 The `IDWT` function computes an Inverse [Discrete Wavelet Transform](https://en.wikipedia.org/wiki/Discrete_wavelet_transform) on a Geo Time Series.
 
-The function expects the name of the Wavelet to consider on top of the stack and an input Geo Time Series which contains the wavelet coefficients as is returned by [FDWT]({{ site.baseurl}}/reference/functions/function_FDWT)).
+The function expects the name of the Wavelet to consider on top of the stack and an input Geo Time Series which contains the wavelet coefficients as is returned by [FDWT]({{ site.baseurl}}/reference/functions/function_FDWT).
 
 The result is the reconstructed Geo Time Series.
 

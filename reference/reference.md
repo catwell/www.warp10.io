@@ -1012,6 +1012,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [DTW]({{ site.baseurl }}/reference/functions/function_DTW)
 
+[DWTSPLIT]({{ site.baseurl }}/reference/functions/function_DWTSPLIT)
+
 [ELEVATIONS]({{ site.baseurl }}/reference/functions/function_ELEVATIONS)
 
 [FDWT]({{ site.baseurl }}/reference/functions/function_FDWT)
