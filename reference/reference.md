@@ -1034,7 +1034,11 @@ This page lists all the functions available in WarpScript except those related t
 
 [DTW]({{ site.baseurl }}/reference/functions/function_DTW)
 
+[DWTSPLIT]({{ site.baseurl }}/reference/functions/function_DWTSPLIT)
+
 [ELEVATIONS]({{ site.baseurl }}/reference/functions/function_ELEVATIONS)
+
+[FDWT]({{ site.baseurl }}/reference/functions/function_FDWT)
 
 [FETCH]({{ site.baseurl }}/reference/functions/function_FETCH)
 
@@ -1057,6 +1061,8 @@ This page lists all the functions available in WarpScript except those related t
 [FINDSTATS]({{ site.baseurl }}/reference/functions/function_FINDSTATS)
 
 [FIRSTTICK]({{ site.baseurl }}/reference/functions/function_FIRSTTICK)
+
+[IDWT]({{ site.baseurl }}/reference/functions/function_IDWT)
 
 [IFFT]({{ site.baseurl }}/reference/functions/function_IFFT)
 
@@ -1247,6 +1253,7 @@ This page lists all the functions available in WarpScript except those related t
 [HHCODE->]({{ site.baseurl }}/reference/functions/function_HHCODETO)
 
 ### WarpScript Extensions
+
 #### Concurrent Extension
 
 [CEVAL]({{ site.baseurl }}/reference/functions/function_CEVAL)

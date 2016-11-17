@@ -17,21 +17,11 @@ The following functions haven't been fully documented yet, but we can already gi
 
 [DOUBLEEXPONENTIALSMOOTHING]({{ site.baseurl }}/reference/miscellaneous/DOUBLEEXPONENTIALSMOOTHING)
 
-[DTW]({{ site.baseurl }}/reference/miscellaneous/DTW)
-
-[DWTSPLIT]({{ site.baseurl }}/reference/miscellaneous/DWTSPLIT)
-
 [ELAPSED]({{ site.baseurl }}/reference/miscellaneous/ELAPSED)
 
 [EVERY]({{ site.baseurl }}/reference/miscellaneous/EVERY)
 
 [EXPM1]({{ site.baseurl }}/reference/miscellaneous/EXPM1)
-
-[FDWT]({{ site.baseurl }}/reference/miscellaneous/FDWT)
-
-[FFT]({{ site.baseurl }}/reference/miscellaneous/FFT)
-
-[FFTAP]({{ site.baseurl }}/reference/miscellaneous/FFTAP)
 
 [FINDSETS]({{ site.baseurl }}/reference/miscellaneous/FINDSETS)
 
@@ -40,10 +30,6 @@ The following functions haven't been fully documented yet, but we can already gi
 [GROOVY]({{ site.baseurl }}/reference/miscellaneous/GROOVY)
 
 [HYPOT]({{ site.baseurl }}/reference/miscellaneous/HYPOT)
-
-[IDWT]({{ site.baseurl }}/reference/miscellaneous/IDWT)
-
-[IFFT]({{ site.baseurl }}/reference/miscellaneous/IFFT)
 
 [IMMUTABLE]({{ site.baseurl }}/reference/miscellaneous/IMMUTABLE)
 
@@ -66,8 +52,6 @@ The following functions haven't been fully documented yet, but we can already gi
 [NOTIMINGS]({{ site.baseurl }}/reference/miscellaneous/NOTIMINGS)
 
 [ONLYBUCKETS]({{ site.baseurl }}/reference/miscellaneous/ONLYBUCKETS)
-
-[OPTDTW]({{ site.baseurl }}/reference/miscellaneous/OPTDTW)
 
 [PAPPLY]({{ site.baseurl }}/reference/miscellaneous/PAPPLY)
 
