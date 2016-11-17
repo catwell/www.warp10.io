@@ -1038,6 +1038,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [FIRSTTICK]({{ site.baseurl }}/reference/functions/function_FIRSTTICK)
 
+[IDWT]({{ site.baseurl }}/reference/functions/function_IDWT)
+
 [IFFT]({{ site.baseurl }}/reference/functions/function_IFFT)
 
 [INTEGRATE]({{ site.baseurl }}/reference/functions/function_INTEGRATE)
