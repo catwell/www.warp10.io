@@ -726,6 +726,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [-&gt;MAP]({{ site.baseurl }}/reference/functions/function_TOMAP)
 
+[-&gt;MAT]({{ site.baseurl }}/reference/functions/function_TOMAT)
+
 [-&gt;SET]({{ site.baseurl }}/reference/functions/function_TOSET)
 
 [-&gt;V]({{ site.baseurl }}/reference/functions/function_TOV)
@@ -761,6 +763,8 @@ This page lists all the functions available in WarpScript except those related t
 [LSORT]({{ site.baseurl }}/reference/functions/function_LSORT)
 
 [MAP-&gt;]({{ site.baseurl }}/reference/functions/function_MAPTO)
+
+[MAT-&gt;]({{ site.baseurl }}/reference/functions/function_MATTO)
 
 [MAPID]({{ site.baseurl }}/reference/functions/function_MAPID)
 

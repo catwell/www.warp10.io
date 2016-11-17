@@ -1,18 +1,18 @@
 ---
-title: "->V"
+title: "MAT->"
 layout: "function"
 isPage: "true"
 link: "/warpscript/functions"
-desc: "Convert the list on top of the stack into a set"
+desc: "Converts a Matrix into nested lists"
 categoryTree: ["reference","functions"]
 category: "reference"
-signature: "[values] ->V set"
+signature: "Matrix MAT-> [l0] [l1] ... [ln]"
 ---
 
-The `->V` function converts a list of numbers into a set (needed for PIG). 
+The `MAT->` function converts a Matrix into nested lists. 
 
 ```
-[values] ->V set
+Matrix MAT-> [lo] [l1] ... [ln]
 ```
 
 ## Example ##
@@ -20,10 +20,13 @@ The `->V` function converts a list of numbers into a set (needed for PIG).
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">
 // Create List containing number and boolean values
-[ 42 41 40 42.42 ]
+[ [ 42 41 40 42.42 ] [ 42 41 40 0.2 ] [ 42 41 40 42.42 ] ]
 
-// Convert list to set
-->V
+// Convert list to Matrix
+->MAT
+
+// Convert Matrix to list
+MAT->
 
 </warp10-warpscript-widget>
 {% endraw %}   
