@@ -1008,6 +1008,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [DEDUP]({{ site.baseurl }}/reference/functions/function_DEDUP)
 
+[DELETE]({{ site.baseurl }}/reference/functions/function_DELETE)
+
 [DISCORDS]({{ site.baseurl }}/reference/functions/function_DISCORDS)
 
 [DTW]({{ site.baseurl }}/reference/functions/function_DTW)
