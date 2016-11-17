@@ -6,13 +6,13 @@ link: "/warpscript/functions"
 desc: "Converts a Vector into a list"
 categoryTree: ["reference","functions"]
 category: "reference"
-signature: "[values] TOVEC Vector"
+signature: "Vector VEC-> [values] "
 ---
 
 The `VEC->` function converts a Vector into a list. 
 
 ```
-[values] TOVEC Vector
+Vector VEC-> [values] 
 ```
 
 ## Example ##
@@ -25,7 +25,7 @@ The `VEC->` function converts a Vector into a list.
 // Convert list to Vector
 ->VEC
 
-// Convert list to Vector
+// Convert Vector to list
 VEC->
 
 </warp10-warpscript-widget>

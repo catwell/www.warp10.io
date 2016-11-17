@@ -6,13 +6,13 @@ link: "/warpscript/functions"
 desc: "Converts a list of numbers into a Vector"
 categoryTree: ["reference","functions"]
 category: "reference"
-signature: "[values] TOVEC Vector"
+signature: "[values] ->VEC Vector"
 ---
 
 The `->VEC` function converts a list of numbers into a Vector. 
 
 ```
-[values] TOVEC Vector
+[values] ->VEC Vector
 ```
 
 ## Example ##
