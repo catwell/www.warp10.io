@@ -25,7 +25,7 @@ Stack:
     TOP: 90
 
 
-<warp10-warpscript-widget>
+<warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">
 pi 2 /      // pi/2
 TODEGREES
 </warp10-warpscript-widget>    
