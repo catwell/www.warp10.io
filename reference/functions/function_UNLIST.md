@@ -9,7 +9,7 @@ category: "reference"
 signature: "[values] UNLIST value0 ... valueN"
 ---
 
-The `UNLIST` functions pushes onto the stack a Mark and all elements of the parameter list. The last value contained in the list is the one on top of the stack after the `UNLIST` execution.
+The `UNLIST` function pushes onto the stack a Mark and all elements of the parameter list. The last value contained in the list is the one on top of the stack after the `UNLIST` execution.
 
 *If the top of the stack is not a list, do nothing.*
 

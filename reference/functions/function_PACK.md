@@ -9,7 +9,7 @@ category: "reference"
 signature: "[values] 'string_format' PACK bytes[]"
 ---
 
-The `PACK` functions packs a list of numeric or boolean values according to a specified string format. 
+The `PACK` function packs a list of numeric or boolean values according to a specified string format. 
 
 ```
 [values] 'string_format' PACK bytes[]

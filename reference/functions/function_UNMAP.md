@@ -9,7 +9,7 @@ category: "reference"
 signature: "{map} UNMAP MARK value0 key0 ... keyN valueN"
 ---
 
-The `UNMAP` functions deconstructs a map, putting each key/value pair as two elements on the stack on top of a Mark. The last pair contained in the map is the one on top of the stack after the `UNMAP` execution.
+The `UNMAP` function deconstructs a map, putting each key/value pair as two elements on the stack on top of a Mark. The last pair contained in the map is the one on top of the stack after the `UNMAP` execution.
 
 ```
 {map} UNMAP MARK value0 key0 ... keyN valueN
