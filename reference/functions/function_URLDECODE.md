@@ -26,9 +26,6 @@ Stack:
 
     TOP: "à á ã è é ẽ ì í ĩ ò ó õ"
 
-
-## Let's play with it ##
-
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">'%C3%A0+%C3%A1+%C3%A3+%C3%A8+%C3%A9+%E1%BA%BD+%C3%AC+%C3%AD+%C4%A9+%C3%B2+%C3%B3+%C3%B5'
 URLDECODE

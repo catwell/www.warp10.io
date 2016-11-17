@@ -28,8 +28,6 @@ Stack:
 
     TOP: 0.3976279915221293
 
-## Let's play with it ##
-
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">0.42 
 ASIN

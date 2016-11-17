@@ -42,9 +42,6 @@ Stack:
 
     TOP:  "_HPJNn_n54ORDHdmOTr2qy4fpxr ... Am0XPK661CSItiwCkGIzxQtkoUzgF_hnt8Xu3F"
 
-
-## Let's play with it ##
-
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">
 'YourPreciousSecret' SECUREKEY

@@ -34,7 +34,6 @@ Stack:
 
     {"c":"GTS1","l":{"label0":"42"},"a":{},"v":[[10,5],[20,4.2],[30,7.24],[40,7.048],[50,11.0096],[60,9.40192],[70,12.280384]]}
 
-## Let's play with it ##
 
 <warp10-warpscript-widget>NEWGTS "GTS1" RENAME 
 'label0' '42' 2 ->MAP RELABEL

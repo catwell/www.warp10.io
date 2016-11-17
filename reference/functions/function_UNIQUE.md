@@ -26,9 +26,6 @@ Stack:
 
     TOP: ["bar","code",false,"foo",57,42,true]
 
-
-## Let's play with it ##
-
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">[ 'foo' 42 'bar' true 'foo' 57 42 'code' true false ]
 UNIQUE

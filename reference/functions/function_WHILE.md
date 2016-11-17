@@ -58,8 +58,6 @@ Possible stack (not deterministic, as we are using random numbers):
     22:   "bigger than 0.1"
     23:   0.580184520354567
 
-## Let's play with it ##
-
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">5
 <% DUP 1 > %>               // Condition macro: top of the stack bigger than 1

@@ -32,9 +32,6 @@ Stack:
     TOP:  "b"
     1:    ["a","c"]
 
-
-## Let's play with it ##
-
 On a LIST:
 
 {% raw %}

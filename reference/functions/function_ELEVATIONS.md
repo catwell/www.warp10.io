@@ -12,8 +12,6 @@ category: "reference"
 
 The `ELEVATIONS` function consomes a GTS from the stack, extracts its  elevations, puts them in a list and pushes the list onto the stack.
 
-## Let's play with it ##
-
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">// Create a new GTS with ten values 
 NEWGTS 

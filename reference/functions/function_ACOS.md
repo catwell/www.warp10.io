@@ -28,8 +28,6 @@ Stack:
 
     TOP: 1.1373510067250105
 
-## Let's play with it ##
-
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">0.42 
 ACOS

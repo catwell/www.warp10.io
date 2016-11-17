@@ -49,8 +49,6 @@ Stack:
 
     {"c":"test name","l":{"label0":"42","label1":"foo"},"a":{},"v":[[1100,10],[1200,9],[1300,8],[1400,7],[1500,6],[2100,10],[2200,9],[2300,8],[2400,7],[2500,6]]}
 
-## Let's play with it ##
-
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">// Create a new GTS with ten values separated by a pause 
 NEWGTS 

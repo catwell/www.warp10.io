@@ -29,8 +29,6 @@ Stack:
 
     TOP: 1.7777797745088417
 
-## Let's play with it ##
-
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">4.2 
 TAN

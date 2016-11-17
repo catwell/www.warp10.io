@@ -26,8 +26,6 @@ Stack:
 
     TOP: -1
 
-## Let's play with it ##
-
 <warp10-warpscript-widget>9.0 5.0
 IEEEREMAINDER
 </warp10-warpscript-widget>    

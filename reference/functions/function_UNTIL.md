@@ -46,8 +46,6 @@ Possible stack (not deterministic, as we are using random numbers):
     9:    0.31481194701963333
     10:   "Random number"
 
-## Let's play with it ##
-
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">5
 <%                          // Exec macro: we duplicate the top of the stack and we decrease it by one

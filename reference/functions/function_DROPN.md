@@ -31,9 +31,6 @@ Stack:
 
 Calling `1 DROPN` is equivalent to calling the [`DROP`]({{ site.baseurl}}/reference/functions/function_DROP) function. Calling `0 DROPN` does nothing.
 
-
-## Let's play with it ##
-
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">'foo'
 'bar'

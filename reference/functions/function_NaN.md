@@ -27,9 +27,6 @@ Response stack:
     TOP: NaN
     1:   42
 
-
-## Let's play with it ##
-
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">NaN</warp10-warpscript-widget>
 {% endraw %}    

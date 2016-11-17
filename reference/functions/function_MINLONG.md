@@ -26,8 +26,6 @@ Response stack:
     TOP: -9223372036854776000
 
 
-## Let's play with it ##
-
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">MINLONG</warp10-warpscript-widget>
 {% endraw %}   

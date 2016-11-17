@@ -16,6 +16,8 @@ This function will create a new instance of your UDF at each invocation. You may
 
 Of course if your UDF is not thread safe then it should not be called by `CUDF`, but as this is not something you can control, we advise that you design your UDFs so they can be called concurrently from multiple threads.
 
+## Example ##
+
 ```
 'class' UDF ...
 ```

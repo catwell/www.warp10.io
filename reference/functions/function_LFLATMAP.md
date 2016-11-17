@@ -7,6 +7,8 @@ category: reference
 
 The `LMAP` function applies a macro on each element of a list, producing a list with each original element replaced by the flattened result of the macro execution
 
+## Example ##
+
 Initial stack:
 
     [ elem1 elem2 elem3 elem 4]
@@ -20,10 +22,6 @@ WarpScript commands:
 Stack:
 
     [ -elem1 -elem2 -elem3 -elem4 ]
-
-
-
-## Let's play with it ##
 
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">

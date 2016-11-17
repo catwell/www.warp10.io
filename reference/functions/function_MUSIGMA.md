@@ -31,8 +31,6 @@ Stack:
     1:   8
 
 
-## Let's play with it ##
-
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">// Create a new GTS with five values 
 NEWGTS 

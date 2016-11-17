@@ -28,8 +28,6 @@ Stack:
 
     TOP: 2.302585092994046
 
-## Let's play with it ##
-
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">10
 LOG

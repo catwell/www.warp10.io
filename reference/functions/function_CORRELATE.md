@@ -32,8 +32,6 @@ Stack:
 
     TOP: A list of synthetic Geo Time Series whose timestamps are the offsets from the initial offset list and the values are the computed correlations. There is one GTS per GTS in the list at TOP-1.
 
-## Let's play with it ##
-
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">
     //

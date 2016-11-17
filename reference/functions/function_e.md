@@ -22,8 +22,6 @@ Stack:
 
     TOP: 2.718281828459045
 
-## Let's play with it ##
-
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">e</warp10-warpscript-widget>
 {% endraw %}    

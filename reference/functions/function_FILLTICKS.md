@@ -12,7 +12,7 @@ category: "reference"
 
 The `FILLTICKS` function add values to a Geo Time Serie<sup>TM</sup> instance for ticks in the given LIST for which it does not yet have values, by re-using the value/location/elevation of the next non empty bucket to fill each empty bucket. It expects a GTS or a LIST thereof on the top of the stack.
 
-## Let's play with it ##
+## Example ##
 
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">

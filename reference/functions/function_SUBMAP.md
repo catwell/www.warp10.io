@@ -14,7 +14,7 @@ The `SUBMAP` function requires two parameters: an argument list and a base map.
 It creates a new map with the key-value pairs from the base map whose keys are in the argument list.
 
 
-## Let's play with it ##
+## Example ##
 
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">{ 'a' 0 'b' 1 'c' 2 'd' 3 'e' 4 'f' 5 'g' 6 'h' 7 'i' 8 'j' 9 }

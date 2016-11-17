@@ -20,7 +20,7 @@ contains all the elements at the specified indices, with possible duplicates.
 
 Negative indices are considered to be calculated from the end of the list.
 
-## Let's play with it ##
+## Example ##
 
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">// Normal use, with more than two elements in the argument list

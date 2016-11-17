@@ -34,8 +34,6 @@ Stack (in JSON):
     TOP: NaN
 
 
-## Let's play with it ##
-
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">JSONLOOSE
 NaN

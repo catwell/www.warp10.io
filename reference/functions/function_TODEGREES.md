@@ -24,20 +24,11 @@ Stack:
 
     TOP: 90
 
-## Let's play with it ##
 
-<<<<<<< HEAD
 <warp10-warpscript-widget>
 pi 2 /      // pi/2
 TODEGREES
 </warp10-warpscript-widget>    
-=======
-{% raw %}
-<warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">90
-TORADIANS
-</warp10-warpscript-widget>
-{% endraw %}    
->>>>>>> acb026da487212942ccff18f0ae6d64a8f469f88
 
 
 ## Unit test ##

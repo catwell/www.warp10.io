@@ -13,7 +13,7 @@ category: "reference"
 The `UNBUCKETIZE` function takes a bucketized GTS from the stack and removes the buckets info from it, leaving it as unbucketized.
 
 
-## Let's play with it ##
+## Example ##
 
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">// Create a new GTS with ten values 

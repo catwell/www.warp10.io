@@ -38,7 +38,6 @@ Stack:
 
     TOP: 0.30113743215480443
 
-## Let's play with it ##
 
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">0.0 1.0 NPDF    // Creating a NPDF with mu=0 and sigma=1

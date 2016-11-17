@@ -42,8 +42,6 @@ Stack:
 
     TOP:  {"1":4,"3":16,"5":36}
 
-## Let's play with it ##
-
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">// define macro
 <% 2 **  %> 'SQUARE' STORE

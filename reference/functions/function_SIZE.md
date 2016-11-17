@@ -12,7 +12,7 @@ category: "reference"
 
 The `SIZE` function consumes a LIST, map or GTS from the top of the stack and pushes on the stack its size.
 
-## Let's play with it ##
+## Example ##
 
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">// Create a new GTS with ten values 

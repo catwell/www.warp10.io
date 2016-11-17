@@ -26,7 +26,6 @@ Stack:
 
     TOP: {'foo': 42, 'bar': true, 'newKey': 'newValue'}
 
-## Let's play with it ##
 
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">{ 'foo' 42 'bar' true }

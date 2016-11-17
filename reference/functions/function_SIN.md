@@ -29,8 +29,6 @@ Stack:
 
     TOP: -0.8715757724135882
 
-## Let's play with it ##
-
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">4.2 
 SIN

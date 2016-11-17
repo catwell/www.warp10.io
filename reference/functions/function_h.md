@@ -21,9 +21,6 @@ Stack:
 
     TOP: 3600000000 // If the platform is configured with microsecond as the time unit
 
-
-## Let's play with it ##
-
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">1 h
 </warp10-warpscript-widget>

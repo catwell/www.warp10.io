@@ -27,8 +27,6 @@ Stack:
 
     TOP:
 
-## Let's play with it ##
-
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">'foo'
 'bar'

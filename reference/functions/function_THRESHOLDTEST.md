@@ -50,8 +50,6 @@ Stack:
     TOP: [12,24,35]
 
 
-## Let's play with it ##
-
 <warp10-warpscript-widget>// we create a GTS with uniformly randomized values between 0 and 1
 NEWGTS 1 50 <% NaN NaN NaN RAND ADDVALUE %> FOR
 

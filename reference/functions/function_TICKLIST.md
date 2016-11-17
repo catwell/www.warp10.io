@@ -30,8 +30,6 @@ Stack:
     TOP: [100,200,300,400,500,100,200,300,400,500]
 
 
-## Let's play with it ##
-
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">NEWGTS 
 'test name'

@@ -54,9 +54,6 @@ Stack:
 
     TOP: [12]
 
-
-## Let's play with it ##
-
 <warp10-warpscript-widget>// Macro used to generate an approximately normal distribution using central limit theorem
 <% RAND RAND RAND RAND RAND RAND + + + + + 3.0 - %> 'normal' STORE
 

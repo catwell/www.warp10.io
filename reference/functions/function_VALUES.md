@@ -29,9 +29,6 @@ Stack:
 
     TOP: [10,9,8,7,6,5,4,3,2,1]
 
-
-## Let's play with it ##
-
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">// Create a new GTS with ten values 
 NEWGTS 

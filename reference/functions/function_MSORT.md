@@ -28,8 +28,6 @@ Stack:
     TOP: {"a":21,"b":0,"d":34,"x":-1,"z":42}
 
 
-## Let's play with it ##
-
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">{ 'b' 0 'd' 34 'a' 21 'z' 42 'x' -1 }
 MSORT
