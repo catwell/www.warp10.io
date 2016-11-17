@@ -1088,6 +1088,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [METASORT]({{ site.baseurl }}/reference/functions/function_METASORT)
 
+[MODE]({{ site.baseurl }}/reference/functions/function_MODE)
+
 [MUSIGMA]({{ site.baseurl }}/reference/functions/function_MUSIGMA)
 
 [NAME]({{ site.baseurl }}/reference/functions/function_NAME)
