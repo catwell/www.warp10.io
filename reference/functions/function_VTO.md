@@ -1,18 +1,18 @@
 ---
-title: "->VEC"
+title: "V->"
 layout: "function"
 isPage: "true"
 link: "/warpscript/functions"
-desc: "Converts a list of numbers into a Vector"
+desc: "Convert the set on top of the stack into a list"
 categoryTree: ["reference","functions"]
 category: "reference"
-signature: "[values] ->VEC Vector"
+signature: "[set] ->V List"
 ---
 
-The `->VEC` function converts a list of numbers into a Vector. 
+The `V->` function converts the set (needed for PIG) on top of the stack into a list. 
 
 ```
-[values] ->VEC Vector
+[set] ->V List
 ```
 
 ## Example ##
@@ -22,8 +22,11 @@ The `->VEC` function converts a list of numbers into a Vector.
 // Create List containing number and boolean values
 [ 42 41 40 42.42 ]
 
-// Convert List to Vector
-->VEC
+// Convert list to set
+->V
+
+// Convert set to list
+V->
 
 </warp10-warpscript-widget>
 {% endraw %}   

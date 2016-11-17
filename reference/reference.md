@@ -728,6 +728,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [-&gt;SET]({{ site.baseurl }}/reference/functions/function_TOSET)
 
+[-&gt;V]({{ site.baseurl }}/reference/functions/function_TOV)
+
 [-&gt;VEC]({{ site.baseurl }}/reference/functions/function_TOVEC)
 
 [APPEND]({{ site.baseurl }}/reference/functions/function_APPEND)
@@ -793,6 +795,8 @@ This page lists all the functions available in WarpScript except those related t
 [UNPACK]({{ site.baseurl }}/reference/functions/function_UNPACK)
 
 [VALUELIST]({{ site.baseurl }}/reference/functions/function_VALUELIST)
+
+[V-&gt;]({{ site.baseurl }}/reference/functions/function_VTO)
 
 [VEC-&gt;]({{ site.baseurl }}/reference/functions/function_VECTO)
 
