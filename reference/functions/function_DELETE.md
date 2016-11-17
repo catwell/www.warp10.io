@@ -6,7 +6,7 @@ link: "/warpscript/functions"
 desc: "Delete a set of GTS."
 categoryTree: ["reference","functions"]
 category: "reference"
-signature: ""
+signature: "'writeToken' 'gts_selector' start_timestamp end_timestamp count DELETE actualCount"
 ---
  
 The `DELETE` function is used to delete a set of GTS from a Warp10 platform. A **delete endpoint** must be set on the Warp10 configuration.

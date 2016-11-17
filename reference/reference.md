@@ -762,6 +762,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [MSORT]({{ site.baseurl }}/reference/functions/function_MSORT)
 
+[PACK]({{ site.baseurl }}/reference/functions/function_PACK)
+
 [PUT]({{ site.baseurl }}/reference/functions/function_PUT)
 
 [REMOVE]({{ site.baseurl }}/reference/functions/function_REMOVE)
@@ -781,6 +783,8 @@ This page lists all the functions available in WarpScript except those related t
 [UNION]({{ site.baseurl }}/reference/functions/function_UNION)
 
 [UNIQUE]({{ site.baseurl }}/reference/functions/function_UNIQUE)
+
+[UNPACK]({{ site.baseurl }}/reference/functions/function_UNPACK)
 
 [VALUELIST]({{ site.baseurl }}/reference/functions/function_VALUELIST)
 
