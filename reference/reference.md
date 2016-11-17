@@ -1014,6 +1014,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [ELEVATIONS]({{ site.baseurl }}/reference/functions/function_ELEVATIONS)
 
+[FDWT]({{ site.baseurl }}/reference/functions/function_FDWT)
+
 [FETCH]({{ site.baseurl }}/reference/functions/function_FETCH)
 
 [FETCHBOOLEAN]({{ site.baseurl }}/reference/functions/function_FETCHBOOLEAN)
@@ -1225,6 +1227,7 @@ This page lists all the functions available in WarpScript except those related t
 [HHCODE->]({{ site.baseurl }}/reference/functions/function_HHCODETO)
 
 ### WarpScript Extensions
+
 #### Concurrent Extension
 
 [CEVAL]({{ site.baseurl }}/reference/functions/function_CEVAL)
