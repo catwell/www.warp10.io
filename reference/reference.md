@@ -1248,6 +1248,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [GEOPACK]({{ site.baseurl }}/reference/functions/function_GEOPACK)
 
+[GEOREGEXP]({{ site.baseurl }}/reference/functions/function_GEOREGEXP)
+
 [GEOUNPACK]({{ site.baseurl }}/reference/functions/function_GEOUNPACK)
 
 [HAVERSINE]({{ site.baseurl }}/reference/functions/function_HAVERSINE)
