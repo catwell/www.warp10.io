@@ -726,6 +726,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [-&gt;MAP]({{ site.baseurl }}/reference/functions/function_TOMAP)
 
+[-&gt;MAT]({{ site.baseurl }}/reference/functions/function_TOMAT)
+
 [-&gt;SET]({{ site.baseurl }}/reference/functions/function_TOSET)
 
 [-&gt;V]({{ site.baseurl }}/reference/functions/function_TOV)
@@ -761,6 +763,8 @@ This page lists all the functions available in WarpScript except those related t
 [LSORT]({{ site.baseurl }}/reference/functions/function_LSORT)
 
 [MAP-&gt;]({{ site.baseurl }}/reference/functions/function_MAPTO)
+
+[MAT-&gt;]({{ site.baseurl }}/reference/functions/function_MATTO)
 
 [MAPID]({{ site.baseurl }}/reference/functions/function_MAPID)
 
@@ -1084,6 +1088,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [METASORT]({{ site.baseurl }}/reference/functions/function_METASORT)
 
+[MODE]({{ site.baseurl }}/reference/functions/function_MODE)
+
 [MUSIGMA]({{ site.baseurl }}/reference/functions/function_MUSIGMA)
 
 [NAME]({{ site.baseurl }}/reference/functions/function_NAME)
@@ -1241,6 +1247,8 @@ This page lists all the functions available in WarpScript except those related t
 [GEOHASH->]({{ site.baseurl }}/reference/functions/function_GEOHASHTO)
 
 [GEOPACK]({{ site.baseurl }}/reference/functions/function_GEOPACK)
+
+[GEOREGEXP]({{ site.baseurl }}/reference/functions/function_GEOREGEXP)
 
 [GEOUNPACK]({{ site.baseurl }}/reference/functions/function_GEOUNPACK)
 
