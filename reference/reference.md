@@ -372,6 +372,10 @@ This page lists all the functions available in WarpScript except those related t
 
 [-]({{ site.baseurl }}/reference/functions/function_SUB)
 
+[-&gt;DOUBLEBITS]({{ site.baseurl }}/reference/functions/function_TODOUBLEBITS)
+
+[-&gt;FLOATBITS]({{ site.baseurl }}/reference/functions/function_TOFLOATBITS)
+
 [*]({{ site.baseurl }}/reference/functions/function_MUL)
 
 [/]({{ site.baseurl }}/reference/functions/function_DIV)
@@ -414,7 +418,11 @@ This page lists all the functions available in WarpScript except those related t
 
 [COPYSIGN]({{ site.baseurl }}/reference/functions/function_COPYSIGN)
 
+[DOUBLEBITS-&gt;]({{ site.baseurl }}/reference/functions/function_DOUBLEBITSTO)
+
 [EXP]({{ site.baseurl }}/reference/functions/function_EXP)
+
+[FLOATBITS-&gt;]({{ site.baseurl }}/reference/functions/function_FLOATBITSTO)
 
 [FLOOR]({{ site.baseurl }}/reference/functions/function_FLOOR)
 
@@ -648,8 +656,6 @@ This page lists all the functions available in WarpScript except those related t
 [-&gt;BYTES]({{ site.baseurl }}/reference/functions/function_TOBYTES)
 
 [-&gt;OPB64]({{ site.baseurl }}/reference/functions/function_TOOPB64)
-
-[TOBITS]({{ site.baseurl }}/reference/functions/function_TOBITS)
 
 [TOHEX]({{ site.baseurl }}/reference/functions/function_TOHEX)
 
