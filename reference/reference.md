@@ -960,6 +960,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [SNAPSHOTTOMARK]({{ site.baseurl }}/reference/functions/function_SNAPSHOTTOMARK)
 
+[STACKATTRIBUTE]({{ site.baseurl }}/reference/functions/function_STACKATTRIBUTE)
+
 [STACKTOLIST]({{ site.baseurl }}/reference/functions/function_STACKTOLIST)
 
 [STORE]({{ site.baseurl }}/reference/functions/function_STORE)
@@ -1005,6 +1007,8 @@ This page lists all the functions available in WarpScript except those related t
 [RESTORE]({{ site.baseurl }}/reference/functions/function_RESTORE)
 
 [REV]({{ site.baseurl }}/reference/functions/function_REV)
+
+[RTFM]({{ site.baseurl }}/reference/functions/function_RTFM)
 
 [SAVE]({{ site.baseurl }}/reference/functions/function_SAVE)
 
@@ -1113,6 +1117,8 @@ This page lists all the functions available in WarpScript except those related t
 [METASORT]({{ site.baseurl }}/reference/functions/function_METASORT)
 
 [MODE]({{ site.baseurl }}/reference/functions/function_MODE)
+
+[MONOTONIC]({{ site.baseurl }}/reference/functions/function_MONOTONIC)
 
 [MUSIGMA]({{ site.baseurl }}/reference/functions/function_MUSIGMA)
 
