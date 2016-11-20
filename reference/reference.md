@@ -535,6 +535,24 @@ This page lists all the functions available in WarpScript except those related t
 
 [TORADIANS]({{ site.baseurl }}/reference/functions/function_TORADIANS)
 
+### Quaternions
+
+[-&gt;Q]({{ site.baseurl }}/reference/functions/function_TOQ)
+
+[Q-&gt;]({{ site.baseurl }}/reference/functions/function_QTO)
+
+[QCONJUGATE]({{ site.baseurl }}/reference/functions/function_QCONJUGATE)
+
+[QDIVIDE]({{ site.baseurl }}/reference/functions/function_QDIVIDE)
+
+[QMULTIPLY]({{ site.baseurl }}/reference/functions/function_QMULTIPLY)
+
+[QROTATE]({{ site.baseurl }}/reference/functions/function_QROTATE)
+
+[QROTATION]({{ site.baseurl }}/reference/functions/function_QROTATION)
+
+[ROTATIONQ]({{ site.baseurl }}/reference/functions/function_ROTATIONQ)
+
 #### Range and counters
 
 [COUNTER]({{ site.baseurl }}/reference/functions/function_COUNTER)
@@ -1185,6 +1203,8 @@ This page lists all the functions available in WarpScript except those related t
 [WRAPRAW]({{ site.baseurl }}/reference/functions/function_WRAPRAW)
 
 [ZSCORE]({{ site.baseurl }}/reference/functions/function_ZSCORE)
+
+[ZPATTERNDETECTION]({{ site.baseurl }}/reference/functions/function_ZPATTERNDETECTION)
 
 [ZPATTERNS]({{ site.baseurl }}/reference/functions/function_ZPATTERNS)
 
