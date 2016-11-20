@@ -11,10 +11,6 @@ The following functions haven't been fully documented yet, but we can already gi
 
 <div class='col-sm-3'>
 
-[-&gt;Q]({{ site.baseurl }}/reference/miscellaneous/TOQ)
-
-[DISCORDS]({{ site.baseurl }}/reference/miscellaneous/DISCORDS)
-
 [DOUBLEEXPONENTIALSMOOTHING]({{ site.baseurl }}/reference/miscellaneous/DOUBLEEXPONENTIALSMOOTHING)
 
 [ELAPSED]({{ site.baseurl }}/reference/miscellaneous/ELAPSED)
@@ -47,8 +43,6 @@ The following functions haven't been fully documented yet, but we can already gi
 
 [LUA]({{ site.baseurl }}/reference/miscellaneous/LUA)
 
-[MAKEGTS]({{ site.baseurl }}/reference/miscellaneous/MAKEGTS)
-
 [NOTIMINGS]({{ site.baseurl }}/reference/miscellaneous/NOTIMINGS)
 
 [ONLYBUCKETS]({{ site.baseurl }}/reference/miscellaneous/ONLYBUCKETS)
@@ -59,27 +53,11 @@ The following functions haven't been fully documented yet, but we can already gi
 
 [PYTHON]({{ site.baseurl }}/reference/miscellaneous/PYTHON)
 
-[QCONJUGATE]({{ site.baseurl }}/reference/miscellaneous/QCONJUGATE)
-
-[QDIVIDE]({{ site.baseurl }}/reference/miscellaneous/QDIVIDE)
-
-[QMULTIPLY]({{ site.baseurl }}/reference/miscellaneous/QMULTIPLY)
-
-[QROTATE]({{ site.baseurl }}/reference/miscellaneous/QROTATE)
-
-[QROTATION]({{ site.baseurl }}/reference/miscellaneous/QROTATION)
-
 [R]({{ site.baseurl }}/reference/miscellaneous/R)
 
 [R-&gt;]({{ site.baseurl }}/reference/miscellaneous/RTO)
 
-[RESET]({{ site.baseurl }}/reference/miscellaneous/RESET)
-
-[ROTATIONQ]({{ site.baseurl }}/reference/miscellaneous/ROTATIONQ)
-
 [RUBY]({{ site.baseurl }}/reference/miscellaneous/RUBY)
-
-[STACKATTRIBUTE]({{ site.baseurl }}/reference/miscellaneous/STACKATTRIBUTE)
 
 [TIMINGS]({{ site.baseurl }}/reference/miscellaneous/TIMINGS)
 
