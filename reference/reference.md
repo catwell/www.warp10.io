@@ -1032,6 +1032,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [CORRELATE]({{ site.baseurl }}/reference/functions/function_CORRELATE)
 
+[CPROB]({{ site.baseurl }}/reference/functions/function_CPROB)
+
 [DEDUP]({{ site.baseurl }}/reference/functions/function_DEDUP)
 
 [DELETE]({{ site.baseurl }}/reference/functions/function_DELETE)
