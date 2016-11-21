@@ -1084,6 +1084,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [LOCATIONS]({{ site.baseurl }}/reference/functions/function_LOCATIONS)
 
+[LOCSTRINGS]({{ site.baseurl }}/reference/functions/function_LOCSTRINGS)
+
 [LOWESS]({{ site.baseurl }}/reference/functions/function_LOWESS)
 
 [MAKEGTS]({{ site.baseurl }}/reference/functions/function_MAKEGTS)
