@@ -535,6 +535,24 @@ This page lists all the functions available in WarpScript except those related t
 
 [TORADIANS]({{ site.baseurl }}/reference/functions/function_TORADIANS)
 
+#### Quaternions
+
+[-&gt;Q]({{ site.baseurl }}/reference/functions/function_TOQ)
+
+[Q-&gt;]({{ site.baseurl }}/reference/functions/function_QTO)
+
+[QCONJUGATE]({{ site.baseurl }}/reference/functions/function_QCONJUGATE)
+
+[QDIVIDE]({{ site.baseurl }}/reference/functions/function_QDIVIDE)
+
+[QMULTIPLY]({{ site.baseurl }}/reference/functions/function_QMULTIPLY)
+
+[QROTATE]({{ site.baseurl }}/reference/functions/function_QROTATE)
+
+[QROTATION]({{ site.baseurl }}/reference/functions/function_QROTATION)
+
+[ROTATIONQ]({{ site.baseurl }}/reference/functions/function_ROTATIONQ)
+
 #### Range and counters
 
 [COUNTER]({{ site.baseurl }}/reference/functions/function_COUNTER)
@@ -942,6 +960,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [SNAPSHOTTOMARK]({{ site.baseurl }}/reference/functions/function_SNAPSHOTTOMARK)
 
+[STACKATTRIBUTE]({{ site.baseurl }}/reference/functions/function_STACKATTRIBUTE)
+
 [STACKTOLIST]({{ site.baseurl }}/reference/functions/function_STACKTOLIST)
 
 [STORE]({{ site.baseurl }}/reference/functions/function_STORE)
@@ -987,6 +1007,8 @@ This page lists all the functions available in WarpScript except those related t
 [RESTORE]({{ site.baseurl }}/reference/functions/function_RESTORE)
 
 [REV]({{ site.baseurl }}/reference/functions/function_REV)
+
+[RTFM]({{ site.baseurl }}/reference/functions/function_RTFM)
 
 [SAVE]({{ site.baseurl }}/reference/functions/function_SAVE)
 
@@ -1100,6 +1122,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [MODE]({{ site.baseurl }}/reference/functions/function_MODE)
 
+[MONOTONIC]({{ site.baseurl }}/reference/functions/function_MONOTONIC)
+
 [MUSIGMA]({{ site.baseurl }}/reference/functions/function_MUSIGMA)
 
 [NAME]({{ site.baseurl }}/reference/functions/function_NAME)
@@ -1193,6 +1217,8 @@ This page lists all the functions available in WarpScript except those related t
 [WRAPRAW]({{ site.baseurl }}/reference/functions/function_WRAPRAW)
 
 [ZSCORE]({{ site.baseurl }}/reference/functions/function_ZSCORE)
+
+[ZPATTERNDETECTION]({{ site.baseurl }}/reference/functions/function_ZPATTERNDETECTION)
 
 [ZPATTERNS]({{ site.baseurl }}/reference/functions/function_ZPATTERNS)
 
