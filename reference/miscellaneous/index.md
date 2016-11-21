@@ -5,6 +5,8 @@ desc: 'List of functions not yet fully documented'
 category: miscellaneous
 ---
 
+### Miscellaneous functions
+
 The following functions haven't been fully documented yet, but we can already give you a brief description and usage notes
 
 <div class='row small-p'>
@@ -12,8 +14,6 @@ The following functions haven't been fully documented yet, but we can already gi
 <div class='col-sm-3'>
 
 [DOUBLEEXPONENTIALSMOOTHING]({{ site.baseurl }}/reference/miscellaneous/DOUBLEEXPONENTIALSMOOTHING)
-
-[ELAPSED]({{ site.baseurl }}/reference/miscellaneous/ELAPSED)
 
 [EVERY]({{ site.baseurl }}/reference/miscellaneous/EVERY)
 
@@ -43,8 +43,6 @@ The following functions haven't been fully documented yet, but we can already gi
 
 [LUA]({{ site.baseurl }}/reference/miscellaneous/LUA)
 
-[NOTIMINGS]({{ site.baseurl }}/reference/miscellaneous/NOTIMINGS)
-
 [ONLYBUCKETS]({{ site.baseurl }}/reference/miscellaneous/ONLYBUCKETS)
 
 [PAPPLY]({{ site.baseurl }}/reference/miscellaneous/PAPPLY)
@@ -58,8 +56,6 @@ The following functions haven't been fully documented yet, but we can already gi
 [R-&gt;]({{ site.baseurl }}/reference/miscellaneous/RTO)
 
 [RUBY]({{ site.baseurl }}/reference/miscellaneous/RUBY)
-
-[TIMINGS]({{ site.baseurl }}/reference/miscellaneous/TIMINGS)
 
 </div>
 
@@ -116,3 +112,35 @@ The following functions haven't been fully documented yet, but we can already gi
 [reducer.var.forbid-nulls]({{ site.baseurl }}/reference/miscellaneous/reducer.var.forbid-nulls)
 
 </div>
+</div>
+
+### Beta functions
+
+The following functions are not fully tested and may disappear, you can have a look here and on [Github](https://github.com/cityzendata/warp10-platform) to be insightful about what is coming up.
+
+<div class='row small-p'>
+
+<div class='col-sm-3'>
+
+#### LORA functions
+
+`LORAENC`
+
+`LORAMIC`
+
+</div>
+
+<div class='col-sm-3'>
+
+#### Platform  functions
+
+`GETHOOK`
+
+</div>
+
+<div class='col-sm-3'>
+
+
+  
+ </div>  
+ </div>
