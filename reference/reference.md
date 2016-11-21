@@ -575,8 +575,6 @@ This page lists all the functions available in WarpScript except those related t
 
 [BYTESTOBITS]({{ site.baseurl }}/reference/functions/function_BYTESTOBITS)
 
-#### String functions
-
 <a name="functions-standalone"></a>
 
 ### Standalone functions
