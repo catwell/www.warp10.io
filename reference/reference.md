@@ -458,6 +458,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [RAND]({{ site.baseurl }}/reference/functions/function_RAND)
 
+[RANDPDF]({{ site.baseurl }}/reference/functions/function_RANDPDF)
+
 [REVBITS]({{ site.baseurl }}/reference/functions/function_REVBITS)
 
 [RINT]({{ site.baseurl }}/reference/functions/function_RINT)
