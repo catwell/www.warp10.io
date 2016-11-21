@@ -932,6 +932,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [DUPN]({{ site.baseurl }}/reference/functions/function_DUPN)
 
+[ELAPSED]({{ site.baseurl }}/reference/functions/function_ELAPSED)
+
 [EXPORT]({{ site.baseurl }}/reference/functions/function_EXPORT)
 
 [FORGET]({{ site.baseurl }}/reference/functions/function_FORGET)
@@ -941,6 +943,8 @@ This page lists all the functions available in WarpScript except those related t
 [MARK]({{ site.baseurl }}/reference/functions/function_MARK)
 
 [NDEBUGON]({{ site.baseurl }}/reference/functions/function_NDEBUGON)
+
+[NOTIMINGS]({{ site.baseurl }}/reference/functions/function_NOTIMINGS)
 
 [PICK]({{ site.baseurl }}/reference/functions/function_PICK)
 
@@ -969,6 +973,8 @@ This page lists all the functions available in WarpScript except those related t
 [STORE]({{ site.baseurl }}/reference/functions/function_STORE)
 
 [SWAP]({{ site.baseurl }}/reference/functions/function_SWAP)
+
+[TIMINGS]({{ site.baseurl }}/reference/functions/function_TIMINGS)
 
 [TYPEOF]({{ site.baseurl }}/reference/functions/function_TYPEOF)
 
