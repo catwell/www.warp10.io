@@ -1108,6 +1108,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [NSUMSUMSQ]({{ site.baseurl }}/reference/functions/function_NSUMSUMSQ)
 
+[PARSE]({{ site.baseurl }}/reference/functions/function_PARSE)
+
 [PARSESELECTOR]({{ site.baseurl }}/reference/functions/function_PARSESELECTOR)
 
 [PARTITION]({{ site.baseurl }}/reference/functions/function_PARTITION)
