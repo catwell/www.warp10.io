@@ -1114,6 +1114,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [LOWESS]({{ site.baseurl }}/reference/functions/function_LOWESS)
 
+[LTTB]({{ site.baseurl }}/reference/functions/function_LTTB)
+
 [MAKEGTS]({{ site.baseurl }}/reference/functions/function_MAKEGTS)
 
 [MERGE]({{ site.baseurl }}/reference/functions/function_MERGE)
@@ -1197,6 +1199,8 @@ This page lists all the functions available in WarpScript except those related t
 [TIMESHIFT]({{ site.baseurl }}/reference/functions/function_TIMESHIFT)
 
 [TIMESPLIT]({{ site.baseurl }}/reference/functions/function_TIMESPLIT)
+
+[TLTTB]({{ site.baseurl }}/reference/functions/function_TLTTB)
 
 [TOSELECTOR]({{ site.baseurl }}/reference/functions/function_TOSELECTOR)
 
