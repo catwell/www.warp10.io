@@ -1120,6 +1120,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [PATTERNS]({{ site.baseurl }}/reference/functions/function_PATTERNS)
 
+[PROB]({{ site.baseurl }}/reference/functions/function_PROB)
+
 [OPTDTW]({{ site.baseurl }}/reference/functions/function_OPTDTW)
 
 [QUANTIZE]({{ site.baseurl }}/reference/functions/function_QUANTIZE)
