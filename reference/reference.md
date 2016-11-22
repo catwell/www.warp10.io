@@ -950,6 +950,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [RESET]({{ site.baseurl }}/reference/functions/function_RESET)
 
+[REXEC]({{ site.baseurl }}/reference/functions/function_REXEC)
+
 [ROLL]({{ site.baseurl }}/reference/functions/function_ROLL)
 
 [ROLLD]({{ site.baseurl }}/reference/functions/function_ROLLD)
