@@ -9,7 +9,7 @@ category: "reference"
 ---
  
 
-The `+!` operator adds the element on top of the stack to the set or list below it. The element is added to the existing collection. This allows to share a set or list between macros being evaluated concurrently via [`CEVAL`]({{site.baseurl}}).
+The `+!` operator adds the element on top of the stack to the set or list below it. The element is added to the existing collection. This allows to share a set or list between macros being evaluated concurrently via [`CEVAL`]({{site.baseurl}}/reference/functions/function_CEVAL).
 
 ## Example ##
 
