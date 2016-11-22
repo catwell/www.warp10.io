@@ -370,6 +370,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [+]({{ site.baseurl }}/reference/functions/function_ADD)
 
+[+!]({{ site.baseurl }}/reference/functions/function_INPLACEADD)
+
 [-]({{ site.baseurl }}/reference/functions/function_SUB)
 
 [-&gt;DOUBLEBITS]({{ site.baseurl }}/reference/functions/function_TODOUBLEBITS)

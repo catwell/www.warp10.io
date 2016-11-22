@@ -43,18 +43,3 @@ Stack:
 [ 'a' 'b' ] 'c' +
 </warp10-warpscript-widget>
 {% endraw %}    
-
-
-## Unit test ##
-
-{% raw %}
-<warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">40 2 + 
-'Hello ' 'world' +
-[ 'a' 'b' ] 'c' +
-LIST-> DROP     // Expand the list and drop its size
-'c' == ASSERT   'b' == ASSERT   'a' == ASSERT
-'Hello world' == ASSERT
-42 == ASSERT
-'unit test successful'
-</warp10-warpscript-widget>
-{% endraw %}        
