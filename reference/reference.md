@@ -1230,6 +1230,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [WRAPRAW]({{ site.baseurl }}/reference/functions/function_WRAPRAW)
 
+[ZDISCORDS]({{ site.baseurl }}/reference/functions/function_ZDISCORDS)
+
 [ZSCORE]({{ site.baseurl }}/reference/functions/function_ZSCORE)
 
 [ZPATTERNDETECTION]({{ site.baseurl }}/reference/functions/function_ZPATTERNDETECTION)
