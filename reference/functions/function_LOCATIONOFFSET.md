@@ -1,14 +1,16 @@
 ---
-title: "LOCSTRINGS"
+title: "LOCATIONOFFSET"
 layout: "function"
 isPage: "true"
 link: "/warpscript/functions"
-desc: "Pushes encoded locations of Geo Time Series onto the stack"
+desc: "Downsamples a Geo Time Series by retaining only those datapoints farther away than a threshold distance"
 categoryTree: ["reference","functions"]
 category: "reference"
 ---
  
-The `LOCSTRINGS` function extract the locations from a Geo Time Series and builds a list of the 64 bits hexadecimal representation of their [HHCode](https://en.wikipedia.org/wiki/HHCode).
+The `LOCATIONOFFSET` function downsamples a Geo Time Series by retaining the first and last datapoints and only those datapoints which are more than a given distance away.
+
+The function expects a distance in meters on top of the stack and operates on the Geo Time Series below it.
 
 ## Example ##
 
@@ -29,7 +31,7 @@ RELABEL
 900  48.4313078 -4.4513638 25800  3 ADDVALUE
 1000 48.4313079 -4.4513639 25900  2 ADDVALUE
 1100 48.4313080 -4.4513690 26000  1 ADDVALUE
-// Extract the locations as strings
-LOCSTRINGS
+0.1
+LOCATIONOFFSET
 </warp10-warpscript-widget>
 {% endraw %}

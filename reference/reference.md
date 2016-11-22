@@ -1114,6 +1114,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [LASTTICK]({{ site.baseurl }}/reference/functions/function_LASTTICK)
 
+[LOCATIONOFFSET]({{ site.baseurl }}/reference/functions/function_LOCATIONOFFSET)
+
 [LOCATIONS]({{ site.baseurl }}/reference/functions/function_LOCATIONS)
 
 [LOCSTRINGS]({{ site.baseurl }}/reference/functions/function_LOCSTRINGS)
