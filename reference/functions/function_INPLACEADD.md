@@ -15,6 +15,10 @@ The `+!` operator adds the element on top of the stack to the set or list below 
 
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">[ 1 2 3 ]
-4 +!
+'list' STORE
+// Regular '+' creates a new list so $list does not contain '4'
+$list 4 + 
+// in place '+' adds the element to the existing list
+$list 5 +! DROP $list
 </warp10-warpscript-widget>
 {% endraw %}    
