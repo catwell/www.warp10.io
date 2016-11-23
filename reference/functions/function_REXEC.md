@@ -17,7 +17,9 @@ The `REXEC` function is only available if the `warpscript.rexec.enable` configur
 ## Example ##
 
 {% raw %}
-<warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}"><' NOW '>
+<warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}"><'
+NOW
+'>
 'http://warp.cityzendata.net/api/v0/exec'
 REXEC
 </warp10-warpscript-widget>
