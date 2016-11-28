@@ -19,11 +19,11 @@ This function will take into account leap years and, when working with timestamp
 
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">'2016-10-30T12:00:00Z' TOTIMESTAMP
-'Europe/Paris' 1 ADDDAYS
+'Europe/Paris' 1 ADDMONTHS
 'Europe/Paris' ISO8601
 
 '2016-10-30T12:00:00Z' TOTIMESTAMP
 ->TSELEMENTS
-1 ADDDAYS
+1 ADDMONTHS
 </warp10-warpscript-widget>
 {% endraw %}        
