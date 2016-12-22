@@ -1,5 +1,5 @@
 ---
-title: "NBOUNDS"
+title: "QUANTIZE"
 layout: "function"
 isPage: "true"
 link: "/warpscript/functions"
