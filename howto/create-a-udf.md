@@ -19,7 +19,7 @@ You UDF class must then implement the function `apply` which will be called when
 
 Additionally, your UDF can implement the method `isProtected` which returns a boolean indicating whether your UDF can be invoked from anywhere (`false`) or only from within server side macros or secure scripts (`true`)
 
-## Getting starterd
+## Getting started
 
 First of all, create a new Gradle project in your favorite IDE, and add a new package in src/main/java: `io.warp10.tutorial`.
 
@@ -30,7 +30,7 @@ Use this [file]({{ site.baseurl }}/assets/data/build.gradle) as build.gradle.
 Inside the `build.gradle` file, notice that it doesn't include in the generated jar the WarpScript library. Instead it indicates that this library is needed at execution time. This is done by declaring the following in `build.gradle`:
 
 ```
-provided 'io.warp10:warpscript:1.0.17'
+provided 'io.warp10:warpscript:1.2.4'
 ```
 
 This operation is important because it means the UDF doesn't need to be recompiled for each new Warp 10 version as **it will dynamically use the current version** available on your Warp 10 deployment.

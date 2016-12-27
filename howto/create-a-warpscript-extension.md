@@ -25,15 +25,7 @@ Then create the class HELLOWARP10 that extends `NamedWarpScriptFunction` and imp
 
 Create also a class called TutorialExtension that extends `WarpScriptExtension`. 
 
-Use this [file]({{ site.baseurl }}/assets/data/build.gradle) as build.gradle. 
-
-Inside the build.gradle file notice that it doesn't include in the jar the WarpScript libraries, but indicates that those library are needed at execution. This is done when declaring in the build.gradle file the following instruction: 
-
-```
-provided 'io.warp10:warpscript:1.0.17'
-```
-
-This operation is important because it means your functions don't need to be recompiled for each new Warp 10 version as **it will dynamically use the current version** deployed on the Warp 10 cluster.
+Use the same build.gradle than for an UDF, available [here]({{ site.baseurl }}/assets/data/build.gradle). Just change it's title in manifest of the shadowJar task. 
 
 ## Develop a WarpScript function -- HELLOWARP10
 
