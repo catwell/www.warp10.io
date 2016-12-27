@@ -9,7 +9,7 @@ The aim of this tutorial is to show the user how to developp a WarpScript extens
 
 In this page, we will learn how to implement a WarpScript set of functions and how to deploy it in your own platform. In this tutorial the set contains a single function which generates a single string from 2 strings that are currently on top of the WarpScript stack.
 
-The full code is available on github [here](https://github.com/aurrelhebert/warp10-extension-tuto).
+The full code is available on github [here](https://github.com/cityzendata/warp10-ext-template).
 
 ## Functions and extension interfaces
 
