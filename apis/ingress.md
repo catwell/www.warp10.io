@@ -84,7 +84,7 @@ To be authentified you need to add a `X-Warp10-Token` header with your **write**
 
 ### Body ###
 
-In the body of the POST request you put the Geo Time Series in the [GTS input format]({{ site.baseurl }}/api/gts-input-format), one reading by line.
+In the body of the POST request you put the Geo Time Series in the [GTS input format]({{ site.baseurl }}/apis/gts-input-format), one reading by line.
 
 ```
    TS/LAT:LON/ELEV NAME{LABELS} VALUE
