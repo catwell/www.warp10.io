@@ -13,7 +13,7 @@ Integration with IFTTT works both ways, you can interact with Warp 10 from IFTTT
 
 ## Talking to Warp 10 from IFTTT ##
 
-Warp 10 can be used as the *that* part of an IFTTT Applet, simply configure your applet so it issues a Web request via the Maker channel with the following parameters:
+Warp 10 can be used as the *that* part of an IFTTT Applet, simply configure your applet so it issues a Web request via the Maker service with the following parameters:
 
 * URL: `https://HOST:PORT/api/v0/exec`
 * Method: `POST`
@@ -52,5 +52,7 @@ From your WarpScript code, should look like this:
    ->JSON
    WEBCALL
 ```
+
+Your IFTTT key is displayed in the [*Settings*](https://ifttt.com/services/maker/settings) of the Maker service, it is the cryptic part after `/use/` in the *URL*.
 
 The event name and the values of the various parameters are then available in your applet as ingredients `EventName`, `Value1`, `Value2` and `Value3`.
