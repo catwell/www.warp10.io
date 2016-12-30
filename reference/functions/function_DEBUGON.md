@@ -3,7 +3,6 @@ title: "DEBUGON"
 layout: function
 desc: "Turns on stack debugging."
 category: reference
-signature: "'string' ->B64 'encoded'"
 ---
 
 Turns on stack debugging which returns the stack content in case of error. Stack debugging is off by default.
