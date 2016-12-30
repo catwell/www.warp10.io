@@ -33,3 +33,24 @@ You can also use the *ingredients* from the `this` part of your applet.
 
 ## Talking to IFTTT from Warp 10 ##
 
+Triggering an event on IFTTT is easily done via the [WEBCALL]({{ site.baseurl }}/reference/functions/function_WEBCALL) function. The target IFTTT website (`maker.ifttt.com`) must have been declared in the Warp 10 configuration file in the `webcall.host.patterns` property.
+
+From your WarpScript code, should look like this:
+
+```
+   'EventName' 'event' STORE
+   'IFTTT-Maker-Key' 'key' STORE
+   'WRITE-TOKEN'
+   'POST'
+   'https://maker.ifttt.com/trigger/' $event + '/with/key/' + $key +
+   { 'Content-Type' 'application/json' }
+   {
+     'value1' 'val-1'
+     'value2' 'val-2'
+     'value3' 'val-3'
+   }
+   ->JSON
+   WEBCALL
+```
+
+The event name and the values of the various parameters are then available in your applet as ingredients `EventName`, `Value1`, `Value2` and `Value3`.
