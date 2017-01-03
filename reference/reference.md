@@ -147,6 +147,27 @@ This page lists all the functions available in WarpScript except those related t
 
 [mapper.sigmoid]({{ site.baseurl }}/reference/frameworks/mapper_sigmoid)
 
+##### Kernel smoothing mappers
+
+[mapper_kernel_cosine]({{ site.baseurl }}/reference/frameworks/mapper_kernel_cosine)
+
+[mapper_kernel_epanechnikov]({{ site.baseurl }}/reference/frameworks/mapper_kernel_epanechnikov)
+
+[mapper_kernel_gaussian]({{ site.baseurl }}/reference/frameworks/mapper_kernel_gaussian)
+
+[mapper_kernel_logistic]({{ site.baseurl }}/reference/frameworks/mapper_kernel_logistic)
+
+[mapper_kernel_quartic]({{ site.baseurl }}/reference/frameworks/mapper_kernel_quartic)
+
+[mapper_kernel_silverman]({{ site.baseurl }}/reference/frameworks/mapper_kernel_silverman)
+
+[mapper_kernel_triangular]({{ site.baseurl }}/reference/frameworks/mapper_kernel_triangular)
+
+[mapper_kernel_tricube]({{ site.baseurl }}/reference/frameworks/mapper_kernel_tricube)
+
+[mapper_kernel_triweight]({{ site.baseurl }}/reference/frameworks/mapper_kernel_triweight)
+
+[mapper_kernel_uniform]({{ site.baseurl }}/reference/frameworks/mapper_kernel_uniform)
 
 ##### Geo mappers
 
