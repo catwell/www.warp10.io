@@ -117,6 +117,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [mapper.todouble]({{ site.baseurl }}/reference/frameworks/mapper_todouble)
 
+[mapper.parsedouble]({{ site.baseurl }}/reference/frameworks/mapper_parsedouble)
+
 [mapper.tolong]({{ site.baseurl }}/reference/frameworks/mapper_tolong)
 
 [mapper.tostring]({{ site.baseurl }}/reference/frameworks/mapper_tostring)
