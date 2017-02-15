@@ -21,9 +21,9 @@ Quantum has three main functions:
 
   ![Quantum - WarpScript]({{ site.baseurl }}/img/getting-started/quantum-warpscript.png)
 
-* Ingress: used to send data to the platform, as an alternative to the command-line
+* Update: used to send data to the platform, as an alternative to the command-line
 
-  ![Quantum - Ingress]({{ site.baseurl }}/img/getting-started/quantum-ingress.png)
+  ![Quantum - Update]({{ site.baseurl }}/img/getting-started/quantum-ingress.png)
 
 * Delete: used to erase data from the platform, as an alternative to the command-line
 
