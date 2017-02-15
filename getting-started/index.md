@@ -24,14 +24,117 @@ This page quickly explains how to push your first data, and compute a first anal
 ## Setup the platform
 
 <div class="right margin-left">
+<img src="{{ site.baseurl}}/img/getting-started/bintray.png" alt="Using Warp10 Init script">
+</div>
+
+The easiest way to setup the Warp10 platform is to use the Warp10 Init script that comes with the Warp10 build. Builds of Warp10 are available on [Bintray](https://bintray.com/cityzendata/generic/warp10). It is the recommended method of installation.
+
+### Running Warp10
+
+Untar the Warp10 archive.
+
+~~~
+  tar xf warp10-X.Y.Z.tar.gz
+  cd warp10-X.Y.Z/bin
+~~~
+
+You have to define the **JAVA_HOME** environment variable. You can set it in the Warp10 init script `warp10-standalone.init`.
+
+Execute the Warp10 init script `warp10-standalone.init`. This script must be run as **root**
+It will create the Leveldb database and all the stuff surrounding it.
+Then the init script starts the Standalone mode with the right user `warp10`.
+An initial set of tokens will be provided and some useful commands to start playing with your Warp10 instance.
+
+~~~
+  ./warp10-standalone.init start
+~~~
+
+~~~
+root@XXX:/opt/warp10-X.Y.Z/bin# ./warp10-standalone.init start
+Config file does not exist - Creating it from template...
+Init config..
+Fix ownership..
+WARP10_HOME: /opt/warp10-X.Y.Z/bin/..
+Fix permissions..
+Init leveldb
+  ___       __                           ____________   
+  __ |     / /_____ _______________      __<  /_  __ \  
+  __ | /| / /_  __ `/_  ___/__  __ \     __  /_  / / /  
+  __ |/ |/ / / /_/ /_  /   __  /_/ /     _  / / /_/ /   
+  ____/|__/  \__,_/ /_/    _  .___/      /_/  \____/    
+                           /_/                          
+##
+## Warp 10 listens on 127.0.0.1:8080
+##
+## Quantum listens on 127.0.0.1:8090
+##
+##
+## An initial set of tokens was generated for you so you can immediately use Warp 10:
+##
+## Write Token: thMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXuH
+## Read Token: 47O6XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX5r
+##
+## Push some test data using:
+##
+##   curl -H 'X-Warp10-Token: thMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXuH' http://127.0.0.1:8080/api/v0/update --data-binary '// test{} 42'
+##
+## And read it back using:
+##
+##   curl 'http://127.0.0.1:8080/api/v0/fetch?token=47O6XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX5r&selector=~.*\{\}&now=now&timespan=-1'
+##
+## You can submit WarpScript for execution via:
+##
+##   curl http://127.0.0.1:8080/api/v0/exec --data-binary @path/to/WarpScriptFile
+##
+## The alternative to command-line interaction is Quantum, a web application to interact with the platform in an user-friendly way:
+##
+##   http://127.0.0.1:8090
+##
+~~~
+
+Warp10 standalone config `conf-standalone.conf` has been generated in the `etc` directory
+
+Logs are available in the `logs` directory
+
+Data are stored via leveldb in the `data` directory
+
+### Generating new Tokens
+
+The Warp 10 platform is built with a robust security model that allows you to have a tight control of who has the right to write and/or read data. The model is structured around the [concepts]({{ site.baseurl }}/introduction/concepts) of `data producer`, `data owner` and `application`, and `WRITE` and `READ` tokens.  
+
+By default, at the first start, Warp10 init script will generate both a `READ` and a `WRITE` token for the test application `io.warp10.bootstrap` for a test user that is both the producer and the owner of the data.
+
+Then, you can generate your own write and read tokens. You get it by executing the `worf` command via Warp10 init script.
+
+~~~
+root@XXX:/opt/warp10-X.Y.Z/bin# ./warp10-standalone.init worf appName ttl(ms)
+~~~
+
+~~~
+root@XXX:/opt/warp10-X.Y.Z/bin# ./warp10-standalone.init worf myApp 31536000000
+default options loaded from file:/opt/warp10-X.Y.Z/bin/../etc/.conf-standalone.conf.worf
+{"read":{"token":"lO5XXXXXXXXXXXXXXXXXXXXDXk","tokenIdent":"606aa9b8f6f47136","ttl":31536000000,"application":"myApp","owner":"3b8ab607-4aac-4b13-9251-94f152924766","producer":"3b8ab607-4aac-4b13-9251-94f152924766"},"write":{"token":"8D_XXXXXXXXXXXXXXXe7B","tokenIdent":"a219f98201b29e01","ttl":31536000000,"application":"myApp","owner":"3b8ab607-4aac-4b13-9251-94f152924766","producer":"3b8ab607-4aac-4b13-9251-94f152924766"}}
+~~~
+
+In order to interact more precisely with the user/token/application system, you need an interactive access to Warp10's `Worf` console. More information [here](http://www.warp10.io/tools/worf).
+
+### Data snapshot
+
+Snapshot of leveldb data can be performed via the init script
+
+~~~
+./warp10-standalone.init snapshot 'snapshot_name'
+~~~
+
+## Setup the platform with Docker
+
+<div class="right margin-left">
 <img src="{{ site.baseurl}}/img/getting-started/docker.png" alt="Using Docker">
 </div>
 
-The easiest way to setup the Warp10 platform is to use [Docker](http://docker.io). Builds of Warp10's Docker image are available on [Dockerhub](https://hub.docker.com/r/warp10io/warp10/). It is the recommended method of installation. 
+The other way to setup the Warp10 platform is to use [Docker](http://docker.io). Builds of Warp10's Docker image are available on [Dockerhub](https://hub.docker.com/r/warp10io/warp10/).
 
-
-### Running your Warp10 image
-
+### Running Warp10 with Docker
 
 Start your image binding the external ports 8080 and 8081 in all interfaces to your container.
 
@@ -45,57 +148,9 @@ In this example you bind the container internal data folder, `/data` to your loc
 
 You *must* use the same `--volume` option in all your other docker commands on warp10 image.
 
-### Generating Tokens
-
-The Warp 10 platform is built with a robust security model that allows you to have a tight control of who has the right to write and/or read data. The model is structured around the [concepts]({{ site.baseurl }}/introduction/concepts) of `data producer`, `data owner` and `application`, and `WRITE` and `READ` tokens.  
-
-For the purposes of this setup, you need to generate write and read tokens for a test application for a test user that is both the producer and the owner of the data. In order to interact with the user/token/application system, you need an interactive access to Warp10's [Worf](http://www.warp10.io/tools/worf) component. You get it by executing `worf.sh` on the running container.
-
-First, get the container id for your running Warp 10 image:
-
-~~~
-  $ docker ps
-  CONTAINER ID        IMAGE                 COMMAND                  CREATED             STATUS              PORTS                              NAMES
-  821b868e20be        warp10io/warp10:1.0.7   "/bin/sh -c ${WARP10_"   3 minutes ago       Up 3 minutes        0.0.0.0:8080-8081->8080-8081/tcp   cranky_noyce
-~~~
-
-Then run `docker exec` to run Worf console on that container id:
-
-~~~
-  docker exec   -t -i 821b868e20be worf.sh
-~~~
-
-
-Inside Worf console, you can use the `encodeToken` command to generate both a `READ` and a `WRITE` token for the default users and application.
-
-![Generating tokens with Worf](http://www.warp10.io/img/getting-started/generating-tokens-with-worf.png)
-
-
-## Testing the container
-
-
-To test the running container, push a single GTS containing one data in the platform using your WRITE token.
-
-  ```
-  curl -v -H 'X-Warp10-Token: WRITE_TOKEN' --data-binary "1// test{} 42" 'http://127.0.0.1:8080/api/v0/update'
-  ```
-
-If everything is OK, you should receive a HTTP 200
-
-> When using Docker on Mac OS or Windows, there is no binding between Warp 10 API address and the host (docker is runned throw a Virtual Machine). To reach Warp10 you need to replace 127.0.0.1 by the real Ip address of the container. To get it, use a simple `docker-machine ip default>`, the container address is also shown in the Settings/Ports page of your container. If you used the shared volume between the container and the host, you can access to the virtual machine using `docker-machine ssh default>` and inspect the repertory `/var/warp10`. Don't hesitate to check on [docker-machine documentation](https://docs.docker.com/machine/).
-
-Get this data using your READ tokens.
-
-```
-curl -v  --data-binary "'READ_TOKEN' 'test' {} NOW -1 FETCH" 'http://127.0.0.1:8080/api/v0/exec'
-```
-
-If everything is OK, you should receive a HTTP 200 OK with your datapoint in JSON format.
-
 <a name="pushing-data"></a>
 
 ## Pushing data into Warp 10
-
 
 Data is sent into the platform via HTTP [POST](http://en.wikipedia.org/wiki/POST_(HTTP)) requests to the Warp 10 API.
 
@@ -181,8 +236,6 @@ curl -v  --data-binary "'READ_TOKEN' 'test' {} NOW -1 FETCH" 'http://127.0.0.1:8
 
 If everything is OK, you should receive a HTTP 200 OK with your datapoint in JSON format.
 
-
-
 ### Pushing your data into the platform
 
 If you already have some time series that you want to push, you can put them into GTS input format.
@@ -219,7 +272,6 @@ If cURL isn't available in your system, you can use any tool able to generate HT
 
 Or you can simply use our graphical Warp 10 IDE: [Quantum]({{ site.baseurl }}/tools/quantum).
 
-
 ### Using Quantum
 
 [Warp 10's Quantum]({{ site.baseurl }}/tools/quantum) is a web application aiming to allow users to interact with the platform in an user-friendly way, offering an alternative to command-line interaction.
@@ -232,16 +284,15 @@ Quantum has three main functions:
 
   ![Quantum - WarpScript]({{ site.baseurl }}/img/getting-started/quantum-warpscript.png)
 
-* Ingress: used to send data to the platform, as an alternative to the command-line
+* Update: used to send data to the platform, as an alternative to the command-line
 
-  ![Quantum - Ingress]({{ site.baseurl }}/img/getting-started/quantum-ingress.png)
+  ![Quantum - Update]({{ site.baseurl }}/img/getting-started/quantum-ingress.png)
 
 * Delete: used to erase data from the platform, as an alternative to the command-line
 
   ![Quantum - Delete]({{ site.baseurl }}/img/getting-started/quantum-delete.png)
 
 Quantum is done entirely as [Polymer](https://www.polymer-project.org/) elements, and that gives the application a lot of flexibility, it can be used as a full app but you can also take only the widget you need, as we have done with the headless embeddable version of Quantum's WarpScript widget that allows you to interactively try the examples on this doc.
-
 
 <a name="accessing-data">
 
@@ -287,7 +338,6 @@ curl -H 'X-Warp10-Token: TOKEN_READ' --data-binary "now=1449222473312000&timespa
 
 Note that the data returned by the Fetch API can be fed into the `update` endpoint verbatim.
 
-
 ### Using WarpScript
 
 The second way to fetch data is to use the WarpScript data manipulation environment.
@@ -314,7 +364,6 @@ curl -H 'Transfer-Encoding:chunked' --data-binary @file.mc2 'http://127.0.0.1:80
 
 This script can also be launched in Quantum. Besides, Quantum gives the possibility to plot GTS extracted on a graph.
 
-
 <a name="analyzing"></a>
 
 ## Analyzing Data
@@ -322,7 +371,6 @@ This script can also be launched in Quantum. Besides, Quantum gives the possibil
 The WarpScript manipulation environment goes way further than simply recovering your data, it allows you to do complex analysis of data stored in the Warp 10 storage platform.
 
 In the previous section, a first WarpScript program was realized. Now it's time to improve it to extract information about the data.
-
 
 ### Compute the mean of all data points
 
@@ -344,9 +392,7 @@ What happened here is that all `captor.time` GTS are on top of the stack in one 
 
 * What is on the stack now ? There is five GTS containing one tick which have a value equals to the mean of all the data points of the GTS. Moreover, those GTS have their ticks synchronized.
 
-
 ### Compute multiple mean for a GTS with a duration of 2 minutes
-
 
 Get all the GTS of all the sensors.
 
@@ -417,7 +463,6 @@ Now that the ticks are synchronized, execute an operation on this list of GTS to
   ```
 
 Now you can simply compute the mean of this new GTS, or for example the mean by minute during the fly.
-
 
 ### Find all objects near starting point at each timestamp
 
