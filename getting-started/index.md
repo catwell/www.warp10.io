@@ -8,18 +8,15 @@ oldPath: ["00-Index.html.md"]
 category: "getting-started"
 ---
 
+This page describes how to download and deploy a standalone version of the Warp 10 platform, generate your first tokens and start interacting with the platform by pushing data and performing analytics.
 
-This page quickly explains how to push your first data, and compute a first analysis.
+Alternatively a method involving docker is also described.
 
-## On this page
-
-* [Setup the platform using docker](#setup)
-* [Pushing data into Warp 10](#pushing-data)
-* [Accessing Data](#accessing-data)
-* [Analyzing Data](#analyzing)
-
+The standalone version of the Warp 10 platform uses LevelDB as its storage backend, this version is suitable for managing a few tens of millions of time series and few hundreds of billions of datapoints. If you have larger needs, a [distributed](distributed) version of the platform is also available which uses Apache HBase as a scalable storage layer.
 
 <a name="setup"></a>
+
+# Warp 10 standalone platform deployment
 
 ## Setup the platform
 
@@ -98,7 +95,31 @@ Logs are available in the `logs` directory
 
 Data are stored via leveldb in the `data` directory
 
-### Generating new Tokens
+# Setup the platform with Docker
+
+<div class="right margin-left">
+<img src="{{ site.baseurl}}/img/getting-started/docker.png" alt="Using Docker">
+</div>
+
+The other way to setup the Warp10 platform is to use [Docker](http://docker.io). Builds of Warp10's Docker image are available on [Dockerhub](https://hub.docker.com/r/warp10io/warp10/).
+
+## Running Warp10 with Docker
+
+Start your image binding the external ports 8080 and 8081 in all interfaces to your container.
+
+Docker containers are easy to delete. If you delete your container instance, you'll lose the Warp10 store and configuration. So by default you should add a volume mapping to the containers `/data` folder.
+
+~~~
+  docker run --volume=/var/warp10:/data -p 8080:8080 -p 8081:8081 -d -i warp10io/warp10:1.0.7
+~~~
+
+In this example you bind the container internal data folder, `/data` to your local folder `/var/warp10`.
+
+You *must* use the same `--volume` option in all your other docker commands on warp10 image.
+
+# Using Warp 10
+
+## Generating new Tokens
 
 The Warp 10 platform is built with a robust security model that allows you to have a tight control of who has the right to write and/or read data. The model is structured around the [concepts]({{ site.baseurl }}/introduction/concepts) of `data producer`, `data owner` and `application`, and `WRITE` and `READ` tokens.  
 
@@ -118,7 +139,7 @@ default options loaded from file:/opt/warp10-X.Y.Z/bin/../etc/.conf-standalone.c
 
 In order to interact more precisely with the user/token/application system, you need an interactive access to Warp10's `Worf` console. More information [here](http://www.warp10.io/tools/worf).
 
-### Data snapshot
+## Data snapshot
 
 Snapshot of leveldb data can be performed via the init script
 
@@ -126,39 +147,17 @@ Snapshot of leveldb data can be performed via the init script
 ./warp10-standalone.init snapshot 'snapshot_name'
 ~~~
 
-## Setup the platform with Docker
-
-<div class="right margin-left">
-<img src="{{ site.baseurl}}/img/getting-started/docker.png" alt="Using Docker">
-</div>
-
-The other way to setup the Warp10 platform is to use [Docker](http://docker.io). Builds of Warp10's Docker image are available on [Dockerhub](https://hub.docker.com/r/warp10io/warp10/).
-
-### Running Warp10 with Docker
-
-Start your image binding the external ports 8080 and 8081 in all interfaces to your container.
-
-Docker containers are easy to delete. If you delete your container instance, you'll lose the Warp10 store and configuration. So by default you should add a volume mapping to the containers `/data` folder.
-
-~~~
-  docker run --volume=/var/warp10:/data -p 8080:8080 -p 8081:8081 -d -i warp10io/warp10:1.0.7
-~~~
-
-In this example you bind the container internal data folder, `/data` to your local folder `/var/warp10`.
-
-You *must* use the same `--volume` option in all your other docker commands on warp10 image.
-
 <a name="pushing-data"></a>
 
 ## Pushing data into Warp 10
 
 Data is sent into the platform via HTTP [POST](http://en.wikipedia.org/wiki/POST_(HTTP)) requests to the Warp 10 API.
 
-### API Endpoint
+## API Endpoint
 
 The HTTP endpoint used to send data is `http(s)://host:port/api/vX/update`, where `vX`is the version of the API you want to use (currently `v0`). In order to be accepted by the platform, requests to this endpointy need to be authenticated, by using a `X-Warp10-Token` HTTP header with your **write** token.
 
-### Data format
+## Data format
 
 Data is sent in the body of the POST request, one data point per line. Each line follows the [GTS input format]({{ site.baseurl }}/apis/gts-input-format):
 
@@ -205,7 +204,7 @@ Where :
 </div>
 
 
-### Example of request
+## Example request
 
 ~~~
     POST /api/v0/update HTTP/1.1
@@ -236,7 +235,7 @@ curl -v  --data-binary "'READ_TOKEN' 'test' {} NOW -1 FETCH" 'http://127.0.0.1:8
 
 If everything is OK, you should receive a HTTP 200 OK with your datapoint in JSON format.
 
-### Pushing your data into the platform
+## Pushing your data into the platform
 
 If you already have some time series that you want to push, you can put them into GTS input format.
 
@@ -272,7 +271,7 @@ If cURL isn't available in your system, you can use any tool able to generate HT
 
 Or you can simply use our graphical Warp 10 IDE: [Quantum]({{ site.baseurl }}/tools/quantum).
 
-### Using Quantum
+## Using Quantum
 
 [Warp 10's Quantum]({{ site.baseurl }}/tools/quantum) is a web application aiming to allow users to interact with the platform in an user-friendly way, offering an alternative to command-line interaction.
 
