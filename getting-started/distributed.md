@@ -16,13 +16,13 @@ The distributed version of Warp 10 relies on the following components which you 
 * [ZooKeeper](http://zookeeper.apache.org/) 3.4.x
 * [Kafka](http://kafka.apache.org/) 0.8.2.2
 * [Hadoop](http://hadoop.apache.org/) 2.6.0
-* [HBase](http://hbase.apache.org/) 1.x
+* [HBase](http://hbase.apache.org/) 1.1.x
 
 # Introducing the Warp 10 components
 
 The distributed version of the Warp 10 platform is a set of components (or *daemons*) working together to provide the service. All components can be deployed multiple times to address scalability and high availability.
 
-Any combination of components can be launched in a single JVM. Some components can be omitted if you do not wish to provide the associated functionnality. The core components you should run is `ingress`, `directory`, `store` and `egress`, all others can be considered optional.
+Any combination of components can be launched in a single JVM. Some components can be omitted if you do not wish to provide the associated functionnality. The core components you should run are `ingress`, `directory`, `store` and `egress`, all others can be considered optional.
 
 Below is a brief description of each of the components.
 
@@ -66,7 +66,7 @@ The `runner` component is in charge of scheduling and/or running WarpScript code
 
 ## geodir
 
-The `geodir` component allows you to defined Geo Directory which index Geo Time Series according to time and space with various resolutions. This component is the most complex of all, it talks to `directory` but also to ZooKeeper and Kafka.
+The `geodir` component allows you to defined Geo Directory which index Geo Time Series according to time and space with various resolutions. This component is the most complex of all, it talks to `directory` but also to ZooKeeper and Kafka. This component will be phased out in future releases of Warp 10.
 
 ## fetcher
 
@@ -138,6 +138,7 @@ The follwing Kafka topics are needed by Warp 10:
 
 * *metadata*
 * *data*
+* *throttling*
 * *webcall*
 * *plasmabe*
 * *plasmafe* (one per instance)
@@ -286,6 +287,8 @@ java -cp warp10-x.y.z.jar io.warp10.WarpDist path/to/configuration.file
 ```
 
 on each machine where you want to run Warp 10 daemons.
+
+Please follow those [detailed instructions](distributed-setup) on how to set up the various Warp 10 components.
 
 ## HaProxy
 
