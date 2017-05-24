@@ -288,7 +288,7 @@ java -cp warp10-x.y.z.jar io.warp10.WarpDist path/to/configuration.file
 
 on each machine where you want to run Warp 10 daemons.
 
-Please follow those [detailed instructions](distributed-setup) on how to set up the various Warp 10 components.
+Please follow those [detailed instructions]({{ site.baseurl }}/getting-started/distributed-setup) on how to set up the various Warp 10 components.
 
 ## HaProxy
 
