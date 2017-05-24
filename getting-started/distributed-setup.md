@@ -156,6 +156,20 @@ Check that the `webcall` topic is indeed consumed after issueing a [WEBCALL](htt
 
 You can test `plasma` by using this [Python script](https://github.com/cityzendata/warp10-platform/blob/master/warp10/src/main/python/plasma-pull.py) and pushing data to `ingress`.
 
+## Deploying runner
+
+The `runner` component can be configured to assume one of several roles. In the `standalone` role, the `runner` instance will schedule the scripts and will submit them to the configured `egress` endpoint. In the `scheduler` role, `runner` will schedule the scripts and push execution requests into the `runner` Kafka topic. And last, in the `worker` role, `runner` consumes the `runner` Kafka topic and executes the requests on the configured `egress`.
+
+To test `runner`, deploy a script in a subdirectory of the configured script directory in a sub-sub directory with the expected script periodicity, _i.e._
+
+```
+testing/60000/foo.mc2
+```
+
+for a script which should be executed every 60s.
+
 ## Deploying fetcher
 
 `fetcher` is network bound.
+
+Testing `fetcher` is out of scope of this guide, please refer to the warp10-pig tutorial for more infos.
