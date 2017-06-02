@@ -1325,6 +1325,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [GEO.WKT]({{ site.baseurl }}/reference/functions/function_GEO_WKT)
 
+[GEO.JSON]({{ site.baseurl }}/reference/functions/function_GEO_JSON)
+
 [GEOHASH->]({{ site.baseurl }}/reference/functions/function_GEOHASHTO)
 
 [GEOPACK]({{ site.baseurl }}/reference/functions/function_GEOPACK)
