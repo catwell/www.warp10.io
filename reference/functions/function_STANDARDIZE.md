@@ -11,7 +11,7 @@ category: "reference"
  
 
 
-The `NORMALIZE` function takes as parameter a numeric GTS or a list of numeric GTS and standardizes them (i.e. it replaces *X* by *(X-mu)/sd*).
+The `STANDARDIZE` function takes as parameter a numeric GTS or a list of numeric GTS and standardizes them (i.e. it replaces *X* by *(X-mu)/sd*).
 
 ## Example ##
 
