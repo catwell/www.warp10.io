@@ -10,7 +10,7 @@ category: "reference"
 ---
  
 
-The `ISONORMALIZE` function takes as parameter a numeric GTS or a list of numeric GTS and normalize them between -0.5 and 0.5
+The `ISONORMALIZE` function takes as parameter a numeric GTS or a list of numeric GTS and normalize them between -15 and 1
 (i.e. it replaces *X* by *(X-mean)/(max -min)* or by *1* if *max == min*).
 
 ## Example ##
