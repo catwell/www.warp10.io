@@ -3,7 +3,7 @@
  * @param metadata: JavaScript Object to add to the metadata
  * @param file: the file to add the metadata to
  */
-var addToFrontMatter = function(data, metadata) {
+var addToFrontMatter = function (data, metadata) {
 
   var frontMatter;
 
@@ -51,7 +51,7 @@ var addToFrontMatter = function(data, metadata) {
     // Serializing it
     var serializedConf = "";
     for (var key in conf) {
-      serializedConf += key + ": "+JSON.stringify(conf[key])+"\n";
+      serializedConf += key + ": " + JSON.stringify(conf[key]) + "\n";
     }
     var result = beginFormat + serializedConf + endFormat + data;
     //console.log(result);
@@ -62,14 +62,14 @@ var addToFrontMatter = function(data, metadata) {
 
 }
 
-var commentFrontMatter = function(data) {
+var commentFrontMatter = function (data) {
 
-  var out = data.replace(/---([\s\S]*?\n)---/,"<!---\n$1\n-->");
+  var out = data.replace(/---([\s\S]*?\n)---/, "<!---\n$1\n-->");
 
   return out;
 }
 
-var main = function() {
+var main = function () {
 
 
   /**
@@ -87,37 +87,37 @@ var main = function() {
   var fs = require('fs-extra');
 
   var folder = process.argv[2];
-  var target = process.argv[3].replace(/\/$/,'');
-  var baseFolder = fs.realpathSync(folder) ;
+  var target = process.argv[3].replace(/\/$/, '');
+  var baseFolder = fs.realpathSync(folder);
 
   fs.walk(folder).on('data', function (item) {
 
-      if (item.stats.isFile()) {
-        var origPath = item.path;
-        var relativePath = item.path.replace(baseFolder+"/", '');
-        var splittedPath = relativePath.split('/');
-        var folderPath = "/"
-        for (var i=0; i<splittedPath.length-1; i++) {
-          folderPath+=splittedPath[i].replace(/[0-9]*-?/, '')+"/";
-        }
-        var targetFolder = target+folderPath;
-
-        var filename = splittedPath[splittedPath.length-1];
-
-        var newPath = targetFolder+filename;
-        fs.ensureDirSync(targetFolder);
-
-        var data = fs.readFileSync(origPath, "utf8");
-
-        var content = commentFrontMatter(data);
-        console.log(newPath)
-        fs.writeFileSync(newPath, content);
+    if (item.stats.isFile()) {
+      var origPath = item.path;
+      var relativePath = item.path.replace(baseFolder + "/", '');
+      var splittedPath = relativePath.split('/');
+      var folderPath = "/"
+      for (var i = 0; i < splittedPath.length - 1; i++) {
+        folderPath += splittedPath[i].replace(/[0-9]*-?/, '') + "/";
       }
-    });
+      var targetFolder = target + folderPath;
+
+      var filename = splittedPath[splittedPath.length - 1];
+
+      var newPath = targetFolder + filename;
+      fs.ensureDirSync(targetFolder);
+
+      var data = fs.readFileSync(origPath, "utf8");
+
+      var content = commentFrontMatter(data);
+      console.log(newPath)
+      fs.writeFileSync(newPath, content);
+    }
+  });
 }
 
 if (require.main === module) {
-    main();
+  main();
 }
 
 
