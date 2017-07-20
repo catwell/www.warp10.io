@@ -38,10 +38,20 @@ The trl have a simple text format. Even if it is not the most compact format, yo
  
 The file is formatted line per line. Each line should contains :
 
- * a token identifier, *fa1bbd91a96cc59e* by example
- * an application name (prefixed with) *+app.revoked* by example
+ * a token identifier
+ * an application name (prefixed with the character '+')
+ * a comment (prefixed with the character '#')
  
- Note: the *token identifier* if given with the token delivery.
+### Example:
+
+```
+# specific token revoked
+fa1bbd91a96cc59e
+# specific application revoked 
++app.revoked
+```
+
+Note: the *token identifier* if given with the token delivery.
  
  
 
