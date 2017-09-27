@@ -1,12 +1,12 @@
 ---
-title: Monitoring Warp10 using Warp&nbsp;10
+title: Monitoring Warp&nbsp;10 using Warp&nbsp;10
 layout: function
 isPage: true
 category: howto
 ---
 
 The easiest way to monitor a Warp&nbsp;10 instance (let's call it the main Warp&nbsp;10) 
-is to use another Warp10 instance (the monitoring Warp&nbsp;10) to gather the 
+is to use another Warp&nbsp;10 instance (the monitoring Warp&nbsp;10) to gather the 
 monitoring metrics from the main one, and then use WarpScript to fetch and 
 analyze those metrics.
 
