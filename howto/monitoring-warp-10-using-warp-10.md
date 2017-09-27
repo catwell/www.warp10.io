@@ -22,7 +22,7 @@ monitoring, gathering the metrics from the main instance and analyzing them via 
 
 The monitoring metrics from the main Warp&nbsp;10 will we pushed in the monitoring
 Warp&nbsp;10 as any other GTS. As such, before pushing them,
-you need to create generate both a `READ` and a `WRITE` token for the monitoring 
+you need to generate both a `READ` and a `WRITE` token for the monitoring 
 application.
 
 To generate these tokens  you use the `worf` command via Warp&nbsp;10 init script.
@@ -133,7 +133,7 @@ drwxr-xr-x 10 horacio horacio 4096 juil. 21 16:29 ..
 ```
 
 In this example, the target file for your Warp&nbsp;10 is `7ffffea13dad4e0c.60000.f519167d-c4f7-435f-ae8e-2b87f67b102f.42893.warp.target`.
-The number before `.warp.target` is the port openend by Warp&nbsp;10 to expose its metrics, you can manually poll it to 
+The number before `.warp.target` is the port opened by Warp&nbsp;10 to expose its metrics, you can manually poll it to 
 see if it is working:
 
 ```
