@@ -21,38 +21,50 @@ The standalone version of the Warp 10 platform uses LevelDB as its storage backe
 ## Setup the platform
 
 <div class="right margin-left">
-<img src="{{ site.baseurl}}/img/getting-started/bintray.png" alt="Using Warp10 Init script">
+<img src="{{ site.baseurl}}/img/getting-started/bintray.png" alt="Using Warp 10 Init script">
 </div>
 
-The easiest way to setup the Warp10 platform is to use the Warp10 Init script that comes with the Warp10 build. Builds of Warp10 are available on [Bintray](https://bintray.com/cityzendata/generic/warp10). It is the recommended method of installation.
+The easiest way to setup the Warp 10 platform is to use the Warp 10 Init script that comes with the Warp 10 build. Builds of Warp 10 are available on [Bintray](https://bintray.com/cityzendata/generic/warp10). It is the recommended method of installation.
 
-### Running Warp10
+### Running Warp 10
 
-Untar the Warp10 archive.
+Untar the Warp 10 archive.
 
 ~~~
   tar xf warp10-X.Y.Z.tar.gz
   cd warp10-X.Y.Z/bin
 ~~~
 
-You have to define the **JAVA_HOME** environment variable. You can set it in the Warp10 init script `warp10-standalone.init`.
+You have to define the **JAVA_HOME** environment variable. You can set it in the Warp 10 init script `warp10-standalone.init`.
 
-Execute the Warp10 init script `warp10-standalone.init`. This script must be run as **root**
-It will create the Leveldb database and all the stuff surrounding it.
-Then the init script starts the Standalone mode with the right user `warp10`.
-An initial set of tokens will be provided and some useful commands to start playing with your Warp10 instance.
+Execute the Warp 10 init script `warp10-standalone.init`. This script must be run as **root**. The `bootstrap` command will create the Leveldb database and all the stuff surrounding it.
+Then the `start` command will start the Standalone mode with the right user `warp10`.
+An initial set of tokens will be provided and some useful commands to start playing with your Warp 10 instance.
 
-~~~
-  ./warp10-standalone.init start
-~~~
+Instead of using `warp10-standalone.init` you can use `warp10-standalone.sh`.
+To bootstrap your installation, you have to run `warp10-standalone.sh` as root but instead of `warp10-standalone.init` you can use the `warp10` user afterwards. 
 
 ~~~
-root@XXX:/opt/warp10-X.Y.Z/bin# ./warp10-standalone.init start
-Config file does not exist - Creating it from template...
-Init config..
+# Start bootstrap as root
+root@XXX:/opt/warp10-X.Y.Z/bin#
+sudo ./warp10-standalone.sh bootstrap
+~~~
+
+```
+Bootstrap..
 Fix ownership..
 WARP10_HOME: /opt/warp10-X.Y.Z/bin/..
 Fix permissions..
+Warp 10 config has been generated here: /opt/warp10-X.Y.Z/bin/../etc/conf-standalone.conf
+```
+
+~~~
+# Start Warp 10 (as warp10 user)
+warp10@XXX:/opt/warp10-X.Y.Z/bin#
+./warp10-standalone.sh start
+~~~
+
+```
 Init leveldb
   ___       __                           ____________   
   __ |     / /_____ _______________      __<  /_  __ \  
@@ -87,9 +99,9 @@ Init leveldb
 ##
 ##   http://127.0.0.1:8090
 ##
-~~~
+```
 
-Warp10 standalone config `conf-standalone.conf` has been generated in the `etc` directory
+Warp 10 standalone config `conf-standalone.conf` has been generated in the `etc` directory
 
 Logs are available in the `logs` directory
 
@@ -101,13 +113,13 @@ Data are stored via leveldb in the `data` directory
 <img src="{{ site.baseurl}}/img/getting-started/docker.png" alt="Using Docker">
 </div>
 
-The other way to setup the Warp10 platform is to use [Docker](http://docker.io). Builds of Warp10's Docker image are available on [Dockerhub](https://hub.docker.com/r/warp10io/warp10/).
+The other way to setup the Warp 10 platform is to use [Docker](http://docker.io). Builds of Warp 10's Docker image are available on [Dockerhub](https://hub.docker.com/r/warp10io/warp10/).
 
-## Running Warp10 with Docker
+## Running Warp 10 with Docker
 
 Start your image binding the external ports 8080 and 8081 in all interfaces to your container.
 
-Docker containers are easy to delete. If you delete your container instance, you'll lose the Warp10 store and configuration. So by default you should add a volume mapping to the containers `/data` folder.
+Docker containers are easy to delete. If you delete your container instance, you'll lose the Warp 10 store and configuration. So by default you should add a volume mapping to the containers `/data` folder.
 
 ~~~
   docker run --volume=/var/warp10:/data -p 8080:8080 -p 8081:8081 -d -i warp10io/warp10:1.0.7
@@ -115,7 +127,7 @@ Docker containers are easy to delete. If you delete your container instance, you
 
 In this example you bind the container internal data folder, `/data` to your local folder `/var/warp10`.
 
-You *must* use the same `--volume` option in all your other docker commands on warp10 image.
+You *must* use the same `--volume` option in all your other docker commands on warp 10 image.
 
 # Using Warp 10
 
@@ -123,9 +135,9 @@ You *must* use the same `--volume` option in all your other docker commands on w
 
 The Warp 10 platform is built with a robust security model that allows you to have a tight control of who has the right to write and/or read data. The model is structured around the [concepts]({{ site.baseurl }}/introduction/concepts) of `data producer`, `data owner` and `application`, and `WRITE` and `READ` tokens.  
 
-By default, at the first start, Warp10 init script will generate both a `READ` and a `WRITE` token for the test application `io.warp10.bootstrap` for a test user that is both the producer and the owner of the data.
+By default, at the first start, Warp 10 init script will generate both a `READ` and a `WRITE` token for the test application `io.warp10.bootstrap` for a test user that is both the producer and the owner of the data.
 
-Then, you can generate your own write and read tokens. You get it by executing the `worf` command via Warp10 init script.
+Then, you can generate your own write and read tokens. You get it by executing the `worf` command via Warp 10 init script.
 
 ~~~
 root@XXX:/opt/warp10-X.Y.Z/bin# ./warp10-standalone.init worf appName ttl(ms)
@@ -137,7 +149,7 @@ default options loaded from file:/opt/warp10-X.Y.Z/bin/../etc/.conf-standalone.c
 {"read":{"token":"lO5XXXXXXXXXXXXXXXXXXXXDXk","tokenIdent":"606aa9b8f6f47136","ttl":31536000000,"application":"myApp","owner":"3b8ab607-4aac-4b13-9251-94f152924766","producer":"3b8ab607-4aac-4b13-9251-94f152924766"},"write":{"token":"8D_XXXXXXXXXXXXXXXe7B","tokenIdent":"a219f98201b29e01","ttl":31536000000,"application":"myApp","owner":"3b8ab607-4aac-4b13-9251-94f152924766","producer":"3b8ab607-4aac-4b13-9251-94f152924766"}}
 ~~~
 
-In order to interact more precisely with the user/token/application system, you need an interactive access to Warp10's `Worf` console. More information [here](http://www.warp10.io/tools/worf).
+In order to interact more precisely with the user/token/application system, you need an interactive access to Warp 10's `Worf` console. More information [here](http://www.warp10.io/tools/worf).
 
 ## Data snapshot
 
@@ -225,7 +237,7 @@ To test the running container, push a single GTS containing one data in the plat
 
 If everything is OK, you should receive a HTTP 200
 
-> When using Docker on Mac OS or Windows, there is no binding between Warp 10 API address and the host (docker is runned throw a Virtual Machine). To reach Warp10 you need to replace 127.0.0.1 by the real Ip address of the container. To get it, use a simple `docker-machine ip default>`, the container address is also shown in the Settings/Ports page of your container. If you used the shared volume between the container and the host, you can access to the virtual machine using `docker-machine ssh default>` and inspect the repertory `/var/warp10`. Don't hesitate to check on [docker-machine documentation](https://docs.docker.com/machine/).
+> When using Docker on Mac OS or Windows, there is no binding between Warp 10 API address and the host (docker is runned throw a Virtual Machine). To reach Warp 10 you need to replace 127.0.0.1 by the real Ip address of the container. To get it, use a simple `docker-machine ip default>`, the container address is also shown in the Settings/Ports page of your container. If you used the shared volume between the container and the host, you can access to the virtual machine using `docker-machine ssh default>` and inspect the repertory `/var/warp10`. Don't hesitate to check on [docker-machine documentation](https://docs.docker.com/machine/).
 
 Get this data using your READ tokens.
 
@@ -305,7 +317,7 @@ The Fetch API allows to recover raw GTS data in a extremely quick and efficient 
 
 
 The HTTP endpoint used by the Fetch API is `http(s)://API_ENDPOINT/api/vX/fetch`, where `API_ENDPOINT` is a
-[valid  endpoint]({{ site.baseurl}}/apis) for the Warp10 instance you're using and `vX`is the version of the API you want to use (currently `v0`).
+[valid  endpoint]({{ site.baseurl}}/apis) for the Warp 10 instance you're using and `vX`is the version of the API you want to use (currently `v0`).
 The Fetch API **must** be accessed using the *GET* method.
 
 To be authenticated you need to add a `X-Warp10-Token` header with your **read** token or, as a fallback authentication mode, the token can be passed in a request parameter `token`.
@@ -329,7 +341,7 @@ The minimal set of parameters you need to give in the request is
     1. If you want to recover the last `n` readings before a given instant, you can use the instant timestamp (in microseconds since the Unix epoch) as `now` parameter and `-n` as `timespan`.
 
 
-Here you have a sample request that recover data from all your drone GTS from the precedent sections. The selector parameter defines the pattern that the GTS have to match to be fetched, those whose classname begins with `example.drone.captor`. `{}` correspond to the labels.  This command load data points starting from the `now` parameter (in this example, 1449222473312000 micro-seconds after Epoch). As `timespan` equals -10, Warp10 will only fetch the last ten data points before `now`. A positive timespan corresponds to a duration, a negative one to a number of data points to get.
+Here you have a sample request that recover data from all your drone GTS from the precedent sections. The selector parameter defines the pattern that the GTS have to match to be fetched, those whose classname begins with `example.drone.captor`. `{}` correspond to the labels.  This command load data points starting from the `now` parameter (in this example, 1449222473312000 micro-seconds after Epoch). As `timespan` equals -10, Warp 10 will only fetch the last ten data points before `now`. A positive timespan corresponds to a duration, a negative one to a number of data points to get.
 
 ```
 curl -H 'X-Warp10-Token: TOKEN_READ' --data-binary "now=1449222473312000&timespan=-10&selector=~example.drone.captor.*{}" 'http://127.0.0.1:8080/api/v0/fetch?'
