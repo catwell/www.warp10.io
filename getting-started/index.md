@@ -21,7 +21,11 @@ The standalone version of the Warp 10 platform uses LevelDB as its storage backe
 ## Setup the platform
 
 <div class="right margin-left">
-<img src="{{ site.baseurl}}/img/getting-started/bintray.png" alt="Using Warp 10 Init script">
+  <a href='https://bintray.com/cityzendata/generic/warp10/1.2.11-rc4/link' target="_blank">
+    <img class="no-zoom" src="{{ site.baseurl}}/img/getting-started/bintray.png" alt="Using Warp 10 Init script">
+    <br />
+    <img class="no-zoom" src='https://api.bintray.com/packages/cityzendata/generic/warp10/images/download.svg?version=1.2.11-rc4'>
+  </a>
 </div>
 
 The easiest way to setup the Warp 10 platform is to use the Warp 10 Init script that comes with the Warp 10 build. Builds of Warp 10 are available on [Bintray](https://bintray.com/cityzendata/generic/warp10). It is the recommended method of installation.
@@ -35,7 +39,7 @@ Untar the Warp 10 archive.
   cd warp10-X.Y.Z/bin
 ~~~
 
-You have to define the **JAVA_HOME** environment variable. You can set it in the Warp 10 init script `warp10-standalone.init`.
+You have to define the **JAVA_HOME** environment variable. You can set it in the Warp 10 init script `warp10-standalone.sh`.
 
 Execute the Warp 10 init script `warp10-standalone.init`. This script must be run as **root**. The `bootstrap` command will create the Leveldb database and all the stuff surrounding it.
 Then the `start` command will start the Standalone mode with the right user `warp10`.
@@ -45,60 +49,69 @@ Instead of using `warp10-standalone.init` you can use `warp10-standalone.sh`.
 To bootstrap your installation, you have to run `warp10-standalone.sh` as root but instead of `warp10-standalone.init` you can use the `warp10` user afterwards. 
 
 ~~~
-# Start bootstrap as root
-root@XXX:/opt/warp10-X.Y.Z/bin#
-sudo ./warp10-standalone.sh bootstrap
+  # Start bootstrap as root
+  sudo ./warp10-standalone.sh bootstrap
+~~~
+
+
+```
+  Bootstrap..
+  Fix ownership..
+  WARP10_HOME: /opt/warp10-X.Y.Z/bin/..
+  Fix permissions..
+  Warp 10 config has been generated here: /opt/warp10-X.Y.Z/bin/../etc/conf-standalone.conf
+```
+
+~~~
+  # Start Warp 10 (as warp10 user)
+  sudo -i
+  su warp10
+  warp10@XXX:/opt/warp10-X.Y.Z/bin#
+  ./warp10-standalone.sh start
+~~~
+
+or 
+
+~~~
+  # Start Warp 10 (as root user)
+  sudo ./warp10-standalone.init start
 ~~~
 
 ```
-Bootstrap..
-Fix ownership..
-WARP10_HOME: /opt/warp10-X.Y.Z/bin/..
-Fix permissions..
-Warp 10 config has been generated here: /opt/warp10-X.Y.Z/bin/../etc/conf-standalone.conf
-```
-
-~~~
-# Start Warp 10 (as warp10 user)
-warp10@XXX:/opt/warp10-X.Y.Z/bin#
-./warp10-standalone.sh start
-~~~
-
-```
-Init leveldb
-  ___       __                           ____________   
-  __ |     / /_____ _______________      __<  /_  __ \  
-  __ | /| / /_  __ `/_  ___/__  __ \     __  /_  / / /  
-  __ |/ |/ / / /_/ /_  /   __  /_/ /     _  / / /_/ /   
-  ____/|__/  \__,_/ /_/    _  .___/      /_/  \____/    
-                           /_/                          
-##
-## Warp 10 listens on 127.0.0.1:8080
-##
-## Quantum listens on 127.0.0.1:8090
-##
-##
-## An initial set of tokens was generated for you so you can immediately use Warp 10:
-##
-## Write Token: thMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXuH
-## Read Token: 47O6XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX5r
-##
-## Push some test data using:
-##
-##   curl -H 'X-Warp10-Token: thMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXuH' http://127.0.0.1:8080/api/v0/update --data-binary '// test{} 42'
-##
-## And read it back using:
-##
-##   curl 'http://127.0.0.1:8080/api/v0/fetch?token=47O6XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX5r&selector=~.*\{\}&now=now&timespan=-1'
-##
-## You can submit WarpScript for execution via:
-##
-##   curl http://127.0.0.1:8080/api/v0/exec --data-binary @path/to/WarpScriptFile
-##
-## The alternative to command-line interaction is Quantum, a web application to interact with the platform in an user-friendly way:
-##
-##   http://127.0.0.1:8090
-##
+  Init leveldb
+    ___       __                           ____________   
+    __ |     / /_____ _______________      __<  /_  __ \  
+    __ | /| / /_  __ `/_  ___/__  __ \     __  /_  / / /  
+    __ |/ |/ / / /_/ /_  /   __  /_/ /     _  / / /_/ /   
+    ____/|__/  \__,_/ /_/    _  .___/      /_/  \____/    
+                            /_/                          
+  ##
+  ## Warp 10 listens on 127.0.0.1:8080
+  ##
+  ## Quantum listens on 127.0.0.1:8090
+  ##
+  ##
+  ## An initial set of tokens was generated for you so you can immediately use Warp 10:
+  ##
+  ## Write Token: thMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXuH
+  ## Read Token: 47O6XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX5r
+  ##
+  ## Push some test data using:
+  ##
+  ##   curl -H 'X-Warp10-Token: thMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXuH' http://127.0.0.1:8080/api/v0/update --data-binary '// test{} 42'
+  ##
+  ## And read it back using:
+  ##
+  ##   curl 'http://127.0.0.1:8080/api/v0/fetch?token=47O6XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX5r&selector=~.*\{\}&now=now&timespan=-1'
+  ##
+  ## You can submit WarpScript for execution via:
+  ##
+  ##   curl http://127.0.0.1:8080/api/v0/exec --data-binary @path/to/WarpScriptFile
+  ##
+  ## The alternative to command-line interaction is Quantum, a web application to interact with the platform in an user-friendly way:
+  ##
+  ##   http://127.0.0.1:8090
+  ##
 ```
 
 Warp 10 standalone config `conf-standalone.conf` has been generated in the `etc` directory
@@ -110,7 +123,7 @@ Data are stored via leveldb in the `data` directory
 # Setup the platform with Docker
 
 <div class="right margin-left">
-<img src="{{ site.baseurl}}/img/getting-started/docker.png" alt="Using Docker">
+  <img src="{{ site.baseurl}}/img/getting-started/docker.png" alt="Using Docker">
 </div>
 
 The other way to setup the Warp 10 platform is to use [Docker](http://docker.io). Builds of Warp 10's Docker image are available on [Dockerhub](https://hub.docker.com/r/warp10io/warp10/).
