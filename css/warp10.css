@@ -56,6 +56,11 @@ a img:hover,
 a img:focus {
   cursor: zoom-in;
 }
+
+a img:hover.no-zoom,
+a img:focus.no-zoom {
+  cursor: pointer;
+}
 blockquote {
   color: #808080;
   font-style: italic;

@@ -21,7 +21,11 @@ The standalone version of the Warp 10 platform uses LevelDB as its storage backe
 ## Setup the platform
 
 <div class="right margin-left">
-<img src="{{ site.baseurl}}/img/getting-started/bintray.png" alt="Using Warp 10 Init script">
+  <a href='https://bintray.com/cityzendata/generic/warp10/1.2.11-rc4/link' target="_blank">
+    <img class="no-zoom" src="{{ site.baseurl}}/img/getting-started/bintray.png" alt="Using Warp 10 Init script">
+    <br />
+    <img class="no-zoom" src='https://api.bintray.com/packages/cityzendata/generic/warp10/images/download.svg?version=1.2.11-rc4'>
+  </a>
 </div>
 
 The easiest way to setup the Warp 10 platform is to use the Warp 10 Init script that comes with the Warp 10 build. Builds of Warp 10 are available on [Bintray](https://bintray.com/cityzendata/generic/warp10). It is the recommended method of installation.
@@ -45,60 +49,69 @@ Instead of using `warp10-standalone.init` you can use `warp10-standalone.sh`.
 To bootstrap your installation, you have to run `warp10-standalone.sh` as root but instead of `warp10-standalone.init` you can use the `warp10` user afterwards. 
 
 ~~~
-# Start bootstrap as root
-XXX:/opt/warp10-X.Y.Z/bin#
-sudo ./warp10-standalone.sh bootstrap
+  # Start bootstrap as root
+  sudo ./warp10-standalone.sh bootstrap
+~~~
+
+
+```
+  Bootstrap..
+  Fix ownership..
+  WARP10_HOME: /opt/warp10-X.Y.Z/bin/..
+  Fix permissions..
+  Warp 10 config has been generated here: /opt/warp10-X.Y.Z/bin/../etc/conf-standalone.conf
+```
+
+~~~
+  # Start Warp 10 (as warp10 user)
+  sudo -i
+  su warp10
+  warp10@XXX:/opt/warp10-X.Y.Z/bin#
+  ./warp10-standalone.sh start
+~~~
+
+or 
+
+~~~
+  # Start Warp 10 (as root user)
+  sudo ./warp10-standalone.init start
 ~~~
 
 ```
-Bootstrap..
-Fix ownership..
-WARP10_HOME: /opt/warp10-X.Y.Z/bin/..
-Fix permissions..
-Warp 10 config has been generated here: /opt/warp10-X.Y.Z/bin/../etc/conf-standalone.conf
-```
-
-~~~
-# Start Warp 10 (as warp10 user)
-warp10@XXX:/opt/warp10-X.Y.Z/bin#
-./warp10-standalone.sh start
-~~~
-
-```
-Init leveldb
-  ___       __                           ____________   
-  __ |     / /_____ _______________      __<  /_  __ \  
-  __ | /| / /_  __ `/_  ___/__  __ \     __  /_  / / /  
-  __ |/ |/ / / /_/ /_  /   __  /_/ /     _  / / /_/ /   
-  ____/|__/  \__,_/ /_/    _  .___/      /_/  \____/    
-                           /_/                          
-##
-## Warp 10 listens on 127.0.0.1:8080
-##
-## Quantum listens on 127.0.0.1:8090
-##
-##
-## An initial set of tokens was generated for you so you can immediately use Warp 10:
-##
-## Write Token: thMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXuH
-## Read Token: 47O6XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX5r
-##
-## Push some test data using:
-##
-##   curl -H 'X-Warp10-Token: thMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXuH' http://127.0.0.1:8080/api/v0/update --data-binary '// test{} 42'
-##
-## And read it back using:
-##
-##   curl 'http://127.0.0.1:8080/api/v0/fetch?token=47O6XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX5r&selector=~.*\{\}&now=now&timespan=-1'
-##
-## You can submit WarpScript for execution via:
-##
-##   curl http://127.0.0.1:8080/api/v0/exec --data-binary @path/to/WarpScriptFile
-##
-## The alternative to command-line interaction is Quantum, a web application to interact with the platform in an user-friendly way:
-##
-##   http://127.0.0.1:8090
-##
+  Init leveldb
+    ___       __                           ____________   
+    __ |     / /_____ _______________      __<  /_  __ \  
+    __ | /| / /_  __ `/_  ___/__  __ \     __  /_  / / /  
+    __ |/ |/ / / /_/ /_  /   __  /_/ /     _  / / /_/ /   
+    ____/|__/  \__,_/ /_/    _  .___/      /_/  \____/    
+                            /_/                          
+  ##
+  ## Warp 10 listens on 127.0.0.1:8080
+  ##
+  ## Quantum listens on 127.0.0.1:8090
+  ##
+  ##
+  ## An initial set of tokens was generated for you so you can immediately use Warp 10:
+  ##
+  ## Write Token: thMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXuH
+  ## Read Token: 47O6XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX5r
+  ##
+  ## Push some test data using:
+  ##
+  ##   curl -H 'X-Warp10-Token: thMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXuH' http://127.0.0.1:8080/api/v0/update --data-binary '// test{} 42'
+  ##
+  ## And read it back using:
+  ##
+  ##   curl 'http://127.0.0.1:8080/api/v0/fetch?token=47O6XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX5r&selector=~.*\{\}&now=now&timespan=-1'
+  ##
+  ## You can submit WarpScript for execution via:
+  ##
+  ##   curl http://127.0.0.1:8080/api/v0/exec --data-binary @path/to/WarpScriptFile
+  ##
+  ## The alternative to command-line interaction is Quantum, a web application to interact with the platform in an user-friendly way:
+  ##
+  ##   http://127.0.0.1:8090
+  ##
 ```
 
 Warp 10 standalone config `conf-standalone.conf` has been generated in the `etc` directory
@@ -110,7 +123,7 @@ Data are stored via leveldb in the `data` directory
 # Setup the platform with Docker
 
 <div class="right margin-left">
-<img src="{{ site.baseurl}}/img/getting-started/docker.png" alt="Using Docker">
+  <img src="{{ site.baseurl}}/img/getting-started/docker.png" alt="Using Docker">
 </div>
 
 The other way to setup the Warp 10 platform is to use [Docker](http://docker.io). Builds of Warp 10's Docker image are available on [Dockerhub](https://hub.docker.com/r/warp10io/warp10/).
@@ -144,9 +157,9 @@ root@XXX:/opt/warp10-X.Y.Z/bin# ./warp10-standalone.init worf appName ttl(ms)
 ~~~
 
 ~~~
-root@XXX:/opt/warp10-X.Y.Z/bin# ./warp10-standalone.init worf myApp 31536000000
-default options loaded from file:/opt/warp10-X.Y.Z/bin/../etc/.conf-standalone.conf.worf
-{"read":{"token":"lO5XXXXXXXXXXXXXXXXXXXXDXk","tokenIdent":"606aa9b8f6f47136","ttl":31536000000,"application":"myApp","owner":"3b8ab607-4aac-4b13-9251-94f152924766","producer":"3b8ab607-4aac-4b13-9251-94f152924766"},"write":{"token":"8D_XXXXXXXXXXXXXXXe7B","tokenIdent":"a219f98201b29e01","ttl":31536000000,"application":"myApp","owner":"3b8ab607-4aac-4b13-9251-94f152924766","producer":"3b8ab607-4aac-4b13-9251-94f152924766"}}
+  root@XXX:/opt/warp10-X.Y.Z/bin# ./warp10-standalone.init worf myApp 31536000000
+  default options loaded from file:/opt/warp10-X.Y.Z/bin/../etc/.conf-standalone.conf.worf
+  {"read":{"token":"lO5XXXXXXXXXXXXXXXXXXXXDXk","tokenIdent":"606aa9b8f6f47136","ttl":31536000000,"application":"myApp","owner":"3b8ab607-4aac-4b13-9251-94f152924766","producer":"3b8ab607-4aac-4b13-9251-94f152924766"},"write":{"token":"8D_XXXXXXXXXXXXXXXe7B","tokenIdent":"a219f98201b29e01","ttl":31536000000,"application":"myApp","owner":"3b8ab607-4aac-4b13-9251-94f152924766","producer":"3b8ab607-4aac-4b13-9251-94f152924766"}}
 ~~~
 
 In order to interact more precisely with the user/token/application system, you need an interactive access to Warp 10's `Worf` console. More information [here](http://www.warp10.io/tools/worf).
@@ -156,7 +169,7 @@ In order to interact more precisely with the user/token/application system, you 
 Snapshot of leveldb data can be performed via the init script
 
 ~~~
-./warp10-standalone.init snapshot 'snapshot_name'
+  ./warp10-standalone.init snapshot 'snapshot_name'
 ~~~
 
 <a name="pushing-data"></a>
@@ -231,9 +244,9 @@ Where :
 
 To test the running container, push a single GTS containing one data in the platform using your WRITE token.
 
-  ```
+```
   curl -v -H 'X-Warp10-Token: WRITE_TOKEN' --data-binary "1// test{} 42" 'http://127.0.0.1:8080/api/v0/update'
-  ```
+```
 
 If everything is OK, you should receive a HTTP 200
 
@@ -242,7 +255,7 @@ If everything is OK, you should receive a HTTP 200
 Get this data using your READ tokens.
 
 ```
-curl -v  --data-binary "'READ_TOKEN' 'test' {} NOW -1 FETCH" 'http://127.0.0.1:8080/api/v0/exec'
+  curl -v  --data-binary "'READ_TOKEN' 'test' {} NOW -1 FETCH" 'http://127.0.0.1:8080/api/v0/exec'
 ```
 
 If everything is OK, you should receive a HTTP 200 OK with your datapoint in JSON format.
@@ -256,14 +269,14 @@ If not, we have prepared a small [test dataset]({{ site.baseurl }}/assets/data/d
 Here you have several data points from the file:
 
 ~~~
-1449212583312000/48.395776999999995:-4.509472/ example.drone.gps.gts5{host=ubuntu, number=5, type=gps.state} true
-1449212593312000// example.drone.captor.gts1{host=ubuntu, number=1, type=captor.time} 8
-1449212593312000/48.395776999999995:-4.479472/ example.drone.gps.gts1{host=ubuntu, number=1, type=gps.state} true
-1449212593312000// example.drone.captor.gts2{host=ubuntu, number=2, type=captor.time} 5
-1449212593312000/48.355777:-4.489472/ example.drone.gps.gts2{host=ubuntu, number=2, type=gps.state} true
-1449212593312000// example.drone.captor.gts3{host=ubuntu, number=3, type=captor.time} 6
-1449212593312000/48.355777:-4.479472/ example.drone.gps.gts3{host=ubuntu, number=3, type=gps.state} true
-1449212593312000// example.drone.captor.gts4{host=ubuntu, number=4, type=captor.time} 5
+  1449212583312000/48.395776999999995:-4.509472/ example.drone.gps.gts5{host=ubuntu, number=5, type=gps.state} true
+  1449212593312000// example.drone.captor.gts1{host=ubuntu, number=1, type=captor.time} 8
+  1449212593312000/48.395776999999995:-4.479472/ example.drone.gps.gts1{host=ubuntu, number=1, type=gps.state} true
+  1449212593312000// example.drone.captor.gts2{host=ubuntu, number=2, type=captor.time} 5
+  1449212593312000/48.355777:-4.489472/ example.drone.gps.gts2{host=ubuntu, number=2, type=gps.state} true
+  1449212593312000// example.drone.captor.gts3{host=ubuntu, number=3, type=captor.time} 6
+  1449212593312000/48.355777:-4.479472/ example.drone.gps.gts3{host=ubuntu, number=3, type=gps.state} true
+  1449212593312000// example.drone.captor.gts4{host=ubuntu, number=4, type=captor.time} 5
 ~~~
 
 If you're in a \*nix system, you can push the data using [cURL](https://en.wikipedia.org/wiki/CURL).
@@ -344,7 +357,7 @@ The minimal set of parameters you need to give in the request is
 Here you have a sample request that recover data from all your drone GTS from the precedent sections. The selector parameter defines the pattern that the GTS have to match to be fetched, those whose classname begins with `example.drone.captor`. `{}` correspond to the labels.  This command load data points starting from the `now` parameter (in this example, 1449222473312000 micro-seconds after Epoch). As `timespan` equals -10, Warp 10 will only fetch the last ten data points before `now`. A positive timespan corresponds to a duration, a negative one to a number of data points to get.
 
 ```
-curl -H 'X-Warp10-Token: TOKEN_READ' --data-binary "now=1449222473312000&timespan=-10&selector=~example.drone.captor.*{}" 'http://127.0.0.1:8080/api/v0/fetch?'
+  curl -H 'X-Warp10-Token: TOKEN_READ' --data-binary "now=1449222473312000&timespan=-10&selector=~example.drone.captor.*{}" 'http://127.0.0.1:8080/api/v0/fetch?'
 ```
 
 Note that the data returned by the Fetch API can be fed into the `update` endpoint verbatim.
@@ -359,9 +372,9 @@ WarpScript is an extensible [stack oriented programming language](http://en.wiki
 Store the following script in a file `file.mc2`.
 
 ```
-'READ_TOKEN'     // Replace READ_TOKEN with your read token. This line put your token on the stack
-'token' STORE    // Store it in a variable
-[ $token '~example.drone.*' { 'source' 'example' } NOW -10 ] FETCH  // Fetch the data, the last 10 points of the selected series
+  'READ_TOKEN'     // Replace READ_TOKEN with your read token. This line put your token on the stack
+  'token' STORE    // Store it in a variable
+  [ $token '~example.drone.*' { 'source' 'example' } NOW -10 ] FETCH  // Fetch the data, the last 10 points of the selected series
 ```
 
 This command looks for all your GTS having a name matching `example.drone` and having the label `source` equals to `example`.
@@ -370,7 +383,7 @@ Then only the last ten points of those GTS before time equals to NOW will be ext
 Launch the following `curl` command to submit your WarpScript and get your data.
 
 ```
-curl -H 'Transfer-Encoding:chunked' --data-binary @file.mc2 'http://127.0.0.1:8080/api/v0/exec'
+  curl -H 'Transfer-Encoding:chunked' --data-binary @file.mc2 'http://127.0.0.1:8080/api/v0/exec'
 ```
 
 This script can also be launched in Quantum. Besides, Quantum gives the possibility to plot GTS extracted on a graph.
@@ -388,15 +401,15 @@ In the previous section, a first WarpScript program was realized. Now it's time 
 Get all the sensor GTS.
 
 ```
-'Your read token'  // Put your token on the stack
-'token' STORE // Store it in a variable
-[ $token '~example.drone.*' { 'type' 'captor.time' } NOW -1000 ] FETCH  // Fetch the data
+  'Your read token'  // Put your token on the stack
+  'token' STORE // Store it in a variable
+  [ $token '~example.drone.*' { 'type' 'captor.time' } NOW -1000 ] FETCH  // Fetch the data
 ```
 
 Now a `BUCKETIZE` function will be used.
 
 ```
-[ SWAP bucketizer.mean 0 0 1 ] BUCKETIZE
+  [ SWAP bucketizer.mean 0 0 1 ] BUCKETIZE
 ```
 
 What happened here is that all `captor.time` GTS are on top of the stack in one list. We swap it with ["\["]({{ site.baseurl }}/reference/functions/function_OPEN_BRACKET) so we can included it in the parameter list of the function [`BUCKETIZE`]({{ site.baseurl }}/reference/frameworks/framework-bucketize). This function will apply a *bucketizer* for each GTS to synchronized the ticks, here the [bucketizer.mean]({{ site.baseurl }}/reference/frameworks/bucketizer_mean) that calculates the mean of the values of all the datapoints in the interval. The only other parameter given is a *bucketcount* which correspond to the number of bucket expected. The goal here is to compute the mean of all the data points, that's why 1 is given as parameter. To find more information, please refers to the [ Introducing `BUCKETIZE`]({{ site.baseurl }}/howto/intro-bucketize/) page.
@@ -408,35 +421,35 @@ What happened here is that all `captor.time` GTS are on top of the stack in one 
 Get all the GTS of all the sensors.
 
 ```
-'Your read token'           // Put your token on the stack
-'token' STORE               // Store it in a variable
-[
-  $token
-  '~example.drone.*'
-  { 'type' 'captor.time' }
-  NOW -1000
-] FETCH  // Fetch the data
+  'Your read token'           // Put your token on the stack
+  'token' STORE               // Store it in a variable
+  [
+    $token
+    '~example.drone.*'
+    { 'type' 'captor.time' }
+    NOW -1000
+  ] FETCH  // Fetch the data
 ```
 
 Get the last timestamp of the GTS. As all GTS are synchronized, they all have the same last timestamp. So here we can get the first GTS fetched and get its last tick.
 
 ```
-'gts' STORE                 // Store the GTS list in a variable
-$gts 0 GET                  // Get the first element, the first matching GTS
-LASTTICK                    // Get the last tick of that GTS
-'lasttick' STORE            // Store it
+  'gts' STORE                 // Store the GTS list in a variable
+  $gts 0 GET                  // Get the first element, the first matching GTS
+  LASTTICK                    // Get the last tick of that GTS
+  'lasttick' STORE            // Store it
 ```
 
 Now a `BUCKETIZE` function will be used.
 
 ```
-[
-  $gts
-  bucketizer.mean
-  $lasttick
-  120 STU *
-  0
-] BUCKETIZE
+  [
+    $gts
+    bucketizer.mean
+    $lasttick
+    120 STU *
+    0
+  ] BUCKETIZE
 ```
 
 What happened here : this WarpScript will generate buckets starting from the last tick and having a duration of 2 minutes. [`STU`]({{ site.baseurl }}/reference/functions/function_STU) correspond to the number of time units in seconds (bucket have a duration of 120 * 1 second). As many bucket as necessary will be generated for each GTS. Those buckets will have values equals to the mean of all data points inside two minutes. Moreover the timestamp of each bucket of each GTS are now synchronized.
@@ -446,32 +459,32 @@ What happened here : this WarpScript will generate buckets starting from the las
 Get all the GPS metrics.
 
 ```
-'Your read token'  // Put your token on the stack
-'token' STORE // Store it in a variable
-[ $token '~example.drone.*' { 'type' 'gps.state'  } NOW -1000 ] FETCH // Fetch the data
-```
+  'Your read token'  // Put your token on the stack
+  'token' STORE // Store it in a variable
+  [ $token '~example.drone.*' { 'type' 'gps.state'  } NOW -1000 ] FETCH // Fetch the data
+  ```
 
-Get the last timestamp.
+  Get the last timestamp.
 
-```
-'gts' STORE                 // Store the GTS list in a variable
-$gts 0 GET                  // Get the first element, the first matching GTS
-LASTTICK                    // Get the last tick of that GTS
-'lasttick' STORE            // Store it
+  ```
+  'gts' STORE                 // Store the GTS list in a variable
+  $gts 0 GET                  // Get the first element, the first matching GTS
+  LASTTICK                    // Get the last tick of that GTS
+  'lasttick' STORE            // Store it
 ```
 
 `BUCKETIZE` is used to have a bucket size of 1 seconds. To compute an OR, [`bucketizer.max`]({{ site.baseurl }}/reference/frameworks/bucketizer_max) will be used (for the operator AND, use min).
 
 ```
-[ $gts bucketizer.max $lasttick STU 0 ] BUCKETIZE
-'bucketized_gts' STORE
+  [ $gts bucketizer.max $lasttick STU 0 ] BUCKETIZE
+  'bucketized_gts' STORE
 ```
 
 Now that the ticks are synchronized, execute an operation on this list of GTS to get the number of flying drones at each times. The values in the GTS are boolean ones, but they can be converted in integer (true is 1, and false 0) in order to apply numerical function on it. The operator of the framework [`APPLY`]({{ site.baseurl }}/reference/frameworks/) will the be used here. Parameter "[]" equals to a list of labels that have to respect each GTS.  To find more information, please refers to the documentation page [`APPLY`]({{ site.baseurl}}/reference/frameworks/framework-apply).
 
-  ```
+```
   [ $bucketized_gts [] op.add ] APPLY
-  ```
+```
 
 Now you can simply compute the mean of this new GTS, or for example the mean by minute during the fly.
 
@@ -480,39 +493,39 @@ Now you can simply compute the mean of this new GTS, or for example the mean by 
 Get all the GPS metrics.
 
 ```
-'Your read token'  // Put your token on the stack
-'token' STORE // Store it in a variable
-[ $token '~example.drone.*' { 'type' 'gps.state'  } NOW -1000 ] FETCH // Fetch the data
+  'Your read token'  // Put your token on the stack
+  'token' STORE // Store it in a variable
+  [ $token '~example.drone.*' { 'type' 'gps.state'  } NOW -1000 ] FETCH // Fetch the data
 ```
 
 Get the last timestamp.
 
 ```
-'gts' STORE                 // Store the GTS list in a variable
-$gts 0 GET                  // Get the first element, the first matching GTS
-LASTTICK                    // Get the last tick of that GTS
-'lasttick' STORE            // Store it
+  'gts' STORE                 // Store the GTS list in a variable
+  $gts 0 GET                  // Get the first element, the first matching GTS
+  LASTTICK                    // Get the last tick of that GTS
+  'lasttick' STORE            // Store it
 ```
 
 `BUCKETIZE` is used to get a bucket size of 1 seconds. To compute an OR, *bucketizer* max will be used (for the operator and, use min).
 
 ```
-[ $gts bucketizer.max $lasttick STU 0 ] BUCKETIZE
-'bucketized_gts' STORE
+  [ $gts bucketizer.max $lasttick STU 0 ] BUCKETIZE
+  'bucketized_gts' STORE
 ```
 
 Find all points in the area around the starting point (Correspond to a square which have a size equals to 5 steps (one step equals to a movement of 0.01 in latitude or longitude)). To find more information, please refers to the documentation page [`MAP`]({{ site.baseurl}}/reference/frameworks/framework-map).
 
 ```
-[
-  $bucketized_gts
-  'POLYGON((-4.539472 48.415777,-4.539472 48.315777,-4.439472 48.315777,-4.439472 48.415777, -4.539472 48.415777))'
-  0.1 true GEO.WKT
+  [
+    $bucketized_gts
+    'POLYGON((-4.539472 48.415777,-4.539472 48.315777,-4.439472 48.315777,-4.439472 48.415777, -4.539472 48.415777))'
+    0.1 true GEO.WKT
 
-  mapper.geo.within
-  0 0 0         // Sliding window of 1 (0 pre and 0 post), no options
-]
-MAP
+    mapper.geo.within
+    0 0 0         // Sliding window of 1 (0 pre and 0 post), no options
+  ]
+  MAP
 ```
 
 The three 0 correspond to the option of the Geo within. For example, a window integrating x previous and y following points in the area are required to considered current point as valid.
@@ -520,17 +533,17 @@ The three 0 correspond to the option of the Geo within. For example, a window in
 To conclude, calculate speed of drones for each timestamp when they are in the starting area.
 
 ```
-[
-  SWAP
-  mapper.hspeed
-  // pre-window
-  3
-  // post-window
-  0
-  // occurrences
-  0
-]
-MAP
+  [
+    SWAP
+    mapper.hspeed
+    // pre-window
+    3
+    // post-window
+    0
+    // occurrences
+    0
+  ]
+  MAP
 ```
 
 Here it's same than in previous case. A sliding window is necessary to compute the speed at each timestamp of the drone. So that's why 3 points are taken before and none after the current tick.
