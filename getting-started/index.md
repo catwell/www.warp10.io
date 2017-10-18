@@ -46,7 +46,7 @@ To bootstrap your installation, you have to run `warp10-standalone.sh` as root b
 
 ~~~
 # Start bootstrap as root
-root@XXX:/opt/warp10-X.Y.Z/bin#
+XXX:/opt/warp10-X.Y.Z/bin#
 sudo ./warp10-standalone.sh bootstrap
 ~~~
 
