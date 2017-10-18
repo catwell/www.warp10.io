@@ -35,7 +35,7 @@ Untar the Warp 10 archive.
   cd warp10-X.Y.Z/bin
 ~~~
 
-You have to define the **JAVA_HOME** environment variable. You can set it in the Warp 10 init script `warp10-standalone.init`.
+You have to define the **JAVA_HOME** environment variable. You can set it in the Warp 10 init script `warp10-standalone.sh`.
 
 Execute the Warp 10 init script `warp10-standalone.init`. This script must be run as **root**. The `bootstrap` command will create the Leveldb database and all the stuff surrounding it.
 Then the `start` command will start the Standalone mode with the right user `warp10`.
@@ -46,7 +46,7 @@ To bootstrap your installation, you have to run `warp10-standalone.sh` as root b
 
 ~~~
 # Start bootstrap as root
-root@XXX:/opt/warp10-X.Y.Z/bin#
+XXX:/opt/warp10-X.Y.Z/bin#
 sudo ./warp10-standalone.sh bootstrap
 ~~~
 
