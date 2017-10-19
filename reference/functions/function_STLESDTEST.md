@@ -39,10 +39,6 @@ This function only applies to bucketized GTS of type DOUBLE.
 
 WarpScript commands:
 
-    // we need to raise max operations limit to generate a meaningful example
-    'DOC-EGRESS-TOKEN' AUTHENTICATE
-    10000 MAXOPS
-
     // Macro used to generate an approximately normal distribution (using central limit theorem)
     <% RAND RAND RAND RAND RAND RAND + + + + + 3.0 - %> 'normal' STORE
 
@@ -76,11 +72,7 @@ Stack:
     TOP: [25,36]
 
 
-<warp10-warpscript-widget>// we need to raise max operations limit to generate a meaningful example
-'DOC-EGRESS-TOKEN' AUTHENTICATE // use your own token here
-10000 MAXOPS
-
-// Macro used to generate an approximately normal distribution (using central limit theorem)
+<warp10-warpscript-widget>// Macro used to generate an approximately normal distribution (using central limit theorem)
 <% RAND RAND RAND RAND RAND RAND + + + + + 3.0 - %> 'normal' STORE
 
 // we generate a GTS with an approximately normal distribution
