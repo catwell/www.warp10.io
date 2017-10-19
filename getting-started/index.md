@@ -21,14 +21,14 @@ The standalone version of the Warp 10 platform uses LevelDB as its storage backe
 ## Setup the platform
 
 <div class="right margin-left">
-  <a href='https://bintray.com/cityzendata/generic/warp10/1.2.11-rc4/link' target="_blank">
+  <a href='https://dl.bintray.com/cityzendata/generic/io/warp10/warp10/1.2.11-rc5/warp10-1.2.11-rc5.tar.gz' target="_blank">
     <img class="no-zoom" src="{{ site.baseurl}}/img/getting-started/bintray.png" alt="Using Warp 10 Init script">
     <br />
-    <img class="no-zoom" src='https://api.bintray.com/packages/cityzendata/generic/warp10/images/download.svg?version=1.2.11-rc4'>
+    <img class="no-zoom" src='https://api.bintray.com/packages/cityzendata/generic/warp10/images/download.svg?version=1.2.11-rc5'>
   </a>
 </div>
 
-The easiest way to setup the Warp 10 platform is to use the Warp 10 Init script that comes with the Warp 10 build. Builds of Warp 10 are available on [Bintray](https://bintray.com/cityzendata/generic/warp10). It is the recommended method of installation.
+The easiest way to setup the Warp 10 platform is to use the Warp 10 Init script that comes with the Warp 10 build. Builds of Warp 10 are available on [Bintray](https://dl.bintray.com/cityzendata/generic/io/warp10/warp10). It is the recommended method of installation.
 
 ### Running Warp 10
 
