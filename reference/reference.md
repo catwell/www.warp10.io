@@ -1203,6 +1203,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [RVALUESORT]({{ site.baseurl }}/reference/functions/function_RVALUESORT)
 
+[SECTION]({{ site.baseurl }}/reference/functions/function_SECTION)
+
 [SETATTRIBUTES]({{ site.baseurl }}/reference/functions/function_SETATTRIBUTES)
 
 [SETVALUE]({{ site.baseurl }}/reference/functions/function_SETVALUE)

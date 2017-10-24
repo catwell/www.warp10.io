@@ -1765,6 +1765,12 @@ Sort GTS in reverse order of values.
 
 ``` [ gts ] RVALUESORT [ gts ] ```
 
+## SECTION ##
+
+Modify the current section name.
+
+``` 'key' SECTION - ```
+
 ## SECUREKEY ##
 
 Set the secure key for creating secure scripts.
