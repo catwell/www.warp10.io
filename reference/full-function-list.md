@@ -2898,6 +2898,12 @@ Pushes onto the stack a mapper which outputs the sum of a set of values, excludi
 
 ``` - mapper.sum.forbid-nulls mapper ```
 
+## mapper.sqrt ##
+
+Push onto the stack a mapper tocompute the square root a the single value in the sliding window.
+
+``` x mapper.mul mapper ```
+
 ## mapper.tanh ##
 
 Push onto the stack a mapper which computes the tanh of the single value in the sliding window.

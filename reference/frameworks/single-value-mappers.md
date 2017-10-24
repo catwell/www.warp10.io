@@ -19,3 +19,4 @@ Single-value mapper:
 * [mapper.pow]({{ site.baseurl }}/warpscript/mapper_pow)
 * [mapper.exp]({{ site.baseurl }}/warpscript/mapper_exp)
 * [mapper.log]({{ site.baseurl }}/warpscript/mapper_log)
+* [mapper.sqrt]({{ site.baseurl }}/warpscript/mapper_sqrt) 
