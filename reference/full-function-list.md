@@ -1765,6 +1765,12 @@ Sort GTS in reverse order of values.
 
 ``` [ gts ] RVALUESORT [ gts ] ```
 
+## SECTION ##
+
+Modify the current section name.
+
+``` 'key' SECTION - ```
+
 ## SECUREKEY ##
 
 Set the secure key for creating secure scripts.
@@ -2891,6 +2897,12 @@ Push onto the stack a mapper which computes the sum of values in the sliding win
 Pushes onto the stack a mapper which outputs the sum of a set of values, excluding nulls from the computation.
 
 ``` - mapper.sum.forbid-nulls mapper ```
+
+## mapper.sqrt ##
+
+Push onto the stack a mapper tocompute the square root a the single value in the sliding window.
+
+``` x mapper.mul mapper ```
 
 ## mapper.tanh ##
 

@@ -149,6 +149,8 @@ This page lists all the functions available in WarpScript except those related t
 
 [mapper.sigmoid]({{ site.baseurl }}/reference/frameworks/mapper_sigmoid)
 
+[mapper.sqrt]({{ site.baseurl }}/reference/frameworks/mapper_sqrt)
+
 ##### Kernel smoothing mappers
 
 [mapper_kernel_cosine]({{ site.baseurl }}/reference/frameworks/mapper_kernel_cosine)
@@ -1202,6 +1204,8 @@ This page lists all the functions available in WarpScript except those related t
 [RSORT]({{ site.baseurl }}/reference/functions/function_RSORT)
 
 [RVALUESORT]({{ site.baseurl }}/reference/functions/function_RVALUESORT)
+
+[SECTION]({{ site.baseurl }}/reference/functions/function_SECTION)
 
 [SETATTRIBUTES]({{ site.baseurl }}/reference/functions/function_SETATTRIBUTES)
 
