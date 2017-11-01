@@ -64,8 +64,8 @@ Launch Worf with this command line.
     java -cp warp-full-<revision name>.jar io.warp10.worf.Worf  -i <path to Warp10 configuration file>
 
 Worf loads the warp10 configuration file and extracts hash and AES keys necessary for token delivery
-Use <Tab> for the complete list of commands.
-Use <Up or Down> for the commands history.
+Use \<Tab\> for the complete list of commands.
+Use \<Up or Down\> for the commands history.
 
 Two mode are available 
 
