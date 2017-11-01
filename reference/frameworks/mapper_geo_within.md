@@ -51,11 +51,11 @@ Stack:
 80  48.642 -4.57 0 '(48.642, -4.57)' ADDVALUE
 90  48.644 -4.57 0 '(48.644, -4.57)' ADDVALUE
 100 48.646 -4.57 0 '(48.646, -4.57)' ADDVALUE
-&nbsp;
+
 // Let's define a square geo zone around the Ile Vierge, near the coastline of Brittany (France)
 'POLYGON ((-4.574435 48.641404, -4.565680 48.641404, -4.565680 48.636101, -4.574435 48.636101, -4.574435 48.641404 ))'
 0.1 true GEO.WKT
-&nbsp;
+
 mapper.geo.within 0 0 0
 5 ->LIST MAP
 </warp10-warpscript-widget>
@@ -76,16 +76,16 @@ mapper.geo.within 0 0 0
 80  48.642 -4.57 0 '(48.642, -4.57)' ADDVALUE
 90  48.644 -4.57 0 '(48.644, -4.57)' ADDVALUE
 100 48.646 -4.57 0 '(48.646, -4.57)' ADDVALUE
-&nbsp;
+
 // Let's define a square geo zone around the Ile Vierge, near the coastline of Brittany (France)
 'POLYGON ((-4.574435 48.641404, -4.565680 48.641404, -4.565680 48.636101, -4.574435 48.636101, -4.574435 48.641404 ))'
 0.1 true GEO.WKT
-&nbsp;
+
 mapper.geo.within 0 0 0
 5 ->LIST MAP
-&nbsp;
+
 0 GET VALUES 'values' STORE
-&nbsp;
+
 $values SIZE 3 == ASSERT
 $values 0 GET '(48.637, -4.57)' == ASSERT
 $values 1 GET '(48.638, -4.57)' == ASSERT
