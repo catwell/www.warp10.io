@@ -61,7 +61,7 @@ The Fetch API request ask for the following parameters:
 * delete  interval parameters:
 
     * `start` and `end`: the start and end timestamps defining the interval of the GTS to delete. They are both in [ISO8601](http://en.wikipedia.org/wiki/ISO_8601) format, *i.e.* **YYYY-MM-DDTHH:MM:SS.SSSSSSZ** or in microseconds since the Unix epoch. Only those readings whose timestamps lie between those two timestamps (most recent inclusive, oldest exclusive) will be deleted.  
-    Warning: For security purpose, both parameters (`start` and `end`) should be defined, with `start` > `end`.
+    Warning: For security purpose, both parameters (`start` and `end`) should be defined, with `start` < `end`.
 
 
 * delete all
