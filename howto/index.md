@@ -30,3 +30,5 @@ category: howto
   * [Introduting REDUCE](intro-reduce)
 
 	* [Calculating an average temperature by area](reduce-average-temperature-by-area)
+
+* [Calling external python programs](calling-external-python-programs)
