@@ -88,7 +88,7 @@ or
 
 {% raw %}
 <warp10-warpscript-widget>
-{'a' 'aa' 'b' 'bb' 'c' 'cc'}
+{ 'a' 'aa' 'b' 'bb' 'c' 'cc' }
 </warp10-warpscript-widget>
 {% endraw %}
 
