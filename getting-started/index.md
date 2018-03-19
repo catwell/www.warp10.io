@@ -1,5 +1,5 @@
 ---
-title: "Getting Started - Index
+title: "Getting Started - Index"
 layout: "function"
 isPage: "true"
 link: "/gettingStarted"
