@@ -1,5 +1,5 @@
 ---
-title: "Getting Started - Index"
+title: "Getting Started - Index
 layout: "function"
 isPage: "true"
 link: "/gettingStarted"
@@ -21,7 +21,7 @@ The standalone version of the Warp 10 platform uses LevelDB as its storage backe
 ## Setup the platform
 
 <div class="right margin-left">
-  <a href='https://dl.bintray.com/cityzendata/generic/io/warp10/warp10/1.2.12-rc2/warp10-1.2.15.tar.gz' target="_blank">
+  <a href='https://dl.bintray.com/cityzendata/generic/io/warp10/warp10/1.2.15/warp10-1.2.15.tar.gz' target="_blank">
     <img class="no-zoom" src="{{ site.baseurl}}/img/getting-started/bintray.png" alt="Using Warp 10 Init script">
     <br />
     <img class="no-zoom" src='https://api.bintray.com/packages/cityzendata/generic/warp10/images/download.svg?version=1.2.15'>
