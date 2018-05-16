@@ -14,8 +14,8 @@ Computes the `DIFFERENCE` of two SETS.
 ## Example ##
 Initial stack:
 
-    TOP: [ 'foo' 'bar' 'bob' ]
-    1: [ 'foo' 'bar' ]
+    TOP: [ 'foo' 'bar' ]
+    1: [ 'foo' 'bar' 'bob' ]
 
 WarpScript commands:
 
@@ -28,8 +28,8 @@ Stack:
 {% raw %}
 <warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">
 // Converts the two LISTS into sets
-[ 'foo' 'bar' ] ->SET
 [ 'foo' 'bar' 'bob' ] ->SET
+[ 'foo' 'bar' ] ->SET
 // Compute the difference
 DIFFERENCE
 // convert back the SET into LIST
