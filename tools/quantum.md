@@ -8,7 +8,7 @@ category: tools
 
 To retrieve and analyse data in the Continuum storage platform you use the [WarpScript data manipulation language]({{ site.baseurl }}/reference).
 
-You can either send your WarpScripts directly to Cityzen Data API or use the Quantum requesting interface. This tutorial aims to teach you to use Quantum to make some simple manipulation of sample data in the platform.
+You can either send your WarpScripts directly to Warp 10 API or use the Quantum requesting interface. This tutorial aims to teach you to use Quantum to make some simple manipulation of sample data in the platform.
 
 ## Quantum requesting interface ##
 [Warp 10's Quantum]({{ site.baseurl }}/tools/quantum) is a web application aiming to allow users to interact with the platform in an user-friendly way, offering an alternative to command-line interaction.

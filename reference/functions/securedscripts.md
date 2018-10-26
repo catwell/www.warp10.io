@@ -30,7 +30,7 @@ WarpScript commands:
     <S 
       [ 
         'TOKEN' // READ TOKEN
-        'com.cityzendata.tutorial.sensors.temperature'
+        'io.warp10.tutorial.sensors.temperature'
         { 'labelkey' 'labelvalue'}
         '2015-11-01T00:00:00.000000Z' // Start time
         '2015-12-01T00:00:00.000000Z' // Stop time
@@ -49,7 +49,7 @@ Stack:
 <S 
   [ 
     'TOKEN' // READ TOKEN
-    'com.cityzendata.tutorial.sensors.temperature'
+    'io.warp10.tutorial.sensors.temperature'
     { 'labelkey' 'labelvalue'}
     '2015-11-01T00:00:00.000000Z' // Start time
     '2015-12-01T00:00:00.000000Z' // Stop time

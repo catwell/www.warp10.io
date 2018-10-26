@@ -56,6 +56,6 @@ You can use *PARSESELECTOR* to simplify the sintax:
 ## Example ##
 
 {% raw %}
-<warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">'com.cityzendata.tutorial.sensors.temperature{sensorId=01}' PARSESELECTOR
+<warp10-warpscript-widget backend="{{backend}}"  exec-endpoint="{{execEndpoint}}">'io.warp10.tutorial.sensors.temperature{sensorId=01}' PARSESELECTOR
 </warp10-warpscript-widget>
 {% endraw %}    

@@ -54,9 +54,9 @@ The Fetch API request asks for the following parameters:
 
   Example:
 
-  `~com.cityzendata.test.*{freq~2.*,steps=100}`
+  `~io.warp10.test.*{freq~2.*,steps=100}`
 
-  It selects all GTS whose classnames begin with *com.cityzendata.test* and whose label *steps* has a value of 100 and whose label *freq* begins with 2.
+  It selects all GTS whose classnames begin with *io.warp10.test* and whose label *steps* has a value of 100 and whose label *freq* begins with 2.
 
 * `format`: the format of the response data. Current available formats are:
 
@@ -69,19 +69,19 @@ The Fetch API request asks for the following parameters:
 
   * Response to request without `dedup`:
 
-      1434590504758000// com.cityzendata.test.sinusoide{steps=100,.app=com.cityzendata.drill.test} 42
-      1434590288758000// com.cityzendata.test.sinusoide{steps=100,.app=com.cityzendata.drill.test} 42
-      1434590072758000// com.cityzendata.test.sinusoide{steps=100,.app=com.cityzendata.drill.test} 42
-      1434589856758000// com.cityzendata.test.sinusoide{steps=100,.app=com.cityzendata.drill.test} 42
-      1434589640758000// com.cityzendata.test.sinusoide{steps=100,.app=com.cityzendata.drill.test} 43
-      1434589424758000// com.cityzendata.test.sinusoide{steps=100,.app=com.cityzendata.drill.test} 44
+      1434590504758000// io.warp10.test.sinusoide{steps=100,.app=io.warp10.drill.test} 42
+      1434590288758000// io.warp10.test.sinusoide{steps=100,.app=io.warp10.drill.test} 42
+      1434590072758000// io.warp10.test.sinusoide{steps=100,.app=io.warp10.drill.test} 42
+      1434589856758000// io.warp10.test.sinusoide{steps=100,.app=io.warp10.drill.test} 42
+      1434589640758000// io.warp10.test.sinusoide{steps=100,.app=io.warp10.drill.test} 43
+      1434589424758000// io.warp10.test.sinusoide{steps=100,.app=io.warp10.drill.test} 44
 
   * Response to request with `dedup`
 
-      1434590504758000// com.cityzendata.test.sinusoide{steps=100,.app=com.cityzendata.drill.test} 42
-      1434589856758000// com.cityzendata.test.sinusoide{steps=100,.app=com.cityzendata.drill.test} 42
-      1434589640758000// com.cityzendata.test.sinusoide{steps=100,.app=com.cityzendata.drill.test} 43
-      1434589424758000// com.cityzendata.test.sinusoide{steps=100,.app=com.cityzendata.drill.test} 44
+      1434590504758000// io.warp10.test.sinusoide{steps=100,.app=io.warp10.drill.test} 42
+      1434589856758000// io.warp10.test.sinusoide{steps=100,.app=io.warp10.drill.test} 42
+      1434589640758000// io.warp10.test.sinusoide{steps=100,.app=io.warp10.drill.test} 43
+      1434589424758000// io.warp10.test.sinusoide{steps=100,.app=io.warp10.drill.test} 44
 
 
 * Fetching interval parameters: either
@@ -99,7 +99,7 @@ The Fetch API request asks for the following parameters:
 
 #### Example ####
 
-    GET /api/v0/fetch?now=1435091737000000&timespan=-10&selector=com.cityzendata.test.sinusoide{steps=100} HTTP/1.1
+    GET /api/v0/fetch?now=1435091737000000&timespan=-10&selector=io.warp10.test.sinusoide{steps=100} HTTP/1.1
     Host: host
 
 #### Response ####
@@ -112,16 +112,16 @@ The format of the response depends on the `format` parameter of the request.
 
   Example:
 
-      1434590504758000// com.cityzendata.test.sinusoide{steps=100,.app=com.cityzendata.drill.test} -0.6133061918698982
-      1434590288758000// com.cityzendata.test.sinusoide{steps=100,.app=com.cityzendata.drill.test} 0.9228427144511169
-      1434590072758000// com.cityzendata.test.sinusoide{steps=100,.app=com.cityzendata.drill.test} 0.1301889411087915
-      1434589856758000// com.cityzendata.test.sinusoide{steps=100,.app=com.cityzendata.drill.test} -0.9909979074466949
-      1434589640758000// com.cityzendata.test.sinusoide{steps=100,.app=com.cityzendata.drill.test} 0.38860822449533416
-      1434589424758000// com.cityzendata.test.sinusoide{steps=100,.app=com.cityzendata.drill.test} 0.7875576742396682
-      1434589208758000// com.cityzendata.test.sinusoide{steps=100,.app=com.cityzendata.drill.test} -0.8009024241854527
-      1434588992758000// com.cityzendata.test.sinusoide{steps=100,.app=com.cityzendata.drill.test} -0.36827736651082893
-      1434588776758000// com.cityzendata.test.sinusoide{steps=100,.app=com.cityzendata.drill.test} 0.993699252984253
-      1434588560758000// com.cityzendata.test.sinusoide{steps=100,.app=com.cityzendata.drill.test} -0.15193398008971615
+      1434590504758000// io.warp10.test.sinusoide{steps=100,.app=io.warp10.drill.test} -0.6133061918698982
+      1434590288758000// io.warp10.test.sinusoide{steps=100,.app=io.warp10.drill.test} 0.9228427144511169
+      1434590072758000// io.warp10.test.sinusoide{steps=100,.app=io.warp10.drill.test} 0.1301889411087915
+      1434589856758000// io.warp10.test.sinusoide{steps=100,.app=io.warp10.drill.test} -0.9909979074466949
+      1434589640758000// io.warp10.test.sinusoide{steps=100,.app=io.warp10.drill.test} 0.38860822449533416
+      1434589424758000// io.warp10.test.sinusoide{steps=100,.app=io.warp10.drill.test} 0.7875576742396682
+      1434589208758000// io.warp10.test.sinusoide{steps=100,.app=io.warp10.drill.test} -0.8009024241854527
+      1434588992758000// io.warp10.test.sinusoide{steps=100,.app=io.warp10.drill.test} -0.36827736651082893
+      1434588776758000// io.warp10.test.sinusoide{steps=100,.app=io.warp10.drill.test} 0.993699252984253
+      1434588560758000// io.warp10.test.sinusoide{steps=100,.app=io.warp10.drill.test} -0.15193398008971615
 
 * `text`
 
@@ -130,12 +130,12 @@ The format of the response depends on the `format` parameter of the request.
 
   Example:
 
-      1434590504758000// com.cityzendata.test.sinusoide{steps=100,.app=com.cityzendata.drill.test} -0.6133061918698982
+      1434590504758000// io.warp10.test.sinusoide{steps=100,.app=io.warp10.drill.test} -0.6133061918698982
       =1434590288758000// 0.9228427144511169
       =1434590072758000// 0.1301889411087915
       =1434589856758000// -0.9909979074466949
       =1434589640758000// 0.38860822449533416
-      1434590504758000/48.44348858110607:-4.407284064218402/ com.cityzendata.drill.test.sinusoide{location=true,steps=100,.app=com.cityzendata.drill.test} -0.6133061918698982
+      1434590504758000/48.44348858110607:-4.407284064218402/ io.warp10.drill.test.sinusoide{location=true,steps=100,.app=io.warp10.drill.test} -0.6133061918698982
       =1434590288758000/48.44348858110607:-4.407284064218402/ 0.9228427144511169
       =1434590072758000/48.44348858110607:-4.407284064218402/ 0.1301889411087915
       =1434589856758000/48.44348858110607:-4.407284064218402/ -0.9909979074466949

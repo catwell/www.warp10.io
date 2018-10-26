@@ -15,6 +15,6 @@ If you need help using our software, the following options are available to you:
 
 * Commercial Support
 
-  If you need commercial support for the solution, you can get access to members of the team behind the platform through one of the support plans offered by [Cityzen Data](http://www.cityzendata.com/).
+  If you need commercial support for the solution, you can get access to members of the team behind the platform through one of the support plans offered by [SenX](https://senx.io/).
 
-Please contact [sales](mailto:sales@cityzendata.com) for details.
+Please contact [sales](mailto:sales@senx.io) for details.

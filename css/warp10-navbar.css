@@ -4,8 +4,7 @@
 }
 
 .navbar-inverse {
-     background-color: #28b6d8;
-     background-image: linear-gradient(to bottom, #28b6d8 0%, #28b6d8 100%);
+     background-color: #004EFF;
      border-color: #00222b;
 }
 
@@ -22,8 +21,7 @@
 .navbar-inverse .navbar-nav > .active > a:focus,
 .navbar-inverse .navbar-nav > .active > a:hover {
     background-color: #aaeeff;
-    background-image: linear-gradient(to bottom, #aaeeff 0%, #aaeeff 100%);
-    color: #404040;
+    color: #004EFF;
 }
 .navbar-inverse .navbar-brand {
     font-weight: bold;
@@ -72,7 +70,7 @@
 }
 
 .navbar-brand {
-  padding: 0px;
+  padding: 0;
 }
 
 .navbar-id {
@@ -82,22 +80,20 @@
     padding-right: 10px;
 }
 .navbar-nav > li > a {
-    padding-top: 0px;
-    padding-bottom: 0px;
+    padding-top: 0;
+    padding-bottom: 0;
     line-height: 75px;
 }
 
 .navbar-nav > div {
-    padding-top: 0px;
-    padding-bottom: 0px;
+    padding-top: 0;
+    padding-bottom: 0;
     height: 75px;
     display: flex;
     flex-flow: column;
     justify-content: center;
   }
 
-
-vertical-align: middle;
 #icon-CityzenData {
   font-size: 2em;
 }
