@@ -103,7 +103,7 @@ This page lists all the Warp10 tools, and their repositories on Github.
 
 <a href="https://github.com/cityzendata/www.warp10.io" title="The static, markdown based, Jekyll powered Warp10's site">Warp10.io</a>
 
-<a href="https://github.com/cityzendata/cityzendata.github.io" title="The static, markdown based, Jekyll powered Cityzen Data's blog">Cityzen blog</a>
+<a href="https://blog.senx.io" title="The blog of SenX, the company behind Warp10.">SenX blog</a>
 
 <a name="External"></a>
 
