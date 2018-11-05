@@ -13,7 +13,7 @@ This mapper apply a function working with geographical zones to a single-value s
  
 
 Most of geo-related functions aren't publically documented yet. If you need
-to use them, please contact us at [contact@cityzendata.com](mailto:contact@cityzendata.com)
+to use them, please contact us at [contact@senx.io](mailto:contact@senx.io)
 
 Geo mappers:
 

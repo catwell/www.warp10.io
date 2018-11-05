@@ -14,7 +14,7 @@ In this use case we will work with the `BUCKETIZE` function to calculate the max
 
 Let's say we have fours sensors taking temperature measures every minute and pushing them into the Warp10 platform, and we want to calculate the maximum temperature hour by hour for each sensor during a week span.
 
-For this tutorial we will work with four GTS corresponding to the four sensors. The four GTS share the same classname, `com.cityzendata.tutorial.sensors.temperature`, and a sequential label `sensorId` (values `01`, `02`, `03` and `04`). The period to considerer is the first week of 2014, from Monday December 30th 2013 to Sunday January 5th 2014.
+For this tutorial we will work with four GTS corresponding to the four sensors. The four GTS share the same classname, `io.warp10.tutorial.sensors.temperature`, and a sequential label `sensorId` (values `01`, `02`, `03` and `04`). The period to considerer is the first week of 2014, from Monday December 30th 2013 to Sunday January 5th 2014.
 
 ## The raw data ##
 
@@ -23,7 +23,7 @@ To get the raw data from our four sensors in the chosen week we could use the FE
 ```
 [
   'DOC-EGRESS-TOKEN'
-  'com.cityzendata.tutorial.sensors.temperature'
+  'io.warp10.tutorial.sensors.temperature'
   {}
   '2013-12-30T00:00:00.000Z'
   '2014-01-05T23:59:59.999Z'
@@ -82,7 +82,7 @@ You could recover all the data points directly, but it means almost 200 Mb, so i
 ```
 [
   'DOC-EGRESS-TOKEN'
-  'com.cityzendata.tutorial.sensors.temperature'
+  'io.warp10.tutorial.sensors.temperature'
   {}
   '2013-01-01T00:00:00.000Z'
   '2013-12-31T23:59:59.999Z'
@@ -96,7 +96,7 @@ And you can use `BUCKETIZE` on the full year data as easily as you could with on
 [
   [
     'DOC-EGRESS-TOKEN'
-    'com.cityzendata.tutorial.sensors.temperature'
+    'io.warp10.tutorial.sensors.temperature'
     {}
     '2013-01-01T00:00:00.000Z'
     '2013-12-31T23:59:59.999Z'
@@ -117,7 +117,7 @@ It still means lots of data, 8760 points per GTS. What if, to get a more easy to
 [
   [
     'DOC-EGRESS-TOKEN'
-    'com.cityzendata.tutorial.sensors.temperature'
+    'io.warp10.tutorial.sensors.temperature'
     {}
     '2013-01-01T00:00:00.000Z'
     '2013-12-31T23:59:59.999Z'
@@ -138,7 +138,7 @@ Or even more easily, if you haven't a calculator nearby :
 [
   [
     'DOC-EGRESS-TOKEN'
-    'com.cityzendata.tutorial.sensors.temperature'
+    'io.warp10.tutorial.sensors.temperature'
     {}
     '2013-01-01T00:00:00.000Z'
     '2013-12-31T23:59:59.999Z'

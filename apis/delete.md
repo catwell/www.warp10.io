@@ -54,9 +54,9 @@ The Fetch API request ask for the following parameters:
 
   Example:
 
-  `~com.cityzendata.test.*{freq~2.*,steps=100}`
+  `~io.warp10.test.*{freq~2.*,steps=100}`
 
-  It selects all GTS whose classnames begin with *com.cityzendata.test* and whose label *steps* has a value of 100 and whose label *freq* begins with 2.
+  It selects all GTS whose classnames begin with *io.warp10.test* and whose label *steps* has a value of 100 and whose label *freq* begins with 2.
 
 * delete  interval parameters:
 

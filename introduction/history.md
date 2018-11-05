@@ -11,6 +11,8 @@ Inspired by previous work done by members of our team ([Artimon](http://www.slid
 
 Over the years the platform improved in terms of performance, scalability and features and we helped customers big and small manage their sensor data. But frustration was growing as we saw many problems people were having that we could solve with Einstein without having the possibility to let people use it since our initial business model was to sell license to our product. We understood that the popularity of the Einstein language would only skyrocket if a large audience could use it, so, us being big believers in Open Source, we worked through part of 2015 to adapt our business model so we could Open Source our product and grow our community of users. You reading this page is the result of our thinking, our platform is now Open Source (under the Apache License 2.0) and we focus on providing support to our customers to get them up to speed with our tools.
 
+since late 208, Warp 10 is maintained by [SenX](https://senx.io)
+
 We have one collateral damage though, by releasing our solution under an Open Source license we needed to drop the name Einstein which is a trademark and whose use would have brought us more trouble than benefits. So that's what we did, we stopped using the name Einstein and adopted WarpScript as the name of our language. A little bit of nostalgia can be seen in the fact that we still use the '.mc2' file extension :-)
 
 We really hope that you will find many use cases for our Warp 10 platform, we encourage you to join the <a href="https://groups.google.com/forum/#!forum/warp10-users">Warp 10 Users</a> group and to contact us to help you use our technology to improve your efficiency and help you create great solutions.

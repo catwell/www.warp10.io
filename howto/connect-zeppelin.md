@@ -52,7 +52,7 @@ Copy paste generated jar in your zeppelin directory. Restart Zeppelin.
 
 Start Zeppelin, and update the warp10.url config parameter for the Zeppelin interpreter.
 Set it to the backend exec point url of the install Warp10 platform (without the exec).
-Set warp10.isCZDBackend to false exept if you use a Warp10 managed by [Cityzen Data](http://www.cityzendata.com/).
+Set warp10.isCZDBackend to false except if you use a Warp10 managed by [SenX](http://senx.io/).
 
 ```
 warp10.url: http://address:port/api/v0

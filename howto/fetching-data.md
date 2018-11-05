@@ -18,7 +18,7 @@ The `FETCH` function retrieves some data from the Continuum data store. Accordin
 In this tutorials, when you need a Warp10 token, you can use `DOC-EGRESS-TOKEN`, a read token for the documentation data.
 
 
-The classname selector is a string allowing to identify the classname of the series you want to fetch. The string represents an exact match if it starts with an `=` (like `'=com.cityzendata.sport.heartrate'`) or a regular expression that the class name must match if it starts with a tilde `~`  (like `'~com.cityzendata.*'`)
+The classname selector is a string allowing to identify the classname of the series you want to fetch. The string represents an exact match if it starts with an `=` (like `'=io.warp10.sport.heartrate'`) or a regular expression that the class name must match if it starts with a tilde `~`  (like `'~io.warp10.*'`)
 
 
 The third parameter is a map of label selectors. The label selectors are packed in a map whose keys are the label names and the values the associated selector. Those selectors can also be exact matches if they start with `=` or a regular expression if they start with `~'`.

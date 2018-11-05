@@ -80,7 +80,3 @@ Images should be placed on  a directory inside `img`, following this structure:
        └── img02.jpg
 ```
 
-### Publish your pages
-
-As usual, you should fork the [repository](https://bitbucket.org/cityzendata/doc-jekyll),
-push to your fork and do a pull request.

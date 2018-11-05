@@ -2,8 +2,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
   <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <link rel="icon" href="favicon.ico" type="image/x-icon"/>
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+  <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
 
   <style>
     body {
@@ -22,22 +22,12 @@
 
   <link rel="import" href="https://home.cityzendata.net/quantum/warp10-components.html">
 
-  <!--
-  <script src="http://localhost:8000/bower_components/webcomponentsjs/webcomponents-lite.js"></script>
-  <script src="http://localhost:8000/bower_components/jquery/dist/jquery.js"></script>
-  <script src="http://localhost:8000/bower_components/bootstrap/dist/js/bootstrap.js"></script>
-  <link   rel="import" href="http://localhost:8000/bower_components/polymer/polymer.html">
-  <link   rel="import" href="http://localhost:8000/bower_components/warp10-navbar/warp10-navbar.html">
-  <link   rel="import" href="http://localhost:8000/bower_components/warp10-quantum/warp10-conf.html">
-  <link   rel="import" href="http://localhost:8000/bower_components/warp10-quantum/warp10-quantum-widget.html">
-  -->
-
   <!-- Custom CSS -->
   <link rel="stylesheet" href="{{ "/css" | prepend: site.baseurl }}/{{ site.filename }}.css">
   <link rel="stylesheet" href="{{ "/css" | prepend: site.baseurl }}/{{ site.filename }}-navbar.css">
   <!-- Pygments Github CSS -->
   <link rel="stylesheet" href="{{ "/css" | prepend: site.baseurl }}/syntax.css">
-
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
   <style>
     :host {
       display: block;
